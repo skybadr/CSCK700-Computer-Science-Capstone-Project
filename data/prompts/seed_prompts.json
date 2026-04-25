@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "name": "AraPromptBench-Seed",
+    "version": "0.1.0",
+    "description": "Seed prompts for the vertical-slice experiment. Used to validate the end-to-end pipeline before scaling.",
+    "language": "ar",
+    "language_variety": "Modern Standard Arabic (MSA)",
+    "categories": ["instruction", "summarisation", "qa", "creative"],
+    "total_prompts": 20,
+    "created": "2026-04-25"
+  },
+  "prompts": [
+    {
+      "id": "inst-001",
+      "category": "instruction",
+      "subcategory": "explanation",
+      "prompt": "اشرح مفهوم الذكاء الاصطناعي بأسلوب بسيط مناسب لطالب في المرحلة الثانوية، مع ذكر ثلاثة أمثلة من الحياة اليومية، وتجنب المصطلحات التقنية المعقدة قدر الإمكان.",
+      "expected_output_length": "medium",
+      "notes": "Multi-constraint instruction: audience, examples, style"
+    },
+    {
+      "id": "inst-002",
+      "category": "instruction",
+      "subcategory": "writing",
+      "prompt": "اكتب رسالة بريد إلكتروني رسمية إلى مدير الموارد البشرية في شركة كبيرة، تطلب فيها إجازة لمدة أسبوع ابتداءً من تاريخ محدد، مع توضيح السبب بإيجاز واقتراح خطة لتغطية المهام أثناء غيابك.",
+      "expected_output_length": "medium",
+      "notes": "Formal register, structured output expected"
+    },
+    {
+      "id": "inst-003",
+      "category": "instruction",
+      "subcategory": "procedural",
+      "prompt": "اشرح خطوات إعداد فنجان قهوة عربية تقليدية بالهيل، مع ذكر الكميات المناسبة لأربعة أشخاص، والوقت اللازم لكل خطوة، ونصيحة لتقديمها بالشكل التقليدي.",
+      "expected_output_length": "medium",
+      "notes": "Procedural, requires structured steps"
+    },
+    {
+      "id": "inst-004",
+      "category": "instruction",
+      "subcategory": "planning",
+      "prompt": "صمم خطة مذاكرة أسبوعية لطالب جامعي يدرس خمس مواد دراسية، مع مراعاة فترات الراحة، والأنشطة الرياضية، ومتطلبات النوم الكافي، وقدّم الخطة في صورة جدول واضح.",
+      "expected_output_length": "long",
+      "notes": "Plan generation, table output expected"
+    },
+    {
+      "id": "inst-005",
+      "category": "instruction",
+      "subcategory": "short",
+      "prompt": "اقترح خمسة أسماء عربية مناسبة لشركة ناشئة تعمل في مجال التكنولوجيا التعليمية.",
+      "expected_output_length": "short",
+      "notes": "Short instruction — tests minimal-prompt compression behaviour"
+    },
+
+    {
+      "id": "summ-001",
+      "category": "summarisation",
+      "subcategory": "news",
+      "prompt": "لخّص المقال التالي في فقرة واحدة لا تتجاوز خمسين كلمة:\n\nأعلنت وزارة التعليم في عدد من الدول العربية عن خطط لتطوير المناهج الدراسية بحيث تتضمن مفاهيم الذكاء الاصطناعي وعلوم البيانات في المراحل الدراسية المختلفة. ويأتي هذا التوجه في إطار الاستجابة للتحولات الرقمية المتسارعة التي يشهدها سوق العمل، حيث أصبحت المهارات التقنية متطلبًا أساسيًا في كثير من الوظائف الحديثة. وأشار مسؤولون في الوزارة إلى أن هذا التطوير سيشمل تدريب المعلمين، وتحديث الكتب المدرسية، وتوفير منصات تعليمية رقمية تدعم التعلم الذاتي.",
+      "expected_output_length": "short",
+      "notes": "Long source, short summary expected"
+    },
+    {
+      "id": "summ-002",
+      "category": "summarisation",
+      "subcategory": "scientific",
+      "prompt": "لخّص النص العلمي التالي بنقاط رئيسية:\n\nيُعد التغير المناخي من أبرز التحديات البيئية التي تواجه كوكب الأرض في العصر الحديث. ويُشير العلماء إلى أن ارتفاع درجات الحرارة العالمية ناتج بشكل رئيسي عن انبعاثات غازات الاحتباس الحراري، ولا سيما ثاني أكسيد الكربون الناتج عن حرق الوقود الأحفوري. وتشمل تأثيرات هذا التغير ذوبان الجليد القطبي، وارتفاع مستوى سطح البحر، وزيادة تكرار الظواهر المناخية المتطرفة كالعواصف والجفاف. وقد دعت تقارير دولية إلى ضرورة التحول نحو مصادر طاقة متجددة، وتقليل الاعتماد على الوقود الأحفوري، وتبنّي ممارسات زراعية وصناعية أكثر استدامة.",
+      "expected_output_length": "short",
+      "notes": "Technical text, bulleted summary"
+    },
+    {
+      "id": "summ-003",
+      "category": "summarisation",
+      "subcategory": "narrative",
+      "prompt": "اقرأ النص التالي ولخّصه في جملتين فقط:\n\nفي يوم من الأيام، خرج تاجر شاب من قريته متجهًا إلى المدينة لبيع بضاعته. وفي طريقه، التقى برجل عجوز جالس تحت شجرة، فسأله عن أقصر طريق إلى السوق. ابتسم العجوز وقال له إن أقصر طريق ليس دائمًا أسرعها، ونصحه باتباع الطريق الأطول لأنه أكثر أمانًا. شكره الشاب وتابع رحلته، وعندما وصل إلى السوق علم أن قافلة قُطع عليها الطريق في المسار القصير، فأدرك حينها قيمة النصيحة التي تلقّاها.",
+      "expected_output_length": "very_short",
+      "notes": "Narrative, compression-sensitive (loss of detail matters)"
+    },
+    {
+      "id": "summ-004",
+      "category": "summarisation",
+      "subcategory": "academic",
+      "prompt": "لخّص الفقرة التالية بأسلوب أكاديمي:\n\nشهد الأدب العربي الحديث تحولات جوهرية منذ بدايات القرن العشرين، حيث انتقل من الأنماط الكلاسيكية الموروثة إلى تجارب أدبية أكثر تنوعًا وانفتاحًا على التيارات العالمية. وقد أسهم في هذا التحول جيل من الأدباء الذين تأثروا بالأدب الأوروبي والأمريكي اللاتيني، فأدخلوا أساليب جديدة في الرواية والقصة القصيرة والشعر الحر. كما لعبت الترجمة دورًا محوريًا في نقل الأفكار النقدية والفلسفية، مما أثرى المشهد الأدبي العربي وأسس لمدارس نقدية حديثة.",
+      "expected_output_length": "medium",
+      "notes": "Academic register, formal vocabulary"
+    },
+    {
+      "id": "summ-005",
+      "category": "summarisation",
+      "subcategory": "short_text",
+      "prompt": "لخّص الجملة التالية في كلمات قليلة: الرياضة فعل صحي ينعكس إيجابًا على الجسد والعقل ويُعزز الإنتاجية في الحياة اليومية.",
+      "expected_output_length": "very_short",
+      "notes": "Edge case: source already short — tests over-compression"
+    },
+
+    {
+      "id": "qa-001",
+      "category": "qa",
+      "subcategory": "factual",
+      "prompt": "ما هي العاصمة السياسية لجمهورية مصر العربية، ومتى أصبحت عاصمة لها؟",
+      "expected_output_length": "short",
+      "notes": "Closed factual question"
+    },
+    {
+      "id": "qa-002",
+      "category": "qa",
+      "subcategory": "contextual",
+      "prompt": "بناءً على النص التالي، أجب عن السؤال:\n\nالنص: تأسست جامعة القرويين في مدينة فاس بالمغرب عام 859 ميلادية على يد فاطمة الفهرية، وتُعتبر من أقدم الجامعات في العالم التي ما زالت تعمل حتى اليوم. بدأت كمسجد ثم تحوّلت تدريجيًا إلى مؤسسة تعليمية شاملة تُدرّس العلوم الدينية واللغوية والطبيعية.\n\nالسؤال: من أسّس جامعة القرويين، وفي أي مدينة تقع؟",
+      "expected_output_length": "short",
+      "notes": "Reading comprehension — answer extractable from context"
+    },
+    {
+      "id": "qa-003",
+      "category": "qa",
+      "subcategory": "explanation",
+      "prompt": "لماذا يُعتبر البحر الميت ميتًا، وما الأسباب العلمية التي تمنع الحياة البحرية من التواجد فيه؟",
+      "expected_output_length": "medium",
+      "notes": "Open-ended explanation"
+    },
+    {
+      "id": "qa-004",
+      "category": "qa",
+      "subcategory": "reasoning",
+      "prompt": "إذا كان لدى تاجر 240 كيلوغرامًا من التمر، وباع ثلاثة أرباع الكمية بسعر 25 ريالًا للكيلوغرام، والباقي بسعر 30 ريالًا للكيلوغرام، فكم يبلغ مجموع ما حصّله من البيع؟ اشرح خطوات الحل.",
+      "expected_output_length": "medium",
+      "notes": "Numerical reasoning — compression risk is high (numbers are critical)"
+    },
+    {
+      "id": "qa-005",
+      "category": "qa",
+      "subcategory": "comparative",
+      "prompt": "ما هي أوجه الشبه والاختلاف الرئيسية بين اللغة العربية الفصحى واللهجات العربية المحكية، من حيث الصرف والنحو والمفردات؟",
+      "expected_output_length": "long",
+      "notes": "Comparative, requires structured response"
+    },
+
+    {
+      "id": "creat-001",
+      "category": "creative",
+      "subcategory": "story",
+      "prompt": "اكتب قصة قصيرة لا تتجاوز مئتي كلمة عن طفل يكتشف مكتبة قديمة في منزل جده، وتدور أحداثها حول الكتاب الأول الذي يقرأه.",
+      "expected_output_length": "long",
+      "notes": "Creative — bounded by word count"
+    },
+    {
+      "id": "creat-002",
+      "category": "creative",
+      "subcategory": "poetry",
+      "prompt": "اكتب أبياتًا شعرية قصيرة تصف غروب الشمس على ساحل البحر، بأسلوب يستحضر الهدوء والتأمل.",
+      "expected_output_length": "medium",
+      "notes": "Poetry — high creative density, compression-sensitive"
+    },
+    {
+      "id": "creat-003",
+      "category": "creative",
+      "subcategory": "dialogue",
+      "prompt": "اكتب حوارًا قصيرًا بين معلم وطالب يناقشان فيه أهمية التعلم الذاتي في عصر الإنترنت، مع إبراز وجهتي نظر مختلفتين.",
+      "expected_output_length": "medium",
+      "notes": "Dialogue, multi-character voice"
+    },
+    {
+      "id": "creat-004",
+      "category": "creative",
+      "subcategory": "description",
+      "prompt": "صف مدينة قديمة في وقت الفجر، مستخدمًا الحواس الخمس لإحياء المشهد في ذهن القارئ.",
+      "expected_output_length": "medium",
+      "notes": "Sensory description"
+    },
+    {
+      "id": "creat-005",
+      "category": "creative",
+      "subcategory": "essay",
+      "prompt": "اكتب مقالًا قصيرًا تتأمل فيه معنى الصداقة في العصر الرقمي، وكيف تغيّرت طبيعة العلاقات الإنسانية مع انتشار وسائل التواصل الاجتماعي.",
+      "expected_output_length": "long",
+      "notes": "Reflective essay — abstract themes"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": "0.1.0-pilot",
+  "calibrated_on": "AraPromptBench v1.1.0 (500-prompt pilot, dev-only)",
+  "fidelity_threshold_tau": 0.7,
+  "decision_feature": "token_count (cl100k_base)",
+  "rules": [
+    {
+      "if": "token_count < 120",
+      "then": {
+        "method": "none",
+        "rate": 1.0
+      }
+    },
+    {
+      "if": "token_count >= 200",
+      "then": {
+        "method": "llmlingua2",
+        "rate": 0.5
+      }
+    },
+    {
+      "if": "otherwise",
+      "then": {
+        "method": "llmlingua2",
+        "rate": 0.5
+      }
+    }
+  ],
+  "thresholds": {
+    "T1": 120,
+    "T2": 200,
+    "r_mid": 0.5,
+    "r_long": 0.5
+  }
+}

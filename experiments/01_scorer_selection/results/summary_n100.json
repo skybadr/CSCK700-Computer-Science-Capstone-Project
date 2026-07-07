@@ -1,0 +1,55 @@
+{
+  "config": {
+    "seed": 42,
+    "n_prompts": 100,
+    "keep_ratios": [
+      0.9,
+      0.7,
+      0.5,
+      0.3
+    ],
+    "models": {
+      "mbert": "bert-base-multilingual-cased",
+      "arabert": "aubmindlab/bert-base-arabertv02"
+    },
+    "num_layers": {
+      "mbert": 9,
+      "arabert": 9
+    },
+    "device": "cuda"
+  },
+  "results": {
+    "mbert": {
+      "mean_f1_by_perturbation": {
+        "deletion": 0.8549,
+        "identical": 1.0,
+        "normalised": 0.9324,
+        "shuffled": 0.7957,
+        "unrelated": 0.6593
+      },
+      "monotonicity_spearman": 0.997,
+      "separability_cohens_d": 6.461,
+      "separability_auc": 1.0,
+      "dynamic_range": 0.3407,
+      "robustness_penalty": 0.0676,
+      "pct_unrelated_scoring_above_0.85": 0.0,
+      "pct_keep0.9_scoring_above_0.85": 100.0
+    },
+    "arabert": {
+      "mean_f1_by_perturbation": {
+        "deletion": 0.7627,
+        "identical": 1.0,
+        "normalised": 0.9082,
+        "shuffled": 0.6733,
+        "unrelated": 0.4894
+      },
+      "monotonicity_spearman": 0.996,
+      "separability_cohens_d": 5.993,
+      "separability_auc": 1.0,
+      "dynamic_range": 0.5106,
+      "robustness_penalty": 0.0918,
+      "pct_unrelated_scoring_above_0.85": 0.0,
+      "pct_keep0.9_scoring_above_0.85": 100.0
+    }
+  }
+}

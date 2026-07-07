@@ -1,0 +1,10 @@
+{
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "max_tokens": 512,
+  "unique_calls": 4173,
+  "prompt_tokens": 277222,
+  "completion_tokens": 1024005,
+  "responses_truncated_at_512": 401,
+  "cost_usd": 0.656
+}

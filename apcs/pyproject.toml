@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apcs"
+version = "0.1.0"
+description = "Arabic-Aware Prompt Compression Selector: recommends a prompt-compression method and rate for Arabic prompts"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Badr Abouabdou" }]
+dependencies = ["tiktoken>=0.5"]
+
+[project.optional-dependencies]
+morphology = ["farasapy"]
+compression = ["llmlingua"]
+test = ["pytest"]
+
+[project.scripts]
+apcs = "apcs.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["apcs*"]
+
+[tool.setuptools.package-data]
+apcs = ["rules_default.json"]

@@ -1,0 +1,22 @@
+# virtual environment (3+ GB, reinstallable: pip install -r requirements / pyproject)
+.venv/
+
+# python build/cache artefacts
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# secrets — never commit keys (API key lives in the Windows user env, not files)
+.env
+*.key
+
+# editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# Claude Code local (machine-specific) settings
+.claude/settings.local.json

@@ -1,0 +1,67 @@
+{
+  "total": 1000,
+  "by_category": {
+    "instruction": 350,
+    "summarisation": 250,
+    "qa": 250,
+    "creative": 150
+  },
+  "by_split": {
+    "test": 200,
+    "dev": 800
+  },
+  "by_category_split": {
+    "instruction/test": 70,
+    "instruction/dev": 280,
+    "summarisation/test": 50,
+    "summarisation/dev": 200,
+    "qa/test": 50,
+    "qa/dev": 200,
+    "creative/test": 30,
+    "creative/dev": 120
+  },
+  "by_source": {
+    "CIDAR": 250,
+    "Aya": 100,
+    "XL-Sum": 150,
+    "EASC": 100,
+    "TyDi-QA": 159,
+    "ARCD": 91,
+    "synthetic-claude": 150
+  },
+  "by_variety": {
+    "MSA": 980,
+    "dialect-ary": 19,
+    "dialect-arz": 1
+  },
+  "band_by_category": {
+    "instruction": {
+      "medium": 124,
+      "long": 53,
+      "short": 173
+    },
+    "summarisation": {
+      "long": 91,
+      "medium": 102,
+      "short": 57
+    },
+    "qa": {
+      "medium": 95,
+      "short": 56,
+      "long": 99
+    },
+    "creative": {
+      "short": 42,
+      "medium": 73,
+      "long": 35
+    }
+  },
+  "token_count": {
+    "min": 30,
+    "median": 185,
+    "max": 664
+  },
+  "duplicates_dropped_or_flagged": [],
+  "pilot_overlap": 0,
+  "dialect_in_test": 3
+}

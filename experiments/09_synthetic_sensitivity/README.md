@@ -4,12 +4,17 @@
 conclusions or the APCS calibration? Two parts, both operating on the dev split
 only — the 200-prompt test set is never touched by any analysis here.
 
-## 09a — Synthetic-share sweep (no new data, no API cost)
+## 09a — Synthetic-share sweep at 15% / 30% / 50% (no new data, no API cost)
 
-After the main v2 benchmark run, re-calibrate APCS rules on dev-split mixes
-with synthetic shares 0% / 7.5% / 15% (actual) / 30% (using probe prompts to
-top up), bootstrap CIs on derived thresholds. Stability of the rule across
-mixes = robustness evidence; drift = a finding about synthetic-data bias.
+`sweep_09a.py` (ready; runs after the main benchmark). Design: fixed mixes of
+240 prompts (60/category — capped by instruction's 30 measured synthetic
+prompts, which is exactly the 50%-share requirement), synthetic share
+15/30/50% ⇒ 9/18/30 synthetic per category cell, sourced remainder from v2
+dev only, 200 bootstrap repeats per share. Each repeat re-runs the Exp 06
+grid search; outputs threshold stability (T1 median/IQR, modal rates),
+best-balance label composition, and rule accuracy per share.
+Stability across shares = robustness evidence; drift = quantified
+synthetic-data bias. The v2 test split is never read.
 
 ## 09b — Synthetic-vs-sourced matched comparison (deconfounded)
 

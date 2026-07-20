@@ -1,24 +1,30 @@
-"""Exp 09a — Synthetic-share sweep: 15% / 30% / 50%.
+"""Exp 09a — Synthetic-share sweep at 15% / 30% / 50%, full dev scale (800).
 
 Tests how the synthetic-data ratio affects (1) calibrated APCS thresholds,
-(2) the method ranking, and (3) outcome distributions — holding total size
-and category balance constant.
+(2) the method ranking, and (3) outcome distributions.
 
-Design (capped by probe availability: instruction has 30 synthetic prompts):
-  mix size 240 = 60 per category (instruction/qa/summarisation/creative)
-  share s in {15%, 30%, 50%}  ->  9 / 18 / 30 synthetic per category cell
-  sourced remainder drawn from v2 DEV split only; synthetic drawn from the
-  probe pool (+ v2 dev creative for the creative cell)
-  B bootstrap repeats per share; each repeat: sample mix -> grid-search APCS
-  rule (same template/grids as Exp 06) -> record thresholds & metrics.
+Design (800-prompt mixes mirroring the dev split's category composition):
+  cells: instruction 280 / qa 200 / summarisation 200 / creative 120
+  share s in {15%, 30%, 50%} applies to the three MANIPULABLE categories
+  (creative is structurally 100% synthetic in v2 and is held constant at its
+  120 dev prompts in every mix — differences between conditions are therefore
+  attributable to the manipulated share alone).
+  synthetic per cell at s=50%: instruction 140, qa 100, summarisation 100.
 
-The v2 TEST split is never read by this script.
+Length-confound control: each category cell uses FIXED band quotas
+(short/medium/long), identical across all share conditions. Quotas start at
+the dev split's band proportions and are clamped so that 0.5*quota never
+exceeds the synthetic pool for that band (deficits redistribute to bands
+with spare capacity). Because quotas are constant across conditions, band
+composition cannot vary with share.
 
-Usage (after the main benchmark run produces measured outcomes):
-  python sweep_09a.py --results <benchmark_output_eval.csv> [--reps 200]
+B bootstrap repeats per share; each repeat: sample mix -> grid-search APCS
+rule (Exp 06 template) -> record thresholds & metrics.
+The v2 TEST split is never read.
 
-The results CSV must contain rows for v2 dev + probe prompts with columns:
-  prompt_id, method, target_rate, tcr, out_f1_arabert
+Usage:
+  python sweep_09a.py --dry-run                 # pool feasibility check only
+  python sweep_09a.py --results <outcomes.csv>  # full sweep (after benchmark)
 """
 
 import argparse
@@ -34,35 +40,106 @@ ROOT = Path(__file__).resolve().parent
 PROJECT = ROOT.parent.parent
 RESULTS = ROOT / "results"
 
-TAU = 0.70          # to be confirmed against the new model's measured ceiling
-CELL = 60           # prompts per category per mix
-SHARES = {0.15: 9, 0.30: 18, 0.50: 30}
+TAU = 0.70          # confirmed against the new model's ceiling before use
+SHARES = [0.15, 0.30, 0.50]
+CELLS = {"instruction": 280, "qa": 200, "summarisation": 200}
+CREATIVE_CELL = 120  # constant, all-synthetic (see module docstring)
+BANDS = ["short", "medium", "long"]
 CANDS = ["noop@1.0", "llmlingua2@0.7", "llmlingua2@0.5", "llmlingua2@0.3"]
 T1_GRID = [40, 60, 80, 100, 120, 150]
 T2_GRID = [200, 250, 300, 350, 400, 500]
 RATE_GRID = [0.7, 0.5, 0.3]
-CATS = ["instruction", "qa", "summarisation", "creative"]
 
 
 def load_pools():
+    """pools[cat][kind][band] -> [prompt_id]; meta[id] -> token_count."""
     v2 = json.loads((PROJECT / "AraPromptBench_v2.json").read_text(encoding="utf-8"))
     probe = json.loads((ROOT / "probe_pool.json").read_text(encoding="utf-8"))
-    meta = {}
-    pools = {c: {"sourced": [], "synthetic": []} for c in CATS}
+    meta, pools = {}, {}
+    for c in list(CELLS) + ["creative"]:
+        pools[c] = {"sourced": {b: [] for b in BANDS},
+                    "synthetic": {b: [] for b in BANDS}}
     for p in v2["prompts"]:
-        meta[p["id"]] = {"category": p["category"],
-                         "token_count": p["token_count"]}
+        meta[p["id"]] = p["token_count"]
         if p["split"] != "dev":
-            continue                     # test split never enters the sweep
+            continue                      # test split never enters the sweep
         kind = "synthetic" if p["source"] == "synthetic-claude" else "sourced"
-        pools[p["category"]][kind].append(p["id"])
+        if p["length_band"] in BANDS:
+            pools[p["category"]][kind][p["length_band"]].append(p["id"])
     for p in probe["prompts"]:
-        meta[p["id"]] = {"category": p["category"],
-                         "token_count": p["token_count"]}
-        if p["length_band"] == "xlong":
-            continue                     # no sourced counterparts >650 tokens
-        pools[p["category"]]["synthetic"].append(p["id"])
+        meta[p["id"]] = p["token_count"]
+        if p["length_band"] in BANDS:     # xlong excluded by design
+            pools[p["category"]]["synthetic"][p["length_band"]].append(p["id"])
     return pools, meta
+
+
+def band_quotas(pools):
+    """Fixed per-band quotas per category, identical across all shares.
+
+    Start from dev band proportions; clamp each band so the max share (50%)
+    is feasible from the synthetic pool; redistribute deficits to bands with
+    spare synthetic AND sourced capacity."""
+    smax = max(SHARES)
+    quotas = {}
+    for c, cell in CELLS.items():
+        dev_counts = {b: len(pools[c]["sourced"][b])
+                      + len([i for i in pools[c]["synthetic"][b]
+                             if i.startswith("v2-")]) for b in BANDS}
+        total_dev = sum(dev_counts.values())
+        q = {b: round(cell * dev_counts[b] / total_dev) for b in BANDS}
+        # fix rounding drift
+        q[BANDS[-1]] += cell - sum(q.values())
+        # clamp + redistribute
+        for _ in range(6):
+            deficit = 0
+            for b in BANDS:
+                cap = int(len(pools[c]["synthetic"][b]) / smax)
+                if q[b] > cap:
+                    deficit += q[b] - cap
+                    q[b] = cap
+            if deficit == 0:
+                break
+            smin = min(SHARES)
+            for b in sorted(BANDS, key=lambda b: -(
+                    int(len(pools[c]["synthetic"][b]) / smax) - q[b])):
+                spare_syn = int(len(pools[c]["synthetic"][b]) / smax) - q[b]
+                # sourced demand peaks at the LOWEST share (1-smin sourced)
+                spare_src = int(len(pools[c]["sourced"][b]) / (1 - smin)) - q[b]
+                give = max(0, min(deficit, spare_syn, spare_src))
+                q[b] += give
+                deficit -= give
+                if deficit == 0:
+                    break
+            if deficit > 0:
+                raise RuntimeError(f"{c}: cannot place {deficit} prompts — "
+                                   "pools insufficient")
+        quotas[c] = q
+    return quotas
+
+
+def check_feasibility(pools, quotas):
+    print("=== fixed band quotas (identical across all shares) ===")
+    ok = True
+    for c, q in quotas.items():
+        print(f"{c:14s} quotas {q}  (cell {sum(q.values())}, "
+              f"target {CELLS[c]})")
+        for s in SHARES:
+            for b in BANDS:
+                need_syn = round(q[b] * s)
+                need_src = q[b] - need_syn
+                have_syn = len(pools[c]["synthetic"][b])
+                have_src = len(pools[c]["sourced"][b])
+                if need_syn > have_syn or need_src > have_src:
+                    ok = False
+                    print(f"  !! {c}/{b} @share {s}: need syn {need_syn} "
+                          f"(have {have_syn}), src {need_src} (have {have_src})")
+    n_creat = len([i for b in BANDS
+                   for i in pools["creative"]["synthetic"][b]])
+    print(f"creative       constant cell {CREATIVE_CELL} from {n_creat} "
+          f"dev synthetic prompts")
+    ok = ok and n_creat >= CREATIVE_CELL
+    print("FEASIBLE" if ok else "NOT FEASIBLE")
+    return ok
 
 
 def build_tables(df):
@@ -83,19 +160,25 @@ def labels_for(ids, tcr, f1):
 
 
 def rule(tok, T1, T2, rm, rl):
-    if tok < T1: return "noop@1.0"
-    if tok >= T2: return f"llmlingua2@{rl}"
+    if tok < T1:
+        return "noop@1.0"
+    if tok >= T2:
+        return f"llmlingua2@{rl}"
     return f"llmlingua2@{rm}"
 
 
 def search(ids, lab, meta):
     best, best_acc = None, -1.0
-    toks = {p: meta[p]["token_count"] for p in ids}
+    toks = np.array([meta[p] for p in ids])
+    labs = np.array([lab[p] for p in ids])
     for T1, T2, rm, rl in itertools.product(T1_GRID, T2_GRID,
                                             RATE_GRID, RATE_GRID):
         if T2 <= T1:
             continue
-        acc = np.mean([rule(toks[p], T1, T2, rm, rl) == lab[p] for p in ids])
+        pred = np.where(toks < T1, "noop@1.0",
+                        np.where(toks >= T2, f"llmlingua2@{rl}",
+                                 f"llmlingua2@{rm}"))
+        acc = float(np.mean(pred == labs))
         if acc > best_acc:
             best_acc, best = acc, (T1, T2, rm, rl)
     return best, best_acc
@@ -103,59 +186,70 @@ def search(ids, lab, meta):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--results", required=True,
-                    help="measured outcomes CSV (v2 dev + probe rows)")
+    ap.add_argument("--results", help="measured outcomes CSV (dev + probe)")
     ap.add_argument("--reps", type=int, default=200)
     ap.add_argument("--seed", type=int, default=42)
+    ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
     RESULTS.mkdir(exist_ok=True)
     pools, meta = load_pools()
+    quotas = band_quotas(pools)
+    feasible = check_feasibility(pools, quotas)
+    if args.dry_run:
+        sys.exit(0 if feasible else 1)
+    if not feasible:
+        sys.exit("pools insufficient — expand probe pool first")
+    if not args.results:
+        sys.exit("--results required for the full sweep")
+
     df = pd.read_csv(args.results)
     tcr, f1 = build_tables(df)
     measured = set(tcr.index)
-
-    for c in CATS:
+    for c in pools:
         for k in ("sourced", "synthetic"):
-            pools[c][k] = [p for p in pools[c][k] if p in measured]
-        print(f"{c}: sourced {len(pools[c]['sourced'])}, "
-              f"synthetic {len(pools[c]['synthetic'])}")
-        need = max(SHARES.values())
-        assert len(pools[c]["synthetic"]) >= need, \
-            f"{c}: need {need} measured synthetic prompts"
-        assert len(pools[c]["sourced"]) >= CELL - min(SHARES.values())
+            for b in BANDS:
+                pools[c][k][b] = [p for p in pools[c][k][b] if p in measured]
+    quotas = band_quotas(pools)          # re-derive on measured pools
+    if not check_feasibility(pools, quotas):
+        sys.exit("measured pools insufficient")
 
+    creat_pool = [i for b in BANDS for i in pools["creative"]["synthetic"][b]]
     rng = np.random.default_rng(args.seed)
     rows = []
-    # method-ranking margin on the full pools, per origin (share-independent
-    # descriptive): mean out-F1 gap llmlingua2@0.5 minus random handled in 09b;
-    # here we sweep calibration.
-    for share, n_syn in SHARES.items():
-        for b in range(args.reps):
-            ids = []
-            for c in CATS:
-                ids += list(rng.choice(pools[c]["synthetic"], n_syn,
-                                       replace=False))
-                ids += list(rng.choice(pools[c]["sourced"], CELL - n_syn,
-                                       replace=False))
+    for share in SHARES:
+        for rep in range(args.reps):
+            ids = list(rng.choice(creat_pool, CREATIVE_CELL, replace=False))
+            for c, q in quotas.items():
+                for b in BANDS:
+                    n_syn = round(q[b] * share)
+                    ids += list(rng.choice(pools[c]["synthetic"][b], n_syn,
+                                           replace=False))
+                    ids += list(rng.choice(pools[c]["sourced"][b],
+                                           q[b] - n_syn, replace=False))
             lab = labels_for(ids, tcr, f1)
             (T1, T2, rm, rl), acc = search(ids, lab, meta)
-            noop_share = np.mean([v == "noop@1.0" for v in lab.values()])
-            rows.append(dict(share=share, rep=b, T1=T1, T2=T2, r_mid=rm,
-                             r_long=rl, accuracy=round(float(acc), 4),
-                             label_noop_share=round(float(noop_share), 4)))
+            rows.append(dict(
+                share=share, rep=rep, T1=T1, T2=T2, r_mid=rm, r_long=rl,
+                accuracy=round(acc, 4),
+                mix_size=len(ids),
+                label_noop_share=round(float(np.mean(
+                    [v == "noop@1.0" for v in lab.values()])), 4),
+                mean_tokens=round(float(np.mean([meta[p] for p in ids])), 1)))
         print(f"share {share:.0%}: {args.reps} reps done", flush=True)
 
     out = pd.DataFrame(rows)
     out.to_csv(RESULTS / "sweep_09a_raw.csv", index=False)
-
-    print("\n=== Threshold stability by synthetic share ===")
     summ = out.groupby("share").agg(
-        T1_median=("T1", "median"), T1_iqr=("T1", lambda x: x.quantile(.75) - x.quantile(.25)),
+        T1_median=("T1", "median"),
+        T1_iqr=("T1", lambda x: x.quantile(.75) - x.quantile(.25)),
         r_mid_mode=("r_mid", lambda x: x.mode()[0]),
         r_long_mode=("r_long", lambda x: x.mode()[0]),
         acc_mean=("accuracy", "mean"),
-        noop_label_share=("label_noop_share", "mean")).round(3)
+        acc_sd=("accuracy", "std"),
+        noop_label_share=("label_noop_share", "mean"),
+        mean_tokens=("mean_tokens", "mean")).round(3)
+    print("\n=== Threshold stability by synthetic share (800-prompt mixes) ===")
     print(summ.to_string())
     summ.to_csv(RESULTS / "sweep_09a_summary.csv")
     print(f"\nSaved: {RESULTS/'sweep_09a_raw.csv'}, sweep_09a_summary.csv")

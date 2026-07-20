@@ -845,6 +845,2814 @@
    "length_band": "short",
    "source": "synthetic-claude-probe",
    "id": "probe-summ-105"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اذكر ثلاث فوائد صحية للمشي اليومي في نقاط.",
+   "token_count": 33,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-106"
+  },
+  {
+   "category": "instruction",
+   "prompt": "أعد صياغة الجملة بأسلوب رسمي: «المدير مو موجود اليوم، تعال بكرة».",
+   "token_count": 48,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-107"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب جملة واحدة تشجع طفلًا على ترتيب غرفته دون أمر مباشر.",
+   "token_count": 49,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-108"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صنّف هذه الأطعمة إلى نباتي وحيواني: عدس، جبن، تمر، بيض، لوز.",
+   "token_count": 46,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-109"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح عنوانًا جذابًا لمقال عن أهمية النوم المبكر للطلاب.",
+   "token_count": 42,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-110"
+  },
+  {
+   "category": "instruction",
+   "prompt": "حوّل الجملة إلى المبني للمجهول: «كرّم المديرُ الموظفين المتميزين».",
+   "token_count": 45,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-111"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اذكر خطوتين أساسيتين قبل شراء هاتف مستعمل.",
+   "token_count": 32,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-112"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب رسالة نصية مهذبة تعتذر فيها عن حضور دعوة عشاء.",
+   "token_count": 37,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-113"
+  },
+  {
+   "category": "instruction",
+   "prompt": "رتب هذه الكلمات لتكوين جملة مفيدة: الطلابُ، المكتبةِ، في، يقرؤون.",
+   "token_count": 50,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-114"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اشرح الفرق بين الهاتف الذكي والهاتف العادي في جملتين.",
+   "token_count": 36,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-115"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح ثلاثة أنشطة عائلية لعطلة نهاية أسبوع ممطرة.",
+   "token_count": 41,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-116"
+  },
+  {
+   "category": "instruction",
+   "prompt": "لخص قاعدة السلامة الأهم عند عبور الشارع في جملة واحدة.",
+   "token_count": 38,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-117"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب تغريدة من جملتين عن اليوم العالمي للغة العربية.",
+   "token_count": 38,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-118"
+  },
+  {
+   "category": "instruction",
+   "prompt": "حوّل هذا الأمر إلى طلب مهذب: «أرسل التقرير فورًا».",
+   "token_count": 37,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-119"
+  },
+  {
+   "category": "instruction",
+   "prompt": "سمِّ ثلاث أدوات يحتاجها رسام مبتدئ.",
+   "token_count": 30,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-120"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب سؤالين لمقابلة قصيرة مع بائع كتب قديمة.",
+   "token_count": 34,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-121"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اشرح معنى المثل «الوقت كالسيف» لطفل في الثامنة.",
+   "token_count": 33,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-122"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح اسمًا وشعارًا قصيرًا لفريق مدرسي لكرة الطائرة.",
+   "token_count": 45,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-123"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اذكر عنصرين يجعلان العرض التقديمي مملًا وكيفية تجنبهما.",
+   "token_count": 43,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-124"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صغ جملة شكر لجارك الذي سقى نباتاتك أثناء سفرك.",
+   "token_count": 33,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-125"
+  },
+  {
+   "category": "instruction",
+   "prompt": "رتب مراحل تحضير الشاي ترتيبًا صحيحًا: السكب، الغلي، التقديم، إضافة الأوراق.",
+   "token_count": 57,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-126"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب وصفًا من جملة واحدة لرائحة الخبز الطازج.",
+   "token_count": 36,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-127"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح ثلاث طرق لإعادة استخدام علب الزجاج الفارغة.",
+   "token_count": 37,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-128"
+  },
+  {
+   "category": "instruction",
+   "prompt": "حوّل الجملة إلى صيغة المثنى: «الطالب المجتهد يحقق حلمه».",
+   "token_count": 39,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-129"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب نصيحة واحدة لمن يتعلم السباحة لأول مرة.",
+   "token_count": 35,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-130"
+  },
+  {
+   "category": "instruction",
+   "prompt": "سمِّ ثلاثة أشياء يجب فحصها في السيارة قبل سفر طويل.",
+   "token_count": 39,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-131"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اشرح الفرق بين الادخار والاستثمار في جملتين بسيطتين.",
+   "token_count": 37,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-132"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب عبارة ترحيبية تعلق على باب صف مدرسي في أول يوم دراسي.",
+   "token_count": 39,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-133"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح بديلين صحيين عن المشروبات الغازية.",
+   "token_count": 28,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-134"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صغ إعلانًا من جملة واحدة عن قطة مفقودة بيضاء اللون.",
+   "token_count": 38,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-135"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اذكر خطأين شائعين عند كتابة السيرة الذاتية.",
+   "token_count": 31,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-136"
+  },
+  {
+   "category": "instruction",
+   "prompt": "حوّل الجملة إلى سؤال استفهامي مناسب: «وصل القطار متأخرًا ساعة كاملة».",
+   "token_count": 49,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-137"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب جملة تصف صوت المطر على النافذة ليلًا.",
+   "token_count": 30,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-138"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح ثلاث هدايا مناسبة لمعلم متقاعد.",
+   "token_count": 31,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-139"
+  },
+  {
+   "category": "instruction",
+   "prompt": "لخص فائدة غسل اليدين في جملة موجهة لطفل صغير.",
+   "token_count": 34,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-140"
+  },
+  {
+   "category": "instruction",
+   "prompt": "رتب هذه الوجبات حسب موعدها في اليوم: العشاء، الفطور, الغداء.",
+   "token_count": 40,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-141"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب سطرًا افتتاحيًا مشوقًا لقصة عن رحلة بحرية.",
+   "token_count": 42,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-142"
+  },
+  {
+   "category": "instruction",
+   "prompt": "سمِّ حاستين تستخدمهما عند تذوق الطعام الساخن.",
+   "token_count": 34,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-143"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح طريقة مهذبة لإنهاء مكالمة هاتفية طويلة.",
+   "token_count": 36,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-144"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب جملتين عن أهمية شرب الماء صيفًا.",
+   "token_count": 28,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-145"
+  },
+  {
+   "category": "instruction",
+   "prompt": "حوّل العبارة العامية إلى فصحى: «الجو حر مرة اليوم».",
+   "token_count": 34,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-146"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اذكر ثلاث مهن تعمل ليلًا وسبب أهميتها.",
+   "token_count": 33,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-147"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صغ عنوانًا لبحث مدرسي عن ترشيد استهلاك الماء.",
+   "token_count": 32,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-148"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب رسالة قصيرة تطلب فيها من زميلك إحضار كتابك المنسي.",
+   "token_count": 38,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-149"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح نشاطًا واحدًا يقرب الجيران بعضهم من بعض.",
+   "token_count": 37,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-150"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اشرح لماذا نرى البرق قبل سماع الرعد في جملتين.",
+   "token_count": 34,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-151"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب دعوة قصيرة لحفل تخرج أخيك الأكبر.",
+   "token_count": 29,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-152"
+  },
+  {
+   "category": "instruction",
+   "prompt": "سمِّ ثلاثة أماكن يمنع فيها استخدام الهاتف بصوت مرتفع.",
+   "token_count": 40,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-153"
+  },
+  {
+   "category": "instruction",
+   "prompt": "حوّل الجملة إلى الزمن الماضي: «يزرع الفلاح القمح في الخريف».",
+   "token_count": 40,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-154"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح جملة تكتب على لافتة حديقة تحث على النظافة دون تهديد.",
+   "token_count": 41,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-155"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اذكر فائدتين لقراءة القصص قبل النوم للأطفال.",
+   "token_count": 34,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-156"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب تعليقًا مهذبًا تهنئ به زميلًا نشر أول كتبه.",
+   "token_count": 42,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-157"
+  },
+  {
+   "category": "instruction",
+   "prompt": "رتب الألوان من الأفتح إلى الأغمق: كحلي، سماوي، أزرق.",
+   "token_count": 38,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-158"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صغ سؤالًا ذكيًا تطرحه في نهاية مقابلة عمل.",
+   "token_count": 35,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-159"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب جملة تصف مشهد سوق الخضار صباحًا.",
+   "token_count": 30,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-160"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح ثلاث كلمات مفتاحية للبحث عن وصفات طبخ صحية.",
+   "token_count": 39,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-161"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اشرح متى نستخدم «أما بعد» في الرسائل الرسمية.",
+   "token_count": 33,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-162"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب نصيحة لمن يريد تربية نباتات منزلية لأول مرة.",
+   "token_count": 35,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-163"
+  },
+  {
+   "category": "instruction",
+   "prompt": "حوّل الجملة إلى نفي: «حضر جميع الطلاب الرحلة العلمية».",
+   "token_count": 38,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-164"
+  },
+  {
+   "category": "instruction",
+   "prompt": "سمِّ ثلاثة أصوات تسمعها في محطة قطارات مزدحمة.",
+   "token_count": 36,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-165"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح عنوانًا لفيلم وثائقي عن صناعة الفخار.",
+   "token_count": 34,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-166"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب جملتين عن فائدة تعلم لغة ثانية في سن مبكرة.",
+   "token_count": 37,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-167"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صغ تذكيرًا لطيفًا لأفراد المنزل بإطفاء الأنوار عند الخروج.",
+   "token_count": 43,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-168"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اذكر خطوتين لحفظ الطعام المتبقي بطريقة آمنة.",
+   "token_count": 35,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-169"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب سطرًا ختاميًا مؤثرًا لخطاب وداع زملاء العمل.",
+   "token_count": 43,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-170"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح ثلاثة أسئلة يطرحها طفل فضولي عن النجوم.",
+   "token_count": 39,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-171"
+  },
+  {
+   "category": "instruction",
+   "prompt": "حوّل هذه الفكرة إلى شعار قصير: القراءة تفتح آفاق العقل.",
+   "token_count": 40,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-172"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اشرح الفرق بين السنة الميلادية والهجرية في جملة واحدة.",
+   "token_count": 36,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-173"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب عبارة تشجيعية لفريق خسر مباراة نهائية.",
+   "token_count": 33,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-174"
+  },
+  {
+   "category": "instruction",
+   "prompt": "سمِّ أداتين تحتاجهما لتعليق لوحة على الجدار.",
+   "token_count": 34,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-175"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح وقتًا مناسبًا لري النباتات صيفًا مع ذكر السبب.",
+   "token_count": 42,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-176"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب جملة وصفية عن ضوء الفجر فوق الجبال.",
+   "token_count": 31,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-177"
+  },
+  {
+   "category": "instruction",
+   "prompt": "رتب خطوات الاستعارة من المكتبة: البحث، التسجيل، الإرجاع، القراءة.",
+   "token_count": 43,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-178"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صغ اعتذارًا مهذبًا عن تأخرك في الرد على رسالة صديق.",
+   "token_count": 38,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-179"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اذكر ثلاثة استخدامات منزلية للخل الأبيض.",
+   "token_count": 29,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-180"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب فقرة قصيرة من أربع جمل تشرح لكبار السن كيفية استخدام تطبيق مكالمات الفيديو للتواصل مع أحفادهم، بلغة بسيطة مطمئنة تتجنب المصطلحات التقنية تمامًا، وتختم بجملة تشجيعية.",
+   "token_count": 125,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-181"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صمم قائمة تحقق من خمسة بنود لطالب جامعي ينتقل للسكن الجامعي لأول مرة، مرتبة حسب الأولوية، مع جملة توضيحية واحدة لكل بند تشرح سبب أهميته.",
+   "token_count": 101,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-182"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب إعلانًا لحملة تبرع بالكتب المدرسية المستعملة في حيكم، يتضمن: الفئة المستفيدة، ونقطة الاستلام، وحالة الكتب المقبولة، وعبارة تحفيزية ختامية لا تتجاوز عشر كلمات.",
+   "token_count": 115,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-183"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اشرح لصديق يخاف من ركوب الطائرة لأول مرة ثلاث حقائق مطمئنة عن أمان الطيران، بأسلوب ودي غير متعالٍ، ثم اقترح عليه حيلة عملية واحدة للتعامل مع التوتر أثناء الإقلاع.",
+   "token_count": 119,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-184"
+  },
+  {
+   "category": "instruction",
+   "prompt": "حوّل قائمة المهام الجافة التالية إلى فقرة تحفيزية لبداية يوم منتج: مراجعة البريد، اجتماع الفريق، إنهاء التقرير الشهري, حجز موعد الصيانة، شراء هدية لزميل متقاعد.",
+   "token_count": 110,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-185"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب ثلاث نصائح لتصوير الطعام بالهاتف تجعل الأطباق تبدو شهية، موجهة لصاحبة مشروع حلويات منزلي مبتدئة، مع ذكر خطأ شائع واحد يفسد الصورة يجب تجنبه.",
+   "token_count": 112,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-186"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صغ فقرة تعريفية لدليل سياحي عن وادٍ جبلي يشتهر بأشجار اللوز المزهرة في فبراير، تذكر أفضل وقت للزيارة، ومدة المسار سيرًا، وتحذيرًا واحدًا يتعلق بالطقس، بأسلوب يوازن بين الحماس والدقة.",
+   "token_count": 137,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-187"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب حوارًا تدريبيًا قصيرًا من ست جمل بين موظف استقبال فندق وضيف يشكو من ضجيج الغرفة المجاورة، يظهر فيه الموظف تعاطفًا وحلًا عمليًا دون وعود مبالغ فيها.",
+   "token_count": 116,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-188"
+  },
+  {
+   "category": "instruction",
+   "prompt": "لخص قواعد لعبة الاختباء لطفل لم يلعبها من قبل في أربع خطوات مرقمة بسيطة، ثم أضف قاعدة إنصاف واحدة تمنع الخلاف بين اللاعبين.",
+   "token_count": 92,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-189"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب بريدًا إلكترونيًا مهنيًا قصيرًا تطلب فيه من عميل تأجيل اجتماع الغد إلى الأسبوع القادم بسبب ظرف طارئ، مع اقتراح موعدين بديلين محددين والاعتذار دون إفراط.",
+   "token_count": 122,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-190"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح خطة من ثلاث مراحل لتعويد طفل في السادسة على المشاركة في الأعمال المنزلية البسيطة، بحيث تبدأ باللعب وتنتهي بالمسؤولية، مع مثال محدد لكل مرحلة.",
+   "token_count": 106,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-191"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب فقرة وصفية من ثلاث جمل لقرية ساحلية عند الغروب تصلح مقدمة لنشرة سياحية، بشرط أن تتضمن لونًا وصوتًا ورائحة، وألا تستخدم كلمة «ساحر» أو «خلاب».",
+   "token_count": 113,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-192"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صمم ثلاثة أسئلة لاستبانة قصيرة تقيس رضا رواد مكتبة عامة عن خدماتها، بحيث يغطي كل سؤال جانبًا مختلفًا: المكان، والمجموعات، والموظفين، وتكون قابلة للإجابة بتقييم من خمس درجات.",
+   "token_count": 132,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-193"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اشرح مبدأ «العرض والطلب» لطالب في المرحلة المتوسطة مستخدمًا مثال بائع المظلات في يوم ممطر، في فقرة واحدة لا تتجاوز خمس جمل.",
+   "token_count": 88,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-194"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب تعليمات من أربع خطوات لعمل نسخة احتياطية من صور الهاتف على وحدة تخزين خارجية، موجهة لمستخدم غير تقني، مع تنبيه واحد مهم قبل فصل الوحدة.",
+   "token_count": 102,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-195"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صغ كلمة شكر قصيرة تلقيها مديرة مدرسة في تكريم عاملة النظافة المتقاعدة بعد ثلاثين عامًا من الخدمة، تتضمن موقفًا إنسانيًا واحدًا متخيلًا يظهر أثرها في المدرسة.",
+   "token_count": 122,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-196"
+  },
+  {
+   "category": "instruction",
+   "prompt": "حوّل الوصفة المختصرة التالية إلى خطوات مرقمة واضحة لطاهٍ مبتدئ: «شوربة عدس: بصلة مفرومة تقلى، كوب عدس مغسول، أربعة أكواب ماء، ملح وكمون، طبخ نصف ساعة ثم هرس وتقديم مع ليمون».",
+   "token_count": 131,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-197"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب ثلاث توصيات عملية لتقليل استخدام الأكياس البلاستيكية موجهة لأصحاب البقالات الصغيرة لا للمستهلكين، مع مراعاة ألا تزيد التوصيات تكاليفهم زيادة كبيرة.",
+   "token_count": 107,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-198"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صف مشهد ساحة مدرسة ابتدائية لحظة جرس الفسحة في فقرة من أربع جمل حية، بحيث تتضمن حركة جماعية وصوتًا مميزًا وتفصيلة طريفة واحدة.",
+   "token_count": 100,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-199"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب نص رسالة واتساب لمجموعة الحي تدعو فيها الجيران لمبادرة تنظيف الحديقة المشتركة صباح الجمعة، تحدد الوقت ونقطة التجمع وما يحضره كل مشارك، بنبرة ودية غير إلزامية.",
+   "token_count": 115,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-200"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح جدول مذاكرة مسائيًا متوازنًا لطالب في الصف التاسع لديه ثلاث ساعات بعد العشاء، يوزع الوقت بين مادتين ومراجعة خفيفة واستراحة، مع قاعدة واحدة للتعامل مع الهاتف أثناء المذاكرة.",
+   "token_count": 133,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-201"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب فقرة إرشادية لزوار محمية طبيعية توضح ثلاث قواعد سلوك أساسية داخلها، مصاغة بأسلوب إيجابي يبدأ بما يمكن فعله لا بما يمنع، وتختم بجملة عن مسؤولية الجميع.",
+   "token_count": 121,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-202"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صغ وصفًا وظيفيًا مصغرًا لمتطوع في مهرجان قراءة للأطفال: ثلاث مهام محددة، ومهارتان مطلوبتان، وساعات العمل التطوعي، في شكل نقاط واضحة يسهل نشرها.",
+   "token_count": 112,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-203"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اشرح لماذا يُنصح بعدم شحن الهاتف تحت الوسادة أثناء النوم، في فقرة قصيرة تجمع بين السبب العلمي والبديل الآمن، بلغة مفهومة لمراهق.",
+   "token_count": 95,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-204"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب مقدمة من ثلاث جمل لبودكاست حلقته عن «مهن اختفت من أسواقنا»، تشوق المستمع بذكر مهنتين منقرضتين وسؤال معلق يبقيه منصتًا.",
+   "token_count": 96,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-205"
+  },
+  {
+   "category": "instruction",
+   "prompt": "رتب الأنشطة التالية في برنامج رحلة مدرسية ليوم واحد لمتحف علوم، من التاسعة صباحًا حتى الثانية ظهرًا، مع تحديد مدة لكل نشاط: جولة إرشادية، تجربة تفاعلية، استراحة غداء، عرض فيلم قصير، وقت حر للأسئلة.",
+   "token_count": 144,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-206"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب نصيحتين متعارضتين ظاهريًا لرائد أعمال مبتدئ - واحدة عن الجرأة وواحدة عن الحذر - ثم اشرح في جملتين كيف يوازن بينهما عمليًا.",
+   "token_count": 105,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-207"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صف طريقة تحضير القهوة العربية لضيف أجنبي يزور المنطقة لأول مرة، في أربع خطوات تتضمن عادة ضيافة واحدة مرتبطة بتقديمها وسبب تلك العادة.",
+   "token_count": 98,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-208"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب فقرة تحفيزية قصيرة توجهها مدربة سباحة لفريق ناشئات قبل أول بطولة لهن، توازن بين تخفيف الرهبة ورفع الطموح، دون عبارات مستهلكة مثل «الفوز ليس مهمًا».",
+   "token_count": 117,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-209"
+  },
+  {
+   "category": "instruction",
+   "prompt": "لخص آداب استخدام المصعد المشترك في مبنى سكني في خمس قواعد قصيرة مهذبة، تصلح للتعليق داخل المصعد، بحيث تكون القاعدة الأخيرة عن كبار السن وذوي الاحتياجات.",
+   "token_count": 108,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-210"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب رد الشركة الرسمي على تقييم سلبي منشور لمطعم يشكو فيه زبون من بطء الخدمة يوم الجمعة، بحيث يتضمن اعترافًا صادقًا وإجراءً تصحيحيًا محددًا ودعوة لزيارة ثانية، دون قوالب جاهزة باردة.",
+   "token_count": 143,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-211"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح ثلاثة عناوين فرعية لفصل من كتاب يتناول تأثير وسائل التواصل على مهارات الكتابة لدى الشباب، بحيث يعكس أحدها جانبًا إيجابيًا والثاني سلبيًا والثالث حلولًا مقترحة.",
+   "token_count": 123,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-212"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب تعليمات إخلاء طوارئ مبسطة من أربع خطوات تعلق في صف مدرسي للمرحلة الابتدائية، بلغة يفهمها طفل في السابعة ودون أي عبارات مخيفة، مع تحديد نقطة التجمع.",
+   "token_count": 112,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-213"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صغ فقرة من ثلاث جمل تعرف بجائزة حي سنوية جديدة اسمها «جار العام»، توضح معيار الاستحقاق وطريقة الترشيح وموعد الإعلان، بنبرة تحببية تشجع المشاركة.",
+   "token_count": 104,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-214"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اشرح خطوات التحقق من خبر متداول قبل إعادة نشره في ثلاث نقاط عملية يستطيع أي مستخدم تطبيقها خلال دقيقتين، مع مثال واحد لعلامة تدل على الخبر المفبرك.",
+   "token_count": 102,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-215"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب وصف منتج جذابًا وصادقًا لعسل سدر جبلي ينتجه نحّال محلي، يذكر الطعم والقوام ومنطقة الإنتاج وطريقة حفظ مثالية، دون ادعاءات علاجية مبالغ فيها.",
+   "token_count": 107,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-216"
+  },
+  {
+   "category": "instruction",
+   "prompt": "حوّل ملاحظات المعلمة المتفرقة إلى تقرير موجز لولي الأمر من ثلاث جمل متوازنة: «مشارك بحماس - خطه يحتاج تحسينًا - يساعد زملاءه - يتشتت آخر الحصة - تحسن في جدول الضرب».",
+   "token_count": 120,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-217"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح برنامج أمسية ثقافية مدتها ساعتان في بيت شعر تراثي، يتضمن ثلاث فقرات متنوعة مع مدة كل فقرة، بحيث تناسب جمهورًا عائليًا مختلط الأعمار.",
+   "token_count": 108,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-218"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب فقرة توديعية لنشرة بريدية شهرية تتوقف بعد خمس سنوات من الصدور، تشكر القراء وتذكر إنجازًا واحدًا للنشرة وتدلهم على طريقة متابعة بديلة، بنبرة امتنان لا حزن.",
+   "token_count": 121,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-219"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صمم تمرين إحماء صوتي من ثلاث خطوات لمذيع مبتدئ قبل تسجيل حلقة، مع تحديد مدة كل خطوة والغرض منها بجملة واحدة.",
+   "token_count": 83,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-220"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب قاعدتين ذهبيتين للتفاوض على سعر سيارة مستعملة، ثم صغ جملة افتتاحية ذكية يبدأ بها المشتري الحوار مع البائع دون أن يبدو متلهفًا أو عدائيًا.",
+   "token_count": 112,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-221"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اشرح لعامل جديد في مخبز أهمية ترتيب أولويات الفرن صباحًا في فقرة قصيرة، تتضمن مبدأ «الأطول خبزًا أولًا» ومثالًا يطبقه من أصناف المخبز المعتادة.",
+   "token_count": 104,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-222"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب ثلاث عبارات لافتات طريفة وراقية توضع في أقسام مختلفة من معرض كتاب: قسم الأطفال، وقسم الروايات، وقسم الكتب المخفضة، بحيث تحبب الزائر في التوقف عند كل قسم.",
+   "token_count": 112,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-223"
+  },
+  {
+   "category": "instruction",
+   "prompt": "لخص لعائلة مسافرة بسيارتها في رحلة برية طويلة ثلاث قواعد لتوزيع فترات القيادة والاستراحة، مع نصيحة إضافية خاصة بإشغال الأطفال في المقاعد الخلفية.",
+   "token_count": 105,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-224"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صغ مقدمة رسالة رسمية توجهها جمعية حرفيين إلى البلدية تطلب فيها تخصيص ركن دائم في السوق الشعبي، بحيث تتضمن المقدمة تعريفًا بالجمعية وعدد أعضائها وهدف الطلب في ثلاث جمل.",
+   "token_count": 125,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-225"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب نص تهنئة يقرأ في إذاعة المدرسة لطالبة فازت بمسابقة حفظ الشعر على مستوى المنطقة، يذكر اسم إنجازها ويشجع بقية الطلاب دون عقد مقارنات محبطة.",
+   "token_count": 104,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-226"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقترح ثلاث طرق مبتكرة لعرض الصور العائلية القديمة في بيت حديث بدل تركها في الصناديق، مع جملة لكل طريقة توضح ما يلزمها من أدوات بسيطة.",
+   "token_count": 99,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-227"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب فقرة من أربع جمل تشرح لمزارع صغير فائدة تدوين مواعيد الري والتسميد في دفتر، مع مثال واحد ملموس عن قرار أفضل سيتخذه بفضل السجل.",
+   "token_count": 98,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-228"
+  },
+  {
+   "category": "instruction",
+   "prompt": "صف تجربة دخول مكتبة عامة حديثة لأول مرة من عيني قارئ اعتاد المكتبات التقليدية الورقية، في فقرة تلتقط دهشتين وتحفظًا واحدًا، بنبرة منصفة.",
+   "token_count": 98,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-229"
+  },
+  {
+   "category": "instruction",
+   "prompt": "حوّل هذه الشكاوى المتكررة لسكان عمارة إلى جدول أعمال منظم لاجتماع الملاك من ثلاثة بنود بترتيب أهميتها مع مقترح حل مبدئي لكل بند: تعطل الإنارة في الدرج، إشغال المواقف من الزوار، تأخر صيانة المصعد.",
+   "token_count": 137,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-230"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اكتب توصية قراءة من ثلاث جمل تنشرها مكتبة على حسابها عن رواية متخيلة اسمها «سلالم الضوء»، تشوق دون حرق الأحداث، وتحدد نوع القارئ الذي ستناسبه.",
+   "token_count": 107,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-231"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اشرح قاعدة «الدقائق العشر الأولى» لترتيب المنزل يوميًا في فقرة قصيرة: ما هي، ولماذا تنجح نفسيًا، وكيف يبدأ بها المرء غدًا صباحًا.",
+   "token_count": 103,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-232"
+  },
+  {
+   "category": "instruction",
+   "prompt": "أنت منسق برامج في مركز حي اجتماعي. وصلتك الملاحظات التالية من استبانة سكان الحي حول الأنشطة المطلوبة: «الأمهات يطلبن نشاطًا صباحيًا للأطفال دون المدرسة - المتقاعدون يريدون مجلسًا أسبوعيًا ثابتًا - الشباب يشتكون أن كل الأنشطة عائلية ولا شيء لهم - سيدات يقترحن سوقًا شهريًا للمنتجات المنزلية - الجميع يشتكي أن مواعيد الأنشطة تعلن متأخرة». المطلوب: صمم برنامجًا شهريًا يستجيب للملاحظات الخمس جميعها، بحيث تحدد لكل فئة نشاطًا واحدًا باسم مقترح ويوم وتوقيت ثابتين، وتعالج مشكلة الإعلان المتأخر بآلية محددة، ثم اكتب فقرة إعلان جامعة من ثلاث جمل تسوق البرنامج كله للحي.",
+   "token_count": 426,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-233"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقرأ ملخص التجربة ثم نفذ المطلوب: جربت مقهى صغير نظام «الطاولة الصامتة»: ركن مخصص لمن يريد القراءة أو العمل بلا حديث، تميزه لافتة خضراء، ويحصل جالسوه على إعادة تعبئة مجانية للقهوة. بعد شهرين: إشغال الركن ممتاز صباحًا وشبه ميت مساءً، بعض الزبائن يجلسون فيه ثم يتحدثون بالهاتف فتحرج الإدارة في تنبيههم، وزبائن الطاولات العادية بدؤوا يطلبون امتياز إعادة التعبئة نفسه. المطلوب: اكتب مذكرة قرارات من ثلاث فقرات لصاحب المقهى: الأولى تشخص نجاح التجربة وحدودها بإنصاف، والثانية تقترح تعديلين محددين يعالجان مشكلتي المساء والهاتف، والثالثة تحسم موقف امتياز إعادة التعبئة بقرار مبرر لا يظلم أي فئة.",
+   "token_count": 430,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-234"
+  },
+  {
+   "category": "instruction",
+   "prompt": "كلفتك أسرة ممتدة بتنظيم لم شمل عائلي سنوي أول من نوعه. المعطيات: العدد المتوقع خمسة وسبعون فردًا من أربعة أجيال، أكبرهم جد في التسعين وأصغرهم رضع؛ المكان استراحة فيها صالة مكيفة وحديقة ومسبح مسور؛ المدة من العصر حتى بعد العشاء؛ الميزانية متواضعة تعتمد مشاركة العائلات في الطعام؛ وحساسيتان يجب مراعاتهما: خلاف قديم بين عمين يستحسن ألا يجلسا متجاورين، ورغبة الجدة في فقرة تكريم لزوجها الراحل دون إغراق الأمسية في الحزن. المطلوب: ضع برنامجًا زمنيًا من خمس فقرات متسلسلة يوازن بين الأجيال، وحدد آلية عملية لتوزيع إحضار الطعام بين العائلات، وصمم فقرة التكريم بشكل مؤثر موجز، واقترح ترتيب جلوس دبلوماسيًا يحل الحساسية الأولى دون أن يشعر أحد بالإقصاء.",
+   "token_count": 472,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-235"
+  },
+  {
+   "category": "instruction",
+   "prompt": "أنت محرر موقع توظيف. وصلتك السيرة الذاتية الملخصة التالية لمتقدمة لوظيفة منسقة معارض فنية: «ليان، 26 عامًا، بكالوريوس تاريخ فن، عملت سنتين مرشدة في متحف خاص، نظمت معرضين لفنانين شباب في مقهى ثقافي، تجيد الإنجليزية، تدير حسابًا فنيًا يتابعه ثلاثون ألفًا، تركت وظيفة المتحف قبل ثمانية أشهر لظروف عائلية ولم تعمل منذها». المطلوب ثلاث مهام: أولًا، اكتب فقرة «نبذة مهنية» احترافية من ثلاث جمل تتصدر سيرتها وتبرز أقوى نقاطها. ثانيًا، حدد نقطة الضعف الأبرز في ملفها وصغ لها إجابة مقابلة صادقة وذكية من جملتين تحول الانقطاع إلى نقطة محايدة أو إيجابية. ثالثًا، اقترح سؤالين ذكيين تطرحهما ليان على لجنة المقابلة تظهر بهما فهمها لطبيعة عمل المعارض.",
+   "token_count": 474,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-236"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقرأ الموقف التالي ثم اكتب المطلوب: مدرسة متوسطة أطلقت مسابقة «مشروع يخدم الحي» بين صفوفها، وتأهل للنهائي ثلاثة مشاريع: الأول «ظل الباص» - مظلة ومقاعد لموقف الحافلة المكشوف أمام المدرسة، تكلفته منخفضة وأثره فوري لكن نطاقه صغير؛ الثاني «سقيا الطير» - شبكة أوعية ماء وطعام للطيور موزعة على أسطح متطوعة من البيوت، فكرته لطيفة ويعلم الرفق لكن أثره على الناس محدود؛ الثالث «دليل حرفيي الحي» - كتيب وخريطة يوثقان عناوين الحرفيين المتبقين (خياط، ساعاتي، إسكافي) لتعريف الأجيال الجديدة بهم، أثره ثقافي عميق لكنه يحتاج جهد توثيق طويلًا. المطلوب: بصفتك رئيس لجنة التحكيم، اكتب حيثيات القرار في أربع فقرات: تقييم منصف لكل مشروع بمعياري الأثر والاستدامة، ثم إعلان الفائز مع تبرير مقنع، على ألا يخرج المشروعان الآخران خاسرين تمامًا - اقترح لكل منهما مسارًا بديلًا للتنفيذ.",
+   "token_count": 558,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-237"
+  },
+  {
+   "category": "instruction",
+   "prompt": "أنت مستشار تواصل مكلف بتهدئة أزمة صغيرة: نشرت بلدية مدينة سياحية جدولًا لإغلاق الشارع التجاري الرئيس ثلاثة أسابيع لاستبدال شبكة المياه، فغضب أصحاب المحلات لأن الإغلاق يصادف موسم ذروتهم، وانتشرت منشورات ساخطة تتهم البلدية بالاستخفاف بأرزاقهم، بينما الحقيقة أن التسريبات المتكررة كانت ستفرض إغلاقًا اضطراريًا أطول في عز الموسم لو تأجل الإصلاح. المطلوب: اكتب بيان البلدية التوضيحي في أربع فقرات قصيرة: فقرة تعاطف صادق تعترف بصعوبة التوقيت دون عبارات دفاعية، وفقرة تشرح لماذا التأجيل أخطر بالأرقام المنطقية لا بالتخويف، وفقرة تعلن ثلاثة إجراءات تخفيفية ملموسة للمحلات المتضررة، وفقرة ختامية تفتح قناة تواصل مباشرة مع لجنة التجار. النبرة: احترام لا استرضاء، ووضوح لا بيروقراطية.",
+   "token_count": 484,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-238"
+  },
+  {
+   "category": "instruction",
+   "prompt": "ورشتك مكلفة بكتابة دليل الاستخدام لجهاز جديد: سخان ماء فوري صغير يركب في المطبخ. المعلومات الخام من المهندسين: «يعمل بضغط ماء لا يقل عن 0.5 بار - يمنع تركيبه فوق الغسالة أو قربها - زر التشغيل يضيء أزرق عند الجاهزية وأحمر عند التسخين - إذا رمش الضوءان معًا فالفلتر مسدود - الفلتر يفك بعكس عقارب الساعة ويغسل تحت ماء جارٍ شهريًا - لا يفتح الغطاء الخلفي إلا فني معتمد - الضمان سنتان يسقط بفتح الغطاء - درجة الحرارة القصوى 55 مئوية وتعدل بمفتاح جانبي». المطلوب: حوّل هذه المعلومات إلى دليل مستخدم منظم بثلاثة أقسام معنونة: (التركيب الآمن)، (الاستخدام اليومي وفهم الأضواء)، (الصيانة والضمان)، بنقاط قصيرة واضحة داخل كل قسم، مع إبراز تحذيرين اثنين فقط تختارهما بوصفهما الأخطر، وجملة افتتاحية ودية للدليل.",
+   "token_count": 499,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-239"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقرأ الحالة ثم اكتب المطلوب: ناد رياضي حي صغير يعاني تراجع اشتراكات فئة الناشئين (10-15 عامًا) بنسبة الثلث خلال عامين، بينما اشتراكات الكبار مستقرة. جلسة عصف ذهني مع المدربين أنتجت هذه الخواطر المتناثرة: «الأهالي يقولون إن المواعيد تتعارض مع الدروس الخصوصية - الملعب الخارجي طيلة الصيف لا يطاق حرًا - أكاديميات خاصة فتحت قريبًا بتسويق قوي وأسعار أعلى لكن بمكيفات - ناشئونا يفوزون بالبطولات لكن لا أحد يعرف - بعض المدربين قدامى ويدربون بأسلوب عسكري ينفر الجيل الجديد». المطلوب: اكتب خطة إنقاذ من صفحة واحدة لعرضها على مجلس إدارة النادي، تتكون من: تشخيص يرتب الأسباب الخمسة في ثلاث فئات (تشغيلي، تسويقي، ثقافي)، وثلاثة قرارات عملية منخفضة التكلفة قابلة للتنفيذ قبل الموسم القادم، ومؤشر نجاح واحد قابل للقياس لكل قرار، وجملة ختامية تحفز المجلس على إقرار الخطة.",
+   "token_count": 553,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-240"
+  },
+  {
+   "category": "instruction",
+   "prompt": "أنت كبير مضيفي قطار سياحي جبلي، وستلقي كلمة التعليمات على الركاب قبل انطلاق رحلة الغروب الشتوية. العناصر الواجب تضمينها كما سلمتها لك الإدارة: مدة الرحلة ثلاث ساعات مع توقفين للتصوير مدة كل منهما عشرون دقيقة، النزول أثناء التوقف مسموح حتى الحاجز الأصفر فقط بسبب الانحدار، عربة المقصف في المنتصف وتغلق قبل الوصول بنصف ساعة، درجة الحرارة عند القمة تقل عشر درجات عن المحطة فينصح بالمعاطف، التدخين ممنوع في العربات كلها ومسموح في التوقفات، الأطفال دون العاشرة يبقون بصحبة ذويهم عند النوافذ المفتوحة، وفي حال الضباب الكثيف قد يلغى التوقف الثاني ويعوض بخصم في المقصف. المطلوب: صغ الكلمة كاملة بحيث تفتتح بترحيب دافئ يليق برحلة سياحية لا بتعليمات طيران جافة، وتمرر كل التعليمات بنبرة ودودة تحافظ على الحماس، وتحول التحذيرات إلى نصائح، وتختم بجملة تجعل الركاب يرفعون أبصارهم نحو الجبل بشوق.",
+   "token_count": 551,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-241"
+  },
+  {
+   "category": "instruction",
+   "prompt": "مطلوب منك تحكيم خلاف ودي: شريكان في مشروع مغسلة سيارات متنقلة اختلفا على توسعة المشروع. يملك كل منهما نصف الحصص. الشريك الأول يريد شراء شاحنة ثانية فورًا بقرض، حجته: «الطلبات المرفوضة لضيق الجدول بلغت الثلث، والمنافسون يتحركون، والفرصة لا تنتظر». الشريك الثاني يرفض الاستدانة ويقترح رفع الأسعار 15% لتقليل الضغط وزيادة الربح بلا مخاطرة، حجته: «القرض في مشروع عمره سنة مقامرة، والجودة ستنهار لو توسعنا قبل أن نبني فريقًا». المطلوب: اكتب رأيًا استشاريًا من أربع فقرات: تلخيص منصف لموقف كل شريك يظهر وجاهته، ثم كشف الافتراض غير المختبر في حجة كل منهما، ثم اقتراح مسار وسط مرحلي محدد يختبر الطلب الحقيقي دون قرض كامل ودون خسارة العملاء، وأخيرًا مؤشران رقميان متى تحققا انتقل الشريكان للتوسعة الكاملة باطمئنان.",
+   "token_count": 514,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-242"
+  },
+  {
+   "category": "instruction",
+   "prompt": "اقرأ السياق ثم نفذ المهام الثلاث: ورثت بلدية قديمة أرشيفًا ورقيًا ضخمًا من الخرائط والصكوك يعود لثمانين عامًا، مكدسًا في قبو رطب. خصصت ميزانية لرقمنته، وتقدمت ثلاث شركات: الأولى تعرض السرعة (إنجاز في ستة أشهر بمسح آلي سريع، لكن دون فهرسة تفصيلية - مجرد صور مرقمة)، والثانية تعرض الجودة (ثمانية عشر شهرًا مع فهرسة وثيقة وثيقة وترميم ما تلف، بضعف السعر)، والثالثة عرض وسط (اثنا عشر شهرًا، فهرسة للخرائط فقط دون الصكوك، بسعر متوسط). اللجنة منقسمة والقرار عندك بصفتك مدير المشروع. المطلوب: أولًا، حدد السؤال الجوهري الذي يجب الإجابة عنه قبل المفاضلة (وليس السعر)، واشرح في جملتين لماذا هو الفيصل. ثانيًا، اكتب توصيتك النهائية بفقرة مبررة تربط الاختيار بالغرض الحقيقي من الأرشيف. ثالثًا، صغ بندين تعاقديين ذكيين تحمي بهما البلدية أيًا كانت الشركة الفائزة.",
+   "token_count": 568,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-243"
+  },
+  {
+   "category": "instruction",
+   "prompt": "أنت مدرب كتابة تراجع نصًا لمتدربة. النص كما ورد: «في يوم من الأيام ذهبت إلى السوق القديم وكان السوق القديم مزدحمًا جدًا جدًا والناس كثيرون وكان هناك بائع عطور عجوز وكان لطيفًا جدًا وأعطاني عطرًا رائعًا جدًا وكانت رائحته جميلة جدًا وذكرتني رائحة العطر بجدتي رحمها الله لأن جدتي كانت تحب العطور كثيرًا وكانت غرفتها دائمًا معطرة وشعرت بالحنين الشديد جدًا وشكرت البائع العجوز وعدت إلى البيت وأنا سعيدة جدًا بهذه التجربة الجميلة». المطلوب ثلاث خطوات تعليمية: أولًا، شخص في ثلاث نقاط أبرز عيوب النص الأسلوبية بأمثلة منه. ثانيًا، أعد كتابة النص في فقرة أدبية مشذبة من أربع جمل تحفظ القصة والمشاعر وتتخلص من العيوب، وتنتهي بصورة حسية لا بتقرير شعوري. ثالثًا، اكتب للمتدربة نصيحة ذهبية واحدة من جملتين تلخص أهم درس من هذه المراجعة.",
+   "token_count": 548,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-inst-244"
+  },
+  {
+   "category": "qa",
+   "prompt": "دفع عميل 180 ريالًا ثمن ثلاث وجبات متساوية السعر مع 15 ريالًا توصيلًا. كم سعر الوجبة الواحدة؟",
+   "token_count": 73,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-245"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «يفتح المتحف من التاسعة حتى الخامسة ويغلق للصلاة نصف ساعة». كم ساعة يستقبل الزوار فعليًا؟",
+   "token_count": 68,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-246"
+  },
+  {
+   "category": "qa",
+   "prompt": "قطع عداء 12 كيلومترًا في ساعة ونصف. ما متوسط سرعته بالكيلومتر في الساعة؟",
+   "token_count": 55,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-247"
+  },
+  {
+   "category": "qa",
+   "prompt": "اشترت مكتبة 40 كرسيًا بخصم الربع عن السعر الأصلي البالغ 80 ريالًا للكرسي. كم دفعت إجمالًا؟",
+   "token_count": 72,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-248"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «ولد سالم عام 1988 وتخرج في الجامعة وعمره 23 عامًا». في أي عام تخرج؟",
+   "token_count": 50,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-249"
+  },
+  {
+   "category": "qa",
+   "prompt": "خزان سعته 900 لتر امتلأ ثلثاه. كم لترًا يلزم لملئه بالكامل؟",
+   "token_count": 49,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-250"
+  },
+  {
+   "category": "qa",
+   "prompt": "في مزرعة 45 دجاجة تبيض كل واحدة 5 بيضات أسبوعيًا. كم بيضة تنتج المزرعة في أسبوعين؟",
+   "token_count": 66,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-251"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «تقلع الرحلة 6:50 مساء ويطلب الحضور قبلها بساعتين وربع». متى يجب الوصول للمطار؟",
+   "token_count": 64,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-252"
+  },
+  {
+   "category": "qa",
+   "prompt": "باع تاجر 26 عباءة يوم الخميس وضعفها يوم الجمعة. كم باع في اليومين معًا؟",
+   "token_count": 54,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-253"
+  },
+  {
+   "category": "qa",
+   "prompt": "عمر الأب 48 عامًا وعمر ابنته سدس عمره. كم سيصبح عمرها بعد خمس سنوات؟",
+   "token_count": 54,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-254"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «تستغرق غسلة الملابس 55 دقيقة والتجفيف 40 دقيقة». إذا بدأت 3:20 عصرًا فمتى تنتهي العمليتان؟",
+   "token_count": 76,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-255"
+  },
+  {
+   "category": "qa",
+   "prompt": "سيارة أجرة تحسب 5 ريالات فتح عداد وريالين لكل كيلومتر. كم تكلف رحلة 14 كيلومترًا؟",
+   "token_count": 63,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-256"
+  },
+  {
+   "category": "qa",
+   "prompt": "صف فيه 36 طالبًا، ثلثهم يشاركون في الإذاعة وربعهم في الكشافة ولا أحد في النشاطين معًا. كم طالبًا بلا نشاط؟",
+   "token_count": 81,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-257"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «يقرأ نادي الكتاب رواية شهريًا عدا شهري الصيف». كم رواية يقرأ في ثلاث سنوات؟",
+   "token_count": 61,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-258"
+  },
+  {
+   "category": "qa",
+   "prompt": "اشترك 210 متسابقين في ماراثون وانسحب 35 ولم يكمل 15 آخرون. كم نسبة من أكملوا تقريبًا؟",
+   "token_count": 66,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-259"
+  },
+  {
+   "category": "qa",
+   "prompt": "كيس أرز وزنه 10 كيلو يكفي أسرة 25 يومًا. كم كيسًا تحتاج الأسرة لخمسة أشهر (150 يومًا)؟",
+   "token_count": 70,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-260"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «ارتفع سعر الاشتراك من 240 إلى 300 ريال». ما نسبة الزيادة المئوية؟",
+   "token_count": 48,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-261"
+  },
+  {
+   "category": "qa",
+   "prompt": "مصعد حمولته القصوى 630 كيلو. كم شخصًا متوسط وزن الواحد 70 كيلو يستطيع الصعود معًا بأمان؟",
+   "token_count": 66,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-262"
+  },
+  {
+   "category": "qa",
+   "prompt": "بدأ فيلم 8:35 مساء ومدته ساعتان و20 دقيقة مع استراحة 10 دقائق. متى ينتهي؟",
+   "token_count": 55,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-263"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «حفظت لمى 12 قصيدة، وحفظت أختها ثلاثة أرباع ما حفظت». كم قصيدة حفظتا معًا؟",
+   "token_count": 67,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-264"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «عرضت شركة اتصالات باقتين: الأولى 89 ريالًا شهريًا وتشمل 20 جيجا، والثانية 129 ريالًا وتشمل 60 جيجا مع خصم نصف السعر لأول ثلاثة أشهر». السؤالان: كم يدفع مشترك الباقة الثانية في سنته الأولى؟ وأي الباقتين أرخص سنويًا في السنة الأولى وبكم؟",
+   "token_count": 179,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-265"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «ينظم مركز الأحياء البحرية جولات مدرسية: الجولة القصيرة 45 دقيقة وتشمل حوض الشعاب فقط، والطويلة 90 دقيقة وتضيف نفق أسماك القرش ومختبر اللمس. سعر القصيرة 20 ريالًا والطويلة 35، ويحصل كل عشرين طالبًا على مرافقة مجانية». كم تدفع مدرسة أرسلت 60 طالبًا للجولة الطويلة؟ وكم مرافقًا مجانيًا تستحق؟",
+   "token_count": 227,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-266"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «قررت أسرة تركيب ألواح شمسية بتكلفة 24 ألف ريال، وفاتورتها الكهربائية الحالية 800 ريال شهريًا، وستنخفض بعد التركيب إلى 250 ريالًا». الأسئلة: كم توفر الأسرة شهريًا؟ وبعد كم شهرًا تسترد تكلفة التركيب؟ وهل تسترد التكلفة قبل انقضاء الضمان البالغ خمس سنوات؟",
+   "token_count": 192,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-267"
+  },
+  {
+   "category": "qa",
+   "prompt": "بناء على النص: «استقبل مستشفى الولادة هذا الشهر 310 مواليد، بزيادة 24% عن الشهر الماضي. وكانت نسبة التوائم 5% من حالات الولادة هذا الشهر». السؤالان: كم مولودًا استقبل المستشفى الشهر الماضي تقريبًا؟ وما العدد التقريبي لحالات ولادة التوائم هذا الشهر؟",
+   "token_count": 167,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-268"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «حديقة مستطيلة طولها 60 مترًا وعرضها 40، خُصص ربع مساحتها ملعبًا وثلثها مسطحات خضراء والباقي ممرات وجلسات». الأسئلة: ما مساحة الحديقة الكلية؟ وما مساحة كل قسم من الأقسام الثلاثة؟",
+   "token_count": 141,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-269"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «باص مدرسة يبدأ مساره 6:15 صباحًا ويقف عند 8 محطات، متوسط الوقوف دقيقتان، وزمن السير بين كل محطتين 6 دقائق، ومن المحطة الأخيرة إلى المدرسة 9 دقائق». متى يصل الباص إلى المدرسة؟ اعرض حسابك بالتفصيل.",
+   "token_count": 157,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-270"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «تبيع مزرعة عسلها بثلاث عبوات: صغيرة 250 جرامًا بـ35 ريالًا، ووسط 500 جرام بـ60 ريالًا، وكبيرة كيلو بـ100 ريال». الأسئلة: ما سعر الكيلو الفعلي في كل عبوة؟ وأيها الأوفر للمشتري؟ وكم يوفر من يشتري كيلوغرامين بالعبوة الكبيرة بدل الصغيرة؟",
+   "token_count": 180,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-271"
+  },
+  {
+   "category": "qa",
+   "prompt": "بناء على النص: «سجلت مكتبة الحي في نظام الإعارة: يناير 420 إعارة، فبراير 380، مارس 510، أبريل 490. وكان هدف الربع الأول (يناير-مارس) 1400 إعارة». السؤالان: هل تحقق هدف الربع الأول؟ وضح بالفرق. وما متوسط الإعارات الشهري للأشهر الأربعة؟",
+   "token_count": 159,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-272"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «يعمل خباز من الثالثة فجرًا حتى العاشرة صباحًا، ينتج في الساعة الأولى 60 رغيفًا ثم يرتفع إنتاجه إلى 100 رغيف في الساعة لبقية الوردية». الأسئلة: كم ساعة يعمل الخباز؟ وكم رغيفًا ينتج في الوردية كاملة؟",
+   "token_count": 152,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-273"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «اشترت شركة ناشئة 8 حواسيب محمولة بسعر 3200 ريال للجهاز، وحصلت على خصم 10% لأن الدفع نقدي، ثم دفعت 480 ريالًا رسوم تمديد ضمان لكل الأجهزة معًا». ما المبلغ الإجمالي المدفوع؟ وما متوسط التكلفة النهائية للجهاز الواحد؟",
+   "token_count": 173,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-274"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «قاعة أفراح تتسع لـ400 كرسي، حجزت عائلة العرس 340 مقعدًا، وحضر فعليًا 85% من المدعوين، بينما حضر 30 شخصًا لم يكونوا مدعوين أصلًا». السؤالان: كم مدعوًا حضر؟ وهل تجاوز إجمالي الحاضرين سعة القاعة؟ وضح.",
+   "token_count": 164,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-275"
+  },
+  {
+   "category": "qa",
+   "prompt": "بناء على النص: «ينتج مصنع عصائر 12 ألف عبوة يوميًا، ترفض مراقبة الجودة 2% منها، ويوزع الإنتاج السليم بالتساوي على 49 منفذ بيع». الأسئلة: كم عبوة سليمة تنتج يوميًا؟ وكم عبوة يستلم كل منفذ تقريبًا؟",
+   "token_count": 153,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-276"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «قرر نادٍ رياضي تخفيض رسوم العضوية السنوية من 1800 إلى 1500 ريال، فارتفع عدد الأعضاء من 240 إلى 310». السؤالان: هل زاد الدخل السنوي للنادي أم نقص بعد التخفيض؟ وبكم؟",
+   "token_count": 117,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-277"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «تحتاج وصفة الكيك إلى 3 بيضات و200 جرام سكر و250 جرام دقيق لصنع قالب يكفي 8 أشخاص». تريد أم إعداد كيك يكفي 20 شخصًا: كم بيضة وكم جرامًا من السكر تحتاج؟ اشرح طريقة الحساب.",
+   "token_count": 137,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-278"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «غادر أخوان المنزل معًا بسيارتين إلى المدينة نفسها على بعد 210 كيلومترات. سار الأول بسرعة 70 كم/س والثاني بسرعة 105 كم/س». السؤالان: كم تستغرق رحلة كل منهما؟ وكم دقيقة ينتظر الثاني أخاه عند الوصول؟",
+   "token_count": 143,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-279"
+  },
+  {
+   "category": "qa",
+   "prompt": "بناء على النص: «عمّرت شجرة الزيتون في مزرعة الجد 60 عامًا، وهي أكبر من شجرة التين بـ25 عامًا، بينما زرعت شجرة الرمان بعد التين بعشر سنوات». الأسئلة: كم عمر شجرتي التين والرمان؟ وما مجموع أعمار الأشجار الثلاث؟",
+   "token_count": 151,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-280"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «رصدت محطة أرصاد درجات الحرارة العظمى لأسبوع: 38، 40، 41، 39، 42, 44، 37». الأسئلة: ما متوسط الحرارة العظمى للأسبوع؟ وكم يومًا تجاوزت الحرارة المتوسط؟ وما الفرق بين أعلى وأدنى قراءة؟",
+   "token_count": 143,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-281"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «يوفر موقف السيارات المركزي 180 موقفًا بأجرة 3 ريالات للساعة الأولى وريالين لكل ساعة إضافية، بحد أقصى 15 ريالًا لليوم». كم يدفع من أوقف سيارته 4 ساعات؟ وكم ساعة يحتاج الموقف ليصل إلى الحد الأقصى؟",
+   "token_count": 155,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-282"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «وزعت جمعية 950 سلة غذائية في رمضان: 40% للأسر داخل المدينة و35% للقرى المجاورة والباقي للعمالة الموسمية». الأسئلة: كم سلة استلمت كل فئة من الفئات الثلاث؟",
+   "token_count": 113,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-283"
+  },
+  {
+   "category": "qa",
+   "prompt": "بناء على النص: «يتقاضى مصمم مستقل 450 ريالًا عن الشعار و120 ريالًا عن كل تعديل بعد التعديلين المجانيين. طلب عميل شعارًا وأجرى خمسة تعديلات». كم دفع العميل إجمالًا؟ وكم كان سيوفر لو اكتفى بالتعديلات المجانية؟",
+   "token_count": 146,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-284"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «قطار معلق بين مدينتين ينطلق كل 20 دقيقة من السادسة صباحًا حتى العاشرة مساء، وتستوعب الرحلة 90 راكبًا». السؤالان: كم رحلة ينفذ يوميًا في الاتجاه الواحد؟ وما أقصى عدد ركاب يمكن نقلهم يوميًا في الاتجاهين معًا؟",
+   "token_count": 163,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-285"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «اشترى مقاول 2400 بلاطة لأرضية صالة، تكسر أثناء النقل 3% منها، وتحتاج الصالة فعليًا 2250 بلاطة». هل يكفي المتبقي بعد الكسر لإتمام العمل؟ وكم بلاطة تفيض أو تنقص؟",
+   "token_count": 129,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-286"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «أعلن معرض وظائف عن حضور 3200 باحث عن عمل، أجرى 45% منهم مقابلات فورية، وتلقى ثلث من قابلوا عروض عمل مبدئية». السؤالان: كم شخصًا أجرى مقابلات؟ وكم عرض عمل مبدئيًا صدر تقريبًا؟",
+   "token_count": 139,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-287"
+  },
+  {
+   "category": "qa",
+   "prompt": "بناء على النص: «تصنع خياطة وسادة في 40 دقيقة ومفرش طاولة في ساعة و20 دقيقة. استلمت طلبية: 6 وسائد و3 مفارش تسلم بعد يومين، وهي تعمل 5 ساعات يوميًا». هل تكفي ساعات عملها لإنجاز الطلبية في موعدها؟ اعرض الحساب.",
+   "token_count": 154,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-288"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «باع كشك عصير في يوم حار 240 كوبًا: 90 برتقالًا و75 ليمونًا بالنعناع والباقي رمانًا. سعر البرتقال 7 ريالات والليمون 6 والرمان 9». الأسئلة: كم كوب رمان بيع؟ وما إيراد اليوم الإجمالي؟ وأي صنف حقق أعلى إيراد؟",
+   "token_count": 156,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-289"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «مسبح أولمبي طوله 50 مترًا. تدربت سباحة على قطع 30 طولًا يوميًا لمدة 5 أيام، ثم رفعت الجرعة إلى 40 طولًا لخمسة أيام أخرى». كم كيلومترًا قطعت في الأيام العشرة مجتمعة؟",
+   "token_count": 142,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-290"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «تنتج بئر ارتوازية 15 مترًا مكعبًا من الماء يوميًا، تستهلك المزرعة 9 أمتار وتخزن الباقي في خزان سعته 84 مترًا مكعبًا كان فارغًا». السؤالان: بعد كم يومًا يمتلئ الخزان؟ وكم مترًا مكعبًا يفيض في اليوم التالي لامتلائه إن استمر الوضع نفسه؟",
+   "token_count": 184,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-291"
+  },
+  {
+   "category": "qa",
+   "prompt": "بناء على النص: «رفع مطعم أسعار وجباته 8% مطلع العام، وكان متوسط قيمة الفاتورة قبل الرفع 75 ريالًا، لكن عدد الزبائن الشهري انخفض من 2600 إلى 2450». السؤالان: ما متوسط الفاتورة الجديد؟ وهل ارتفع الإيراد الشهري أم انخفض بعد التعديل؟ بيّن بالأرقام.",
+   "token_count": 171,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-292"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «مكتبة جامعية تفتح 14 ساعة يوميًا أيام الدراسة و8 ساعات في الإجازات. الفصل الدراسي 15 أسبوعًا (5 أيام دراسية أسبوعيًا) تتخلله إجازة أسبوع واحد (5 أيام)». كم ساعة عمل تسجل المكتبة في الفصل كاملًا بإجازته؟",
+   "token_count": 155,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-293"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «تعبئ آلة 300 قارورة ماء في الدقيقة، وتتوقف 10 دقائق للصيانة بعد كل ساعة تشغيل. بدأ خط الإنتاج 7 صباحًا واستمر حتى 10:10 صباحًا بنظام التوقفات نفسه». كم قارورة عبأت الآلة في هذه الفترة؟",
+   "token_count": 149,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-294"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «استأجر ثلاثة أصدقاء شقة بإيجار 2700 ريال شهريًا، يدفع صاحب الغرفة الكبيرة 40% والباقيان بالتساوي. بعد ستة أشهر غادر أحد الشريكين المتساويين فتقاسم الباقيان حصته مناصفة». السؤالان: كم كان يدفع كل واحد في البداية؟ وكم صار يدفع كل من الباقيين بعد المغادرة؟",
+   "token_count": 190,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-295"
+  },
+  {
+   "category": "qa",
+   "prompt": "بناء على النص: «حقل تجريبي زرعت فيه ثلاثة أصناف قمح على مساحات متساوية: أنتج الصنف الأول 4.2 طن للهكتار والثاني 3.6 والثالث 4.8، ومساحة الحقل الكلية 6 هكتارات». الأسئلة: كم طنًا أنتج كل صنف؟ وما إنتاج الحقل الإجمالي؟ وبكم يتفوق الصنف الأفضل على الأضعف؟",
+   "token_count": 192,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-296"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «عداد كهرباء منزل سجل مطلع الشهر 45230 كيلوواط ونهايته 46180. تحسب أول 300 كيلوواط بـ18 هللة للكيلوواط وما فوقها بـ30 هللة». احسب استهلاك الشهر بالكيلوواط، ثم قيمة الفاتورة بالريالات.",
+   "token_count": 134,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-297"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «خصصت مدرسة 5400 ريال لرحلات ثلاثة صفوف بالتساوي. اختار الصف الأول متحفًا تكلفته 40 ريالًا للطالب وعدده 38 طالبًا، فهل يكفي نصيبه؟ وكم يتبقى له أو ينقصه؟» أجب عن السؤالين مع الحساب.",
+   "token_count": 153,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-298"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «مصبغة تكوي الثوب بـ4 ريالات والشماغ بـ3 والغترة بـ2. سلم عميل 12 ثوبًا و8 أشمغة و5 غتر، ودفع خمسين ومئة ريال». السؤالان: كم قيمة الطلب الفعلية؟ وكم يجب أن يستعيد العميل من المبلغ المدفوع؟",
+   "token_count": 147,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-299"
+  },
+  {
+   "category": "qa",
+   "prompt": "بناء على النص: «انطلقت حملة تشجير بهدف غرس 5000 شتلة في شهر. غرس المتطوعون في الأسبوع الأول 900 شتلة، وفي الثاني 1250، وفي الثالث 1400». السؤالان: كم شتلة يجب غرسها في الأسبوع الأخير لتحقيق الهدف؟ وما متوسط الغرس الأسبوعي المطلوب أصلًا لو وزع الهدف بالتساوي؟",
+   "token_count": 185,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-300"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «يبعد منزل موظفة عن عملها 18 كيلومترًا. جربت ثلاث وسائل أسبوعًا لكل منها: سيارتها (25 دقيقة، وقود 12 ريالًا يوميًا)، الحافلة (50 دقيقة، 4 ريالات)، مشاركة زميلة (35 دقيقة، 6 ريالات)». الأسئلة: كم توفر شهريًا (22 يوم عمل) لو تحولت من سيارتها للحافلة؟ وكم دقيقة إضافية ستنفق يوميًا مقابل هذا التوفير؟",
+   "token_count": 234,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-301"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «ورث ثلاثة إخوة قطعة أرض مساحتها 1800 متر مربع: للأكبر النصف وللأوسط الثلث وللأصغر الباقي. قرر الأصغر شراء نصف حصة الأوسط». السؤالان: ما مساحة نصيب كل أخ بعد الميراث مباشرة؟ وكم صارت حصة الأصغر بعد الشراء؟",
+   "token_count": 165,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-302"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «تقيم صالة رياضية عرضًا: اشتراك 6 أشهر بـ900 ريال أو 12 شهرًا بـ1500، مع شهر مجاني إضافي لمن يجدد قبل انتهاء اشتراكه». السؤالان: ما تكلفة الشهر الواحد في كل خيار قبل احتساب الشهر المجاني؟ وما تكلفته الفعلية في الخيار السنوي إذا حصل المشترك على الشهر المجاني؟",
+   "token_count": 189,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-303"
+  },
+  {
+   "category": "qa",
+   "prompt": "بناء على النص: «طبعت دار نشر 3000 نسخة من ديوان شعري: بيعت 1800 بالسعر الكامل 45 ريالًا، و700 بخصم 40% في معرض الكتاب، وأهديت 120، وبقي الباقي في المستودع». الأسئلة: كم نسخة بقيت؟ وما إجمالي إيرادات البيع؟",
+   "token_count": 141,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-304"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ النص ثم أجب: «افتتحت البلدية سوق المزارعين الأسبوعي قبل ثلاثة أشهر بهدف ربط المنتج المحلي بالمستهلك مباشرة. في شهره الأول ضم السوق 22 مزارعًا وبلغ متوسط زواره 1400 زائر أسبوعيًا. ومع انتشار صوره على وسائل التواصل قفز عدد المزارعين المشاركين في الشهر الثاني إلى 35 والزوار إلى 2600 أسبوعيًا. لكن الشهر الثالث حمل مشكلة نجاح غير متوقعة: ضاقت مواقف السيارات، ووقف باعة غير مرخصين على أطراف السوق يبيعون منتجات مستوردة موهمين الزوار أنها محلية، فتلقت البلدية 47 شكوى من مزارعين وزوار معًا. ردت البلدية بثلاثة إجراءات: نقل السوق إلى ساحة أكبر بضعف المواقف، وإلزام كل بائع مرخص بلوحة تعريف موحدة تحمل اسم مزرعته وموقعها، وتخصيص رقم واتساب للبلاغات. في أول أسبوعين بعد الإجراءات انخفضت الشكاوى إلى خمس فقط، وارتفع الزوار إلى 3100». الأسئلة: أولًا، بكم تضاعف عدد الزوار الأسبوعي بين الشهر الأول وما بعد الإجراءات؟ ثانيًا، ما الفرق بين مشكلتي الشهر الثالث من حيث المتضرر المباشر؟ ثالثًا، أي الإجراءات الثلاثة يعالج مشكلة الباعة غير المرخصين تحديدًا ولماذا؟",
+   "token_count": 694,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-305"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «قررت إدارة مصنع ملابس قياس أثر تحسين الإضاءة على الإنتاجية والأخطاء. قبل التحسين كان خط الإنتاج الواحد ينجز 480 قطعة يوميًا بمعدل عيوب 6%. بعد استبدال الإضاءة القديمة بإضاءة طبيعية موزعة، ارتفع إنجاز الخط إلى 510 قطع يوميًا وانخفضت العيوب إلى 3.5%. تكلفة التحديث للخط الواحد كانت 18 ألف ريال، وتقدر خسارة القطعة المعيبة بـ25 ريالًا لأنها تباع في التصفيات بربع سعرها. يعمل المصنع 300 يوم في السنة وفيه أربعة خطوط، حُدّث منها خطان فقط حتى الآن». الأسئلة: أولًا، كم قطعة معيبة يوميًا كان ينتجها الخط قبل التحسين وبعده؟ ثانيًا، احسب الوفر اليومي للخط الواحد من انخفاض العيوب وحده بالريالات. ثالثًا، في كم يوم عمل يسترد الخط تكلفة تحديثه من وفر العيوب فقط، متجاهلًا زيادة الإنتاج؟ رابعًا، ما عدد القطع السليمة التي ينتجها المصنع يوميًا بخطيه المحدثين وخطيه القديمين معًا؟",
+   "token_count": 570,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-306"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «تحكي مذكرات معلمة متقاعدة عن مدرسة القرية التي التحقت بها عام 1979 حين كانت غرفتين من الطين وسبعًا وعشرين تلميذة يجلسن على الحصير. في عامها الخامس بنيت المدرسة الحجرية بأربعة فصول فتضاعف عدد التلميذات مرتين ونصفًا عن العدد الأول. وفي منتصف التسعينيات وصلت الكهرباء فدخل أول جهاز حاسوب المدرسة عام 1997، وتذكر المعلمة أن التلميذات كن يصطففن لمجرد لمس الفأرة. توسعت المدرسة مرة أخيرة عام 2005 لتصبح اثني عشر فصلًا و320 تلميذة، وتخرجت فيها قبل تقاعد المعلمة بعام واحد أول طبيبة من بنات القرية، وكانت المعلمة قد درّستها القراءة في الصف الأول. تقاعدت صاحبة المذكرات عام 2016 بعد سبعة وثلاثين عامًا في المدرسة نفسها، رافضة عروض النقل للمدينة كلها». الأسئلة: أولًا، كم تلميذة صارت في المدرسة بعد بناء المبنى الحجري؟ ثانيًا، في أي عام بنيت المدرسة الحجرية؟ استنتج من النص. ثالثًا، في أي عام تخرجت الطبيبة الأولى؟ رابعًا، كم عامًا مر بين وصول أول حاسوب والتوسعة الأخيرة؟",
+   "token_count": 620,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-307"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «أطلق مطار إقليمي خدمة جديدة للمسافرين المتكررين: بوابة عبور سريع باشتراك سنوي 600 ريال توفر في المتوسط 35 دقيقة انتظار في كل سفرة. حللت إدارة المطار بيانات السنة الأولى: اشترك في الخدمة 2200 مسافر، متوسط سفرات المشترك الواحد 14 سفرة سنويًا. وأظهر استطلاع رضا شمل 500 مشترك أن 82% راضون تمامًا، و11% راضون مع ملاحظات أبرزها ازدحام البوابة السريعة نفسها في مواسم الأعياد، و7% غير راضين ومعظمهم مسافرون تقل سفراتهم عن خمس سنويًا قالوا إن الاشتراك لم يكن مجديًا لهم. بناء على النتائج قررت الإدارة: فتح بوابة سريعة ثانية تعمل في المواسم فقط، واستحداث باقة مخفضة بـ250 ريالًا لمن يسافر أقل من ست سفرات». الأسئلة: أولًا، كم بلغت إيرادات الاشتراكات في السنة الأولى؟ ثانيًا، كم ساعة انتظار وفرها المشترك المتوسط في سنته (بالساعات والدقائق)؟ ثالثًا، كم مشتركًا من عينة الاستطلاع كان غير راضٍ؟ رابعًا، اربط كل قرار من قراري الإدارة بفئة الملاحظات التي يعالجها.",
+   "token_count": 615,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-308"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ التقرير ثم أجب: «رصد فريق بيئي تدهور واحة صغيرة على مدى عقد: عام 2015 كانت الواحة تضم 3400 نخلة منتجة وعين ماء تتدفق بمعدل 40 لترًا في الثانية. مع التوسع الزراعي المحيط وحفر الآبار العشوائية، انخفض تدفق العين عام 2019 إلى 26 لترًا في الثانية وهلكت 600 نخلة عطشًا. تدخلت هيئة البيئة عام 2020 بثلاث خطوات: ردم 14 بئرًا مخالفة من أصل 20 رصدتها, وتركيب شبكة ري بالتنقيط حلت محل الري بالغمر فخفضت استهلاك النخلة الواحدة من 90 لترًا يوميًا إلى 35، وزراعة 250 فسيلة جديدة من أصناف مقاومة. بحلول 2024 تعافى تدفق العين إلى 33 لترًا في الثانية، وبلغ عدد النخيل المنتج 3050 نخلة بعد أن أثمرت الفسائل الجديدة وأنقذ الري الحديث مئتي نخلة كانت مهددة». الأسئلة: أولًا، كم نخلة منتجة كانت في الواحة عام 2019 قبل تدخل الهيئة؟ استنتج بدقة. ثانيًا، كم لترًا يوميًا كانت تستهلك 3000 نخلة بالغمر، وكم صارت تستهلك بالتنقيط؟ ثالثًا، كم بئرًا مخالفة بقيت دون ردم؟ رابعًا، ما نسبة التعافي في تدفق العين عام 2024 مقارنة بمستوى 2015؟",
+   "token_count": 666,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-309"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «نظم اتحاد الحرفيين معرضه السنوي في قصر تراثي مدة عشرة أيام. شارك 64 حرفيًا وزعوا على أربعة أجنحة: النسيج (18 حرفيًا)، والخشب والنقش (15)، والفخار والخزف (16)، والمعادن والحلي (15). بلغ إجمالي الزوار 38 ألفًا، وسجلت المبيعات الكلية 910 آلاف ريال، تصدر جناح المعادن والحلي بثلث المبيعات، وجاء النسيج ثانيًا بـ250 ألفًا، ثم الفخار بـ190 ألفًا، والباقي للخشب. يدفع كل حرفي رسم مشاركة 500 ريال، ويقتطع الاتحاد 5% من مبيعات كل جناح لصندوق تدريب الحرفيين الشباب الذي يمول دورات مجانية تكلفة الواحدة 8 آلاف ريال». الأسئلة: أولًا، كم بلغت مبيعات جناحي المعادن والخشب بالريالات؟ ثانيًا، كم جمع صندوق التدريب من هذه الدورة (الرسوم لا تدخل الصندوق)؟ ثالثًا، كم دورة تدريبية كاملة يمول الصندوق من متحصلات هذا المعرض؟ رابعًا، ما متوسط مبيعات الحرفي الواحد في الجناح الأعلى مبيعًا؟",
+   "token_count": 565,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-310"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «تصف رسالة قبطان بحري لابنه رحلة الغوص الأخيرة في موسم صيف 1932: أبحرت السفينة وعلى متنها 42 رجلًا بين غيص وسيب ونهّام وطباخ، وقضت في البحر أربعة أشهر وعشرة أيام. كان الغاصة ينزلون من الفجر حتى العصر، ينجز الغيص الواحد نحو خمسين غوصة في اليوم، تدوم الواحدة دقيقة ونصفًا في المتوسط على حبس نفس واحد. جمعت الرحلة 480 محارة يوميًا في المتوسط، لا يوجد اللؤلؤ إلا في واحدة من كل مئة تقريبًا، وأغلب ما يوجد صغير لا يسمن. باعت السفينة حصادها كله في سوق اللؤلؤ بألف وثمانمئة روبية، ذهب نصفها لتجهيز السفينة وديون التموين، وربعها للنوخذة، وتقاسم الباقي البحارة على نظام الأسهم: للغيص سهمان وللسيب سهم واحد، وكان على السفينة 18 غيصًا و20 سيبًا». الأسئلة: أولًا، كم دقيقة يقضيها الغيص تحت الماء يوميًا تقريبًا؟ ثانيًا، كم محارة جمعت الرحلة كلها تقريبًا (احسب الشهر ثلاثين يومًا)، وكم لؤلؤة متوقعة فيها؟ ثالثًا، كم روبية تقاسمها البحارة، وكم قيمة السهم الواحد؟ رابعًا، كم نال الغيص الواحد وكم نال السيب؟",
+   "token_count": 694,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-311"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «حللت هيئة النقل تجربة تطبيق مشاركة الرحلات بين ثلاث مدن جامعية. في المدينة الأولى، حيث تتوفر حافلات جامعية مجانية، لم يتجاوز مستخدمو التطبيق 8% من الطلاب واقتصر استخدامهم على أوقات متأخرة بعد توقف الحافلات. في الثانية، التي تفتقر للنقل الجامعي وترتفع فيها أجرة سيارات الأجرة، قفزت نسبة المستخدمين إلى 46% ووفر الطالب المنتظم نحو 320 ريالًا شهريًا مقارنة بالأجرة التقليدية. أما الثالثة فكانت مفاجأة التحليل: رغم توفر حافلات جامعية، استخدم التطبيق 31% من الطلاب، وكشفت المقابلات أن السبب الأول ليس التوفير بل الوقت، إذ تسلك الحافلات مسارات طويلة متعرجة تستغرق 70 دقيقة بينما تختصرها المشاركة إلى 25. خلص التقرير إلى أن العامل الحاسم في تبني التطبيق ليس غياب البدائل المجانية بل جودة البدائل مقاسة بالزمن والراحة معًا». الأسئلة: أولًا، رتب المدن الثلاث حسب نسبة تبني التطبيق. ثانيًا، لماذا تعد المدينة الثالثة مفاجأة التحليل؟ اشرح بالمقارنة مع الأولى. ثالثًا، كم دقيقة يوفر طالب المدينة الثالثة يوميًا إذا استخدم التطبيق ذهابًا وإيابًا؟ رابعًا، صغ خلاصة التقرير بجملة من عندك دون نقلها حرفيًا.",
+   "token_count": 699,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-312"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «ورشة صيانة دراجات هوائية يديرها فنيان: الأول متخصص في ضبط السرعات والفرامل وينجز الطلب في 40 دقيقة، والثاني في العجلات والإطارات وينجز طلبه في 25 دقيقة، وكلاهما يستطيع أداء عمل الآخر لكن بزمن يزيد النصف. تفتح الورشة 8 ساعات يوميًا لكل فني. صباح اليوم وصلت دفعة واحدة: 7 طلبات سرعات وفرامل و12 طلب عجلات وإطارات. اقترح الفني الأول أن يلتزم كل منهما بتخصصه فقط، بينما اقترح الثاني أن يساعد الأول في طلبات السرعات بعد إنهاء طلباته». الأسئلة: أولًا، بخطة التخصص الصارم: كم ساعة يحتاج كل فني لإنهاء طلباته، ومن ينهي أولًا وبفارق كم؟ ثانيًا، هل تكفي ساعات الدوام لإنجاز كل الطلبات بهذه الخطة؟ ثالثًا، بخطة التعاون: إذا أنهى الثاني طلباته ثم تحول لمساعدة الأول، فكم طلب سرعات سينجز الثاني في وقته المتبقي (تذكر زيادة النصف في زمنه)؟ وهل تُنهى الدفعة كلها داخل الدوام حينها؟",
+   "token_count": 577,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-313"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «أصدرت أمانة العاصمة تقريرها عن برنامج ترميم البيوت الطينية في الحي التاريخي. تقدم للبرنامج 96 مالكًا، واستوفى الشروط 60 بيتًا صنفت ثلاث درجات حسب حالتها: 15 بيتًا (ترميم شامل بمتوسط تكلفة 220 ألفًا للبيت)، و27 بيتًا (ترميم متوسط بـ90 ألفًا)، و18 بيتًا (ترميم خفيف بـ35 ألفًا). تتحمل الأمانة 70% من التكلفة ويتحمل المالك الباقي، مع إعفاء كامل لخمسة ملاك من كبار السن محدودي الدخل جميع بيوتهم من فئة الترميم الشامل. اكتمل حتى صدور التقرير ترميم 40 بيتًا وافتتح في ستة منها مقاهٍ ومشاغل حرفية أعادت الحياة للحي، وارتفعت أسعار العقارات المجاورة 18%». الأسئلة: أولًا، ما التكلفة الإجمالية لترميم البيوت الستين؟ ثانيًا، كم تتحمل الأمانة إجمالًا بعد احتساب الإعفاءات الخمسة؟ ثالثًا، كم يدفع مالك بيت من الدرجة المتوسطة من جيبه؟ رابعًا، كم بيتًا لم يكتمل ترميمه بعد؟",
+   "token_count": 569,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-314"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «تجربة مثيرة أجرتها مكتبة عامة لقياس أثر (رف الإعادة المفتوح): بدل أن يعيد الزوار الكتب لموظف الاستقبال، وضعت رفًا مفتوحًا يتصفح منه أي زائر الكتب المعادة قبل فرزها. راقبت المكتبة الظاهرة شهرين فوجدت أن 35% من الكتب المعادة تستعار مجددًا من الرف نفسه قبل عودتها للأدراج أصلًا، وسمى الموظفون الظاهرة (عدوى القراءة): فالكتاب الذي أعاده قارئ للتو يحمل توصية صامتة. قررت المكتبة تطوير الفكرة: أضافت بطاقات صغيرة يكتب عليها المعيد جملة واحدة عن الكتاب اختياريًا، فكتب 40% من المعيدين بطاقات، وارتفعت نسبة الاستعارة الفورية من الرف إلى 52%. اللافت أن كتب الشعر التي كانت الأقل إعارة في المكتبة تضاعفت إعارتها ثلاث مرات بعد نظام البطاقات، بينما لم تتأثر كتب المناهج والمراجع إطلاقًا، ففهم الفريق أن التوصية الشخصية تعمل حيث يكون القرار عاطفيًا لا وظيفيًا». الأسئلة: أولًا، ما الفرق بالنقاط المئوية في الاستعارة الفورية قبل البطاقات وبعدها؟ ثانيًا، اشرح تسمية (عدوى القراءة) بجملتك. ثالثًا، لماذا لم تتأثر كتب المراجع بالنظام حسب تفسير الفريق؟ رابعًا، إذا أعيد 1200 كتاب شهريًا بعد نظام البطاقات، فكم كتابًا يستعار فورًا من الرف وكم بطاقة يتوقع أن تكتب؟",
+   "token_count": 768,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-315"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «تتبعت دراسة ميدانية أثر تغيير مواعيد بدء الدوام المدرسي في محافظة جبلية شتاؤها قارس. كان الدوام يبدأ 6:45 صباحًا للمراحل كلها، فقررت التعليم تجربة عامين: بقيت الابتدائية على موعدها، وأخرت المتوسطة إلى 7:30، والثانوية إلى 8:15. النتائج بعد العام الأول: انخفض تأخر طلاب الثانوية الصباحي 64%، وتحسن متوسط درجات اختبارات الحصة الأولى لديهم 9%، وأبلغ 71% منهم عن نوم أطول بواقع 50 دقيقة في المتوسط. المتوسطة سجلت تحسنًا أقل: انخفاض تأخر 30% ونوم إضافي 25 دقيقة. أما الابتدائية الضابطة فلم تتغير مؤشراتها. لكن التجربة أظهرت كلفة تشغيلية: احتاجت الحافلات لثلاث جولات متعاقبة بدل جولة واحدة فارتفعت كلفة النقل 45%، واشتكت أسر لديها أبناء في مرحلتين من تشتت الصباح. توصي الدراسة بالإبقاء على التدرج مع دمج جولتي المتوسطة والثانوية بتقريب موعديهما، ما يخفض الجولات إلى اثنتين ويقلص زيادة الكلفة إلى 20%». الأسئلة: أولًا، ما الفئة الأكثر استفادة من التجربة؟ دلل بثلاثة مؤشرات. ثانيًا، لماذا أبقيت الابتدائية على موعدها في تصميم الدراسة؟ ثالثًا، ما التنازل الذي تقدمه التوصية النهائية مقابل خفض الكلفة، وما الذي تحافظ عليه؟",
+   "token_count": 735,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-316"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «مزارع شاب ورث عن أبيه بيتين محميين (بيوت بلاستيكية) مساحة كل منهما 400 متر مربع، وقرر مقارنة أسلوبين للزراعة موسمًا كاملًا: زرع الأول طماطم بالطريقة التقليدية في التربة، فأنتج 5.5 كيلوغرام للمتر المربع واستهلك 320 لترًا من الماء للمتر خلال الموسم. وجهز الثاني بنظام الزراعة المائية المعلقة بتكلفة تجهيز 55 ألف ريال، فأنتج 11 كيلوغرامًا للمتر واستهلك 95 لترًا للمتر. بيع كيلو الطماطم بمتوسط 4 ريالات في الموسم. لاحظ المزارع أيضًا أن البيت المائي احتاج عاملًا واحدًا بدل عاملين، بأجر شهري 1800 ريال للعامل، والموسم خمسة أشهر». الأسئلة: أولًا، ما إنتاج كل بيت بالكيلوغرامات وقيمته بالريالات؟ ثانيًا، كم لترًا من الماء وفر البيت المائي في الموسم كاملًا؟ ثالثًا، كم وفر البيت المائي من أجور في الموسم؟ رابعًا، هل يغطي فارق الإيراد والأجور في موسم واحد تكلفة التجهيز؟ احسب العجز أو الفائض.",
+   "token_count": 584,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-317"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «في بطولة الحي لكرة القدم شاركت 8 فرق بنظام المجموعتين: تلعب فرق المجموعة الواحدة (4 فرق) فيما بينها دوريًا من جولة واحدة، ثم يتأهل الأول والثاني من كل مجموعة لنصف النهائي المتقاطع (أول المجموعة الأولى ضد ثاني الثانية والعكس)، فالنهائي ومباراة تحديد الثالث. النقاط: ثلاث للفوز وواحدة للتعادل. في المجموعة الأولى: فاز فريق الصقور بمبارياته الثلاث، وجمع فريق النخيل 4 نقاط، وفريق الشعلة 4 نقاط أيضًا لكن النخيل تأهل بفارق الأهداف، وخسر الرابع مبارياته كلها. أنهى الصقور البطولة بطلًا بعد فوزه في نصف النهائي 3-1 وفي النهائي بركلات الترجيح إثر تعادل 2-2، وكان هدافه سالم قد سجل في البطولة 7 أهداف من أصل 12 هدفًا سجلها فريقه». الأسئلة: أولًا، كم مباراة أقيمت في البطولة كلها؟ ثانيًا، كم نقطة جمع الصقور في دور المجموعات، وكم نقطة جمع رابع مجموعته؟ ثالثًا، ما نسبة مساهمة سالم في أهداف فريقه؟ رابعًا، من التقى الصقور في نصف النهائي: أول المجموعة الثانية أم ثانيها؟",
+   "token_count": 628,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-318"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ النص ثم أجب: «قررت بلدية مدينة ساحلية معالجة ازدحام كورنيشها الشهير أيام العطل بعد أن بلغ زواره 45 ألفًا في اليوم الواحد بينما صمم لعشرين ألفًا. رفضت البلدية خيار رسوم الدخول لأن الكورنيش المتنفس الوحيد المجاني للأسر محدودة الدخل، واختارت بدلًا منه حزمة إعادة توزيع: أنشأت ثلاث حدائق شاطئية جديدة على امتداد الساحل شمالًا تبعد 4 و7 و11 كيلومترًا، وشغلت خطي حافلات مجانيين إليها أيام العطل، ونقلت إلى الحدائق الجديدة الفعاليات الترفيهية الكبرى التي كانت حكرًا على الكورنيش، وأبقت فيه الأنشطة الهادئة فقط. بعد صيف كامل: انخفض زوار الكورنيش أيام الذروة إلى 27 ألفًا، واستقطبت الحدائق الثلاث مجتمعة 31 ألف زائر في يوم العطلة، نصفهم للحديقة الوسطى وحدها لأنها الأقرب لمجمع سكني ضخم، وارتفع رضا مرتادي الكورنيش عن التجربة من 2.9 إلى 4.1 من 5». الأسئلة: أولًا، بكم انخفض عدد زوار الكورنيش يوم الذروة وبأي نسبة تقريبًا؟ ثانيًا، هل زاد إجمالي مرتادي الواجهة البحرية (الكورنيش والحدائق معًا) أم نقص مقارنة بالوضع السابق؟ ثالثًا، كم زائرًا استقطبت الحديقة الوسطى، ولماذا تفوقت؟ رابعًا، لماذا رفضت البلدية خيار الرسوم رغم فاعليته المتوقعة في خفض الازدحام؟",
+   "token_count": 780,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-319"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «يوثق سجل عائلي رحلة مطعم (بيت المندي) عبر ثلاثة أجيال. أسسه الجد عام 1965 بدكان من ست طاولات، وكان يبيع 40 وجبة يوميًا بربع ريال للوجبة. ورثه الابن عام 1988 فوسعه إلى ثلاثين طاولة وأدخل التوصيل بالدراجات، ووصل البيع في ذروة التسعينيات إلى 350 وجبة يوميًا. تسلمت الحفيدة الإدارة عام 2018 بشهادة إدارة أعمال، فأطلقت التطبيق الإلكتروني وافتتحت فرعين، ليقفز البيع اليومي في الفروع الثلاثة إلى 1400 وجبة، منها 65% عبر التطبيق. لكن الحفيدة أبقت على ثلاث تقاليد أصر عليها الجد قبل وفاته: التنور الطيني الأصلي في الفرع الأول، ووجبة الجمعة المجانية لكل مسن يأكل وحيدًا، ولوحة الأسعار الخشبية الأولى معلقة عند المدخل تذكارًا. حسب دفاتر العائلة، تضاعف سعر الوجبة منذ التأسيس ستين مرة». الأسئلة: أولًا، كم عامًا أدار كل جيل المطعم حتى تاريخ السجل (2024)؟ ثانيًا، كم وجبة يوميًا تباع عبر التطبيق؟ ثالثًا، ما سعر الوجبة الحالي وفق مضاعفة الدفاتر؟ رابعًا، أي التقاليد الثلاثة له طابع اجتماعي خيري، وأيها له طابع توثيقي رمزي؟",
+   "token_count": 664,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-320"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «أجرى قسم الطوارئ في مستشفى تعليمي مراجعة لتوزيع الحالات الواردة على مدار اليوم بهدف إعادة جدولة الكادر. أظهرت بيانات ثلاثة أشهر (91 يومًا) أن المستشفى يستقبل 156 حالة يوميًا في المتوسط موزعة كالآتي: فترة الصباح (6-14) تستقبل 30% من الحالات ومعظمها مواعيد متابعة تحولت خطأ للطوارئ، وفترة المساء (14-22) تستقبل 45% وهي ذروة الإصابات الرياضية وحوادث الدراجات، وفترة الليل (22-6) تستقبل الباقي لكن 70% من حالات الليل مصنفة عاجلة فعلًا مقابل 25% فقط في الصباح. الكادر الحالي موزع بالتساوي: 12 ممرضًا في كل فترة. اقترحت المراجعة معادلة جديدة: توزيع الممرضين بما يتناسب مع عدد الحالات العاجلة لا إجمالي الحالات، مع حد أدنى 8 ممرضين لأي فترة». الأسئلة: أولًا، كم حالة يستقبل المستشفى في كل فترة يوميًا؟ ثانيًا، احسب عدد الحالات العاجلة يوميًا في فترتي الصباح والليل. ثالثًا، لماذا قد يكون توزيع الممرضين بالتساوي ظالمًا لفترة الليل رغم أنها الأقل حالات؟ رابعًا، ما القيد الذي وضعته المراجعة على المعادلة الجديدة وما حكمته؟",
+   "token_count": 672,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-321"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «رحلة قافلة تجارية موثقة في مخطوطة من القرن التاسع عشر: غادرت القافلة المدينة الداخلية وهي تضم 85 جملًا محملًا: 40 جملًا تحمل التمور (حمل الجمل الواحد 180 كيلوغرامًا)، و25 تحمل الصوف والجلود، و20 تحمل السمن والعسل. المسافة إلى ميناء التصدير اثنا عشر يومًا سيرًا، تقطع القافلة يوميًا ما بين 35 و40 كيلومترًا. في اليوم الخامس هبت عاصفة رملية أضاعت ثلاثة جمال من جمال التمور عثر على اثنين منها بعد يوم كامل من البحث. وعند بئر منتصف الطريق باعت القافلة خُمس حمولة السمن والعسل لقافلة معاكسة، وابتاعت بثمنها أقمشة هندية. وصلت القافلة الميناء بعد أربعة عشر يومًا من انطلاقها بسبب يوم البحث ويوم توقف للمقايضة». الأسئلة: أولًا، كم كيلوغرامًا من التمور وصلت الميناء فعليًا؟ ثانيًا، ما المدى التقريبي للمسافة الكلية بين المدينة والميناء وفق معدل السير اليومي؟ ثالثًا، كم جملًا من قسم السمن والعسل ظل محملًا بحمولته الأصلية بعد صفقة البئر؟ رابعًا، فسر الفارق بين مدة الرحلة المخططة والفعلية.",
+   "token_count": 642,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-322"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «أطلقت جامعة برنامج (رفيق المختبر) لمعالجة تعثر طلاب السنة الأولى في مقرر الكيمياء العملي الذي بلغت نسبة الرسوب فيه 28%. الفكرة: يرافق كل طالبِ سنة أولى طالبٌ متفوق من السنة الثالثة في جلسات المختبر، مقابل ساعات تطوع تحتسب للمرافق في سجله المهاري. التحق بالبرنامج 180 طالبًا مستجدًا من أصل 450، ورافقهم 60 متفوقًا بواقع ثلاثة مستجدين لكل مرافق. نهاية الفصل جاءت النتائج: رسب من المشاركين في البرنامج 9% فقط، بينما ظلت نسبة رسوب غير المشاركين 26%. لكن لجنة التقييم نبهت إلى تحفظ منهجي: المشاركة كانت طوعية، ما يعني أن الطلاب الأكثر جدية ربما هم من التحقوا أصلًا، فأوصت بتجربة مقارنة العام القادم يوزع فيها المشاركون عشوائيًا قبل تعميم البرنامج». الأسئلة: أولًا، كم طالبًا رسب من المشاركين وكم من غير المشاركين؟ ثانيًا، ما نسبة الرسوب الإجمالية في المقرر هذا الفصل بعد البرنامج؟ ثالثًا، اشرح التحفظ المنهجي للجنة بلغتك وسبب أهميته قبل تعميم البرنامج. رابعًا، ماذا اقترحت اللجنة حلًا لهذا التحفظ؟",
+   "token_count": 650,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-323"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «متجر إلكتروني للمنتجات الحرفية راجع سياسة الشحن بعد شكاوى. كان يشحن بشركة واحدة برسوم ثابتة 25 ريالًا للطلب أيًا كان حجمه، مع مدة توصيل 5 أيام ونسبة تلف للقطع الخزفية 8%. جرب المتجر شهرًا نظامًا جديدًا: شركة ممتازة للقطع القابلة للكسر (رسوم 40 ريالًا، توصيل يومان، تغليف خاص خفض التلف إلى 1%)، وشركة اقتصادية لغير القابل للكسر (رسوم 18 ريالًا، توصيل 6 أيام). في شهر التجربة شحن المتجر 600 طلب: 40% منها قطع قابلة للكسر متوسط قيمة الطلب فيها 300 ريال، و60% غير قابلة للكسر. كان المتجر يعوض العميل قيمة أي قطعة تصل تالفة كاملة». الأسئلة: أولًا، ما إجمالي رسوم الشحن في الشهر بالنظام القديم مقابل الجديد؟ ثانيًا، احسب قيمة تعويضات التلف للقطع القابلة للكسر في النظامين (طبق نسبة التلف على طلبات الكسر فقط). ثالثًا، بجمع الرسوم والتعويضات: أي النظامين أوفر للمتجر وبكم؟ رابعًا، ما المكسبان غير الماليين في النظام الجديد؟",
+   "token_count": 600,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-324"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «توثق نشرة نادي الفلك رصد كسوف الشمس الحلقي الذي عبر سماء المنطقة صباح الجمعة. بدأ الكسوف الجزئي 9:12 صباحًا، وبلغ طور الحلقة الكاملة 10:37 واستمرت الحلقية 4 دقائق و20 ثانية، ثم انتهى الكسوف كليًا 12:09 ظهرًا. جهز النادي ثلاث نقاط رصد عامة وزع فيها 2500 نظارة آمنة مجانًا، وحضر النقاط الثلاث نحو 6 آلاف شخص تشارك كثيرون النظارات بالتناوب. كما بث النادي الظاهرة مباشرة عبر تلسكوب مزود بمرشح شمسي تابعه 85 ألف مشاهد. وسجل فريق القياس انخفاض درجة الحرارة في موقع الرصد الرئيس ثلاث درجات أثناء الذروة، وسلوكًا لافتًا للطيور التي عادت لأعشاشها ظانة حلول المساء. ينبه النادي في ختام نشرته إلى أن الكسوف الحلقي التالي المرئي من المنطقة سيكون بعد أحد عشر عامًا، بينما سيمر كسوف جزئي بعد ثلاث سنوات». الأسئلة: أولًا، كم دقيقة استغرق الكسوف من بدايته إلى نهايته الكلية؟ ثانيًا، ما متوسط عدد الحاضرين لكل نظارة موزعة؟ ثالثًا، اذكر دليلين من النشرة على أثر الكسوف في البيئة المحيطة. رابعًا، في أي عام يقع الكسوف الحلقي التالي إذا كانت النشرة صادرة عام 2026؟",
+   "token_count": 703,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-325"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «شركة تنظيف واجهات زجاجية تعاقدت على برج من 32 طابقًا، في كل طابق 48 لوحًا زجاجيًا. يعمل فريقان: فريق المنصات المعلقة ينظف 60 لوحًا في الساعة ويغطي الطوابق من التاسع فما فوق، وفريق الرافعات ينظف 45 لوحًا في الساعة ويغطي الطوابق الثمانية الأولى. يعمل الفريقان 6 ساعات فعلية يوميًا. تفرض اشتراطات السلامة توقف فريق المنصات كليًا إذا تجاوزت سرعة الرياح حدًا معينًا، وقد توقف بالفعل يومًا كاملًا من أيام المشروع بينما واصل فريق الرافعات عمله». الأسئلة: أولًا، كم لوحًا يغطي كل فريق في المشروع كله؟ ثانيًا، كم يوم عمل يحتاج فريق الرافعات نظريًا لإنهاء نصيبه؟ ثالثًا، كم يومًا يحتاج فريق المنصات لإنهاء نصيبه مع احتساب يوم التوقف؟ رابعًا، إذا بدأ الفريقان معًا صباح الأحد (والعمل مستمر يوميًا)، ففي أي يوم ينتهي المشروع كاملًا؟",
+   "token_count": 552,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-326"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «تحول مصنع أثاث عائلي إلى الطاقة الشمسية على مرحلتين. قبل التحول كانت فاتورة الكهرباء الشهرية 42 ألف ريال. المرحلة الأولى (ألواح على سطح المصنع بتكلفة 900 ألف) غطت 55% من الاستهلاك. وبعد عامين نفذ المرحلة الثانية (مظلات شمسية فوق مواقف الشاحنات بتكلفة 600 ألف) فارتفعت التغطية الإجمالية إلى 85%. تبيع الشركة فائض إنتاج أيام العطل للشبكة بما يعادل 3 آلاف ريال شهريًا في المتوسط بعد اكتمال المرحلتين. يعمل المصنع بنظام صيانة سنوية للألواح تكلف 25 ألف ريال بعد اكتمال المرحلتين». الأسئلة: أولًا، كم صارت فاتورة الكهرباء الشهرية بعد كل مرحلة؟ ثانيًا، ما صافي الوفر السنوي بعد اكتمال المرحلتين (وفر الفاتورة + بيع الفائض - الصيانة)؟ ثالثًا، في كم سنة تسترد تكلفة المرحلتين معًا من صافي الوفر السنوي؟ قرب لأقرب نصف سنة.",
+   "token_count": 516,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-327"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «سباق الهجن السنوي في نسخته الأخيرة أقيم على مضمار طوله 8 كيلومترات وشاركت فيه 120 مطية موزعة على أربعة أشواط عمرية متساوية العدد. حقق الفائز في شوط الكبار زمن 12 دقيقة و30 ثانية، بينما جاء زمن الفائز في شوط الحقايق (الأصغر سنًا) 14 دقيقة و24 ثانية لأن الشوط يقام على نصف المضمار فقط لصغر سن المطايا... عذرًا، بل يقام شوط الحقايق على 4 كيلومترات. خصصت اللجنة جوائز للمراكز الخمسة الأولى في كل شوط: 100 ألف للأول، 60 للثاني، 35 للثالث، 20 للرابع، 10 للخامس. واشترطت اللجنة فحصًا بيطريًا قبل كل شوط استبعد 7 مطايا من المشاركة في مختلف الأشواط، كما استبعدت الكاميرات الذكية مطيتين أثناء السباق لمخالفات». الأسئلة: أولًا، كم مطية في كل شوط قبل الاستبعادات؟ ثانيًا، احسب متوسط سرعة الفائز في شوطي الكبار والحقايق بالكيلومتر في الساعة وقارن. ثالثًا، ما إجمالي الجوائز الموزعة في النسخة كلها؟ رابعًا، كم مطية أكملت السباق فعليًا في الأشواط الأربعة؟",
+   "token_count": 610,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-328"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «افتتحت وزارة الثقافة (بيت الخط العربي) ليكون مركز تدريب وإشعاع للفن. في عامه الأول قدم البيت 24 دورة تدريبية في أربعة خطوط (النسخ، الرقعة، الثلث، الديواني) بواقع ست دورات لكل خط، سعة الدورة 15 متدربًا وقد اكتملت جميعها بقوائم انتظار بلغت 400 راغب. رسوم الدورة 350 ريالًا مع إعفاء كامل للطلاب دون الثامنة عشرة الذين شكلوا 20% من المتدربين. نظم البيت أيضًا معرضين بيعت فيهما 85 لوحة بمتوسط 1200 ريال للوحة يعود 70% منها للخطاط و30% لصندوق البيت. في ختام العام أعلن البيت خطة التوسع: مضاعفة الدورات ورفع السعة إلى 18 متدربًا، مع فرع نسائي مستقل تديره خطاطتان من خريجات الدفعة الأولى». الأسئلة: أولًا، كم متدربًا دفع الرسوم فعليًا وكم بلغ دخل الدورات؟ ثانيًا، كم ريالًا دخل صندوق البيت من المعرضين؟ ثالثًا، ما الطاقة الاستيعابية السنوية للدورات بعد التوسع؟ وهل تكفي لاستيعاب قائمة الانتظار الحالية وحدها؟ رابعًا، ما الدلالتان اللافتتان في خبر الفرع النسائي؟",
+   "token_count": 629,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-329"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «مشروع تخرج لطالبتي هندسة قارن عزل الأسطح الحراري بثلاث مواد في ثلاثة منازل متطابقة التصميم بحي واحد: المنزل الأول عزل بمادة تقليدية بتكلفة 8 آلاف ريال فانخفض استهلاك تكييفه الصيفي 18%، والثاني بمادة متطورة بتكلفة 15 ألفًا فانخفض استهلاكه 31%، والثالث ترك دون عزل مرجعًا للمقارنة. متوسط فاتورة الصيف (خمسة أشهر) للمنزل غير المعزول 1500 ريال شهريًا. استنتجت الطالبتان أن المادة المتطورة أفضل هندسيًا، لكن الجدوى الاقتصادية تعتمد على أفق السكن: فوفر المادة التقليدية يسترد تكلفتها أسرع، بينما تتفوق المتطورة على المدى الطويل». الأسئلة: أولًا، كم يوفر كل منزل معزول في موسم صيفي واحد بالريالات؟ ثانيًا، في كم موسمًا صيفيًا تسترد كل مادة تكلفتها؟ ثالثًا، بعد عشرة مواسم: ما صافي الوفر التراكمي لكل مادة بعد خصم تكلفتها؟ رابعًا، صغ استنتاج الطالبتين في جملة توصية لمالك منزل ينوي البيع بعد ثلاث سنوات.",
+   "token_count": 583,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-330"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «يحكي تقرير إذاعي قصة (مقهى الصمت) الذي افتتحه شاب أصم في حي جامعي: مقهى يطلب فيه الزبائن بلغة الإشارة مستعينين بلوحات تعليمية على كل طاولة، ويعمل فيه ثمانية باريستا كلهم صم أو ضعاف سمع. قوبلت الفكرة بتشكيك تجاري واسع، لكن الأرقام ردت: بلغ زبائن المقهى اليومي 280 زبونًا في المتوسط خلال الشهر السادس، 60% منهم طلاب جامعة يقولون إن هدوء المكان الاستثنائي أفضل بيئة مذاكرة في الحي، وتحولت جلسات تعلم الإشارة المجانية مساء كل ثلاثاء إلى أشهر فعالية أسبوعية في الحي بحضور يتجاوز 70 شخصًا. الأثر الأعمق كان التوظيف: تلقى المؤسس 90 طلب توظيف من صم في مدن أخرى، فأعلن خطة امتياز تجاري تشترط أن يكون نصف كادر أي فرع على الأقل من الصم، ووقع عقود ثلاثة فروع ستوفر 30 وظيفة جديدة نصفها مضمون للصم بالعقد». الأسئلة: أولًا، كم طالبًا جامعيًا يرتاد المقهى يوميًا في المتوسط؟ ثانيًا، ما العاملان اللذان حولا الإعاقة إلى ميزة تنافسية في هذه القصة؟ ثالثًا، كم وظيفة مضمونة للصم في الفروع الثلاثة كحد أدنى؟ رابعًا، ما الشرط الذي يجعل نموذج الامتياز امتدادًا للرسالة لا مجرد توسع تجاري؟",
+   "token_count": 717,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-331"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «وثيقة بلدية من عام 1958 تحدد أنصبة مياه الفلج (قناة الري التقليدية) في واحة زراعية: يقسم تدفق الفلج على 96 (أثرًا) والأثر نصف ساعة ري، تدور الدورة كاملة كل يومين. توزع الآثار: 30 أثرًا لبساتين النخيل الموقوفة على المسجد والمدرسة، و42 أثرًا لخمس عائلات كبرى بحصص متفاوتة أكبرها 14 أثرًا لعائلة واحدة، و18 أثرًا تباع في مزاد أسبوعي يمول صيانة الفلج، و6 آثار احتياط للطوارئ. تذكر الوثيقة أن قيمة الأثر في مزادات ذلك العام تراوحت بين ريالين في الشتاء وسبعة ريالات في ذروة الصيف». الأسئلة: أولًا، كم ساعة ري تشكل الدورة الكاملة، وهل يتسق ذلك مع مدة اليومين المذكورة؟ تحقق حسابيًا. ثانيًا، ما نسبة الآثار الموقوفة للمسجد والمدرسة من إجمالي الفلج؟ ثالثًا، ما المدى الممكن لدخل المزاد الأسبوعي بين الشتاء والصيف؟ رابعًا، ما الوظيفتان الاجتماعيتان اللتان يؤديهما نظام المزاد والاحتياط في هذا الترتيب؟",
+   "token_count": 584,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-332"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «أعلنت شركة طيران إقليمية نتائج تجربة (المقصورة الهادئة) التي طبقتها على خطها الأكثر ازدحامًا: خصصت الصفوف العشرة الأولى مقصورة هادئة تمنع فيها مكالمات الفيديو والأصوات المرتفعة ويوزع فيها الأطفال دون الثانية عشرة على بقية الطائرة، مقابل رسم إضافي 75 ريالًا للمقعد. الطائرة تسع 180 مقعدًا، صفوفها الثلاثون متساوية المقاعد. خلال ربع سنة التجربة (90 رحلة): بيعت مقاعد المقصورة الهادئة بنسبة إشغال 92% مقابل 78% لبقية الطائرة، وارتفع تقييم رضا ركاب المقصورة إلى 4.6 من 5، لكن الشركة تلقت 130 شكوى من أسر اعتبرت إبعاد الأطفال تمييزًا، ورد قسم التجربة بأن 40% من ركاب المقصورة الهادئة أنفسهم آباء يسافرون بلا أطفالهم هذه المرة. قررت الشركة تعميم التجربة مع تعديل واحد: تخفيض الصفوف الهادئة إلى ثمانية وتحويل الصفين المستعادين إلى منطقة عائلية مجهزة بألعاب صغيرة». الأسئلة: أولًا، كم مقعدًا في المقصورة الهادئة قبل التعديل وبعده؟ ثانيًا، كم راكبًا استخدم المقصورة الهادئة طوال التجربة تقريبًا؟ ثالثًا، كم بلغ الإيراد الإضافي من رسوم المقصورة خلال التجربة؟ رابعًا، كيف يرد التعديل الأخير على شكوى الأسر دون إلغاء الفكرة؟",
+   "token_count": 737,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-333"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «رصد تقرير تنمية ريفية تجربة قرية جبلية مع (تعاونية الجوز): كانت أسر القرية الثمانون تبيع محصول الجوز فرادى لتجار الجملة الجوالين بأسعار متدنية تتراوح بين 9 و11 ريالًا للكيلو، ويبلغ محصول القرية الإجمالي 45 طنًا سنويًا. قبل أربع سنوات أسست 50 أسرة تعاونية جمعت محاصيلها: اشترت ماكينة فرز وتغليف بقرض حسن 120 ألف ريال يسدد من الأرباح، وتفاوضت مباشرة مع سلاسل التجزئة الكبرى، فباعت الكيلو المفروز المغلف بعلامة القرية بـ22 ريالًا. في الموسم الأخير سوقت التعاونية 32 طنًا لأعضائها بعد الفرز الذي يستبعد 8% من الوزن، وسدد القرض كاملًا في نهاية الموسم الثالث، وبدأ الموسم الرابع بصافي عائد يوزع كاملًا. اللافت أن الأسر الثلاثين غير المنضمة ارتفعت أسعار بيعها هي أيضًا إلى 14 ريالًا لأن التجار الجوالين اضطروا لمنافسة سعر التعاونية». الأسئلة: أولًا، كم كيلوغرامًا سلمت الأسر الأعضاء للتعاونية قبل الفرز في الموسم الأخير؟ ثانيًا، قارن دخل الموسم الأخير للأعضاء (بعد الفرز بسعر التعاونية) بدخلهم لو باعوا الكمية المسلمة نفسها للتجار بمتوسط السعر القديم. ثالثًا، ما الأثر غير المباشر للتعاونية على غير الأعضاء وما تفسيره؟ رابعًا، لماذا يوصف قرض الماكينة بأنه استثمار ناجح؟ دلل من النص.",
+   "token_count": 778,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-334"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «ضمن مبادرة إحياء الألعاب الشعبية، نظمت أمانة المنطقة بطولة للألعاب التراثية في ساحة البلدة القديمة على مدى ثلاث أمسيات، بمشاركة 16 فريقًا من الأحياء يمثل كل فريق 10 لاعبين من ثلاثة أجيال إلزامًا: أربعة دون العشرين، وأربعة بين العشرين والخمسين، واثنان فوق الخمسين. تنافست الفرق في خمس ألعاب لكل منها 20 نقطة للمركز الأول و12 للثاني و6 للثالث. حسم فريق (حي السور) اللقب بجمعه 74 نقطة من أصل 100 ممكنة، محققًا المركز الأول في ثلاث ألعاب والثاني في لعبة والثالث في أخرى... تحقق من اتساق هذا المجموع. حضر الأمسيات 22 ألف زائر، وبثت مقاطع الألعاب فحصدت أربعة ملايين مشاهدة، وأعلنت الأمانة تحويل البطولة إلى دوري سنوي وإدراج لعبتين تراثيتين نسائيتين في النسخة القادمة بعد ملاحظات الجمهور». الأسئلة: أولًا، كم لاعبًا شارك في البطولة إجمالًا، وكم منهم فوق الخمسين؟ ثانيًا، تحقق حسابيًا: هل مجموع 74 نقطة يتسق مع المراكز المذكورة لفريق حي السور؟ بيّن الحساب واذكر النتيجة الصحيحة إن وجدت خطأ. ثالثًا, ما أقصى نقاط يمكن لفريق جمعها نظريًا؟ رابعًا، ما الملاحظة الجماهيرية التي استجابت لها الأمانة؟",
+   "token_count": 731,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-335"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «تقرير صيانة شبكة طرق يلخص حالة طريق صحراوي طوله 220 كيلومترًا يربط ثلاث بلدات: كشف المسح بالليزر أن 60% من الطول بحالة جيدة لا يحتاج سوى صيانة وقائية بتكلفة 15 ألف ريال للكيلومتر، و30% يحتاج إعادة سفلتة بطبقة واحدة بـ85 ألفًا للكيلومتر، و10% متهالك يحتاج إعادة إنشاء كاملة بـ240 ألفًا للكيلومتر. رصدت الوزارة للمشروع ميزانية 12 مليون ريال. اقترح الاستشاري ترتيب الأولويات: البدء بالمقاطع المتهالكة كلها لأنها مواقع 70% من حوادث الطريق، ثم إعادة السفلتة، وتأجيل ما يفيض عن الميزانية من الصيانة الوقائية للعام التالي». الأسئلة: أولًا، احسب طول كل فئة من فئات الطريق بالكيلومترات. ثانيًا، ما التكلفة الكاملة لمعالجة الطريق كله؟ وهل تكفي الميزانية المرصودة؟ ثالثًا، وفق أولويات الاستشاري: بعد إنجاز المتهالك والسفلتة، كم يتبقى من الميزانية للصيانة الوقائية، وكم كيلومترًا تغطي؟ رابعًا، ما مبرر الاستشاري لتقديم المقاطع المتهالكة رغم أنها الأقل طولًا؟",
+   "token_count": 624,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-336"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «مذكرة داخلية في دار أوبرا إقليمية تقيم موسمها الأول: قدمت الدار 48 عرضًا موزعة على أربع فئات: 18 حفلًا موسيقيًا تراثيًا بمتوسط إشغال 88%، و12 عرضًا مسرحيًا بإشغال 75%، و10 أمسيات شعرية بإشغال 52%، و8 عروض باليه عالمية بإشغال 41%. سعة القاعة 800 مقعد ومتوسط سعر التذكرة موحد 120 ريالًا. تكلفة استضافة عروض الباليه العالمية وحدها استهلكت 35% من ميزانية البرمجة الفنية. يقترح معدو المذكرة لموسم قادم: زيادة التراثي إلى 24 حفلًا، ودمج الأمسيات الشعرية بعناصر موسيقية بعد نجاح تجربة يتيمة من هذا النوع حققت إشغال 79%، وتقليص الباليه إلى 4 عروض تستضاف بالشراكة مع مهرجان دولي مجاور يتقاسم التكاليف». الأسئلة: أولًا، كم تذكرة بيعت لكل فئة تقريبًا خلال الموسم؟ ثانيًا، ما إيراد الفئة الأعلى والفئة الأدنى مبيعًا؟ ثالثًا، ما المؤشران اللذان يبرران قرار تقليص الباليه تحديدًا؟ رابعًا، ما الذكاء في مقترح الدمج الشعري الموسيقي؟ استند إلى رقم من المذكرة.",
+   "token_count": 626,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-337"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «دراسة حالة في إدارة المخزون: صيدلية مجتمعية تراجع سياسة تخزين دواء مزمن يصرف بوصفة شهرية لـ340 مريضًا مسجلين لديها. عبوة الدواء تكفي شهرًا وتشتريها الصيدلية بـ38 ريالًا وتبيعها بـ52. كانت الصيدلية تطلب 400 عبوة مطلع كل شهر، فيتبقى فائض متراكم بلغ في نهاية العام 720 عبوة قاربت نصفها على انتهاء الصلاحية (تسترد الشركة المنتهي بنصف سعر الشراء فقط). جربت الصيدلية نظامًا جديدًا: طلب 350 عبوة شهريًا مع مخزون أمان ثابت 60 عبوة يعاد تعبئته، فانخفض الفائض السنوي إلى 90 عبوة كلها سليمة أعيدت للشركة بسعر الشراء كاملًا ضمن اتفاق الإرجاع المبكر». الأسئلة: أولًا، كم عبوة زائدة عن حاجة المرضى كانت الصيدلية تطلب شهريًا في النظام القديم؟ ثانيًا، احسب خسارة النظام القديم من العبوات نصف المستردة (350 عبوة منتهية). ثالثًا، ما الفرق الجوهري بين فلسفتي النظامين في التعامل مع عدم اليقين؟ رابعًا، ما العاملان اللذان جعلا فائض النظام الجديد بلا خسارة تقريبًا؟",
+   "token_count": 621,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-338"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «يوثق كتيب (حكاية جسر) قصة أقدم جسر حجري في المنطقة: بناه أهل الضفتين عام 1874 بالتعاون، إذ قدمت قرية الشرق الحجارة من محجرها وقدمت قرية الغرب الأخشاب وثلاثين بنّاء، واستغرق البناء أربعة عشر شهرًا. طوله 62 مترًا بثلاثة أقواس، وظل المعبر الوحيد للعربات ثمانين عامًا حتى افتتاح الجسر الخرساني عام 1954 على بعد كيلومتر، فتحول الحجري تدريجيًا لمعبر مشاة وموقع تصوير للأعراس. في فيضان 1982 انهار قوسه الأوسط، وتبرعت أسر الضفتين بإصلاحه على الطراز الأصلي مستعينة بحرفيين من المحجر القديم نفسه، ورفض الأهالي حينها عرضًا حكوميًا لاستبداله بجسر حديث. أدرج الجسر عام 2009 في سجل التراث الوطني، ويقام عنده سنويًا (عيد الجسر) في ذكرى اكتمال بنائه، حيث تلتقي القريتان في منتصفه ويتصافح عمدتاهما فوق القوس الأوسط تحديدًا - القوس الذي أعاد بناءه أحفاد البنائين الأوائل». الأسئلة: أولًا، في أي عام اكتمل بناء الجسر؟ ثانيًا، كم عامًا خدم الجسر معبرًا وحيدًا للعربات؟ ثالثًا، ما رمزية اختيار القوس الأوسط لمصافحة العمدتين؟ اربطها بحدثين من النص. رابعًا، استخرج من القصة ثلاث لحظات تجسد التعاون بين القريتين عبر تاريخ الجسر.",
+   "token_count": 751,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-339"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص في جملة: «أعادت البلدية افتتاح الحديقة المركزية بعد تطوير شامل أضاف مسارات مشي ومناطق ألعاب مظللة ونافورة تفاعلية».",
+   "token_count": 82,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-340"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر الخبر بجملة واحدة: «حصد فيلم وثائقي محلي عن الحرف اليدوية جائزة أفضل إخراج في مهرجان دولي بمشاركة أربعين دولة».",
+   "token_count": 86,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-341"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص التنبيه في سطر: «تعلن إدارة المرور عن تحويلات في طريق الملك يومي الجمعة والسبت لأعمال صيانة الجسر العلوي».",
+   "token_count": 74,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-342"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من جملة: «أطلق بنك محلي خدمة فتح الحساب للطلاب عن بعد خلال خمس دقائق دون زيارة الفرع».",
+   "token_count": 74,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-343"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص بجملة: «سجل منتخب الناشئين فوزه الرابع تواليًا وضمن التأهل لنهائيات كأس آسيا قبل جولتين من نهاية التصفيات».",
+   "token_count": 82,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-344"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر الإعلان في سطر واحد: «يبدأ التسجيل في دورات السباحة الصيفية للفئات العمرية من السادسة حتى الرابعة عشرة الأحد المقبل».",
+   "token_count": 81,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-345"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الخبر بجملة: «افتتح معرض الصقور والصيد أبوابه بمشاركة 250 عارضًا ويستمر عشرة أيام في مركز المعارض الدولي».",
+   "token_count": 75,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-346"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من جملة واحدة: «أوصت هيئة الغذاء بقراءة ملصقات المنتجات والتحقق من تاريخ الانتهاء قبل الشراء خاصة في العروض الموسمية».",
+   "token_count": 89,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-347"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص في سطر: «وقعت الجامعة اتفاقية تدريب تتيح لطلاب الهندسة قضاء فصل كامل في مصانع كبرى داخل المدينة الصناعية».",
+   "token_count": 75,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-348"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر بجملة: «حذر الدفاع المدني من إشعال الفحم داخل الأماكن المغلقة لخطورة غاز أول أكسيد الكربون عديم الرائحة».",
+   "token_count": 80,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-349"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الخبر في جملة: «دشنت وزارة الصحة عيادات افتراضية تخدم القرى النائية عبر اتصال مرئي مع أطباء استشاريين على مدار الساعة».",
+   "token_count": 83,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-350"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا بجملة: «فازت مزرعة محلية بلقب أفضل عسل في مسابقة إقليمية ضمت 300 عينة من ست دول».",
+   "token_count": 70,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-351"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص التعميم في سطر: «تقرر إيقاف طباعة الفواتير الورقية في جميع الفروع والاكتفاء بإرسالها عبر الرسائل النصية اعتبارًا من الشهر القادم».",
+   "token_count": 90,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-352"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر الخبر بجملة واحدة: «عثر فريق آثار على نقوش صخرية تعود لثلاثة آلاف عام خلال مسح جبلي شمال المنطقة».",
+   "token_count": 75,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-353"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص بجملة: «مددت أمانة المنطقة ساعات عمل الأسواق الموسمية حتى منتصف الليل استجابة لطلبات المتسوقين والباعة معًا».",
+   "token_count": 79,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-354"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من جملة: «نظمت جمعية البيئة حملة أزالت خلالها ثلاثة أطنان من المخلفات عن شاطئ الخليج بمشاركة 400 متطوع».",
+   "token_count": 87,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-355"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الإعلان في سطر: «تفتح مدرسة تعليم القيادة باب التسجيل للنساء في فرعها الجديد بثلاث فترات صباحية ومسائية».",
+   "token_count": 75,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-356"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر بجملة: «رفعت هيئة النقل تصنيف مطار المنطقة إلى دولي بعد اكتمال صالة الجوازات الجديدة ومدرج ثانٍ».",
+   "token_count": 76,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-357"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الخبر في جملة واحدة: «باشر فريق تطوعي ترميم ثلاثين منزلًا لأسر متعففة قبل حلول الشتاء ضمن مبادرة دفء سنوية».",
+   "token_count": 87,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-358"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا بجملة: «أعلنت مكتبة الملك العامة وصول عشرة آلاف عنوان جديد نصفها كتب أطفال ويافعين».",
+   "token_count": 72,
+   "length_band": "short",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-359"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الخبر التالي في جملتين: «شهد موسم الرطب هذا العام وفرة استثنائية أرجعها المزارعون إلى اعتدال الربيع وقلة العواصف الرملية وقت التلقيح. وانعكست الوفرة على الأسعار التي انخفضت نحو الثلث مقارنة بالعام الماضي، فيما استحدثت أسواق النخيل مزادات مسائية إضافية لتصريف الإنتاج، ونشط تجار التمور في التعاقد المبكر مع المزارعين تحسبًا لارتفاع الطلب في موسم التصدير».",
+   "token_count": 237,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-360"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا لا يتجاوز خمسًا وعشرين كلمة: «أقرت إدارة النادي الأدبي هيكلة جديدة لأمسياته الأسبوعية بعد تراجع الحضور: تقليص مدة الأمسية إلى تسعين دقيقة، وتخصيص ثلثها الأخير لنقاش مفتوح مع الجمهور، ونقل الموعد من الأحد إلى الخميس، وبث الأمسيات مباشرة عبر قناة النادي. وستقيّم التجربة بعد ثلاثة أشهر بمؤشري الحضور والتفاعل الرقمي».",
+   "token_count": 245,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-361"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الفقرة في جملتين تحفظان الرقمين الأهم: «كشف المسح السنوي لصحة الفم أن 62% من طلاب المرحلة الابتدائية لديهم تسوس غير معالج، وأن ربع الأطفال فقط يفرشون أسنانهم مرتين يوميًا. وأطلقت الوزارة على إثر النتائج برنامجًا مدرسيًا يشمل فحصًا مجانيًا وتوزيع فراشٍ ومعاجين، مع حصص توعوية شهرية يقدمها أطباء متطوعون في 400 مدرسة كمرحلة أولى».",
+   "token_count": 251,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-362"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر النص التالي في ثلاث نقاط قصيرة: «أوصى ملتقى المزارعين الشباب في ختام أعماله بثلاث خطوات لتطوير الزراعة الأسرية: إنشاء منصة إلكترونية موحدة تربط المزارع الصغيرة بالمستهلكين مباشرة وتختصر الوسطاء، وتخصيص قروض ميسرة لأنظمة الري الحديثة تسدد من وفورات المياه نفسها، وإدراج منتجات المزارع الأسرية في مشتريات المقاصف المدرسية والمستشفيات الحكومية لضمان طلب مستقر يحمي صغار المنتجين من تقلبات السوق».",
+   "token_count": 273,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-363"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الخبر في حدود عشرين كلمة: «أنهت فرق الصيانة استبدال 12 ألف عداد كهرباء تقليدي بعدادات ذكية في الأحياء الشرقية، ضمن مشروع يستهدف تغطية المدينة كاملة نهاية العام. وتتيح العدادات الجديدة متابعة الاستهلاك لحظيًا عبر تطبيق الشركة، وتنبيهات عند تجاوز معدلات محددة يضبطها المشترك بنفسه، إضافة إلى اكتشاف الأعطال آليًا دون انتظار البلاغات».",
+   "token_count": 235,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-364"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من جملتين للنص: «تحولت مهنة (المطوع) - معلم القرآن المتجول في القرى قديمًا - إلى مادة توثيقية غنية جمعها باحث ميداني في كتاب استغرق إعداده سبع سنوات وضم مقابلات مع آخر أربعة عشر مطوعًا على قيد الحياة. يرصد الكتاب أدوات التعليم البسيطة من الألواح الخشبية والحبر المصنوع منزليًا، ونظام المكافآت الذي كان أهل القرية يتقاسمونه من تمر وحبوب، وطقوس الختمة التي كانت عيدًا قرويًا كاملًا».",
+   "token_count": 280,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-365"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص التقرير في ثلاث جمل: «رصدت هيئة الطرق تحسنًا لافتًا في سلامة الطريق الساحلي بعد عام من تركيب الإنارة الذكية التي تتوهج تلقائيًا عند اقتراب المركبات: انخفضت الحوادث الليلية 41%، وتراجع استهلاك الكهرباء 55% لأن الأعمدة تخفت في غياب الحركة. وأمام هذه النتائج قررت الهيئة تعميم النظام على ثلاثة طرق إقليمية أخرى، مع دراسة إضافة حساسات ضباب تفعل إنارة خاصة في المواسم الباردة».",
+   "token_count": 267,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-366"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر الفقرة في جملة واحدة جامعة: «ما عاد الحصول على وظيفة أولى يعتمد على الشهادة وحدها؛ فمديرو التوظيف الذين استطلعت المجلة آراءهم أجمعوا على أن ملف الأعمال الصغيرة - مشروع تخرج متقن، مشاركة تطوعية موثقة، دورة تخصصية بمشروع تطبيقي - صار يزن في المفاضلة أكثر من المعدل المرتفع وحده، لأن الملف يثبت القدرة على الإنجاز بينما يثبت المعدل القدرة على الاختبار».",
+   "token_count": 243,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-367"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الخبر التالي في جملتين: «أطلقت أمانة العاصمة مسار (درب الحرفيين) في قلب البلدة القديمة: ممر مشاة بطول 800 متر يضم 34 محترفًا ودكانًا للحرف اليدوية أعيد ترميمها بطرازها الأصلي، مع لوحات تفاعلية تروي تاريخ كل حرفة بثلاث لغات. ويعمل الحرفيون أمام الزوار مباشرة في ساعات المساء، ويخصص صباح الثلاثاء لجولات المدارس بالحجز المسبق».",
+   "token_count": 233,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-368"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا في حدود ثلاثين كلمة: «خلصت دراسة تربوية تابعت 900 طالب ثلاث سنوات إلى أن تخصيص عشرين دقيقة للقراءة الحرة داخل الجدول المدرسي رفع متوسط سرعة القراءة 34% وحسن مهارات التعبير الكتابي درجتين كاملتين في التقييم الموحد، وكان الأثر الأكبر لدى الطلاب الذين اختاروا كتبهم بأنفسهم دون فرض قوائم محددة، ما دفع الباحثين للتوصية بمكتبات صفية متجددة تمنح الطالب حرية الاختيار».",
+   "token_count": 268,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-369"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص النص في جملتين: «بعد ثلاثين عامًا من العمل سائق شاحنة على خط الشمال، أصدر أبو فهد مذكراته التي فاجأت الوسط الثقافي بلغتها الصافية وملاحظاتها الدقيقة: وصف لتحولات الطريق من الرمال إلى الإسفلت المزدوج، وحكايات استراحات الشاي التي كانت مجالس أخبار قبل الهواتف، وأسماء زملاء الطريق الذين توزعتهم المدن. بيعت الطبعة الأولى في شهر واحد، وتدرس دار النشر ترجمة الكتاب بعد طلبات من مستشرقين مهتمين بأدب الطريق».",
+   "token_count": 283,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-370"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر التقرير في ثلاث نقاط: «واجهت حملة التطعيم الموسمية هذا العام تحديين: انتشار مقاطع مضللة عن آثار جانبية مزعومة، وصعوبة وصول سكان الهجر البعيدة للمراكز الصحية. ردت الوزارة بحزمة إجراءات: جولات ميدانية لعربات تطعيم متنقلة غطت 60 هجرة، وشراكة مع أئمة المساجد ومشاهير موثوقين لتفنيد الشائعات بمحتوى علمي مبسط، ونظام حجز عائلي يطعم الأسرة كاملة في زيارة واحدة. النتيجة: تجاوزت التغطية 78% بزيادة تسع نقاط عن العام الماضي».",
+   "token_count": 309,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-371"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الفقرة العلمية لطلاب المرحلة المتوسطة في جملتين بسيطتين: «تمتلك الإبل قدرة فريدة على تحمل فقد الماء تصل إلى ربع وزن الجسم دون خطر، بينما يهدد فقدان 12% حياة معظم الثدييات. ويعود السر إلى كريات دمها البيضاوية التي تواصل الجريان حتى مع تكاثف الدم، وقدرتها على رفع حرارة جسمها ست درجات نهارًا لتقليل التعرق، ثم التخلص من الحرارة المخزنة في برد الليل، إضافة إلى كليتيها الفائقتين في استخلاص الماء وإعادة تدويره».",
+   "token_count": 282,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-372"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من جملتين: «افتتح في الحي الدبلوماسي أول مطعم يديره بالكامل طهاة من كبار السن المتقاعدين، بفكرة تقوم على تقديم الأطباق البيتية المهددة بالاندثار بوصفاتها الأصلية. المشروع الذي بدأ مبادرة اجتماعية لكسر عزلة المتقاعدين تحول إلى نجاح تجاري بقوائم انتظار أسبوعية، ويخصص ريع أمسية الاثنين لتدريب جيل شاب على الوصفات ذاتها في ورشة ملحقة بالمطبخ».",
+   "token_count": 246,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-373"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الخبر في حدود خمس وعشرين كلمة: «أعلن مركز رعاية الحياة الفطرية نجاح أول عملية إكثار للنمر العربي بالتلقيح الاصطناعي بولادة أنثى سليمة، في إنجاز علمي استغرق التحضير له أربع سنوات بالتعاون مع مختبرات دولية. ويرفع المولود الجديد أعداد النمور في برنامج الإكثار إلى 33 نمرًا، تمهيدًا لمرحلة إعادة التوطين التدريجي في المحميات الجبلية المسورة خلال العقد القادم».",
+   "token_count": 243,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-374"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر النص في جملة جامعة واحدة: «يخطئ من يظن التطريز مجرد زخرفة؛ فكل غرزة في الثوب التقليدي وثيقة: ألوان قرى الجبال تختلف عن ألوان الساحل، ونقشة صدر العروس تختلف عن نقشة ثوب الجدة، وبعض العائلات كانت تميز أثوابها بغرز لا تخطئها عين النساء الخبيرات. لهذا حين تجمع الباحثات الأثواب القديمة فإنهن لا يجمعن قماشًا، بل يعدن كتابة تاريخ اجتماعي كامل بخيوط ملونة».",
+   "token_count": 265,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-375"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص التقرير الاقتصادي في جملتين: «سجل قطاع صناعة العطور المحلية نموًا بنسبة 27% مدفوعًا بإقبال الجيل الجديد على العود والمزيج الشرقي الحديث، وبرزت خلال العام 14 علامة ناشئة أسسها شباب دون الثلاثين. وتتجه العلامات الكبرى للاستحواذ على الصغيرة الواعدة، فيما تدعم هيئة الصادرات دخول المنتج المحلي أسواق شرق آسيا التي تظهر شهية متزايدة للعطور الشرقية الفاخرة».",
+   "token_count": 248,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-376"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من ثلاث جمل: «تبنت مدرسة ثانوية للبنات تجربة (اليوم بلا أجراس): ألغت جرس الحصص واستبدلته بمقاطع موسيقية هادئة مدتها ثلاثون ثانية، وأعادت جدولة الفسح لتصبح فسحتين قصيرتين بدل واحدة طويلة. بعد فصل دراسي أظهر الاستطلاع أن 81% من الطالبات شعرن بتوتر أقل عند الانتقال بين الحصص، ولاحظت المعلمات انضباطًا أفضل في الدقائق الأولى من كل حصة. وقررت إدارة التعليم توسيع التجربة إلى عشرين مدرسة العام القادم قبل تقييم تعميمها».",
+   "token_count": 313,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-377"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الفقرة في جملتين: «حين قررت بلدية المدينة إزالة سوق الطيور الشعبي القديم لتوسعة الطريق، لم يتوقع أحد الحملة الشعبية التي قادها هواة الحمام والباعة القدامى معًا: عرائض جمعت عشرين ألف توقيع، وتوثيق مصور لذاكرة السوق الممتدة سبعين عامًا. استجابت البلدية بحل وسط رضي عنه الطرفان: نقل السوق إلى ساحة تراثية مجاورة أوسع، مع تصميم يحاكي الطراز القديم ومنح الباعة الأصليين أولوية المحال دون رسوم للسنة الأولى».",
+   "token_count": 289,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-378"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر الخبر في حدود عشرين كلمة: «توج فريق الروبوتات النسائي بجامعة المنطقة بالمركز الثاني عالميًا في مسابقة الروبوتات الطبية بسنغافورة، عن ذراع آلية تساعد مرضى الشلل النصفي على تناول الطعام باستقلالية، طورتها ست طالبات خلال ثمانية عشر شهرًا بميزانية لم تتجاوز عشر ميزانيات الفرق المنافسة، وتلقى الفريق بعد التتويج ثلاثة عروض لتحويل النموذج إلى منتج تجاري».",
+   "token_count": 250,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-379"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص النص في جملتين تبرزان التحول: «ظل مهرجان القرية الشتوي عقودًا حدثًا محليًا صغيرًا يقتصر على سباق الهجن وسوق ليلي متواضع. لكن ثلاث سنوات من التوثيق الاحترافي بالمقاطع القصيرة قلبت المعادلة: صار المهرجان يستقطب زوارًا من خارج المنطقة تضاعفت أعدادهم عشر مرات، وامتد برنامجه من ثلاثة أيام إلى أسبوعين، وارتفعت إيرادات أسر القرية من الضيافة الريفية حتى صارت موردًا رئيسًا ينافس الزراعة نفسها».",
+   "token_count": 280,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-380"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من ثلاث نقاط قصيرة: «حدد خبراء السلامة الرقمية ثلاث عادات تحمي كبار السن من الاحتيال الإلكتروني: الأولى قاعدة (أغلق واتصل بنفسك) - إنهاء أي مكالمة تطلب بيانات بنكية والاتصال بالبنك عبر الرقم الرسمي مباشرة؛ والثانية تفعيل التحقق بخطوتين على الحسابات كلها بمساعدة أحد الأبناء؛ والثالثة عدم الضغط على روابط الرسائل مهما بدت رسمية، فالجهات الحقيقية لا ترسل روابط دفع عبر الرسائل النصية».",
+   "token_count": 276,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-381"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الخبر الرياضي في جملتين: «أسدل الستار على دوري الأحياء الرمضاني في نسخته العشرين بتتويج فريق حي الروضة للمرة الأولى في تاريخه بعد رحلة مثيرة أقصى فيها حاملي اللقب في نصف النهائي. وشهدت النسخة أرقامًا غير مسبوقة: 64 فريقًا مشاركًا، وحضور جماهيري تجاوز ثمانية آلاف في النهائي، ونقل تلفزيوني لأول مرة، فيما أعلنت اللجنة المنظمة إضافة دوري للناشئين تحت السادسة عشرة اعتبارًا من النسخة القادمة».",
+   "token_count": 285,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-382"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر الفقرة في جملة واحدة: «المدهش في النخلة أنها لا تهدر شيئًا: التمر غذاء، والنوى علف ومسابح، والسعف سقوف وحصر وقفاف، والكرب وقود، والليف حبال وحشايا، وحتى طلعها دواء وعطر. ولعل هذا الكرم الشامل هو ما جعل أهل الجزيرة يسمونها (العمة) ويورثون فسائلها كما تورث الأملاك الثمينة».",
+   "token_count": 206,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-383"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص التقرير في جملتين: «رصد مؤشر الإيجارات ارتفاعًا حادًا في أحياء شمال المدينة بلغ 22% خلال عام واحد، تزامنًا مع افتتاح الجامعة الجديدة وانتقال ثلاث شركات كبرى لمقارها هناك. في المقابل استقرت إيجارات الأحياء الجنوبية وانخفضت في بعضها، ما دفع مخططي المدينة للتحذير من (مدينة السرعتين) والمطالبة بتحفيز مشاريع الإسكان المتوسط شمالًا ونقل بعض الخدمات الحكومية الكبرى جنوبًا لإعادة التوازن».",
+   "token_count": 271,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-384"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا لا يتجاوز خمسًا وعشرين كلمة: «أتمت هيئة التراث ترقيم وأرشفة 40 ألف مخطوطة ضمن المرحلة الأولى من مشروع المكتبة الرقمية الوطنية، وأتاحت 15 ألفًا منها للتصفح المجاني عبر بوابة إلكترونية تدعم البحث داخل النصوص بتقنية التعرف الضوئي على الخط العربي القديم، وهي تقنية طورت محليًا بدقة تجاوزت 91% وتباع رخصتها الآن لثلاث مكتبات وطنية في المنطقة».",
+   "token_count": 260,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-385"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص النص في جملتين: «في زاوية من السوق القديم، يجلس العم صالح آخر من يصلح (الدلال) النحاسية في المدينة بأدوات ورثها عن أبيه. كان في السوق اثنا عشر معلمًا لهذه الصنعة، رحلوا أو اعتزلوا واحدًا بعد آخر مع انتشار الدلال الجاهزة. لكن مفارقة السنوات الأخيرة أعادت لدكانه الصغير الحياة: صار أصحاب المجالس الفاخرة يقصدونه لإصلاح دلال الأجداد وتلميعها، بعد أن اكتشفوا أن الدلة الموروثة صارت قطعة اعتزاز تتصدر المجلس لا مجرد وعاء للقهوة».",
+   "token_count": 304,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-386"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر الخبر في ثلاث نقاط: «أعلنت شركة النقل العام عن حزمة تطويرات لخدمة الحافلات: تحديث التطبيق ليعرض موقع الحافلة لحظيًا وزمن الوصول المتوقع لكل محطة، وتظليل 120 محطة مكشوفة وتزويدها بمقاعد ومراوح رذاذ قبل الصيف، وإطلاق بطاقة موحدة تجمع رصيد الحافلات ومواقف السيارات العامة برصيد واحد قابل للشحن من أي بقالة معتمدة».",
+   "token_count": 231,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-387"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الفقرة في جملتين للوحة إعلانات المدرسة: «تنطلق الأسبوع القادم مسابقة (عدسة وطن) للتصوير الضوئي بثلاثة محاور: العمارة التقليدية، والحياة الفطرية، والوجوه العاملة. المشاركة متاحة لطلاب المرحلتين المتوسطة والثانوية بواقع ثلاث صور كحد أقصى للمحور الواحد، وترسل الأعمال عبر منصة المسابقة قبل نهاية الشهر. تمنح الجوائز للمراكز الثلاثة الأولى في كل محور، وتعرض الأعمال الفائزة في معرض متنقل يجوب مدارس المنطقة طوال الفصل القادم».",
+   "token_count": 301,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-388"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من جملتين: «أطلق مستشفى الأطفال التخصصي مبادرة (جرعة حكاية): مكتبة متنقلة تجوب الأجنحة يوميًا يختار منها الطفل المنوم قصة تقرؤها له متطوعة مدربة قبل الإجراءات الطبية المقلقة. أظهرت المتابعة انخفاض مؤشرات التوتر لدى الأطفال المشاركين 35%، وتحول ثلث الأمهات المرافقات إلى قارئات متطوعات بعد تدريب قصير، فيما تبرع ناشرون بألفي قصة جديدة سنويًا للمبادرة».",
+   "token_count": 264,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-389"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الخبر في حدود ثلاثين كلمة: «بدأ العمل في مشروع (السياج الأخضر) لزراعة حزام شجري بطول 40 كيلومترًا حول المدينة لصد الغبار القادم من السهول الغربية، باستخدام أصناف محلية مقاومة للجفاف تروى بمياه الصرف المعالجة حصرًا. ويتوقع اكتمال الحزام خلال أربع سنوات على ثلاث مراحل، وتشير النمذجة المناخية إلى قدرته على خفض العوالق الترابية داخل الأحياء السكنية بنسبة تقارب الثلث في مواسم العواصف».",
+   "token_count": 264,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-390"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر النص في جملة واحدة: «قد يبدو طابور الصباح المدرسي تقليدًا جامدًا، لكن مديرة مدرسة رائدة حولته مختبرًا للمواهب: الاثنين للإلقاء بلغة عربية فصيحة، والثلاثاء لعرض تجربة علمية خاطفة، والأربعاء لمواهب حرة من رسم سريع إلى إنشاد، والخميس لعرض أفضل مقطع توعوي صوره الطلاب أنفسهم، حتى صار الطابور الفقرة التي يتسابق الطلاب للوصول مبكرًا كي لا تفوتهم».",
+   "token_count": 259,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-391"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص التقرير في جملتين: «كشف تقرير جمعية حماية المستهلك أن شكاوى التسوق الإلكتروني تصدرت قائمة البلاغات بنسبة 38%، وأبرزها تأخر التوصيل واختلاف المنتج عن الوصف. وأثمرت مفاوضات الجمعية مع كبرى المنصات عن ميثاق التزام طوعي يتضمن إرجاعًا مجانيًا خلال أسبوعين وتعويضًا تلقائيًا عن التأخير يضاف لمحفظة العميل دون مطالبة، على أن تنشر الجمعية تقييمًا فصليًا علنيًا بالتزام كل منصة».",
+   "token_count": 274,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-392"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من ثلاث جمل: «استعادت صناعة السدو حضورها بقوة بعد إدراجها في قوائم التراث العالمي: ارتفع عدد الحرفيات المسجلات في الجمعية من 90 إلى 400 خلال خمس سنوات، ودخل السدو عالم الأزياء الراقية عبر تعاون مصممات محليات مع بيوت أزياء عالمية عرضت مجموعات مستوحاة من نقوشه. وافتتح أول مركز تدريب متخصص يمنح شهادات معتمدة بثلاثة مستويات، تضمن الحرفية العالية وتحمي النقوش الأصيلة من التحريف التجاري».",
+   "token_count": 275,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-393"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الفقرة في جملتين: «حين سئل نجار المراكب الثمانيني عن سر بقائه يعمل رغم توقف الطلب على القوارب الخشبية، أجاب بأنه لم يعد يصنع للصيادين بل للذاكرة: نماذج مصغرة دقيقة للمراكب التي بناها في شبابه، تشتريها المتاحف والفنادق ويطلبها أحفاد النواخذة القدامى ليضعوها في مجالسهم. وهكذا وجدت الحرفة المندثرة جمهورًا جديدًا لا يبحر بالمركب، بل يبحر بالحنين إليه».",
+   "token_count": 263,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-394"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر الخبر في حدود خمس وعشرين كلمة: «دشن مركز الأورام الإقليمي وحدة الكشف المبكر المتنقلة الثانية بعد نجاح الوحدة الأولى التي فحصت 18 ألف سيدة في القرى والهجر خلال عامين واكتشفت 140 حالة في مراحل مبكرة قابلة للشفاء بنسب عالية. وتغطي الوحدتان معًا مسارين شمالي وجنوبي بجدول شهري معلن، مع نظام تذكير نصي للمواعيد وربط مباشر بملف المريضة الصحي لضمان استكمال المتابعة».",
+   "token_count": 255,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-395"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص النص في جملتين: «تجربة فريدة تشهدها قرية جبلية صغيرة: تحويل بيوتها الحجرية المهجورة إلى (فندق موزع) - غرف ضيافة متناثرة بين الأزقة تديرها الأسر نفسها، والاستقبال في ساحة القرية، والفطور في بيت مختلف كل صباح. الفكرة المستوردة من قرى إيطالية جرى تطويعها محليًا بلمسات خاصة: الضيف يشارك في قطاف الموسم إن شاء، ويتعلم الخبز البلدي، وتدير الحسابات لجنة أهلية توزع العوائد بين الأسر وصندوق ترميم مشترك».",
+   "token_count": 285,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-396"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من جملتين: «أظهرت بيانات المرصد الحضري أن متوسط زمن التنقل داخل المدينة انخفض تسع دقائق بعد عام من افتتاح خطي المترو الأولين، وأن 31% من مستخدمي المترو كانوا يقودون سياراتهم سابقًا. وسجلت مواقف الدمج عند المحطات الطرفية إشغالًا كاملًا منذ الأسابيع الأولى، ما عجل بقرار مضاعفتها وربطها بحافلات تغذية تصل الأحياء البعيدة بالمحطات كل ثماني دقائق في الذروة».",
+   "token_count": 258,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-397"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الفقرة التاريخية في جملتين: «قبل شيوع الثلاجات، كان أهل الواحات يحفظون التمر في (الجصة): غرفة طينية محكمة تكبس فيها التمور طبقات يفصل بينها سعف نظيف، فيخرج منها الدبس عصيرًا ذهبيًا يجمع في قنوات تفضي إلى جرار مدفونة. كانت الجصة بنك العائلة الغذائي: تفتح عند الحاجة طوال العام، ويقاس يسار البيت بعدد جصاصه، وما زالت بيوت قديمة تحتفظ بجصاصها شاهدة على هندسة تخزين سبقت عصر التبريد بقرون».",
+   "token_count": 282,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-398"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر التقرير في ثلاث نقاط: «حددت ورشة مستقبل المتاحف ثلاثة تحولات ينبغي للمتاحف المحلية تبنيها: الانتقال من العرض الصامت إلى التجربة التفاعلية حيث يلمس الزائر نسخًا ويجرب الحرف بيديه؛ وفتح المستودعات المغلقة التي تحوي 80% من المقتنيات عبر معارض دورية متجددة تمنح الزائر سببًا للعودة؛ وبناء شراكات مع المدارس تجعل الزيارة جزءًا من المنهج بأوراق عمل معدة مسبقًا لا نزهة عابرة».",
+   "token_count": 265,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-399"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الخبر في جملتين: «حسم مجلس إدارة سوق الأسهم الجدل حول ساعات التداول بإبقائها دون تغيير بعد دراسة استطلعت آراء 4 آلاف متداول ومؤسسة مالية: أيد التمديد 41% ورفضه 46% وتحفظ الباقون. وبدل التمديد أقر المجلس حزمة بدائل طلبها المتداولون أنفسهم: جلسة مزاد ختامية أطول بعشر دقائق، وتحسين تطبيق التداول ليتحمل ضغط الذروة، وإتاحة أوامر مجدولة تنفذ آليًا في الافتتاح لمن يفوتهم حضور الجلسة».",
+   "token_count": 279,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-400"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا لا يتجاوز ثلاثين كلمة: «أنقذت مبادرة (حصاد الضباب) مزارع قرية جبلية كانت تعاني شح الآبار: شباك بوليمرية مخصوصة تنصب على القمم في مواجهة الرياح الرطبة، تكثف قطرات الضباب وتجمعها في خزانات تكفي لري بساتين الفاكهة الصيفية. الفكرة التي بدأت بشبكتين تجريبيتين صارت اليوم 45 شبكة تجمع 12 ألف لتر في الليلة الضبابية الواحدة، وأعادت للقرية زراعات هجرتها منذ عقدين».",
+   "token_count": 267,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-401"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص النص في جملة واحدة جامعة: «يتفق مدربو الخط العربي على أن أكثر ما يفسد تعلم المبتدئ ثلاث عجلات: العجلة في مسك القلم قبل إتقان الجلسة وزاوية الورقة، والعجلة في كتابة الكلمات قبل ترويض الحروف المفردة شهورًا إن لزم، والعجلة في التنويع بين الخطوط قبل التمكن من خط واحد يبني اليد والعين معًا؛ فالخط صنعة صبر قبل أن يكون موهبة يد».",
+   "token_count": 232,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-402"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص المقال التالي في فقرة لا تتجاوز خمسين كلمة: «حين أعلنت المدينة إنشاء أول شارع مخصص للمشاة فقط في قلبها التجاري، انقسم الرأي حادًا: تجار توقعوا كساد محالهم حين تمنع السيارات من الوقوف أمامها، وسكان رحبوا بمتنفس يخفف ضجيج المحركات، ومخططون راهنوا على تجربة أثبتت نجاحها في مدن مشابهة مناخيًا بعد تزويدها بمظلات وتبريد رذاذي. بعد عام كامل من التنفيذ جاءت الأرقام لتحسم الجدل: ارتفعت مبيعات محال الشارع 23% في المتوسط لأن المتسوق الماشي يتوقف ويتأمل ويدخل، بعكس العابر بسيارته؛ وتضاعف عدد المقاهي ذات الجلسات الخارجية ثلاث مرات؛ وسجل الشارع مساء الخميس كثافة مشاة تجاوزت أربعين ألف زائر. أما الاعتراض الأبرز - أين نوقف السيارات؟ - فقد امتصه مبنيا مواقف طابقية أنشئا عند مدخلي الشارع بسعر رمزي مدعوم. واليوم تدرس الأمانة تحويل ثلاثة شوارع أخرى على النمط نفسه، بينما يطالب تجار كانوا أشد المعارضين بأن يكون شارعهم التالي في القائمة».",
+   "token_count": 598,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-403"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من ثلاث جمل للتحقيق التالي: «تتبع التحقيق رحلة قارورة مياه بلاستيكية من لحظة رميها في حاوية منزلية بأحد الأحياء: جمعتها شاحنة النفايات فجرًا إلى محطة الفرز الآلي حيث فصلتها الأشرطة الضوئية عن الزجاج والمعادن خلال ثوان، ثم ضغطت مع آلاف مثيلاتها في بالة زرقاء وزنها نصف طن بيعت لمصنع إعادة تدوير محلي. هناك غسلت وقطعت رقائق ثم صهرت وحولت إلى خيوط بوليستر اشتراها مصنع سجاد محلي يصدر ثلث إنتاجه. المفاجأة التي وثقها التحقيق: 60% من قوارير المدينة لا تكمل هذه الرحلة أصلًا لأنها ترمى مختلطة بالنفايات العضوية فتتلوث وتفقد صلاحية التدوير، وهو ما يجعل حملة الفرز المنزلي الجديدة - حاويتان بلونين لكل منزل - حلقة الوصل الغائبة التي قد ترفع نسبة الاستفادة إلى الضعف، خصوصًا مع الحافز الذي أقرته الأمانة أخيرًا: خصم في رسوم النظافة الشهرية للأحياء التي تتجاوز نسبة فرز محددة».",
+   "token_count": 566,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-404"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص النص التالي في جملتين فقط: «تروي المدربة الوطنية الأولى للسباحة قصة عشر سنوات قلبت نظرة المجتمع المحلي لرياضة البنات: بدأت عام 2015 بثماني متدربات في مسبح فندقي مستأجر بساعات محدودة، وواجهت اعتذارات متكررة من أمهات يخشين كلام الناس، حتى إنها كانت تقدم الحصص الأولى مجانًا لكسر الحاجز. المنعطف جاء حين حصدت إحدى متدرباتها الصغيرات ميدالية خليجية عام 2019، فتحول الخبر إلى مادة فخر عائلي واتصلت عشرات الأسر في أسبوع واحد. اليوم تدير المدربة أكاديمية بثلاثة مسابح ومدربات معتمدات و340 متدربة من سن الرابعة حتى العشرين، خرجت أربع بطلات دوليات، والأهم في نظرها ليس الميداليات بل أن السباحة صارت في مدينتها مهارة حياة تطلبها الأمهات لأطفالهن كالقراءة والحساب، وأن قائمة الانتظار تضم ستين اسمًا رغم افتتاح أكاديميتين منافستين أسستهما مدربتان من خريجاتها هي نفسها».",
+   "token_count": 531,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-405"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا تنفيذيًا من أربع نقاط للتقرير: «قيمت لجنة مستقلة تجربة العمل المرن في الجهات الحكومية بعد ثلاث سنوات من إقرارها. شمل التقييم 42 جهة و28 ألف موظف. النتائج الإيجابية: ارتفاع رضا الموظفين إلى 4.2 من 5، وانخفاض طلبات النقل بين الإدارات 31%، ووفر تشغيلي في المكاتب والكهرباء بلغ 90 مليونًا سنويًا، وارتفاع توظيف الكفاءات من المناطق البعيدة عن المقار الرئيسة 55% لأن العمل عن بعد ألغى حاجز الانتقال. أما التحديات فتركزت في ثلاث: تفاوت تطبيق الجهات للنظام حتى صار امتيازًا شخصيًا في بعضها ومعيارًا مؤسسيًا في أخرى، وضعف قياس الإنتاجية الفعلية إذ ما زالت جهات تقيس الحضور الرقمي لا الإنجاز، وشكاوى الموظفين الجدد من بطء اندماجهم وتعلمهم دون تواجد مكتبي كاف مع زملائهم الخبراء. توصي اللجنة بإصدار دليل تطبيق موحد وملزم، واعتماد مؤشرات إنجاز معلنة لكل وظيفة، وفرض حضور مكتبي لا يقل عن يومين أسبوعيًا للموظف في سنته الأولى حصرًا، مع إبقاء المرونة الكاملة لمن بعدها».",
+   "token_count": 640,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-406"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص المقال في فقرة واحدة بحدود خمس وأربعين كلمة: «ظاهرة (المقاهي الدراسية) تعيد رسم خريطة السهر في المدن الجامعية: مقاهٍ صممت خصيصًا للمذاكرة بطاولات فردية عازلة ومقابس شحن في كل مقعد وإضاءة محايدة وقوائم مشروبات تمتد صفحتها الأخيرة إلى قواعد السلوك: الصمت في القاعة الداخلية، والمكالمات في الشرفة حصرًا، وحجز المقعد ساعتين كحد أقصى وقت الذروة. بعضها يبيع (باقة الامتحانات): اشتراك أسبوعي بمقعد مضمون وقهوة مفتوحة خلال فترة الاختبارات النهائية، وأحدها استحدث (جرس الإنجاز) يقرعه من أنهى بحثه فتصفق له القاعة - وهو التقليد الذي انتشر منه إلى عشرات المقاهي المشابهة. أصحاب هذه المقاهي يقولون إن زبونهم لا يشتري القهوة بل البيئة: جدية جماعية معدية يعجز عن توفيرها البيت بمشتتاته، ومرونة ساعات تفتقدها المكتبات العامة التي تغلق مبكرًا.",
+   "token_count": 528,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-407"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من ثلاث جمل يحفظ الأرقام المفصلية: «أصدر مركز رصد جودة الهواء تقريره السنوي عن العاصمة، وفيه تحسن ملموس تحقق للعام الثاني تواليًا: انخفض متوسط الجسيمات الدقيقة 14% عن العام السابق، وتراجعت أيام التلوث المرتفع من 38 يومًا إلى 22، فيما ارتفعت الأيام الممتازة إلى 190 يومًا. يعزو التقرير التحسن إلى ثلاثة عوامل بنسب متفاوتة: تحول 18% من مركبات الأجرة والتوصيل إلى كهربائية بفضل الإعفاءات، واكتمال الحزام الأخضر الشرقي الذي كسر ممر الغبار الموسمي، وتشديد الرقابة على مصانع الطوب التي ركبت مرشحات حديثة أو أغلقت. لكن التقرير ينبه إلى نقطة سوداء واحدة: منطقة المدينة الصناعية الجنوبية ما زالت تسجل ضعف المتوسط العام للملوثات، ويقترح لها خطة خاصة تشمل نقل أكثر المصانع تلويثًا إلى المنطقة الصناعية الجديدة المجهزة، وتكثيف محطات الرصد فيها من محطتين إلى ست، وربط تجديد التراخيص الصناعية بنتائج قياس شهرية معلنة».",
+   "token_count": 572,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-408"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص القصة التالية في جملتين: «بدأت الحكاية بدفتر ملاحظات تركه راكب في حافلة النقل الجماعي على خط المطار: دفتر جلدي أنيق امتلأت صفحاته برسومات مدهشة بقلم الرصاص لوجوه ركاب ومشاهد من نوافذ الحافلة، دون اسم أو رقم. عرضه السائق على مكتب المفقودات فبقي شهرين بلا مطالب، ثم أذنت الإدارة بنشر صفحات منه على حسابها علها تصل لصاحبه. انتشر المنشور انتشارًا فاق كل توقع، وتحولت رسومات المجهول إلى حديث المنصات أسبوعًا كاملًا، حتى ظهر صاحبها أخيرًا: عامل مقهى عشريني يرسم في طريقه الطويل اليومي بين سكنه وعمله منذ ثلاث سنوات، وقد فقد الدفتر الثامن هذا من سلسلة دفاتره. القصة لم تنته باستعادة الدفتر: نظم له متحف المدينة معرضًا بعنوان (على الخط الدائري) ضم ثمانين رسمًا، افتتحه وزير الثقافة، وبيعت النسخ المطبوعة لصالح صندوق دعم المواهب الشابة، وصار الرسام يقدم ورشة أسبوعية للرسم السريع تقام - بإصرار منه - داخل حافلة متوقفة في ساحة المتحف».",
+   "token_count": 592,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-409"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص التقرير الزراعي في ثلاث نقاط: «تواجه زراعة البن في المرتفعات الجنوبية لحظة تحول تاريخية. فمن جهة، بلغ الطلب على البن المحلي الفاخر ذروة غير مسبوقة: ارتفع سعر كيلو الأجود من 90 ريالًا إلى 240 خلال خمس سنوات، وتتنافس المحامص الكبرى على التعاقد المسبق مع المزارع قبل نضج المحصول، وحصل بن المنطقة على تسجيل المؤشر الجغرافي الذي يحمي اسمه عالميًا. ومن جهة أخرى تتهدد الزراعة نفسها ثلاثة أخطار: شيخوخة المزارعين إذ متوسط أعمارهم 58 عامًا وعزوف الأبناء عن مدرجات جبلية لا تصلها الآليات، وتذبذب الأمطار الذي أتلف ربع محصول العام الماضي في بعض العزل، وتسرب شتلات مجهولة المصدر بدأت تخلط السلالات المحلية النقية التي قام عليها المجد الجديد. المبادرات الجارية تحاول اللحاق: برنامج (وريث البن) يدرب مئة شاب سنويًا بمنحة شهرية ويضمن لهم عقود شراء لثلاث سنوات، وخزانات جبلية صغيرة تحصد مياه الأمطار أثبتت جدواها في 30 مزرعة نموذجية، ومختبر أنسجة أنشئ حديثًا لإكثار السلالات المحلية الموثقة وتوزيعها بأسعار رمزية تنافس الشتلات المجهولة».",
+   "token_count": 642,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-410"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من أربع جمل للنص: «في ذكرى تأسيسها الخمسين، فتحت إذاعة القرآن الكريم المحلية أرشيفها للباحثين لأول مرة، فكشفت كنوزًا صوتية تؤرخ لمدرسة التلاوة في المنطقة: 12 ألف ساعة تسجيل تشمل تلاوات نادرة لقراء الجيل الأول الذين لم توثق أصواتهم في أي مكان آخر، ودروسًا ومساجلات علمية من السبعينيات، وتسجيلات ميدانية لصلوات التراويح في المساجد التاريخية بأصوات أئمة رحلوا. المشروع الذي أطلق لرقمنة هذا الإرث استغرق ثلاث سنوات وواجه تحديات تقنية جسيمة: أشرطة تحللت أطرافها وأخرى التصقت طبقاتها من حرارة المستودعات القديمة، فاستعانت الإذاعة بمختبر متخصص في ترميم الصوت أنقذ 87% من المواد. أتيحت المكتبة الصوتية الآن عبر منصة مجانية مبوبة بأسماء القراء والسور والمقامات، وسجلت مليون استماع في شهرها الأول، وكانت المفاجأة أن 40% من المستمعين شباب دون الثلاثين يكتشفون أصوات أجدادهم لأول مرة، فيما تبنت ثلاث جامعات المنصة مرجعًا لكراسي بحث علم المقامات وتطور مدارس التلاوة».",
+   "token_count": 608,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-411"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص المقال في فقرة لا تتجاوز أربعين كلمة: «يسميها أهل البادية (سنة الرياح الطيبة): مرة كل بضع سنوات تأتي رياح موسمية معتدلة محملة برطوبة غير معتادة، فتخضر الفياض التي لم تخضر منذ أعوام، وتزهر نباتات تكون بذورها كامنة في التربة عقدًا كاملًا تنتظر شروطها الدقيقة. هذا العام كان واحدًا من تلك السنوات النادرة، فتحولت مساحات شاسعة من السهول الشرقية إلى بساط أخضر تتخلله ملايين الأزهار البرية بألوان لم يرها الجيل الشاب قط. الظاهرة أطلقت موجة سياحة داخلية عفوية: عائلات تقصد الفياض للتخييم بين الأزهار، ومصورون يتنقلون بين البقع كأنهم يطاردون الشفق القطبي، وحملات توعية أطلقها ناشطون بيئيون تحذر من قطف الأزهار أو الدهس بالسيارات لأن بذور هذا الموسم هي مخزون العقد القادم بأكمله.",
+   "token_count": 482,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-412"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من ثلاث جمل: «قصة نجاح تروى في أروقة وزارة الإسكان: حي (الواحة الشمالية) الذي كان قبل عقد رمزًا للتعثر - مشروع إسكان توقف بنصف مبانيه هياكل خرسانية عارية بعد إفلاس مطوره - صار اليوم نموذجًا يدرس لإحياء المشاريع المتعثرة. البداية كانت قرارًا جريئًا: بدل انتظار مطور بديل يشتري المشروع كاملًا، قسمته الوزارة إلى ثماني حزم صغيرة طرحت لمقاولين متوسطين محليين، مع صندوق ضمان يطمئن المشترين بأن أموالهم محمية باسترداد كامل إن تعثر أي مقاول. اكتملت الحزم تباعًا خلال أربع سنوات، وسلمت 2400 وحدة سكنية، وامتلأ الحي بالحياة: مدرستان وحديقتان ومركز صحي وسوق مجاور بني بمبادرة من ملاك الوحدات أنفسهم عبر جمعيتهم التي صارت من أنشط جمعيات الملاك في المنطقة. الدرس الذي تعممه الوزارة الآن على ثلاثة مشاريع متعثرة أخرى: التجزئة تهزم التعثر، والضمانات تعيد الثقة، وجمعيات الملاك الفاعلة هي من يحول المباني إلى حي».",
+   "token_count": 577,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-413"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص النص في جملتين تبرزان الفكرة والنتيجة: «حين لاحظ طبيب أسرة في مركز صحي طرفي أن نصف مواعيد مرضى السكري تضيع دون حضور، لم يكتف بالتذمر من ثقافة الالتزام، بل بحث عن السبب فعليًا: اتصل بخمسين متخلفًا عن مواعيدهم وسألهم ببساطة لماذا لم تحضروا. الإجابات قلبت افتراضاته: الأغلبية لم تكن مستهترة بل عاجزة - مواعيد صباحية تتعارض مع عمل لا يسمح بالاستئذان، وكبار سن لا يجدون من يوصلهم، ومرضى ظنوا أن الموعد (مجرد متابعة روتينية) يمكن تفويتها لأن أحدًا لم يشرح لهم خطورة الانقطاع. صمم الطبيب مع إدارته حزمة استجابة دقيقة: عيادة مسائية يومي الثلاثاء والخميس للعاملين، وتنسيق مع جمعية النقل التطوعي لتوصيل كبار السن، ورسالة تذكير جديدة تشرح بجملة واحدة ماذا سيحدث في الموعد ولماذا يهم. خلال ستة أشهر ارتفع الحضور من 52% إلى 81%، وتحسنت مؤشرات السكر التراكمي لدى المنتظمين الجدد، وتبنت الشؤون الصحية أسلوب (اسأل المتخلفين أولًا) منهجية معتمدة قبل أي خطة لرفع الالتزام بالمواعيد».",
+   "token_count": 644,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-414"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا في أربع نقاط: «رصد تقرير أمانة المنطقة الشرقية حصيلة عام كامل من تطبيق نظام الفرز الثنائي للنفايات المنزلية في مرحلته التجريبية بثلاثة أحياء: وزعت الأمانة 45 ألف حاوية منزلية مزدوجة، ونظمت 300 جولة توعوية طرقت أبواب المنازل مباشرة، وربطت التطبيق بحوافز: خصم 15% من رسوم النظافة للحي الذي تتجاوز نسبة فرزه الصحيح 60%. النتائج تفاوتت بوضوح: حي الشاطئ حقق 71% التزامًا وحصل سكانه على الخصم كاملًا، وحي الروابي بلغ 58% فاقترب دون أن يبلغ، بينما لم يتجاوز حي المصفاة 34% وكشفت الزيارات أن سبب التدني الرئيس ليس الرفض بل الارتباك: عمالة منزلية متغيرة لم تشملها التوعية الموجهة للأسر بالعربية وحدها. الأمانة استخلصت الدرس وأعلنت خطة المرحلة الثانية: توسيع التجربة لثمانية أحياء، ومواد توعوية بأربع لغات تستهدف العمالة المنزلية مباشرة، وشاشة متابعة حية في تطبيق الأمانة تعرض نسبة كل حي أولًا بأول لتحفيز المنافسة الأهلية التي أثبتت في التجربة أنها أقوى محرك للالتزام».",
+   "token_count": 614,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-415"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص القصة في ثلاث جمل: «في أقصى الجنوب، حيث تتشبث قرى صغيرة بسفوح شاهقة، عاش أهالي (قرية المدرج) عقودًا مع مشكلة موسمية قاسية: طريقهم الترابي الوحيد ينقطع مع كل موسم أمطار، فتعزل القرية أسابيع ويضطر المرضى للنقل على الأكتاف ساعتين حتى أقرب نقطة تصلها سيارات الإسعاف. تعاقبت الوعود الرسمية وتعثرت دراسات شق طريق معبد لصعوبة التضاريس وكلفته العالية قياسًا بعدد السكان. الحل جاء من زاوية غير متوقعة: مبادرة وطنية لتطوير القرى السياحية اكتشفت أن مدرجات القرية الزراعية المعلقة وبيوتها الحجرية المتدرجة كنز سياحي خام، فأدرجتها ضمن عشر قرى واعدة، وصار الطريق المعبد بمواصفات سياحية - بجسرين وممرات أمان - جزءًا من حزمة التطوير التي اكتملت العام الماضي. اليوم لا يقتصر الأثر على انتهاء العزلة الموسمية: افتتح أبناء القرية ثمانية بيوت ضيافة ومقهيين على المدرجات، وعاد للاستقرار فيها 40 شابًا كانوا هاجروا للمدن، وتقول عجائز القرية مازحات إن السياح أنجزوا في عامين ما عجزت عنه الخطابات في ثلاثين».",
+   "token_count": 632,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-416"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من جملتين: «تحقيق اقتصادي في ظاهرة (متاجر الحي الصغيرة) التي توقع كثيرون اندثارها أمام زحف سلاسل التجزئة العملاقة وتطبيقات التوصيل، لكنها فاجأت الجميع بصمود بل ازدهار انتقائي: البقالات التي طورت نفسها نجت وربحت، والتي بقيت على حالها القديم أغلقت فعلًا بمعدل 300 بقالة سنويًا في العاصمة وحدها. سر الناجين كما يشرحه التحقيق ثلاثي: القرب الذي لا تنافسه سرعة أي تطبيق حين تحتاج غرض طوارئ خلال دقيقتين، والعلاقة الشخصية إذ يعرف صاحب البقالة زبائنه بأسمائهم ويوفر طلباتهم الخاصة ويمنح دفتر الدين الشهري ثقة لا تمنحها الخوارزميات، والتخصص الذكي حيث تحولت بقالات ناجحة إلى محطات خدمات مصغرة: استلام طرود المتاجر الإلكترونية، وشحن البطاقات, وبيع منتجات الأسر المنتجة في الحي نفسه.",
+   "token_count": 501,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-417"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص التقرير الصحي في فقرة بحدود أربعين كلمة: «أطلقت الشؤون الصحية برنامج (امش ثلاثين) قبل عامين بهدف مواجهة الخمول البدني الذي تصل نسبته بين البالغين إلى 67%. اعتمد البرنامج فلسفة إزالة الأعذار بدل الوعظ: ممرات مشي مظللة ومبردة بطول 85 كيلومترًا وزعت على الأحياء بحيث لا يبعد أي منزل أكثر من 800 متر عن أقرب ممر، ونوادي مشي حكومية مجانية بمدربين معتمدين في 30 حديقة، وربط تطبيق البرنامج بحوافز ملموسة: نقاط تحول خصومات لدى 200 متجر وصيدلية شريكة، وسحوبات شهرية على جوائز لمن يكمل 25 يوم مشي. النتائج بعد عامين حسب المسح الميداني: ارتفعت نسبة من يمشون ثلاثين دقيقة خمسة أيام أسبوعيًا من 18% إلى 31%، وسجلت الممرات مليوني استخدام شهريًا في المتوسط، وانخفضت مؤشرات ما قبل السكري لدى عينة المتابعة الطبية 12%. التحدي الباقي الذي يواجهه البرنامج: فجوة المشاركة النسائية التي ما زالت أدنى بعشر نقاط رغم تخصيص ممرات وأوقات خاصة، ويعمل البرنامج على معالجتها بتوسيع النوادي النسائية وتوظيف مدربات من الأحياء نفسها».",
+   "token_count": 644,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-418"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص النص في ثلاث جمل تحفظ التسلسل الزمني: «سيرة مبنى واحد قد تختصر تاريخ مدينة: مبنى (البرج الأحمر) وسط العاصمة القديمة. بني عام 1948 فندقًا فاخرًا بطراز معماري مزج الزخرفة المحلية بالحداثة الأوروبية، ونزل فيه في عقده الأول ملوك ووفود ومشاهير، وكانت صالته مسرح توقيع اتفاقيات تجارية شكلت اقتصاد المنطقة. مع انتقال مركز المدينة شرقًا في السبعينيات فقد الفندق بريقه تدريجيًا حتى أغلق عام 1985، وتحول عقدين مستودعات لتجار الجملة تآكلت خلالها زخارفه وطمست ألوانه، ونجا من قرار هدم عام 2003 بفارق أصوات قليلة في المجلس البلدي بعد حملة قادها معماريون شباب.",
+   "token_count": 390,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-419"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من ثلاث نقاط للدراسة: «تناولت دراسة ميدانية واسعة أثر البرامج الصيفية على مهارات الطلاب، بمتابعة 2400 طالب وطالبة توزعوا على ثلاثة مسارات: مخيمات علمية مكثفة، وأندية موهبة أسبوعية أخف كثافة، ومجموعة لم تلتحق بأي برنامج. القياس القبلي والبعدي شمل مهارات التفكير الناقد والتواصل والثقة الاجتماعية. النتائج حملت مفاجأتين: الأولى أن أندية الموهبة الأخف كثافة تفوقت على المخيمات المكثفة في أثر التواصل والثقة، ويفسر الباحثون ذلك بامتداد الأندية ثمانية أسابيع تسمح بنضج العلاقات، مقابل أسبوعين مكثفين تنتهي بانتهائهما الصداقات الوليدة؛ والثانية أن الأثر الأكبر في التفكير الناقد سجله طلاب المخيمات القادمون من مدارس لم توفر لهم أنشطة مشابهة قط، ما يعني أن القيمة المضافة أعلى لمن يفتقد البديل. أما المجموعة الثالثة فلم تتراجع مهاراتها كما توقع البعض، لكنها راوحت مكانها.",
+   "token_count": 548,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-420"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص المقال في جملتين: «(اقتصاد الدراجة الهوائية) مصطلح جديد يشق طريقه في أدبيات التخطيط الحضري المحلي بعد أن كان حكرًا على مدن أوروبا الباردة، وقد فرضته الأرقام لا الموضة: خلال ثلاث سنوات تضاعفت مبيعات الدراجات أربع مرات، وظهرت 60 ورشة صيانة متخصصة بعد أن كانت الصيانة هامشًا في محال ألعاب الأطفال، وتأسست خمس شركات محلية لتأجير الدراجات بالدقيقة تدير 12 ألف دراجة، ونظمت العاصمة ثلاثة سباقات جماهيرية شارك في أكبرها 8 آلاف دراج. البنية التحتية تلاحق الظاهرة بوتيرة متسارعة: 140 كيلومترًا من المسارات المخصصة أنجزت، والمستهدف 400 بحلول نهاية العقد، مع تجربة رائدة لمسار مبرد بالكامل مظلل بألواح شمسية تغذي إنارته ونقاط تبريد المياه على امتداده. ويرصد الاقتصاديون أثرًا جانبيًا لافتًا: ارتفاع قيمة العقارات المطلة على المسارات الرئيسة 8%، وظهور مقاهٍ ومتاجر معدات تتموضع عمدًا عند تقاطعات المسارات، في إعادة إنتاج مصغرة لما فعلته محطات المترو بخريطة التجارة قبل سنوات».",
+   "token_count": 616,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-421"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا في أربع جمل: «أعلنت لجنة جائزة القراءة الوطنية نتائج دورتها الخامسة التي شهدت تحولات نوعية في المشاركة: تجاوز المتسابقون 90 ألفًا بزيادة 35% عن الدورة الماضية، وكانت قفزة المشاركة الأبرز في فئة (قارئ العائلة) المستحدثة التي تتنافس فيها الأسرة كفريق واحد بمتوسط قراءة موثق لكل فرد، وسجلت 6 آلاف أسرة. فئة النخبة شهدت منافسة غير مسبوقة حسمتها معلمة متقاعدة قرأت ولخصت 120 كتابًا خلال العام، متفوقة في الاختبار الشفهي الذي يقيس عمق الفهم لا كم المحفوظ، وأهدت جائزتها البالغة مئة ألف ريال لمكتبة قريتها التي تعلمت فيها القراءة قبل ستين عامًا. اللجنة أعلنت أيضًا تعديلين جوهريين للدورة القادمة استجابة لملاحظات المشاركين: اعتماد الكتب الصوتية ضمن القراءات الموثقة شرط اجتياز اختبار الفهم ذاته، وإنشاء مسار خاص للقراء من ذوي الإعاقة البصرية بلجان تحكيم مدربة.",
+   "token_count": 552,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-422"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص النص في فقرة لا تتجاوز خمسًا وثلاثين كلمة: «مشهد غير مألوف في قاعة المحكمة التجارية: خصمان يخرجان متصافحين وقد ابتسم القاضي. السر في نظام (التسوية الودية المشروطة) الذي دخل عامه الثاني: قبل قبول أي دعوى تجارية تقل قيمتها عن مليون ريال، يحال الطرفان إلزاميًا لجلسة وساطة واحدة على الأقل مع وسيط معتمد، فإن اتفقا صيغ اتفاقهما سندًا تنفيذيًا فوريًا بقوة الحكم، وإن أخفقت الوساطة مضت الدعوى في مسارها دون أن يحسب ما قيل في الوساطة على أي طرف. الأرقام بعد عامين تتحدث: 44% من النزاعات المحالة انتهت صلحًا من الجلسة الأولى أو الثانية، ومتوسط عمر النزاع المنتهي وديًا 26 يومًا مقابل 14 شهرًا للمسار القضائي الكامل، ووفرت المحاكم آلاف الجلسات التي وجهت طاقتها للقضايا المعقدة.",
+   "token_count": 487,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-423"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من ثلاث جمل: «وثائقي إذاعي عن مهنة تولد من رحم التقنية: (مرشدو الجذور) - شباب وشابات يحترفون مساعدة العائلات على تتبع تاريخها وبناء أشجار أنسابها بالوثائق. بدأت الظاهرة بهواية فردية لشاب أمضى عامين يتتبع سيرة جده النوخذة عبر سجلات الموانئ وعقود اللؤلؤ القديمة، فلما نشر رحلة بحثه تدفقت عليه طلبات العائلات، وتحولت الهواية مهنة كاملة: اليوم يعمل في المجال نحو 40 متخصصًا يجمعون بين مهارات الأرشيف وقراءة المخطوطات والمقابلات الشفهية مع كبار العائلة، وتتراوح كلفة المشروع العائلي بين 5 و30 ألف ريال حسب عمق البحث، وقائمة انتظار المكاتب الجادة تمتد شهورًا. الطلب يقوده وعي جديد عبر عنه أحد العملاء: الجيل الذي عاش التحولات الكبرى يرحل، وكل جنازة بلا توثيق مكتبة تحترق.",
+   "token_count": 481,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-424"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص التحقيق في جملتين تبرزان المشكلة والحل: «(جزر الحرارة) مصطلح علمي صار هم سكان الأحياء القديمة صيفًا: مناطق داخل المدينة تسجل حرارة تزيد خمس درجات عن ضواحيها بسبب كثافة الإسفلت والخرسانة وغياب الظل، وتظهر الكاميرات الحرارية شوارعها متوهجة كجمر حتى بعد منتصف الليل حين تطلق المواد المختزنة حرارتها. تحقيق ميداني قاس الظاهرة في ثلاثة أحياء قديمة فوجد ساحات تلامس أسطحها 68 درجة عصرًا، وواجهات زجاجية حديثة أقحمت على النسيج القديم تعكس الشمس على الأرصفة كمرايا عملاقة، وأشجارًا معدودة تتباعد عشرات الأمتار. الحلول التي بدأت البلدية تجريبها في أكثر الجزر توهجًا تستعير من حكمة العمارة القديمة قبل تقنيات العصر: مظلات قماشية متصلة فوق الأزقة التجارية على طريقة أسواق الأمس، وطلاء عاكس فاتح للأسطح والأرصفة خفض حرارة الأسطح المطلية 11 درجة في القياس التجريبي، وحملة تشجير كثيف بأصناف ظل محلية عميقة الجذور بهدف ألف شجرة في كل حي خلال عامين، ونوافير رذاذ في الساحات تعمل بمياه معالجة.",
+   "token_count": 619,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-425"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا نهائيًا من ثلاث نقاط للتقرير: «اختتمت هيئة الترفيه موسمها الشتوي بحصيلة قياسية وثقها تقريرها السنوي: 380 فعالية توزعت على 14 مدينة وبلدة خلال 90 يومًا، بحضور إجمالي بلغ 6.5 مليون زائر بينهم 800 ألف سائح من خارج البلاد استدل التقرير عليهم ببيانات التأشيرات السياحية المرتبطة بحجوزات الفعاليات. القفزة الأبرز جاءت من خارج المدن الكبرى: البلدات الصغيرة التي استضافت فعاليات مصممة حول هويتها المحلية - مهرجان العسل الجبلي، وليالي الواحة الشتوية، وسوق الحرف الساحلي - سجلت نموًا في الحضور بلغ 140% وحجزت فنادقها ونزلها بالكامل طوال أسابيع الفعاليات، ما أنعش اقتصادات محلية ظلت خارج خريطة الترفيه عقودًا. التقرير لم يخل من نقد ذاتي صريح: ازدحام مروري خانق رافق الفعاليات الكبرى في العاصمة رغم خطط النقل، ونقص واضح في الفعاليات الموجهة لكبار السن الذين لم يجدوا في القوائم ما يناسبهم سوى 4% من الفعاليات، وتفاوت جودة بين المدن الكبرى والبلدات في التنظيم والخدمات.",
+   "token_count": 599,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-426"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الخبر في جملتين: «افتتحت الجامعة مركز الابتكار الطلابي بمساحات عمل مفتوحة ومختبر نماذج أولية وقاعة عرض للمستثمرين. ويستقبل المركز فرق المشاريع الطلابية بنظام العضوية الفصلية، مع برنامج إرشادي يربط كل فريق بموجه من قطاع الأعمال، وجوائز سنوية لأفضل ثلاثة مشاريع قابلة للتحول شركات ناشئة».",
+   "token_count": 207,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-427"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر النص في جملة: «أظهرت تجربة المكتبات المصغرة في محطات المترو نتائج مشجعة: ثلاثون رفًا زجاجيًا تعمل بنظام خذ كتابًا واترك كتابًا، تداول الركاب عبرها أربعين ألف كتاب في ستة أشهر دون فقد يذكر، وتحولت بعض الأرفف إلى نقاط لقاء لنوادي قراءة عفوية نشأت بين ركاب الخط الواحد».",
+   "token_count": 199,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-428"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص التقرير في جملتين: «سجل قطاع صيد الأسماك التقليدي تعافيًا ملموسًا بعد ثلاث سنوات من تطبيق فترات الحظر الموسمي لحماية مواسم التكاثر: ارتفع متوسط الكميات المفرغة 28%، وعاد سمك الهامور للظهور بأحجام تجارية بعد ندرة دامت عقدًا. ويطالب الصيادون الآن بتوسيع مواقع الشعاب الاصطناعية التي أثبتت دورها في إنعاش المخزون».",
+   "token_count": 224,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-429"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من جملتين: «حولت مبادرة شبابية باصًا مدرسيًا متقاعدًا إلى مطبخ متنقل لتعليم الطبخ الصحي، يجوب الأحياء بورش مجانية للأمهات والأطفال، ويقدم وصفات معدلة عن الأطباق الشعبية بدهون وسكريات أقل. وأعلنت البلدية تبني الفكرة بتحويل باصين إضافيين العام القادم بعد أن حضر الورش أربعة آلاف مشارك في موسمها الأول».",
+   "token_count": 227,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-430"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الفقرة في جملة واحدة: «لا يقتصر دور أشجار المانجروف على تثبيت السواحل ومنع انجراف الطين؛ فهي حضانة طبيعية لصغار الأسماك والربيان قبل انتقالها للمياه المفتوحة، ومرشح ينقي المياه من العوالق، ومخزن كربون يفوق الغابات المطيرة كثافة، وموئل لطيور مهاجرة تعبر القارات، ولهذا تتصدر برامج الاستزراع الساحلي أولويات الجهات البيئية».",
+   "token_count": 231,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-431"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر الخبر في حدود عشرين كلمة: «أطلقت هيئة المواصفات حملة رقابية على أجهزة التكييف المعروضة في الأسواق، سحبت خلالها 1200 جهاز مخالف لبطاقة كفاءة الطاقة، وألزمت المستوردين بإعادة تصدير الشحنات غير المطابقة على نفقتهم، مؤكدة أن الأجهزة عالية الكفاءة توفر على المستهلك ثلث فاتورة الصيف رغم فارق سعرها الأولي».",
+   "token_count": 211,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-432"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص النص في جملتين: «بعد أربعين عامًا في تصوير الأفراح، قرر المصور العجوز أرشفة ما لديه: مئة ألف صورة زفاف تؤرخ لتحولات الفستان والقاعة والضيافة عبر أربعة عقود. عرض على أصحاب الصور استلام نسخهم مجانًا فتحول محله شهرًا كاملًا إلى مزار عائلي مؤثر، ثم أهدى ما لم يُطالب به لمركز التوثيق الاجتماعي الذي صنفه باحثوه كنزًا لدراسة تاريخ الأزياء المحلية».",
+   "token_count": 248,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-433"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من ثلاث نقاط: «أوصى مؤتمر سلامة الغذاء بثلاث ممارسات منزلية: فصل ألواح التقطيع بين اللحوم والخضار منعًا للتلوث المتبادل، وتبريد الأطعمة المطبوخة خلال ساعتين من الطهي لأن التأخير يضاعف نمو البكتيريا، وعدم الاعتماد على الرائحة وحدها للحكم على صلاحية الأطعمة لأن أخطر أنواع التسمم لا رائحة لها ولا طعم».",
+   "token_count": 225,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-434"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الخبر في جملتين: «توج مربي إبل شاب بلقب أفضل منتج حليب نوق في المعرض الزراعي بعد أن طور مزرعته بنظام حلب آلي مصمم خصيصًا للنوق وسلسلة تبريد متكاملة رفعت إنتاجيته ثلاث مرات. ويورد الشاب حليبه اليوم لمصنعين محليين يحولانه إلى ألبان وشوكولاتة فاخرة تصدر لثلاث دول خليجية».",
+   "token_count": 203,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-435"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر النص في جملة: «حين تعبر الطيور المهاجرة سماء المنطقة مرتين كل عام، تتحول برك الصرف المعالج قرب المدينة إلى محطات توقف تعج بآلاف النحام والبط البري، وهي ظاهرة حولتها هيئة البيئة من مصادفة عمرانية إلى فرصة: أعلنت البرك محمية موسمية، وأنشأت مراصد خشبية للمصورين، ودربت مرشدين من هواة الطيور المحليين».",
+   "token_count": 211,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-436"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص التقرير في جملتين: «كشف مسح المباني الحكومية أن 60% منها شيد قبل اشتراطات العزل الحراري، وأن تكييفها يستهلك ضعف المعدل المفترض. وأقرت لجنة الطاقة برنامج تأهيل على خمس سنوات يبدأ بالمباني الأكثر استهلاكًا: عزل أسطح وواجهات، واستبدال أنظمة التكييف المركزية بأنظمة ذكية، بتمويل من شركات خدمات الطاقة التي تسترد استثمارها من الوفورات المتحققة».",
+   "token_count": 237,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-437"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من جملتين: «استحدثت أمانة المدينة مسار (النخيل المثمر) في الحدائق العامة: بدل الاكتفاء بنخيل الزينة، زرعت ألفي نخلة منتجة تدار ثمارها بنظام فريد: للمارة حق الأكل في المكان، ولجمعيات الأسر المنتجة حق الجني المنظم لصناعة منتجات تباع في أكشاك الحدائق نفسها. وحقق النظام في موسمه الأول عائدًا مول صيانة الحدائق وأشعر الأهالي بملكية المكان».",
+   "token_count": 242,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-438"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الفقرة في جملة واحدة: «قبل أن تصل القهوة إلى فنجانك صباحًا تكون قد قطعت رحلة مدهشة: ثمرة قطفت يدويًا في مرتفعات استوائية، وجففت أسابيع تحت الشمس، وفرزت حبة حبة، وسافرت آلاف الأميال في جوالات خيش، وحمصت بدرجة حرارة مضبوطة بالثانية، وارتاحت أيامًا لتطلق غازاتها، قبل أن تطحن وتقابل الماء الساخن في اللحظة الأخيرة من رحلتها الطويلة».",
+   "token_count": 244,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-439"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر الخبر في حدود خمس وعشرين كلمة: «أنهت فرق الآثار موسم التنقيب في الميناء الأثري باكتشافات وصفت بالاستثنائية: رصيف حجري غاطس بطول 120 مترًا، ومخازن قوارير فخارية بعضها ما زال مختومًا، ومجموعة موازين برونزية تشير لنشاط تجاري منظم قبل ألفي عام. وستعرض القطع المرممة في جناح خاص بمتحف المنطقة مطلع العام القادم ضمن معرض (موانئ الذاكرة)».",
+   "token_count": 244,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-440"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص النص في جملتين: «واجه نادي كرة القدم العريق أزمة مالية كادت تهوي به للدرجة الثانية إداريًا، فلجأ لحل غير مسبوق محليًا: طرح عضوية جماهيرية برسم رمزي تمنح حاملها التصويت على قرارات محددة وأولوية التذاكر. اكتتب 40 ألف مشجع في شهر واحد، فسدد النادي متأخراته، والأهم أن الجمهور صار شريكًا يحاسب ويقترح عبر جمعية عمومية مصغرة تجتمع فصليًا».",
+   "token_count": 247,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-441"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من جملتين: «أطلقت وزارة التعليم مسابقة (مكتبتنا الحية) لتحويل المكتبات المدرسية المهجورة إلى مساحات جاذبة بميزانيات رمزية وجهد ذاتي: أعادت المدارس المشاركة تصميم مكتباتها بجلسات أرضية وأركان قراءة حرة وإدارة طلابية كاملة. النتيجة بعد فصل واحد: تضاعف معدل الاستعارة أربع مرات في المدارس العشر الأوائل، وصارت نماذجها دليلًا مصورًا يعمم على مدارس المناطق كلها».",
+   "token_count": 262,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-442"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الخبر في جملة واحدة: «بعد عامين من التجارب، اعتمدت شركة المياه الوطنية تقنية الكشف الصوتي عن التسريبات: حساسات تلتقط ذبذبات التسرب في الشبكات المدفونة وتحدد موقعه بدقة مترين، ما قلص فاقد المياه في الأحياء التجريبية من 18% إلى 7%، ووفر ملايين الريالات كانت تهدر في الحفر الاستكشافي العشوائي لتحديد مواضع الأعطال».",
+   "token_count": 214,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-443"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر النص في ثلاث نقاط: «حددت دراسة نفسية تربوية ثلاثة أخطاء شائعة في مدح الأطفال: مدح الذكاء بدل الجهد ما يجعل الطفل يتجنب التحديات خوفًا على صورته، والمدح المبالغ للأعمال العادية ما يفقد الكلمات قيمتها ويشكك الطفل في صدق الكبار، والمدح المقارن بالآخرين ما يربط قيمة الإنجاز بالتفوق على أحد لا بالتقدم الذاتي، وتوصي الدراسة بمدح محدد يصف الفعل ويربطه بالمثابرة».",
+   "token_count": 256,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-444"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص التقرير في جملتين: «شهد سوق العمل الحر نموًا لافتًا: 340 ألف مسجل في المنصة الوطنية بزيادة 45%، يتصدرهم مقدمو الخدمات الرقمية ثم التوصيل فالتدريب الخصوصي. وأطلقت الجهات المعنية حزمة حماية جديدة تشمل تأمينًا صحيًا مخفضًا ونظام توثيق للعقود يحفظ حقوق المستقل عند تأخر السداد، استجابة لأبرز شكاوى استطلاع العاملين في القطاع».",
+   "token_count": 232,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-445"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من جملتين: «في سابقة قضائية لافتة، ألزمت المحكمة التجارية شركة تطوير عقاري بتعويض ملاك مجمع سكني عن تأخر تسليم المرافق الموعودة عامين كاملين، مستندة إلى المخططات الإعلانية بوصفها جزءًا من العقد الملزم. ويرى محامون أن الحكم سيغير صياغة الإعلانات العقارية جذريًا، إذ لم يعد بالإمكان الوعد بمسبح ونادٍ ومدرسة ثم اعتبارها تفاصيل تسويقية غير ملزمة».",
+   "token_count": 255,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-446"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الفقرة في جملة: «يخطئ من يحسب الصقارة هواية صيد فحسب؛ فهي منظومة معارف متوارثة: قراءة تضاريس الصحراء ومساقط الطير، وطب تقليدي كامل لعلاج الجوارح، وسوق اقتصادي تتجاوز صفقاته الكبرى الملايين، ودبلوماسية شعبية إذ تجمع مزاينات الصقور ملاكًا من دول شتى على عادات موحدة، حتى أدرجتها اليونسكو تراثًا إنسانيًا مشتركًا لأربع عشرة دولة».",
+   "token_count": 242,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-447"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اختصر الخبر في حدود عشرين كلمة: «بدأ تشغيل أول خط شحن نهري تجريبي عبر القناة المستصلحة بين الميناء والمنطقة الصناعية، بصنادل كهربائية تنقل الحاويات بعيدًا عن الطرق البرية المزدحمة. وتشير تقديرات هيئة النقل إلى أن الخط سيحول 200 رحلة شاحنة يوميًا إلى النقل المائي، بانبعاثات أقل 70% وتكلفة نقل أوفر للحاوية الواحدة».",
+   "token_count": 223,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-448"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص النص في جملتين: «ثلاثون عامًا وهو يجمع المفاتيح: مفاتيح بيوت هدمت، وصناديق سفر، وساعات حائط، حتى تجاوزت مجموعته أحد عشر ألف مفتاح صنفها بالحقب والاستخدام. رفض الجامع العجوز عروض بيع المجموعة لهواة أجانب، وأهداها كاملة لمتحف المدينة الذي خصص لها قاعة سماها (قاعة الأبواب المفتوحة)، يقف في مدخلها نص من كلماته: كل مفتاح هنا كان يومًا صوت عودة أحدهم إلى البيت».",
+   "token_count": 265,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-449"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "اكتب ملخصًا من جملتين: «طور فريق طبي محلي بروتوكولًا لخفض عدوى المستشفيات ركز على أبسط الحلقات وأكثرها إهمالًا: لحظات ما بين غسل الأيدي، فوضع محطات تعقيم ذكية تضيء تذكيرًا عند كل سرير وتسجل الالتزام دون أسماء حفظًا للخصوصية، مع لوحة أسبوعية تعرض نسبة كل قسم. خلال عام انخفضت العدوى المكتسبة 38%، وتبنت وزارة الصحة البروتوكول في عشرين مستشفى».",
+   "token_count": 256,
+   "length_band": "long",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-450"
+  },
+  {
+   "category": "summarisation",
+   "prompt": "لخص الخبر في جملة واحدة: «أسدل الستار على معرض التمور الدولي بصفقات تجاوزت 300 مليون ريال وحضور نصف مليون زائر، وشهدت نسخته هذه توقيع أول اتفاقية لتصدير التمور الفاخرة إلى أسواق أمريكا اللاتينية، وإطلاق مختبر مركزي لاعتماد شهادات الجودة يختصر إجراءات التصدير من أسابيع إلى ثلاثة أيام».",
+   "token_count": 197,
+   "length_band": "medium",
+   "source": "synthetic-claude-probe",
+   "id": "probe-summ-451"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ النص ثم أجب: «أطلقت مؤسسة وقفية برنامج (كفالة حرفة) البديل عن الكفالات النقدية التقليدية: بدل صرف إعانة شهرية دائمة، يمول البرنامج تجهيز مشروع حرفي صغير للأسرة المستفيدة ويدربها ويرافقها عامًا كاملًا حتى الاستقلال. في دفعته الأولى التحقت 60 أسرة: 24 في الخياطة والتطريز، و18 في إعداد الأطعمة المنزلية، و12 في العطارة والتقطير، و6 في صيانة الجوالات. بلغ متوسط تكلفة تجهيز المشروع الواحد 15 ألف ريال تدفع مرة واحدة، بينما كانت الكفالة النقدية التقليدية 800 ريال شهريًا بلا أفق نهاية. بعد ثمانية عشر شهرًا من الإطلاق: 42 أسرة استقلت تمامًا بدخل شهري يتجاوز الكفالة القديمة، و11 أسرة ما تزال في مرحلة المرافقة الممددة، و7 أسر تعثرت مشاريعها وعادت مؤقتًا للكفالة النقدية ريثما يعاد تأهيلها لحرفة أنسب». الأسئلة: أولًا، ما نسبة الأسر التي استقلت تمامًا؟ ثانيًا، قارن تكلفة تجهيز مشروع واحد بتكلفة كفالة نقدية لعامين: أيهما أوفر للمؤسسة؟ ثالثًا، كم أسرة التحقت بمجالي الأطعمة والعطارة معًا؟ رابعًا، ما الآلية التي يعالج بها البرنامج حالات التعثر؟",
+   "token_count": 678,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-452"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «وثقت مجلة علمية تجربة مدرسة ثانوية حولت سطحها إلى مختبر مناخي طلابي: ركب الطلاب محطة أرصاد مصغرة ترصد الحرارة والرطوبة والغبار كل عشر دقائق، وثلاث خلايا شمسية تجريبية بزوايا ميل مختلفة (15 و30 و45 درجة) لمقارنة إنتاجها على مدار السنة. بعد عام كامل من التسجيل حلل طلاب النادي العلمي البيانات: أنتجت خلية الثلاثين درجة 412 كيلوواط/ساعة متفوقة على خلية الخمس عشرة (388) وخلية الخمس والأربعين (365)، لكن المفاجأة كانت موسمية: تفوقت زاوية 15 درجة صيفًا وزاوية 45 شتاء، ما قاد الطلاب لاستنتاج أن الزاوية المثلى تتبع ارتفاع الشمس الموسمي. كما رصدت المحطة أن غبار العواصف يخفض إنتاج الخلايا حتى 22% وأن غسلها يعيد الكفاءة خلال يوم. عرض الفريق النتائج في المعرض الوطني وفاز بالمركز الأول، وتبنت شركة طاقة توصيتهم بدراسة الحوامل المتحركة موسميًا للمشاريع الصغيرة». الأسئلة: أولًا، كم كيلوواط/ساعة أنتجت الخلايا الثلاث مجتمعة؟ ثانيًا، ما الاستنتاج الذي فسر التفوق الموسمي المتعاكس للزاويتين؟ ثالثًا، ما أثر الغبار المرصود وما الحل المقترح؟ رابعًا، ما الفارق بين أعلى وأدنى خلية إنتاجًا وبأي نسبة تقريبًا من إنتاج الأدنى؟",
+   "token_count": 738,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-453"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «تروي نشرة الحي قصة (سور الكتب) الذي بدأ مصادفة: علقت معلمة متقاعدة صندوقًا خشبيًا صغيرًا على سور بيتها ووضعت فيه عشرين كتابًا وورقة: خذ ما تشاء وأعد ما تستطيع. خلال شهر فرغ الصندوق وامتلأ ثلاث مرات، فأضاف نجار الحي صندوقين متبرعًا، ثم تكاثرت الصناديق على أسوار البيوت حتى بلغت 14 صندوقًا في خمسة شوارع. نظم شباب الحي الظاهرة بخريطة صغيرة ترشد للصناديق وتصنيف لوني بسيط: أخضر للأطفال وأزرق للرواية وبني للمعارف. إحصاء تطوعي بسيط قدر المتداول عبر الصناديق بألف ومئتي كتاب شهريًا، لكن الأثر الأبعد ظهر حيث لم يتوقع أحد: تعارف الجيران الذين يلتقون عند الصناديق، وعودة أطفال الشاشات إلى الورق بحكم القرب والمجانية، واقتراح مدرسة الحي احتساب ساعات تطوعية لطلابها الذين يتعهدون صيانة الصناديق وترتيبها أسبوعيًا». الأسئلة: أولًا، كم صندوقًا أضيف بعد صندوق المعلمة الأول؟ ثانيًا، ما وظيفة التصنيف اللوني ومن استفاد منه أكثر برأيك مع التعليل من النص؟ ثالثًا، اذكر الآثار الاجتماعية الثلاثة التي تجاوزت تداول الكتب. رابعًا، كم كتابًا يتداول عبر الصناديق سنويًا وفق التقدير؟",
+   "token_count": 729,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-454"
+  },
+  {
+   "category": "qa",
+   "prompt": "النص: «راجعت هيئة الطيران المدني أداء المطارات الداخلية الأربعة في تقريرها الفصلي: مطار الشمال خدم 420 ألف مسافر بنسبة رحلات منضبطة المواعيد 91% وهي الأعلى، ومتوسط انتظار الحقائب 14 دقيقة. مطار الشرق خدم 610 آلاف مسافر بانضباط 84% وانتظار حقائب 19 دقيقة، مسجلًا أعلى نمو في المسافرين (17%) بفضل خطين موسميين جديدين. مطار الجنوب خدم 380 ألفًا بانضباط 87%، لكنه سجل أطول انتظار للحقائب: 31 دقيقة، وأرجعها التقرير لتقادم سيور المناولة التي تقرر استبدالها قبل موسم الحج. أما مطار الغرب الأصغر فخدم 190 ألفًا بانضباط 91% مساويًا الشمال، وانتظار حقائب 11 دقيقة هو الأفضل، ليحصد لقب أفضل تجربة مسافر للفصل الثاني تواليًا وفق مؤشر يجمع الانضباط والانتظار ورضا المسافرين المستطلع». الأسئلة: أولًا، كم مسافرًا خدمت المطارات الأربعة مجتمعة؟ ثانيًا، لماذا فاز الغرب باللقب رغم تعادله مع الشمال في الانضباط؟ ثالثًا، ما المشكلة المحددة في الجنوب وما الحل المقرر وتوقيته؟ رابعًا، كم مسافرًا إضافيًا تقريبًا استقبل الشرق هذا الفصل مقارنة بالفصل المقابل السابق؟ (احسب من نسبة النمو).",
+   "token_count": 697,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-455"
+  },
+  {
+   "category": "qa",
+   "prompt": "اقرأ ثم أجب: «ضمن مشروع التخرج، صممت طالبتا عمارة دراسة مقارنة لظلال ثلاثة أنماط من أغطية الممرات في حرم الجامعة: المظلة القماشية المشدودة (تكلفة 380 ريالًا للمتر الطولي، تخفض حرارة سطح الممر 12 درجة، عمرها الافتراضي 8 سنوات)، والتغطية الخشبية المشبكة المزروعة بالمتسلقات (520 ريالًا للمتر، تخفض 16 درجة بعد اكتمال نمو النبات في عامين، عمرها 20 عامًا لكنها تحتاج ريًا وتقليمًا بتكلفة سنوية 15 ريالًا للمتر)، والألواح الشمسية المظللة (1100 ريال للمتر، تخفض 14 درجة، عمرها 25 عامًا، وتولد كهرباء تعادل 60 ريالًا للمتر سنويًا). طول الممرات المستهدفة 400 متر، وأوصت الدراسة بمزيج: الألواح الشمسية للممر الرئيس (150 مترًا) لأنه بلا أشجار مجاورة، والتغطية الخضراء للممرات الحدائقية (250 مترًا)». الأسئلة: أولًا، احسب التكلفة الأولية للتوصية المختلطة كاملة. ثانيًا، ما صافي التكلفة السنوية الجارية للتوصية (صيانة الأخضر مقابل عائد الشمسي)؟ ثالثًا، أي نمط يقدم أعلى خفض حراري وما شرطه الزمني؟ رابعًا، لماذا خصص الشمسي للممر الرئيس تحديدًا؟",
+   "token_count": 679,
+   "length_band": "xlong",
+   "source": "synthetic-claude-probe",
+   "id": "probe-qa-456"
   }
  ]
 }

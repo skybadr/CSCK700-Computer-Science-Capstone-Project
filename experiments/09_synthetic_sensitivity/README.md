@@ -4,17 +4,25 @@
 conclusions or the APCS calibration? Two parts, both operating on the dev split
 only — the 200-prompt test set is never touched by any analysis here.
 
-## 09a — Synthetic-share sweep at 15% / 30% / 50% (no new data, no API cost)
+## 09a — Synthetic-share sweep at 15% / 30% / 50%, full dev scale
 
-`sweep_09a.py` (ready; runs after the main benchmark). Design: fixed mixes of
-240 prompts (60/category — capped by instruction's 30 measured synthetic
-prompts, which is exactly the 50%-share requirement), synthetic share
-15/30/50% ⇒ 9/18/30 synthetic per category cell, sourced remainder from v2
-dev only, 200 bootstrap repeats per share. Each repeat re-runs the Exp 06
-grid search; outputs threshold stability (T1 median/IQR, modal rates),
-best-balance label composition, and rule accuracy per share.
-Stability across shares = robustness evidence; drift = quantified
-synthetic-data bias. The v2 test split is never read.
+`sweep_09a.py` (dry-run FEASIBLE; full sweep runs after the main benchmark).
+Design upgraded from 240-prompt mixes to **800-prompt mixes** mirroring the
+dev split (instruction 280 / qa 200 / summarisation 200 / creative 120) after
+the probe pool was expanded to 456 prompts (~380 in-band) for this purpose.
+The share applies to the three manipulable categories; creative is
+structurally 100% synthetic in v2 and is held constant (120 dev prompts) in
+every mix, so between-condition differences are attributable to the
+manipulated share alone. Length-confound control: **fixed per-band quotas,
+identical across all conditions**, derived from dev proportions and clamped
+to synthetic-pool feasibility at the 50% share (instruction 144/102/34,
+qa 51/91/58, summarisation 39/78/83). 200 bootstrap repeats per share; each
+repeat re-runs the Exp 06 grid search; outputs threshold stability
+(T1 median/IQR, modal rates), label composition, accuracy, and mean token
+count per condition (verifies the length control held). Known limitation:
+at the 50% share a few synthetic band cells are used exhaustively
+(qa-long 29/29, summ-medium 39/39), so bootstrap variety there comes from
+the sourced side — documented, not hidden. The v2 test split is never read.
 
 ## 09b — Synthetic-vs-sourced matched comparison (deconfounded)
 

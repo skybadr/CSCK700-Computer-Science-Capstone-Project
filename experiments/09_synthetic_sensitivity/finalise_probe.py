@@ -25,7 +25,9 @@ ROOT = Path(__file__).resolve().parent
 PROJECT = ROOT.parent.parent
 
 PARTS = ["probe_instruction.json", "probe_qa.json",
-         "probe_summarisation.json", "probe_short_addendum.json"]
+         "probe_summarisation.json", "probe_short_addendum.json",
+         "probe2_instruction.json", "probe2_qa.json",
+         "probe2_summarisation.json", "probe2_topup.json"]
 
 
 def norm(s):

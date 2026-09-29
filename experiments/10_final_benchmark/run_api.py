@@ -14,14 +14,15 @@ Safety:
   - every response checkpointed to responses.jsonl (rerun = resume)
   - calls issued in a seeded random order, so partial progress is a random
     sample and the early cost projection is representative
-  - early projection check after EARLY_CHECK_N calls: abort if the projected
-    total exceeds EARLY_ABORT_USD
-  - hard budget guard: abort if actual spend exceeds BUDGET_USD
+  - projection printed after EARLY_CHECK_N calls; optional abort if the
+    projected total exceeds --early-abort
+  - optional hard budget guard: abort if actual spend exceeds --budget
+    (both limits are off unless given; the author decides at launch)
   - insufficient_quota aborts immediately (no retry storm)
 
 Usage:
-  python run_api.py --smoke      # 6 test calls, prints responses + cost projection
-  python run_api.py              # full run (needs OPENAI_API_KEY)
+  python run_api.py --smoke                        # 6 test calls + projection
+  python run_api.py [--budget USD] [--early-abort USD]   # full run
 """
 
 import argparse
@@ -44,9 +45,7 @@ MODEL = "gpt-5.6-luna"
 PRICE_IN, PRICE_OUT = 0.20, 1.20   # USD per 1M tokens, verified 2026-09-29
 MAX_OUT = 1024
 CONCURRENCY = 8
-BUDGET_USD = 9.0
 EARLY_CHECK_N = 500
-EARLY_ABORT_USD = 6.0
 SEED = 42
 
 PARAM_CANDIDATES = [
@@ -130,6 +129,11 @@ async def smoke(client, params, snapshot):
 async def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--smoke", action="store_true")
+    ap.add_argument("--budget", type=float, default=None,
+                    help="hard stop once actual spend exceeds this (USD)")
+    ap.add_argument("--early-abort", type=float, default=None,
+                    help=f"stop after {EARLY_CHECK_N} calls if the projected "
+                         "total exceeds this (USD)")
     args = ap.parse_args()
     RESULTS.mkdir(exist_ok=True)
 
@@ -145,7 +149,7 @@ async def main():
     (RESULTS / "api_config.json").write_text(json.dumps(
         {"model": MODEL, "snapshot_at_start": snapshot, "params": params,
          "price_per_M": {"in": PRICE_IN, "out": PRICE_OUT},
-         "budget_usd": BUDGET_USD,
+         "budget_usd": args.budget, "early_abort_usd": args.early_abort,
          "resolved_utc": datetime.now(timezone.utc).isoformat()}, indent=2))
 
     _, calls = build_calls()
@@ -192,10 +196,11 @@ async def main():
                             print(f"EARLY CHECK: ${cost:.3f} for {n} calls -> "
                                   f"projected ${proj:.2f} for this run",
                                   flush=True)
-                            if proj > EARLY_ABORT_USD:
+                            if (args.early_abort is not None
+                                    and proj > args.early_abort):
                                 state["abort"] = (f"projected ${proj:.2f} > "
-                                                  f"${EARLY_ABORT_USD}")
-                        if cost > BUDGET_USD:
+                                                  f"${args.early_abort}")
+                        if args.budget is not None and cost > args.budget:
                             state["abort"] = f"budget guard ${cost:.2f}"
                         if n % 1000 == 0:
                             rate = n / (time.time() - state["t0"])

@@ -32,6 +32,7 @@ ROOT = Path(__file__).resolve().parent
 RESULTS = ROOT / "results"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 TAU_SPEC = 0.996          # Exp 07: tau fails at most 0.4% of pure-noise pairs
+WINDOW = 510              # AraBERT max wordpieces excluding [CLS]/[SEP]
 SCORERS = {"arabert": "aubmindlab/bert-base-arabertv02",
            "mbert": "bert-base-multilingual-cased"}
 
@@ -104,6 +105,15 @@ def main():
     print(f"rows {len(df)} | prompts {df.prompt_id.nunique()}/{n_before} usable "
           f"| snapshots {snapshots}")
 
+    # AraBERT reads at most 510 wordpieces; longer answers are silently cut
+    # before scoring. Flag every pair where either side exceeds the window.
+    from transformers import AutoTokenizer
+    wp_tok = AutoTokenizer.from_pretrained(SCORERS["arabert"])
+    uniq = pd.unique(pd.concat([df.response, df.ref_response]))
+    wp = {t: len(wp_tok(t, add_special_tokens=False)["input_ids"]) for t in uniq}
+    df["window_exceeded"] = ((df.response.map(wp) > WINDOW)
+                             | (df.ref_response.map(wp) > WINDOW))
+
     scored = df.method != "noop"
     for s in SCORERS:
         print(f"output-level BERTScore ({s}) on {int(scored.sum())} rows ...",
@@ -156,6 +166,13 @@ def main():
                 "truncated": int(sum(x["finish_reason"] == "length"
                                      for x in recs))},
         "tau": tau, "tau_spec": TAU_SPEC, "pilot_tau": 0.70,
+        "arabert_window": {
+            "wordpiece_limit": WINDOW,
+            "dev_scored_pairs_exceeding_pct": round(100 * float(
+                dev[dev.method != "noop"].window_exceeded.mean()), 2),
+            "by_category_pct": (100 * dev[dev.method != "noop"]
+                                .groupby("category").window_exceeded.mean())
+            .round(2).to_dict()},
         "rq1_output_level": {}, "rq1_prompt_level": {},
         "llmlingua2_vs_llmlingua1_like_for_like": {},
     }
@@ -187,6 +204,10 @@ def main():
             compare(dev, a_sel, b_sel, "out_f1_mbert")
         analysis["rq1_prompt_level"][f"llmlingua2_vs_random@{rate}"] = \
             compare(dev, a_sel, b_sel, "f1_arabert")
+        ok = ~dev.window_exceeded
+        analysis["rq1_output_level"][
+            f"llmlingua2_vs_random@{rate}_within_window"] = \
+            compare(dev, a_sel & ok, b_sel & ok, "out_f1_arabert")
         # like-for-like: only prompts where LLMLingua-1 actually compressed
         compressed = dev[(m == "llmlingua_qwen") & (r == rate)
                          & (dev.achieved_keep < 0.95)].prompt_id

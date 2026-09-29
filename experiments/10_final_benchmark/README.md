@@ -39,7 +39,13 @@ The final run was restarted from zero on gpt-5.6-luna in one sitting.
    - `score_and_analyze.py` — output-level BERTScore (both scorers), noise
      ceiling + τ (both scorers), snapshot-drift check, RQ1 comparisons with
      Wilcoxon + paired bootstrap 95% CIs, ranking-flip replication,
-     LLMLingua-2 vs LLMLingua like-for-like, ceiling-normalised fidelity.
+     LLMLingua-2 vs LLMLingua like-for-like, ceiling-normalised fidelity,
+     and an AraBERT window check: every pair where either answer exceeds
+     510 wordpieces is flagged, and the main comparison is repeated without
+     those pairs. (Re-check of Exp 07c, needed because the output cap rose
+     from 512 to 1,024 tokens; on the archived July responses 4% of pairs
+     exceed the window, mostly instruction, and excluding them moves the
+     LLMLingua-2 vs random difference by ≈0.001.)
    - `rq2_final.py` — RQ2 on dev: feature correlations, and the
      length-vs-category deconfounding (within-category ρ, within-band
      Kruskal–Wallis, OLS unique-R² decomposition).

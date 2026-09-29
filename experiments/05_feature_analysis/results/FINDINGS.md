@@ -6,6 +6,22 @@ frontier over (TCR, output-F1-AraBERT) incl. noop anchor (`pareto_labels.csv`).
 Morphological density via Farasa (standalone mode — interactive mode corrupts
 Arabic through the Windows pipe; documented integration finding).
 
+> **Erratum (2026-09-29) — morphological density.** The original
+> `compute_features.py` divided *all* Farasa segments by the orthographic word
+> count. Farasa emits punctuation and numerals as separate tokens, so this
+> counted punctuation as extra segments and inflated density (pilot mean 1.85
+> vs 1.70 corrected; worked example: 25 segments over 12 Arabic words = 2.08,
+> old formula 2.38). The corrected definition counts only tokens containing an
+> Arabic letter (`apcs.features.density_from_segmented`, unit-tested).
+> Re-check (`recheck_density.py` → `density_recheck.json`): old and corrected
+> measures rank prompts similarly (ρ = 0.94), and the corrected correlations
+> with output F1 are slightly *stronger* (llmlingua2 ρ = +0.10/+0.15/+0.19 at
+> rates 0.3/0.5/0.7, all p < 0.03; random deletion ρ ≈ +0.15–0.18). Finding 2
+> therefore stands in its main claim — length dominates, morphology is far
+> weaker — but "barely matters" is overstated: morphology has a **small,
+> statistically significant** association (|ρ| ≤ 0.19 vs ≈0.4 for
+> token_count). Final-dataset RQ2 (Exp 10) uses the corrected measure only.
+
 ## Finding 1 — The Arabic "tokenizer tax" quantified on AraPromptBench
 
 Mean fragmentation ratio is **4.2–4.5 cl100k tokens per orthographic word**

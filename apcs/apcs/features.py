@@ -67,10 +67,24 @@ def extract_features(text: str, *, morphology: bool = False) -> PromptFeatures:
     )
 
 
-def _morphological_density(text: str) -> float:
+_ARABIC_LETTER = re.compile(r"[ء-غف-يٱ-ۓ]")
+
+
+def density_from_segmented(segmented: str) -> float | None:
+    """Farasa segments per Arabic word, from one segmented line.
+
+    Farasa emits punctuation and numerals as separate tokens; only tokens
+    containing an Arabic letter count as words, otherwise punctuation
+    inflates or deflates the measure depending on the denominator."""
+    words = [t for t in segmented.split() if _ARABIC_LETTER.search(t)]
+    if not words:
+        return None
+    return round(sum(w.count("+") + 1 for w in words) / len(words), 4)
+
+
+def _morphological_density(text: str) -> float | None:
     # standalone mode: farasapy's interactive mode corrupts Arabic through
     # the Windows process pipe (AraPromptBench Experiment 05 finding)
     from farasa.segmenter import FarasaSegmenter
     seg = FarasaSegmenter(interactive=False).segment(" ".join(text.split()))
-    words = seg.split()
-    return round(sum(w.count("+") + 1 for w in words) / len(words), 4)
+    return density_from_segmented(seg)

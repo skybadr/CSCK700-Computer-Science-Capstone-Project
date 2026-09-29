@@ -1,6 +1,7 @@
 import pytest
 
-from apcs.features import extract_features, structural_complexity
+from apcs.features import (density_from_segmented, extract_features,
+                           structural_complexity)
 
 ARABIC_SHORT = "اشرح مفهوم الذكاء الاصطناعي بأسلوب مبسط."
 ARABIC_STRUCTURED = "أولاً: اكتب قائمة.\n1. البند الأول\n2. البند الثاني\n«اقتباس»"
@@ -25,6 +26,15 @@ def test_empty_prompt_rejected():
     for bad in ["", "   ", None]:
         with pytest.raises((ValueError, TypeError)):
             extract_features(bad)
+
+
+def test_density_ignores_punctuation_and_numerals():
+    # real Farasa output: 12 Arabic words, 25 segments, plus 5 punctuation
+    # tokens and one numeral that must not count
+    seg = ("أشرح ال+بصم+ة ال+كربوني+ة ل+طلاب ال+مرحل+ة ، و+لا تستخدم كلم+ة "
+           "« كارث+ة » . ال+حد ال+أقصى 120 كلم+ة .")
+    assert density_from_segmented(seg) == pytest.approx(25 / 12, abs=1e-3)
+    assert density_from_segmented("، . 120") is None
 
 
 def test_deterministic():

@@ -30,8 +30,10 @@ BANDS = ["short", "medium", "long"]
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--results", required=True)
+    ap.add_argument("--outdir", default=str(RESULTS))
     args = ap.parse_args()
-    RESULTS.mkdir(exist_ok=True)
+    outdir = Path(args.outdir)
+    outdir.mkdir(parents=True, exist_ok=True)
 
     df = pd.read_csv(args.results)
     df = df[df.method == "llmlingua2"]
@@ -48,10 +50,17 @@ def main():
             a = syn[(syn.category == c) & (syn.target_rate == rate)].out_f1_arabert
             b = src[(src.category == c) & (src.target_rate == rate)].out_f1_arabert
             u = stats.mannwhitneyu(a, b, alternative="two-sided")
+            adj, lo, hi = band_adjusted_diff(
+                syn[(syn.category == c) & (syn.target_rate == rate)],
+                src[(src.category == c) & (src.target_rate == rate)])
             out["per_category_rate"][f"{c}@{rate}"] = {
                 "synthetic_mean": round(float(a.mean()), 4), "n_syn": len(a),
                 "sourced_mean": round(float(b.mean()), 4), "n_src": len(b),
-                "diff": round(float(a.mean() - b.mean()), 4),
+                "diff_raw": round(float(a.mean() - b.mean()), 4),
+                "diff_band_adjusted": round(adj, 4),
+                "ci95_band_adjusted": [round(lo, 4), round(hi, 4)],
+                "rank_biserial": round(1 - 2 * float(u.statistic)
+                                       / (len(a) * len(b)), 3),
                 "mannwhitney_p": float(u.pvalue)}
         for b_ in BANDS:
             aa = syn[(syn.category == c) & (syn.band == b_)].out_f1_arabert
@@ -75,11 +84,37 @@ def main():
     sig = {k: v for k, v in out["per_category_rate"].items()
            if v["mannwhitney_p"] < 0.05 / 9}
     out["bonferroni_significant"] = list(sig)
-    (RESULTS / "analysis_09b.json").write_text(
+    out["band_adjusted_ci_excludes_zero"] = [
+        k for k, v in out["per_category_rate"].items()
+        if v["ci95_band_adjusted"][0] > 0 or v["ci95_band_adjusted"][1] < 0]
+    (outdir / "analysis_09b.json").write_text(
         json.dumps(out, indent=2, ensure_ascii=False))
     print(json.dumps(out["per_category_rate"], indent=2))
-    print("bonferroni-significant:", list(sig))
-    print("saved:", RESULTS / "analysis_09b.json")
+    print("bonferroni-significant (raw):", list(sig))
+    print("band-adjusted CI excludes 0:", out["band_adjusted_ci_excludes_zero"])
+    print("saved:", outdir / "analysis_09b.json")
+
+
+def band_adjusted_diff(syn, src, n_boot=2000, seed=42):
+    """Synthetic minus sourced mean out-F1, weighting each length band by the
+    SOURCED band mix, so a different length distribution cannot masquerade
+    as an origin effect. Bootstrap resamples within band. Bands with no
+    synthetic rows are dropped (and their weight renormalised)."""
+    bands = [b for b in BANDS
+             if (syn.band == b).any() and (src.band == b).any()]
+    w = np.array([(src.band == b).sum() for b in bands], float)
+    w /= w.sum()
+    sa = [syn[syn.band == b].out_f1_arabert.to_numpy() for b in bands]
+    sb = [src[src.band == b].out_f1_arabert.to_numpy() for b in bands]
+    est = float(sum(wi * (a.mean() - b.mean()) for wi, a, b in zip(w, sa, sb)))
+    rng = np.random.default_rng(seed)
+    boots = []
+    for _ in range(n_boot):
+        boots.append(sum(
+            wi * (rng.choice(a, len(a)).mean() - rng.choice(b, len(b)).mean())
+            for wi, a, b in zip(w, sa, sb)))
+    lo, hi = np.quantile(boots, [0.025, 0.975])
+    return est, float(lo), float(hi)
 
 
 if __name__ == "__main__":

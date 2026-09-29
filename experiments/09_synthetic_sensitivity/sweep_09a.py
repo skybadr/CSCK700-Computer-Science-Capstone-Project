@@ -35,6 +35,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from scipy import stats
 
 ROOT = Path(__file__).resolve().parent
 PROJECT = ROOT.parent.parent
@@ -190,9 +191,22 @@ def main():
     ap.add_argument("--reps", type=int, default=200)
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--tau", type=float,
+                    help="fidelity threshold; default: read analysis_10.json "
+                         "next to --results")
+    ap.add_argument("--outdir", default=str(RESULTS))
     args = ap.parse_args()
 
-    RESULTS.mkdir(exist_ok=True)
+    global TAU
+    outdir = Path(args.outdir)
+    outdir.mkdir(parents=True, exist_ok=True)
+    if args.tau is not None:
+        TAU = args.tau
+    elif args.results:
+        a = Path(args.results).parent / "analysis_10.json"
+        if a.exists():
+            TAU = json.loads(a.read_text())["tau"]["arabert"]["adopted"]
+    print(f"tau = {TAU}")
     pools, meta = load_pools()
     quotas = band_quotas(pools)
     feasible = check_feasibility(pools, quotas)
@@ -239,7 +253,7 @@ def main():
         print(f"share {share:.0%}: {args.reps} reps done", flush=True)
 
     out = pd.DataFrame(rows)
-    out.to_csv(RESULTS / "sweep_09a_raw.csv", index=False)
+    out.to_csv(outdir / "sweep_09a_raw.csv", index=False)
     summ = out.groupby("share").agg(
         T1_median=("T1", "median"),
         T1_iqr=("T1", lambda x: x.quantile(.75) - x.quantile(.25)),
@@ -251,8 +265,22 @@ def main():
         mean_tokens=("mean_tokens", "mean")).round(3)
     print("\n=== Threshold stability by synthetic share (800-prompt mixes) ===")
     print(summ.to_string())
-    summ.to_csv(RESULTS / "sweep_09a_summary.csv")
-    print(f"\nSaved: {RESULTS/'sweep_09a_raw.csv'}, sweep_09a_summary.csv")
+    summ.to_csv(outdir / "sweep_09a_summary.csv")
+    tests = {}
+    for col in ["T1", "accuracy", "label_noop_share"]:
+        groups = [g[col].to_numpy() for _, g in out.groupby("share")]
+        if np.ptp(np.concatenate(groups)) == 0:
+            tests[col] = {"note": "identical in every repeat at every share "
+                                  "(perfectly stable)"}
+            continue
+        h, p = stats.kruskal(*groups)
+        tests[col] = {"kruskal_H": round(float(h), 3), "p": float(p)}
+    (outdir / "sweep_09a_tests.json").write_text(json.dumps(
+        {"tau": TAU, "reps_per_share": args.reps, "tests_across_shares": tests},
+        indent=2))
+    print("differences across shares (Kruskal-Wallis):", tests)
+    print(f"\nSaved to {outdir}: sweep_09a_raw.csv, sweep_09a_summary.csv, "
+          f"sweep_09a_tests.json")
 
 
 if __name__ == "__main__":

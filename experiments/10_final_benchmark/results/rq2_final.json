@@ -1,0 +1,201 @@
+{
+  "n_dev_prompts": 800,
+  "spearman_out_f1": {
+    "llmlingua2@0.3/token_count": 0.332,
+    "llmlingua2@0.3/structural_complexity": 0.105,
+    "llmlingua2@0.3/fragmentation_ratio": -0.02,
+    "llmlingua2@0.3/morphological_density": 0.076,
+    "llmlingua2@0.5/token_count": 0.279,
+    "llmlingua2@0.5/structural_complexity": 0.19,
+    "llmlingua2@0.5/fragmentation_ratio": -0.117,
+    "llmlingua2@0.5/morphological_density": 0.008,
+    "llmlingua2@0.7/token_count": 0.22,
+    "llmlingua2@0.7/structural_complexity": 0.298,
+    "llmlingua2@0.7/fragmentation_ratio": -0.137,
+    "llmlingua2@0.7/morphological_density": -0.021,
+    "llmlingua_qwen@0.3/token_count": -0.695,
+    "llmlingua_qwen@0.3/structural_complexity": -0.283,
+    "llmlingua_qwen@0.3/fragmentation_ratio": -0.131,
+    "llmlingua_qwen@0.3/morphological_density": -0.235,
+    "llmlingua_qwen@0.5/token_count": -0.67,
+    "llmlingua_qwen@0.5/structural_complexity": -0.286,
+    "llmlingua_qwen@0.5/fragmentation_ratio": -0.122,
+    "llmlingua_qwen@0.5/morphological_density": -0.212,
+    "llmlingua_qwen@0.7/token_count": -0.621,
+    "llmlingua_qwen@0.7/structural_complexity": -0.247,
+    "llmlingua_qwen@0.7/fragmentation_ratio": -0.159,
+    "llmlingua_qwen@0.7/morphological_density": -0.224,
+    "random_deletion@0.3/token_count": 0.414,
+    "random_deletion@0.3/structural_complexity": 0.155,
+    "random_deletion@0.3/fragmentation_ratio": 0.075,
+    "random_deletion@0.3/morphological_density": 0.161,
+    "random_deletion@0.5/token_count": 0.251,
+    "random_deletion@0.5/structural_complexity": 0.2,
+    "random_deletion@0.5/fragmentation_ratio": 0.006,
+    "random_deletion@0.5/morphological_density": 0.035,
+    "random_deletion@0.7/token_count": 0.172,
+    "random_deletion@0.7/structural_complexity": 0.203,
+    "random_deletion@0.7/fragmentation_ratio": -0.035,
+    "random_deletion@0.7/morphological_density": 0.032
+  },
+  "deconfounding": {
+    "within_category_rho_length": {
+      "creative": {
+        "rho": 0.334,
+        "p": 0.00019668275131692602,
+        "n": 120
+      },
+      "instruction": {
+        "rho": 0.227,
+        "p": 0.00012937613353309336,
+        "n": 280
+      },
+      "qa": {
+        "rho": 0.13,
+        "p": 0.06658037062552699,
+        "n": 200
+      },
+      "summarisation": {
+        "rho": 0.267,
+        "p": 0.00013637335663702134,
+        "n": 200
+      }
+    },
+    "within_band_kruskal_category": {
+      "long": {
+        "H": 37.65,
+        "p": 3.345841952397344e-08,
+        "category_means": {
+          "creative": 0.6414,
+          "instruction": 0.7081,
+          "qa": 0.7228,
+          "summarisation": 0.7431
+        }
+      },
+      "medium": {
+        "H": 63.49,
+        "p": 1.0537363214582881e-13,
+        "category_means": {
+          "creative": 0.6315,
+          "instruction": 0.6753,
+          "qa": 0.7113,
+          "summarisation": 0.744
+        }
+      },
+      "short": {
+        "H": 11.14,
+        "p": 0.010975920244026978,
+        "category_means": {
+          "creative": 0.5877,
+          "instruction": 0.644,
+          "qa": 0.665,
+          "summarisation": 0.6543
+        }
+      }
+    },
+    "ols_llmlingua2@0.5": {
+      "r2_full": 0.1482,
+      "unique_r2_length": 0.0336,
+      "unique_r2_category": 0.065,
+      "coefficients": {
+        "C(category)[T.instruction]": {
+          "b": 0.0657,
+          "ci95": [
+            0.0422,
+            0.0892
+          ],
+          "p": 5.575742150569454e-08
+        },
+        "C(category)[T.qa]": {
+          "b": 0.0802,
+          "ci95": [
+            0.0525,
+            0.108
+          ],
+          "p": 1.922399636692014e-08
+        },
+        "C(category)[T.summarisation]": {
+          "b": 0.0926,
+          "ci95": [
+            0.0686,
+            0.1166
+          ],
+          "p": 1.0472899664523803e-13
+        },
+        "z_log_tokens": {
+          "b": 0.027,
+          "ci95": [
+            0.0175,
+            0.0365
+          ],
+          "p": 3.077006139248932e-08
+        },
+        "z_structural_complexity": {
+          "b": -0.0031,
+          "ci95": [
+            -0.0136,
+            0.0075
+          ],
+          "p": 0.5690331148012754
+        },
+        "z_fragmentation_ratio": {
+          "b": -0.0121,
+          "ci95": [
+            -0.0208,
+            -0.0033
+          ],
+          "p": 0.006820425004846211
+        },
+        "z_morphological_density": {
+          "b": 0.0021,
+          "ci95": [
+            -0.0069,
+            0.011
+          ],
+          "p": 0.6472890094486339
+        }
+      },
+      "n": 800
+    }
+  },
+  "gate": {
+    "@0.3": {
+      "rho_tokens_vs_keep": -0.787,
+      "p": 3.017487283433939e-169
+    },
+    "@0.5": {
+      "rho_tokens_vs_keep": -0.752,
+      "p": 1.3291099568174827e-146
+    },
+    "@0.7": {
+      "rho_tokens_vs_keep": -0.707,
+      "p": 2.0042838021273582e-122
+    }
+  },
+  "feature_intercorrelation": {
+    "token_count": {
+      "token_count": 1.0,
+      "structural_complexity": 0.557,
+      "fragmentation_ratio": 0.088,
+      "morphological_density": 0.254
+    },
+    "structural_complexity": {
+      "token_count": 0.557,
+      "structural_complexity": 1.0,
+      "fragmentation_ratio": -0.083,
+      "morphological_density": -0.013
+    },
+    "fragmentation_ratio": {
+      "token_count": 0.088,
+      "structural_complexity": -0.083,
+      "fragmentation_ratio": 1.0,
+      "morphological_density": 0.591
+    },
+    "morphological_density": {
+      "token_count": 0.254,
+      "structural_complexity": -0.013,
+      "fragmentation_ratio": 0.591,
+      "morphological_density": 1.0
+    }
+  }
+}

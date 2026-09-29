@@ -1,0 +1,367 @@
+{
+  "api": {
+    "responses": 13438,
+    "snapshots": [
+      "gpt-5.6-luna"
+    ],
+    "snapshot_drift": false,
+    "prompt_tokens": 1067004,
+    "completion_tokens": 1895415,
+    "truncated": 79
+  },
+  "tau": {
+    "arabert": {
+      "exact_quantile": 0.6396,
+      "adopted": 0.65
+    },
+    "mbert": {
+      "exact_quantile": 0.7305,
+      "adopted": 0.75
+    }
+  },
+  "tau_spec": 0.996,
+  "pilot_tau": 0.7,
+  "arabert_window": {
+    "wordpiece_limit": 510,
+    "dev_scored_pairs_exceeding_pct": 2.6,
+    "by_category_pct": {
+      "creative": 1.3,
+      "instruction": 6.75,
+      "qa": 0.06,
+      "summarisation": 0.11
+    }
+  },
+  "rq1_output_level": {
+    "llmlingua2_vs_random@0.3": {
+      "n": 800,
+      "a_mean": 0.5942,
+      "b_mean": 0.5545,
+      "diff": 0.0396,
+      "ci95": [
+        0.0323,
+        0.047
+      ],
+      "wilcoxon_p": 6.041299665798608e-25
+    },
+    "llmlingua2_vs_random@0.3_mbert": {
+      "n": 800,
+      "a_mean": 0.7087,
+      "b_mean": 0.6919,
+      "diff": 0.0168,
+      "ci95": [
+        0.0124,
+        0.0213
+      ],
+      "wilcoxon_p": 7.77443734336536e-15
+    },
+    "llmlingua2_vs_random@0.3_within_window": {
+      "n": 774,
+      "a_mean": 0.5949,
+      "b_mean": 0.5544,
+      "diff": 0.0405,
+      "ci95": [
+        0.033,
+        0.0481
+      ],
+      "wilcoxon_p": 2.1724172988165075e-25
+    },
+    "llmlingua2_vs_random@0.5": {
+      "n": 800,
+      "a_mean": 0.6837,
+      "b_mean": 0.6461,
+      "diff": 0.0376,
+      "ci95": [
+        0.0292,
+        0.0461
+      ],
+      "wilcoxon_p": 6.331415028816998e-20
+    },
+    "llmlingua2_vs_random@0.5_mbert": {
+      "n": 800,
+      "a_mean": 0.7664,
+      "b_mean": 0.7446,
+      "diff": 0.0218,
+      "ci95": [
+        0.0163,
+        0.0273
+      ],
+      "wilcoxon_p": 2.4994008689600698e-17
+    },
+    "llmlingua2_vs_random@0.5_within_window": {
+      "n": 769,
+      "a_mean": 0.6857,
+      "b_mean": 0.647,
+      "diff": 0.0388,
+      "ci95": [
+        0.0302,
+        0.0476
+      ],
+      "wilcoxon_p": 5.743502852162436e-20
+    },
+    "llmlingua2_vs_random@0.7": {
+      "n": 800,
+      "a_mean": 0.7664,
+      "b_mean": 0.7163,
+      "diff": 0.0501,
+      "ci95": [
+        0.0411,
+        0.0591
+      ],
+      "wilcoxon_p": 1.5999687484598452e-29
+    },
+    "llmlingua2_vs_random@0.7_mbert": {
+      "n": 800,
+      "a_mean": 0.8236,
+      "b_mean": 0.7911,
+      "diff": 0.0325,
+      "ci95": [
+        0.0264,
+        0.0388
+      ],
+      "wilcoxon_p": 1.9763798665374658e-27
+    },
+    "llmlingua2_vs_random@0.7_within_window": {
+      "n": 772,
+      "a_mean": 0.7694,
+      "b_mean": 0.7175,
+      "diff": 0.052,
+      "ci95": [
+        0.0431,
+        0.0612
+      ],
+      "wilcoxon_p": 2.4301241855284358e-29
+    }
+  },
+  "rq1_prompt_level": {
+    "llmlingua2_vs_random@0.3": {
+      "n": 800,
+      "a_mean": 0.5714,
+      "b_mean": 0.5857,
+      "diff": -0.0143,
+      "ci95": [
+        -0.0181,
+        -0.0104
+      ],
+      "wilcoxon_p": 6.58779796016515e-15
+    },
+    "llmlingua2_vs_random@0.5": {
+      "n": 800,
+      "a_mean": 0.6763,
+      "b_mean": 0.7025,
+      "diff": -0.0261,
+      "ci95": [
+        -0.0296,
+        -0.0227
+      ],
+      "wilcoxon_p": 2.395277845442723e-44
+    },
+    "llmlingua2_vs_random@0.7": {
+      "n": 800,
+      "a_mean": 0.7868,
+      "b_mean": 0.8147,
+      "diff": -0.0279,
+      "ci95": [
+        -0.0311,
+        -0.0247
+      ],
+      "wilcoxon_p": 1.8980149218714973e-53
+    }
+  },
+  "llmlingua2_vs_llmlingua1_same_target_rate": {
+    "@0.3": {
+      "n": 244,
+      "a_mean": 0.6303,
+      "b_mean": 0.6864,
+      "diff": -0.056,
+      "ci95": [
+        -0.0737,
+        -0.0394
+      ],
+      "wilcoxon_p": 1.9170154884637825e-09,
+      "keep_llmlingua2": 0.292,
+      "keep_llmlingua1": 0.535
+    },
+    "@0.5": {
+      "n": 243,
+      "a_mean": 0.7097,
+      "b_mean": 0.7256,
+      "diff": -0.0159,
+      "ci95": [
+        -0.0313,
+        -0.0007
+      ],
+      "wilcoxon_p": 0.2194975900946422,
+      "keep_llmlingua2": 0.5,
+      "keep_llmlingua1": 0.667
+    },
+    "@0.7": {
+      "n": 237,
+      "a_mean": 0.7875,
+      "b_mean": 0.7861,
+      "diff": 0.0014,
+      "ci95": [
+        -0.0121,
+        0.0147
+      ],
+      "wilcoxon_p": 0.17897247452804532,
+      "keep_llmlingua2": 0.703,
+      "keep_llmlingua1": 0.794
+    }
+  },
+  "llmlingua2_vs_llmlingua1_compression_matched": {
+    "@0.3": {
+      "n": 244,
+      "llmlingua2_mean": 0.7158,
+      "llmlingua1_mean": 0.6864,
+      "diff": 0.0295,
+      "ci95": [
+        0.0136,
+        0.0453
+      ],
+      "wilcoxon_p": 1.8181392809081445e-06,
+      "keep_llmlingua2": 0.517,
+      "keep_llmlingua1": 0.535
+    },
+    "@0.5": {
+      "n": 243,
+      "llmlingua2_mean": 0.7662,
+      "llmlingua1_mean": 0.7256,
+      "diff": 0.0407,
+      "ci95": [
+        0.0254,
+        0.0556
+      ],
+      "wilcoxon_p": 1.3164951495792536e-12,
+      "keep_llmlingua2": 0.659,
+      "keep_llmlingua1": 0.667
+    },
+    "@0.7": {
+      "n": 237,
+      "llmlingua2_mean": 0.7875,
+      "llmlingua1_mean": 0.7861,
+      "diff": 0.0014,
+      "ci95": [
+        -0.0121,
+        0.0147
+      ],
+      "wilcoxon_p": 0.17897247452804532,
+      "keep_llmlingua2": 0.703,
+      "keep_llmlingua1": 0.794
+    }
+  },
+  "ceiling_dev": {
+    "arabert": {
+      "median": 0.9303,
+      "mean": 0.8975,
+      "p5": 0.7056,
+      "pct_below_0.85": 31.8
+    },
+    "mbert": {
+      "median": 0.9395,
+      "mean": 0.92,
+      "p5": 0.7778,
+      "pct_below_0.85": 24.1
+    },
+    "identical_response_pct": 29.6
+  },
+  "ceiling_normalised_llmlingua2@0.5": {
+    "creative": {
+      "ceiling_median": 0.7433,
+      "out_f1": 0.6223,
+      "retained_pct": 83.7
+    },
+    "instruction": {
+      "ceiling_median": 0.8805,
+      "out_f1": 0.6641,
+      "retained_pct": 75.4
+    },
+    "qa": {
+      "ceiling_median": 1.0,
+      "out_f1": 0.7056,
+      "retained_pct": 70.6
+    },
+    "summarisation": {
+      "ceiling_median": 0.9468,
+      "out_f1": 0.7261,
+      "retained_pct": 76.7
+    }
+  },
+  "dev_means": {
+    "llmlingua2@0.3": {
+      "achieved_keep": 0.2817,
+      "tcr": 0.7183,
+      "f1_arabert": 0.5714,
+      "out_f1_arabert": 0.5942,
+      "out_f1_mbert": 0.7087
+    },
+    "llmlingua2@0.5": {
+      "achieved_keep": 0.4882,
+      "tcr": 0.5118,
+      "f1_arabert": 0.6763,
+      "out_f1_arabert": 0.6837,
+      "out_f1_mbert": 0.7664
+    },
+    "llmlingua2@0.7": {
+      "achieved_keep": 0.6949,
+      "tcr": 0.3051,
+      "f1_arabert": 0.7868,
+      "out_f1_arabert": 0.7664,
+      "out_f1_mbert": 0.8236
+    },
+    "llmlingua_qwen@0.3": {
+      "achieved_keep": 0.8549,
+      "tcr": 0.1451,
+      "f1_arabert": 0.9031,
+      "out_f1_arabert": 0.8765,
+      "out_f1_mbert": 0.9086
+    },
+    "llmlingua_qwen@0.5": {
+      "achieved_keep": 0.8966,
+      "tcr": 0.1034,
+      "f1_arabert": 0.9165,
+      "out_f1_arabert": 0.8934,
+      "out_f1_mbert": 0.9203
+    },
+    "llmlingua_qwen@0.7": {
+      "achieved_keep": 0.9374,
+      "tcr": 0.0626,
+      "f1_arabert": 0.9401,
+      "out_f1_arabert": 0.918,
+      "out_f1_mbert": 0.9367
+    },
+    "noop@1.0": {
+      "achieved_keep": 1.0,
+      "tcr": 0.0,
+      "f1_arabert": 1.0,
+      "out_f1_arabert": 1.0,
+      "out_f1_mbert": 1.0
+    },
+    "random_deletion@0.3": {
+      "achieved_keep": 0.2983,
+      "tcr": 0.7017,
+      "f1_arabert": 0.5857,
+      "out_f1_arabert": 0.5545,
+      "out_f1_mbert": 0.6919
+    },
+    "random_deletion@0.5": {
+      "achieved_keep": 0.5,
+      "tcr": 0.5,
+      "f1_arabert": 0.7025,
+      "out_f1_arabert": 0.6461,
+      "out_f1_mbert": 0.7446
+    },
+    "random_deletion@0.7": {
+      "achieved_keep": 0.6997,
+      "tcr": 0.3003,
+      "f1_arabert": 0.8147,
+      "out_f1_arabert": 0.7163,
+      "out_f1_mbert": 0.7911
+    }
+  },
+  "llmlingua1_uncompressed_pct_by_category": {
+    "creative": 70.8,
+    "instruction": 83.3,
+    "qa": 69.5,
+    "summarisation": 50.5
+  }
+}

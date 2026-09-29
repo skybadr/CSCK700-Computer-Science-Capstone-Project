@@ -246,6 +246,42 @@ def fig_09b(a9, outdir):
     save(fig, outdir, "fig8_synthetic_vs_sourced")
 
 
+def fig_cost(ca, outdir):
+    keys = [f"{m}@{r}" for m in ["llmlingua2", "random_deletion"]
+            for r in [0.7, 0.5, 0.3]]
+    keys = [k for k in keys if k in ca["per_policy"]]
+    inp = [ca["per_policy"][k]["input_saving_pct"] for k in keys]
+    tot = [-ca["per_policy"][k]["total_cost_change_pct"] for k in keys]
+    y = np.arange(len(keys))[::-1]
+    fig, ax = plt.subplots(figsize=(6.8, 4.0))
+    ax.set_axisbelow(True)
+    h = 0.36
+    ax.barh(y + h / 2, inp, height=h, color=SERIES["llmlingua2"],
+            label="input tokens saved")
+    ax.barh(y - h / 2, tot, height=h, color=SERIES["random_deletion"],
+            label="total API bill saved (negative = costs more)")
+    for yy, a, b in zip(y, inp, tot):
+        ax.annotate(f"{a:.0f}%", (a, yy + h / 2), xytext=(4, 0),
+                    textcoords="offset points", va="center", fontsize=8.5,
+                    color=INK)
+        ax.annotate(f"{b:+.0f}%", (b, yy - h / 2),
+                    xytext=(4 if b >= 0 else -4, 0), textcoords="offset points",
+                    va="center", ha="left" if b >= 0 else "right", fontsize=8.5,
+                    color=INK)
+    ax.axvline(0, color=INK2, lw=1)
+    ax.set_yticks(y, [k.replace("llmlingua2", "LLMLingua-2")
+                      .replace("random_deletion", "Random deletion")
+                      .replace("@", " @ ") for k in keys])
+    ax.set_xlabel("% relative to sending the uncompressed prompt")
+    ax.set_xlim(min(tot) - 15, max(inp) + 12)
+    ax.grid(axis="y", visible=False)
+    ax.legend(loc="lower center", bbox_to_anchor=(0.5, 1.0), ncol=2,
+              fontsize=8)
+    ax.set_title("Fewer input tokens, bigger bill\n(dev set; output priced "
+                 "6× input)", fontsize=10.5, pad=26)
+    save(fig, outdir, "fig9_cost_input_vs_total")
+
+
 def tables(an, ap, outdir):
     lines = ["# Exp 10 — thesis tables (auto-generated)\n"]
     if ap:
@@ -280,11 +316,14 @@ def tables(an, ap, outdir):
         lines.append("| Comparison | n | A | B | Diff | 95% CI | Wilcoxon p |")
         lines.append("|---|---|---|---|---|---|---|")
         for sect in ["rq1_output_level", "rq1_prompt_level",
-                     "llmlingua2_vs_llmlingua1_like_for_like"]:
+                     "llmlingua2_vs_llmlingua1_compression_matched",
+                     "llmlingua2_vs_llmlingua1_same_target_rate"]:
             for k, v in an.get(sect, {}).items():
                 if "diff" in v:
-                    lines.append(f"| {sect}: {k} | {v['n']} | {v['a_mean']:.3f} | "
-                                 f"{v['b_mean']:.3f} | {v['diff']:+.3f} | "
+                    a = v.get("a_mean", v.get("llmlingua2_mean"))
+                    b = v.get("b_mean", v.get("llmlingua1_mean"))
+                    lines.append(f"| {sect}: {k} | {v['n']} | {a:.3f} | "
+                                 f"{b:.3f} | {v['diff']:+.3f} | "
                                  f"{v['ci95']} | {v['wilcoxon_p']:.2g} |")
     (outdir / "tables.md").write_text("\n".join(lines), encoding="utf-8")
     print("  wrote tables.md")
@@ -309,6 +348,8 @@ def main():
     corr = maybe(indir / "rq2_correlations.csv", pd.read_csv)
     sw = maybe(syndir / "sweep_09a_raw.csv", pd.read_csv)
     a9 = maybe(syndir / "analysis_09b.json", lambda p: json.loads(p.read_text()))
+    ca = maybe(indir / "cost_analysis.json",
+               lambda p: json.loads(p.read_text(encoding="utf-8")))
     tau = an["tau"]["arabert"]["adopted"] if an else 0.70
 
     if res is not None:
@@ -326,6 +367,8 @@ def main():
         fig_sweep(sw, outdir)
     if a9:
         fig_09b(a9, outdir)
+    if ca:
+        fig_cost(ca, outdir)
     tables(an, ap, outdir)
     print(f"figures in {outdir}")
 

@@ -32,12 +32,22 @@ rec.rule     # the guard that fired (explainability)
 rec.features # extracted feature vector
 ```
 
-## Current rules (v0.1.0-pilot)
+## Current rules (v1.0.0-final)
 
-Calibrated on the AraPromptBench 500-prompt pilot (Experiment 06):
-`token_count < 120 → no compression; otherwise LLMLingua-2 @ 0.5`.
-Fidelity criterion: output-level BERTScore F1 (AraBERT) ≥ 0.70 vs the
-uncompressed prompt's response. Custom rules: `APCSSelector(rules_path=...)`.
+Calibrated on the AraPromptBench v2 dev split (800 prompts) with
+gpt-5.6-luna as the LLM under test (Experiment 10):
+`token_count < 80 → no compression; 80–249 → LLMLingua-2 @ 0.5;
+≥ 250 → LLMLingua-2 @ 0.3`. Fidelity criterion: output-level BERTScore F1
+(AraBERT) ≥ 0.65 vs the uncompressed prompt's response, τ derived from the
+model's measured noise ceiling. Held-out test accuracy 31.0% (95% CI
+24.5–37.5%); see `experiments/10_final_benchmark/results/FINDINGS.md`.
+
+**Cost caveat:** the rule optimises token reduction, not the bill. On models
+that price output well above input, LLMLingua-2 can raise total cost because
+it tends to delete brevity instructions and answers get longer (Exp 10, F5).
+
+The pilot rule (v0.1.0) is preserved in git history. Custom rules:
+`APCSSelector(rules_path=...)`.
 
 ## Tests
 

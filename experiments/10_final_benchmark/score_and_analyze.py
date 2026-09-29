@@ -43,10 +43,21 @@ def key_of(pid, text, repeat=False):
 
 
 def bertscore_f1(cands, refs, scorer):
+    """F1 per pair. A pair with an empty side preserves no meaning and scores
+    0.0 (bert_score's own empty-string path crashes on current transformers)."""
     from bert_score import score as bertscore
-    _, _, f1 = bertscore(cands, refs, model_type=SCORERS[scorer], num_layers=9,
-                         batch_size=32, device=DEVICE)
-    return f1.numpy().round(4)
+    cands, refs = list(cands), list(refs)
+    ok = [bool(c.strip()) and bool(r.strip()) for c, r in zip(cands, refs)]
+    out = np.zeros(len(cands))
+    idx = [i for i, v in enumerate(ok) if v]
+    if idx:
+        _, _, f1 = bertscore([cands[i] for i in idx], [refs[i] for i in idx],
+                             model_type=SCORERS[scorer], num_layers=9,
+                             batch_size=32, device=DEVICE)
+        out[idx] = f1.numpy()
+    if len(idx) < len(cands):
+        print(f"  {len(cands) - len(idx)} pair(s) with an empty side scored 0.0")
+    return out.round(4)
 
 
 def tau_from_ceiling(s):
@@ -174,7 +185,8 @@ def main():
                                 .groupby("category").window_exceeded.mean())
             .round(2).to_dict()},
         "rq1_output_level": {}, "rq1_prompt_level": {},
-        "llmlingua2_vs_llmlingua1_like_for_like": {},
+        "llmlingua2_vs_llmlingua1_same_target_rate": {},
+        "llmlingua2_vs_llmlingua1_compression_matched": {},
     }
     if len(cdev):
         analysis["ceiling_dev"] = {
@@ -216,7 +228,30 @@ def main():
         res = compare(dev, l_sel, q_sel, "out_f1_arabert")
         res["keep_llmlingua2"] = round(float(dev.loc[l_sel].achieved_keep.mean()), 3)
         res["keep_llmlingua1"] = round(float(dev.loc[q_sel].achieved_keep.mean()), 3)
-        analysis["llmlingua2_vs_llmlingua1_like_for_like"][f"@{rate}"] = res
+        analysis["llmlingua2_vs_llmlingua1_same_target_rate"][f"@{rate}"] = res
+        # compression-matched: LLMLingua-1 under-compresses relative to its
+        # target, so pair each of its rows with the LLMLingua-2 variant of the
+        # same prompt whose achieved keep is closest
+        ll1 = dev.loc[q_sel].set_index("prompt_id")
+        ll2 = dev[m == "llmlingua2"]
+        pick = []
+        for pid, row in ll1.iterrows():
+            cand = ll2[ll2.prompt_id == pid]
+            if len(cand):
+                pick.append(cand.loc[(cand.achieved_keep
+                                      - row.achieved_keep).abs().idxmin()])
+        if len(pick) >= 10:
+            p2 = pd.DataFrame(pick).set_index("prompt_id")
+            a, b = p2.out_f1_arabert, ll1.loc[p2.index, "out_f1_arabert"]
+            est, lo, hi = paired_bootstrap_ci(a, b)
+            analysis["llmlingua2_vs_llmlingua1_compression_matched"][f"@{rate}"] = {
+                "n": int(len(p2)), "llmlingua2_mean": round(float(a.mean()), 4),
+                "llmlingua1_mean": round(float(b.mean()), 4),
+                "diff": round(est, 4), "ci95": [round(lo, 4), round(hi, 4)],
+                "wilcoxon_p": float(stats.wilcoxon(a, b).pvalue),
+                "keep_llmlingua2": round(float(p2.achieved_keep.mean()), 3),
+                "keep_llmlingua1": round(float(ll1.loc[p2.index,
+                                                        "achieved_keep"].mean()), 3)}
 
     g = dev.groupby(["method", "target_rate"])[
         ["achieved_keep", "tcr", "f1_arabert", "out_f1_arabert",

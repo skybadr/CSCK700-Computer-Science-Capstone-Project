@@ -34,6 +34,7 @@ def main():
         ("score + tau + RQ1", [PY, "score_and_analyze.py", "--responses",
                                args.responses, "--outdir", str(out)] + dry),
         ("RQ2 features", [PY, "rq2_final.py", "--indir", str(out)]),
+        ("cost analysis", [PY, "cost_analysis.py", "--indir", str(out)]),
         ("APCS final + one-shot test", [PY, "apcs_final.py", "--indir",
                                         str(out)] + dry),
         ("09a synthetic-share sweep", [PY, str(SYN / "sweep_09a.py"),

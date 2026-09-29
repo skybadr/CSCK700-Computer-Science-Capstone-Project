@@ -1,0 +1,475 @@
+
+===== score + tau + RQ1 | 2026-09-30 01:12:46
+rows 14503 | prompts 1456/1456 usable | snapshots ['gpt-5.6-luna']
+output-level BERTScore (arabert) on 13047 rows ...
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (602 > 512). Running this sequence through the model will result in indexing errors
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12045.29it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: aubmindlab/bert-base-arabertv02
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Traceback (most recent call last):
+  File "C:\Capstone Project\experiments\10_final_benchmark\score_and_analyze.py", line 240, in <module>
+    main()
+  File "C:\Capstone Project\experiments\10_final_benchmark\score_and_analyze.py", line 121, in main
+    df.loc[scored, f"out_f1_{s}"] = bertscore_f1(
+                                    ^^^^^^^^^^^^^
+  File "C:\Capstone Project\experiments\10_final_benchmark\score_and_analyze.py", line 47, in bertscore_f1
+    _, _, f1 = bertscore(cands, refs, model_type=SCORERS[scorer], num_layers=9,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Capstone Project\.venv\Lib\site-packages\bert_score\score.py", line 123, in score
+    all_preds = bert_cos_score_idf(
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Capstone Project\.venv\Lib\site-packages\bert_score\utils.py", line 616, in bert_cos_score_idf
+    embs, masks, padded_idf = get_bert_embedding(
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Capstone Project\.venv\Lib\site-packages\bert_score\utils.py", line 445, in get_bert_embedding
+    padded_sens, padded_idf, lens, mask = collate_idf(
+                                          ^^^^^^^^^^^^
+  File "C:\Capstone Project\.venv\Lib\site-packages\bert_score\utils.py", line 409, in collate_idf
+    arr = [sent_encode(tokenizer, a) for a in arr]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Capstone Project\.venv\Lib\site-packages\bert_score\utils.py", line 409, in <listcomp>
+    arr = [sent_encode(tokenizer, a) for a in arr]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Capstone Project\.venv\Lib\site-packages\bert_score\utils.py", line 192, in sent_encode
+    return tokenizer.build_inputs_with_special_tokens([])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Capstone Project\.venv\Lib\site-packages\transformers\tokenization_utils_base.py", line 1319, in __getattr__
+    raise AttributeError(f"{self.__class__.__name__} has no attribute {key}")
+AttributeError: BertTokenizer has no attribute build_inputs_with_special_tokens
+
+===== score + tau + RQ1 | 2026-09-30 01:13:38
+rows 14503 | prompts 1456/1456 usable | snapshots ['gpt-5.6-luna']
+output-level BERTScore (arabert) on 13047 rows ...
+  1 pair(s) with an empty side scored 0.0
+output-level BERTScore (mbert) on 13047 rows ...
+  1 pair(s) with an empty side scored 0.0
+{
+ "api": {
+  "responses": 13438,
+  "snapshots": [
+   "gpt-5.6-luna"
+  ],
+  "snapshot_drift": false,
+  "prompt_tokens": 1067004,
+  "completion_tokens": 1895415,
+  "truncated": 79
+ },
+ "tau": {
+  "arabert": {
+   "exact_quantile": 0.6396,
+   "adopted": 0.65
+  },
+  "mbert": {
+   "exact_quantile": 0.7305,
+   "adopted": 0.75
+  }
+ },
+ "rq1_output_level": {
+  "llmlingua2_vs_random@0.3": {
+   "n": 800,
+   "a_mean": 0.5942,
+   "b_mean": 0.5545,
+   "diff": 0.0396,
+   "ci95": [
+    0.0323,
+    0.047
+   ],
+   "wilcoxon_p": 6.041299665798608e-25
+  },
+  "llmlingua2_vs_random@0.3_mbert": {
+   "n": 800,
+   "a_mean": 0.7087,
+   "b_mean": 0.6919,
+   "diff": 0.0168,
+   "ci95": [
+    0.0124,
+    0.0213
+   ],
+   "wilcoxon_p": 7.77443734336536e-15
+  },
+  "llmlingua2_vs_random@0.3_within_window": {
+   "n": 774,
+   "a_mean": 0.5949,
+   "b_mean": 0.5544,
+   "diff": 0.0405,
+   "ci95": [
+    0.033,
+    0.0481
+   ],
+   "wilcoxon_p": 2.1724172988165075e-25
+  },
+  "llmlingua2_vs_random@0.5": {
+   "n": 800,
+   "a_mean": 0.6837,
+   "b_mean": 0.6461,
+   "diff": 0.0376,
+   "ci95": [
+    0.0292,
+    0.0461
+   ],
+   "wilcoxon_p": 6.331415028816998e-20
+  },
+  "llmlingua2_vs_random@0.5_mbert": {
+   "n": 800,
+   "a_mean": 0.7664,
+   "b_mean": 0.7446,
+   "diff": 0.0218,
+   "ci95": [
+    0.0163,
+    0.0273
+   ],
+   "wilcoxon_p": 2.4994008689600698e-17
+  },
+  "llmlingua2_vs_random@0.5_within_window": {
+   "n": 769,
+   "a_mean": 0.6857,
+   "b_mean": 0.647,
+   "diff": 0.0388,
+   "ci95": [
+    0.0302,
+    0.0476
+   ],
+   "wilcoxon_p": 5.743502852162436e-20
+  },
+  "llmlingua2_vs_random@0.7": {
+   "n": 800,
+   "a_mean": 0.7664,
+   "b_mean": 0.7163,
+   "diff": 0.0501,
+   "ci95": [
+    0.0411,
+    0.0591
+   ],
+   "wilcoxon_p": 1.5999687484598452e-29
+  },
+  "llmlingua2_vs_random@0.7_mbert": {
+   "n": 800,
+   "a_mean": 0.8236,
+   "b_mean": 0.7911,
+   "diff": 0.0325,
+   "ci95": [
+    0.0264,
+    0.0388
+   ],
+   "wilcoxon_p": 1.9763798665374658e-27
+  },
+  "llmlingua2_vs_random@0.7_within_window": {
+   "n": 772,
+   "a_mean": 0.7694,
+   "b_mean": 0.7175,
+   "diff": 0.052,
+   "ci95": [
+    0.0431,
+    0.0612
+   ],
+   "wilcoxon_p": 2.4301241855284358e-29
+  }
+ }
+}
+saved to C:\Capstone Project\experiments\10_final_benchmark\results
+
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (602 > 512). Running this sequence through the model will result in indexing errors
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12420.82it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: aubmindlab/bert-base-arabertv02
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 10916.38it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: bert-base-multilingual-cased
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 10718.99it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: aubmindlab/bert-base-arabertv02
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 10881.23it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: bert-base-multilingual-cased
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+===== RQ2 features | 2026-09-30 01:15:27
+{
+ "creative": {
+  "rho": 0.334,
+  "p": 0.00019668275131692602,
+  "n": 120
+ },
+ "instruction": {
+  "rho": 0.227,
+  "p": 0.00012937613353309336,
+  "n": 280
+ },
+ "qa": {
+  "rho": 0.13,
+  "p": 0.06658037062552699,
+  "n": 200
+ },
+ "summarisation": {
+  "rho": 0.267,
+  "p": 0.00013637335663702134,
+  "n": 200
+ }
+}
+{
+ "r2_full": 0.1482,
+ "unique_r2_length": 0.0336,
+ "unique_r2_category": 0.065,
+ "n": 800
+}
+saved rq2_final.json to C:\Capstone Project\experiments\10_final_benchmark\results
+
+
+===== APCS final + one-shot test | 2026-09-30 01:15:29
+dev 800 | test 200
+rule {'T1': 80, 'T2': 250, 'r_mid': 0.5, 'r_long': 0.3} | dev acc 0.38 | test acc 0.31 CI [0.245, 0.375]
+  vs always noop@1.0            [primary ] diff +0.090 [0.01, 0.17] p=0.038
+  vs always llmlingua2@0.7      [primary ] diff +0.105 [0.005, 0.205] p=0.048
+  vs always llmlingua2@0.5      [primary ] diff +0.025 [-0.055, 0.105] p=0.61
+  vs always llmlingua2@0.3      [primary ] diff +0.020 [-0.075, 0.115] p=0.75
+  vs always llmlingua_qwen@0.7  [extended] diff +0.300 [0.235, 0.37] p=2.3e-16
+  vs always llmlingua_qwen@0.5  [extended] diff +0.280 [0.21, 0.35] p=8.2e-13
+  vs always llmlingua_qwen@0.3  [extended] diff +0.250 [0.175, 0.33] p=2.9e-09
+  vs random selection           [primary ] diff +0.040 [-0.05, 0.135] p=0.45
+mBERT: beats all baselines = True, rule {'T1': 60, 'T2': 400, 'r_mid': 0.5, 'r_long': 0.3}
+saved apcs_final.json to C:\Capstone Project\experiments\10_final_benchmark\results + package rules v1.0.0-final
+
+
+===== 09a synthetic-share sweep | 2026-09-30 01:15:32
+tau = 0.65
+=== fixed band quotas (identical across all shares) ===
+instruction    quotas {'short': 144, 'medium': 102, 'long': 34}  (cell 280, target 280)
+qa             quotas {'short': 51, 'medium': 91, 'long': 58}  (cell 200, target 200)
+summarisation  quotas {'short': 39, 'medium': 78, 'long': 83}  (cell 200, target 200)
+creative       constant cell 120 from 120 dev synthetic prompts
+FEASIBLE
+=== fixed band quotas (identical across all shares) ===
+instruction    quotas {'short': 144, 'medium': 102, 'long': 34}  (cell 280, target 280)
+qa             quotas {'short': 51, 'medium': 91, 'long': 58}  (cell 200, target 200)
+summarisation  quotas {'short': 39, 'medium': 78, 'long': 83}  (cell 200, target 200)
+creative       constant cell 120 from 120 dev synthetic prompts
+FEASIBLE
+share 15%: 200 reps done
+share 30%: 200 reps done
+share 50%: 200 reps done
+
+=== Threshold stability by synthetic share (800-prompt mixes) ===
+       T1_median  T1_iqr  r_mid_mode  r_long_mode  acc_mean  acc_sd  noop_label_share  mean_tokens
+share                                                                                             
+0.15        40.0    20.0         0.5          0.3     0.380   0.007             0.126      216.402
+0.30        60.0    20.0         0.5          0.3     0.377   0.008             0.124      215.023
+0.50        60.0    20.0         0.5          0.3     0.374   0.008             0.122      213.370
+differences across shares (Kruskal-Wallis): {'T1': {'kruskal_H': 9.829, 'p': 0.007339344696346126}, 'accuracy': {'kruskal_H': 39.789, 'p': 2.2899706212371532e-09}, 'label_noop_share': {'kruskal_H': 35.4, 'p': 2.0558047799394047e-08}}
+
+Saved to C:\Capstone Project\experiments\09_synthetic_sensitivity\results: sweep_09a_raw.csv, sweep_09a_summary.csv, sweep_09a_tests.json
+
+
+===== 09b synthetic vs sourced | 2026-09-30 01:16:11
+sourced rows 2040 | synthetic rows 1272
+{
+  "instruction@0.3": {
+    "synthetic_mean": 0.5613,
+    "n_syn": 169,
+    "sourced_mean": 0.5894,
+    "n_src": 280,
+    "diff_raw": -0.0281,
+    "diff_band_adjusted": -0.0255,
+    "ci95_band_adjusted": [
+      -0.0427,
+      -0.0075
+    ],
+    "rank_biserial": 0.157,
+    "mannwhitney_p": 0.0054452473107155916
+  },
+  "instruction@0.5": {
+    "synthetic_mean": 0.6394,
+    "n_syn": 169,
+    "sourced_mean": 0.6641,
+    "n_src": 280,
+    "diff_raw": -0.0247,
+    "diff_band_adjusted": -0.0235,
+    "ci95_band_adjusted": [
+      -0.0431,
+      -0.0045
+    ],
+    "rank_biserial": 0.108,
+    "mannwhitney_p": 0.05539454469079348
+  },
+  "instruction@0.7": {
+    "synthetic_mean": 0.7207,
+    "n_syn": 169,
+    "sourced_mean": 0.7424,
+    "n_src": 280,
+    "diff_raw": -0.0217,
+    "diff_band_adjusted": -0.0217,
+    "ci95_band_adjusted": [
+      -0.0418,
+      -0.0019
+    ],
+    "rank_biserial": 0.125,
+    "mannwhitney_p": 0.026559961686508822
+  },
+  "qa@0.3": {
+    "synthetic_mean": 0.6481,
+    "n_syn": 105,
+    "sourced_mean": 0.5862,
+    "n_src": 200,
+    "diff_raw": 0.0619,
+    "diff_band_adjusted": 0.0671,
+    "ci95_band_adjusted": [
+      0.0486,
+      0.0853
+    ],
+    "rank_biserial": -0.44,
+    "mannwhitney_p": 2.62336420262763e-10
+  },
+  "qa@0.5": {
+    "synthetic_mean": 0.7092,
+    "n_syn": 105,
+    "sourced_mean": 0.7056,
+    "n_src": 200,
+    "diff_raw": 0.0036,
+    "diff_band_adjusted": 0.0063,
+    "ci95_band_adjusted": [
+      -0.0157,
+      0.0288
+    ],
+    "rank_biserial": -0.066,
+    "mannwhitney_p": 0.3460738344729474
+  },
+  "qa@0.7": {
+    "synthetic_mean": 0.7753,
+    "n_syn": 105,
+    "sourced_mean": 0.8238,
+    "n_src": 200,
+    "diff_raw": -0.0485,
+    "diff_band_adjusted": -0.0476,
+    "ci95_band_adjusted": [
+      -0.0717,
+      -0.0241
+    ],
+    "rank_biserial": 0.26,
+    "mannwhitney_p": 0.00019167340657465432
+  },
+  "summarisation@0.3": {
+    "synthetic_mean": 0.5934,
+    "n_syn": 150,
+    "sourced_mean": 0.6247,
+    "n_src": 200,
+    "diff_raw": -0.0312,
+    "diff_band_adjusted": -0.0372,
+    "ci95_band_adjusted": [
+      -0.0517,
+      -0.0229
+    ],
+    "rank_biserial": 0.211,
+    "mannwhitney_p": 0.0007468714473340171
+  },
+  "summarisation@0.5": {
+    "synthetic_mean": 0.6771,
+    "n_syn": 150,
+    "sourced_mean": 0.7261,
+    "n_src": 200,
+    "diff_raw": -0.049,
+    "diff_band_adjusted": -0.0504,
+    "ci95_band_adjusted": [
+      -0.0671,
+      -0.0343
+    ],
+    "rank_biserial": 0.359,
+    "mannwhitney_p": 8.718298928112881e-09
+  },
+  "summarisation@0.7": {
+    "synthetic_mean": 0.7715,
+    "n_syn": 150,
+    "sourced_mean": 0.803,
+    "n_src": 200,
+    "diff_raw": -0.0315,
+    "diff_band_adjusted": -0.0294,
+    "ci95_band_adjusted": [
+      -0.0458,
+      -0.0137
+    ],
+    "rank_biserial": 0.236,
+    "mannwhitney_p": 0.0001544317688030068
+  }
+}
+bonferroni-significant (raw): ['instruction@0.3', 'qa@0.3', 'qa@0.7', 'summarisation@0.3', 'summarisation@0.5', 'summarisation@0.7']
+band-adjusted CI excludes 0: ['instruction@0.3', 'instruction@0.5', 'instruction@0.7', 'qa@0.3', 'qa@0.7', 'summarisation@0.3', 'summarisation@0.5', 'summarisation@0.7']
+saved: C:\Capstone Project\experiments\09_synthetic_sensitivity\results\analysis_09b.json
+
+
+===== figures + tables | 2026-09-30 01:16:13
+  wrote fig1_method_tradeoff
+  wrote fig2_ranking_flip
+  wrote fig3_noise_ceiling
+  wrote fig4_apcs_vs_baselines
+  wrote fig5_confusion_matrix
+  wrote fig6_rq2_features
+  wrote fig7_synthetic_share_sweep
+  wrote fig8_synthetic_vs_sourced
+  wrote tables.md
+figures in C:\Capstone Project\experiments\10_final_benchmark\results\figures
+

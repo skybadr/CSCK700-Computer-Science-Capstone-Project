@@ -1,0 +1,56 @@
+{
+  "n_with_length_instruction": 180,
+  "protected_vs_plain": {
+    "@0.7": {
+      "llmlingua2": {
+        "tcr": 0.302,
+        "out_f1": 0.762,
+        "cost_change_pct": 7.2
+      },
+      "llmlingua2_protected": {
+        "tcr": 0.217,
+        "out_f1": 0.803,
+        "cost_change_pct": 0.8
+      }
+    },
+    "@0.5": {
+      "llmlingua2": {
+        "tcr": 0.505,
+        "out_f1": 0.677,
+        "cost_change_pct": 17.6
+      },
+      "llmlingua2_protected": {
+        "tcr": 0.361,
+        "out_f1": 0.747,
+        "cost_change_pct": -5.3
+      }
+    },
+    "@0.3": {
+      "llmlingua2": {
+        "tcr": 0.712,
+        "out_f1": 0.597,
+        "cost_change_pct": 47.6
+      },
+      "llmlingua2_protected": {
+        "tcr": 0.507,
+        "out_f1": 0.687,
+        "cost_change_pct": -7.9
+      }
+    }
+  },
+  "qa_correct_by_method": {
+    "llmlingua2@0.3": 0.32,
+    "llmlingua2@0.5": 0.4,
+    "llmlingua2@0.7": 0.46,
+    "llmlingua2_protected@0.3": 0.31,
+    "llmlingua2_protected@0.5": 0.41,
+    "llmlingua2_protected@0.7": 0.47,
+    "llmlingua_qwen@0.3": 0.46,
+    "llmlingua_qwen@0.5": 0.51,
+    "llmlingua_qwen@0.7": 0.53,
+    "noop@1.0": 0.57,
+    "random_deletion@0.3": 0.21,
+    "random_deletion@0.5": 0.27,
+    "random_deletion@0.7": 0.31
+  }
+}

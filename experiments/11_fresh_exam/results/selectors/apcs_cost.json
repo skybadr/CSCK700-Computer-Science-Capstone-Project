@@ -1,0 +1,92 @@
+{
+  "name": "apcs_cost",
+  "candidates": [
+    "noop@1.0",
+    "llmlingua2@0.7",
+    "llmlingua2@0.5",
+    "llmlingua2@0.3",
+    "llmlingua2_protected@0.7",
+    "llmlingua2_protected@0.5",
+    "llmlingua2_protected@0.3",
+    "llmlingua_qwen@0.7",
+    "llmlingua_qwen@0.5",
+    "llmlingua_qwen@0.3"
+  ],
+  "tau": 0.65,
+  "label": "cheapest faithful (measured cost)",
+  "max_depth": 3,
+  "min_samples_leaf": 40,
+  "features": [
+    "token_count",
+    "structural_complexity",
+    "fragmentation_ratio",
+    "morphological_density",
+    "has_length_instruction",
+    "cat_instruction",
+    "cat_summarisation",
+    "cat_qa",
+    "cat_creative"
+  ],
+  "tree": {
+    "feature": "token_count",
+    "threshold": 127.5,
+    "le": {
+      "feature": "has_length_instruction",
+      "threshold": 0.5,
+      "le": {
+        "feature": "token_count",
+        "threshold": 92.5,
+        "le": {
+          "leaf": "noop@1.0",
+          "n": 184
+        },
+        "gt": {
+          "leaf": "noop@1.0",
+          "n": 51
+        }
+      },
+      "gt": {
+        "feature": "morphological_density",
+        "threshold": 1.683,
+        "le": {
+          "leaf": "noop@1.0",
+          "n": 62
+        },
+        "gt": {
+          "leaf": "noop@1.0",
+          "n": 40
+        }
+      }
+    },
+    "gt": {
+      "feature": "has_length_instruction",
+      "threshold": 0.5,
+      "le": {
+        "feature": "cat_qa",
+        "threshold": 0.5,
+        "le": {
+          "leaf": "noop@1.0",
+          "n": 119
+        },
+        "gt": {
+          "leaf": "llmlingua2@0.5",
+          "n": 99
+        }
+      },
+      "gt": {
+        "feature": "cat_creative",
+        "threshold": 0.5,
+        "le": {
+          "leaf": "llmlingua2_protected@0.3",
+          "n": 187
+        },
+        "gt": {
+          "leaf": "llmlingua2@0.7",
+          "n": 58
+        }
+      }
+    }
+  },
+  "rules_text": "|--- token_count <= 127.50\n|   |--- has_length_instruction <= 0.50\n|   |   |--- token_count <= 92.50\n|   |   |   |--- class: noop@1.0\n|   |   |--- token_count >  92.50\n|   |   |   |--- class: noop@1.0\n|   |--- has_length_instruction >  0.50\n|   |   |--- morphological_density <= 1.68\n|   |   |   |--- class: noop@1.0\n|   |   |--- morphological_density >  1.68\n|   |   |   |--- class: noop@1.0\n|--- token_count >  127.50\n|   |--- has_length_instruction <= 0.50\n|   |   |--- cat_qa <= 0.50\n|   |   |   |--- class: noop@1.0\n|   |   |--- cat_qa >  0.50\n|   |   |   |--- class: llmlingua2@0.5\n|   |--- has_length_instruction >  0.50\n|   |   |--- cat_creative <= 0.50\n|   |   |   |--- class: llmlingua2_protected@0.3\n|   |   |--- cat_creative >  0.50\n|   |   |   |--- class: llmlingua2@0.7\n",
+  "trained_on": "AraPromptBench v2 dev (800 prompts)"
+}

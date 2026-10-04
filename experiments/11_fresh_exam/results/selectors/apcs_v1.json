@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0-final",
+  "calibrated_on": "AraPromptBench v2 dev split (800 prompts)",
+  "llm_under_test": "gpt-5.6-luna",
+  "fidelity_threshold_tau": 0.65,
+  "decision_feature": "token_count (cl100k_base)",
+  "rules": [
+    {
+      "if": "token_count < 80",
+      "then": {
+        "method": "none",
+        "rate": 1.0
+      }
+    },
+    {
+      "if": "token_count >= 250",
+      "then": {
+        "method": "llmlingua2",
+        "rate": 0.3
+      }
+    },
+    {
+      "if": "otherwise",
+      "then": {
+        "method": "llmlingua2",
+        "rate": 0.5
+      }
+    }
+  ],
+  "thresholds": {
+    "T1": 80,
+    "T2": 250,
+    "r_mid": 0.5,
+    "r_long": 0.3
+  }
+}

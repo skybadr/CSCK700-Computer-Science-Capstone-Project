@@ -1,40 +1,25 @@
-# Dissertation (CSCK700) — source and build
+# Dissertation (CSCK700) — sources and build tools
 
-The dissertation is written as Markdown, one file per chapter, and built into
-the University's Word template so that the source stays reviewable in git.
+The dissertation was drafted as Markdown, one file per chapter, built into the
+University of Liverpool Computing dissertation template, and then finalised in
+Word. The submitted document is the Word file; the Markdown sources mirror its
+content.
 
 | Path | Content |
 |---|---|
-| `chapters/00_front.md` | Abstract, acknowledgements, AI-use statement |
-| `chapters/01_…06_*.md` | Chapters 1–6 (template structure) |
-| `chapters/90_references.md` | Harvard reference list (66 sources, 50 from 2023+) |
+| `chapters/00_front.md` | Abstract and acknowledgements (including the generative-AI statement) |
+| `chapters/01_…06_*.md` | Chapters 1–6, following the template structure |
+| `chapters/90_references.md` | Harvard reference list (66 sources, 50 from 2023 or later) |
 | `chapters/95_appendices.md` | Appendices A–E |
-| `figures/` | Figures (copied from experiment results; `fig_architecture.png` from `make_architecture.py`) |
-| `template/template.docx` | The Computing dissertation template (unmodified) |
+| `figures/` | Figures (from the experiment results; `fig_architecture.png` from `make_architecture.py`) |
+| `template/template.docx` | The Computing dissertation template |
 | `verify_refs.py`, `ref_queries*.txt`, `refs_crossref*.json` | Reference metadata checked against Crossref |
-| `build_docx.py` | Markdown → template (styles, captions with SEQ fields, appendices) |
-| `update_fields.ps1` | Opens the result in Word, refreshes TOC / lists / numbering, exports PDF |
-| `build/Abouabdou_Badr_Dissertation.docx` / `.pdf` | The built draft |
+| `build_docx.py` | Builds the Markdown into the template (styles, auto-numbered captions, appendices) |
+| `edit_docx_*.py` | In-place revisions applied to the Word file during finalisation |
+| `update_fields.ps1` | Opens the document in Word, refreshes the contents and numbering, exports a PDF |
 
-## Rebuild
+Appendix A is the approved proposal (`../BadrAbouabdou_Proposal_approved_by_DA_DL.docx`)
+and Appendix B the Specification and Design Report, both included as page images.
 
-```
-.venv/Scripts/python dissertation/build_docx.py
-powershell -ExecutionPolicy Bypass -File dissertation/update_fields.ps1
-```
-
-Appendices A and B are page images of the proposal and SDR, rendered from
-`build/*.pdf` (exported from the original .docx files by Word), so their
-headings do not join the dissertation's numbering.
-
-## Before submission (author)
-
-- Complete the bracketed placeholders: acknowledgements, AI-use statement
-  (check the module policy), personal growth paragraph (6.2), code-access line
-  (Appendix E).
-- Sign the declaration page in Word.
-- Every number was taken from experiment FINDINGS / results files and
-  re-checked by `experiments/AUDIT/verify_results.py`; if text is edited,
-  keep numbers consistent with those files.
-- Body word count (Chapter 1 to the end of Chapter 6, incl. tables and
-  captions): about 16,800 (limit 12,000–18,000).
+Every number in the dissertation comes from the experiment results and is
+re-checked by `../experiments/AUDIT/verify_results.py`.

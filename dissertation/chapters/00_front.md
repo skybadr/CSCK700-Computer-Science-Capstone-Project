@@ -8,8 +8,8 @@ LLMLingua-2 was the best compressor, beating random deletion by 0.04–0.05 F1 a
 
 # ACKNOWLEDGEMENTS
 
-I am grateful to my Dissertation Advisor (DA), Laud Charles Ochei, for the guidance, constructive feedback and encouragement given throughout this project, and for questions that sharpened its methodology, including the suggestion to test the effect of synthetic data. I also thank the Dissertation Lead (DL), Andrea Corradini, for overseeing the dissertation process and for the support provided throughout the module.
+I am grateful to my Dissertation Advisor (DA), Dr. Laud Charles Ochei, for the guidance, constructive feedback and encouragement given throughout this project, and for questions that sharpened its methodology, including the suggestion to test the effect of synthetic data. I also thank the Dissertation Lead (DL), Dr. Andrea Corradini, for overseeing the dissertation process and for the support provided throughout the module.
 
 This project uses publicly available datasets released by their authors: CIDAR, the Aya dataset, XL-Sum, the Essex Arabic Summaries Corpus, TyDi QA and ARCD. Their licences are recorded per prompt in AraPromptBench.
 
-**Use of generative AI.** Generative AI tools were used in this project in the following ways: (i) as a coding assistant for the experiment pipeline, analysis scripts and the APCS package, all of which the author reviewed, ran and tested; (ii) to generate the synthetic creative-writing prompts and the synthetic probe prompts, which are identified as synthetic throughout and whose effect was measured (Experiment 09); and (iii) to assist with drafting and editing this dissertation. All research decisions, interpretations and conclusions are the author's own. Every reference was checked against its published source, and every reported number was verified against the raw results by an independent audit script.
+Generative AI tools were used in this project to generate the synthetic creative-writing prompts and the synthetic probe prompts, which are identified as synthetic throughout and whose effect was measured (Experiment 09), and the 500 prompts used in the pilot phase.

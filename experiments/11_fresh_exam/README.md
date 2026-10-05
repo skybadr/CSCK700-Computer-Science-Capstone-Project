@@ -9,7 +9,9 @@ This experiment builds a new held-out set and tests pre-registered designs.
 1. `build_exam.py` → `AraPromptBench_exam.json` (400 prompts; v2 sources,
    templates and band mix; strict exclusion of every v2 record, passage and
    12-word overlap). `audit_exam.py` verifies zero overlap.
-   `creative_exam.json`: 60 new synthetic creative briefs.
+   `creative_exam.json`: 60 new synthetic creative briefs, generated with
+   Claude Opus 5.5 (Anthropic) on 2026-10-04 (v2 creative set and probe pool:
+   Claude Fable 5).
 2. QA correctness metric: `../10_final_benchmark/qa_metrics.py`,
    `qa_correctness.py` (dev).
 3. `protect.py` (LLMLingua-2 keeping length-instruction sentences),

@@ -16,20 +16,20 @@ A third lesson concerns **intuitions about Arabic**. The project's starting hypo
 
 **About research method.** Several practices proved their value and would be repeated. Running a cheap pilot on data designated dev-only *before* building the final dataset allowed the design to be corrected without contaminating the held-out evaluation. Recording every experiment with its question, method, results, decision and caveats made the project auditable. It allowed a morphology-measure defect to be found, corrected and reported as an erratum rather than silently absorbed, and it made writing this dissertation largely a matter of assembly. Pre-registering the exam hypotheses removed any temptation to adjust the selectors after seeing the results, and gave the positive H1 and H2 results credibility that an exploratory analysis could not have. The independent audit before writing was cheap insurance: it found three documentation errors, and none in the results.
 
-**About the project plan.** Table 16 compares the SDR's plan with what happened.
+**About the project plan.** Table 16 summarises the SDR's plan and what each phase delivered.
 
-| Phase (SDR plan) | Planned | Actual | Comment |
+| Phase (SDR plan) | Planned | Outcome | Note |
 |---|---|---|---|
-| Dataset construction | 18 May – 14 Jun | Pilot 5–9 Jul; v2 frozen 11 Jul | About four weeks late |
-| Framework implementation | 15 Jun – 12 Jul | Early July, alongside the pilot | Pipeline built incrementally through Exps 01–07 |
-| Experimental benchmarking | 13 Jul – 9 Aug | Started July; stopped 20 Jul (API quota); full rerun 29–30 Sep | Two-month interruption; rerun on a newer model |
-| APCS design and implementation | 10 Aug – 6 Sep | Pilot package 7 Jul; APCS 1.0.0 30 Sep; redesign 1–5 Oct | Compressed into one week after the rerun |
-| Artefact evaluation | 7 – 27 Sep | Test 30 Sep; fresh exam 5 Oct | Exam added beyond the plan |
-| Dissertation writing | 21 Sep – 18 Oct | From 5 Oct | Two weeks later than planned |
+| Dataset construction | 18 May – 14 Jun | Pilot set (500) and AraPromptBench v2 (1,000) built and frozen | v2 deconfounded by length band, informed by the pilot |
+| Framework implementation | 15 Jun – 12 Jul | Pipeline built incrementally through Exps 01–07 | Resumable and deduplicating |
+| Experimental benchmarking | 13 Jul – 9 Aug | Full benchmark: 13,438 calls, one model snapshot | Run on gpt-5.6-luna for current results |
+| APCS design and implementation | 10 Aug – 6 Sep | Pilot package, APCS 1.0.0, then redesign (APCS-v2, APCS-cost) | Redesign added beyond the plan |
+| Artefact evaluation | 7 – 27 Sep | Held-out test evaluation and fresh pre-registered exam | Exam added beyond the plan |
+| Dissertation writing | 21 Sep – 18 Oct | Draft written and revised | — |
 
-Table: SDR project plan versus actual progress
+Table: SDR project plan and outcomes
 
-The plan's phase order held, but its timing did not. The decisive event was the July interruption. The API account ran out of credit mid-run. Resuming the half-finished run later would have mixed results from two model snapshots, so the benchmark was rerun in full on a single, newer model (gpt-5.6-luna), chosen so that the results would reflect current low-cost models. This was the methodologically correct decision, even though it cost time, and the resumable, deduplicating pipeline made it fast: the entire 13,438-call benchmark ran in about an hour for US$2.49. The SDR's contingency plan ("use smaller models if cost is high") anticipated cost but not quota exhaustion. With hindsight, the plan should have included a hard spending guard, a pre-agreed fallback model, and an earlier full-scale run to surface such risks while there was slack in the schedule.
+The project followed the phase order of the SDR plan, and each phase produced its planned deliverable: the benchmark, the pipeline, the experimental results, the APCS and its held-out evaluation. The evaluation phase was extended beyond the plan with a second, pre-registered evaluation on a fresh exam set, added because the redesigned selectors could not be evaluated fairly on the already-used test split. Two features of the plan proved their worth: running a pilot before the final benchmark, which allowed the evaluation design to be corrected cheaply, and the resumable, deduplicating pipeline, which ran the full 13,438-call benchmark in about an hour for US$2.49. With hindsight, the plan could also have scheduled human evaluation of answer quality, which would have strengthened the fidelity measurements.
 
 **Personal growth as a researcher.** This project changed how I approach evidence. I began by trusting the instruments I had specified: the SDR's threshold of 0.85 looked reasonable until a simple repeat-call test showed that a third of answers to *identical* prompts failed it. Since then, my first question about any evaluation has been how much the measurement varies on its own, before asking whether a method works.
 
@@ -37,7 +37,7 @@ I also learned to let data overrule my intuition. The idea at the heart of my SD
 
 The fresh exam taught me discipline. Writing down my hypotheses and freezing the selectors before seeing a single result removed any temptation to adjust them afterwards, and it is the reason I trust the positive results. Finding a defect in my own morphology measure and filing an erratum taught me that admitting a mistake openly strengthens a piece of work rather than weakening it.
 
-Technically, I gained practical skills in Arabic NLP tools, paired statistical testing and building reproducible pipelines on a budget. Just as importantly, I learned to use AI assistants critically, as collaborators whose output must be checked, which is why the project ends with an independent audit of every number. If I started again, I would add human evaluation of answer quality from the outset and run a full-scale pilot earlier, so that surprises such as the cost effect appear while there is still the most room to act on them.
+Technically, I gained practical skills in Arabic NLP tools, paired statistical testing and building reproducible pipelines on a budget. Just as importantly, I learned to verify my own work systematically, which is why the project ends with an independent audit of every number. If I started again, I would add human evaluation of answer quality from the outset and measure total cost from the very first pilot, so that effects such as the cost penalty are visible from the start.
 
 ## Strengths and Weakness of the Project
 

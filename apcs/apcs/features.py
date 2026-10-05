@@ -25,6 +25,13 @@ _STRUCT_PATTERNS = [
 ]
 
 
+# explicit answer-length instructions ("briefly", "in three sentences",
+# "no more than N words"); compressors that delete them make answers longer
+# (Experiment 10, F5)
+LENGTH_MARKERS = re.compile(
+    r"بإيجاز|موجز|جملتين|ثلاث جمل|جملة واحدة|فقرة واحدة|لا يتجاوز|كلمة")
+
+
 @dataclass(frozen=True)
 class PromptFeatures:
     character_length: int
@@ -33,9 +40,14 @@ class PromptFeatures:
     fragmentation_ratio: float
     structural_complexity: int
     morphological_density: float | None  # requires optional Farasa/Java
+    has_length_instruction: bool = False
 
     def as_dict(self) -> dict:
         return asdict(self)
+
+
+def has_length_instruction(text: str) -> bool:
+    return bool(LENGTH_MARKERS.search(text))
 
 
 def structural_complexity(text: str) -> int:
@@ -64,6 +76,7 @@ def extract_features(text: str, *, morphology: bool = False) -> PromptFeatures:
         fragmentation_ratio=round(n_tok / len(words), 4),
         structural_complexity=structural_complexity(text),
         morphological_density=density,
+        has_length_instruction=has_length_instruction(text),
     )
 
 

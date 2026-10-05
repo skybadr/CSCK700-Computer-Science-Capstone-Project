@@ -1,0 +1,110 @@
+{
+  "name": "apcs_v2",
+  "candidates": [
+    "noop@1.0",
+    "llmlingua2@0.7",
+    "llmlingua2@0.5",
+    "llmlingua2@0.3"
+  ],
+  "tau": 0.65,
+  "label": "best balance",
+  "max_depth": 4,
+  "min_samples_leaf": 20,
+  "features": [
+    "token_count",
+    "structural_complexity",
+    "fragmentation_ratio",
+    "morphological_density",
+    "has_length_instruction",
+    "cat_instruction",
+    "cat_summarisation",
+    "cat_qa",
+    "cat_creative"
+  ],
+  "tree": {
+    "feature": "cat_creative",
+    "threshold": 0.5,
+    "le": {
+      "feature": "token_count",
+      "threshold": 104.5,
+      "le": {
+        "feature": "fragmentation_ratio",
+        "threshold": 4.8496,
+        "le": {
+          "feature": "structural_complexity",
+          "threshold": 6.5,
+          "le": {
+            "leaf": "llmlingua2@0.5",
+            "n": 213
+          },
+          "gt": {
+            "leaf": "llmlingua2@0.7",
+            "n": 24
+          }
+        },
+        "gt": {
+          "leaf": "noop@1.0",
+          "n": 23
+        }
+      },
+      "gt": {
+        "feature": "cat_qa",
+        "threshold": 0.5,
+        "le": {
+          "feature": "token_count",
+          "threshold": 243.0,
+          "le": {
+            "leaf": "llmlingua2@0.5",
+            "n": 143
+          },
+          "gt": {
+            "leaf": "llmlingua2@0.3",
+            "n": 122
+          }
+        },
+        "gt": {
+          "feature": "token_count",
+          "threshold": 433.0,
+          "le": {
+            "leaf": "llmlingua2@0.5",
+            "n": 121
+          },
+          "gt": {
+            "leaf": "llmlingua2@0.7",
+            "n": 34
+          }
+        }
+      }
+    },
+    "gt": {
+      "feature": "token_count",
+      "threshold": 85.5,
+      "le": {
+        "leaf": "noop@1.0",
+        "n": 25
+      },
+      "gt": {
+        "feature": "fragmentation_ratio",
+        "threshold": 4.1181,
+        "le": {
+          "leaf": "llmlingua2@0.7",
+          "n": 27
+        },
+        "gt": {
+          "feature": "fragmentation_ratio",
+          "threshold": 4.4313,
+          "le": {
+            "leaf": "llmlingua2@0.5",
+            "n": 43
+          },
+          "gt": {
+            "leaf": "llmlingua2@0.7",
+            "n": 25
+          }
+        }
+      }
+    }
+  },
+  "rules_text": "|--- cat_creative <= 0.50\n|   |--- token_count <= 104.50\n|   |   |--- fragmentation_ratio <= 4.85\n|   |   |   |--- structural_complexity <= 6.50\n|   |   |   |   |--- class: llmlingua2@0.5\n|   |   |   |--- structural_complexity >  6.50\n|   |   |   |   |--- class: llmlingua2@0.7\n|   |   |--- fragmentation_ratio >  4.85\n|   |   |   |--- class: noop@1.0\n|   |--- token_count >  104.50\n|   |   |--- cat_qa <= 0.50\n|   |   |   |--- token_count <= 243.00\n|   |   |   |   |--- class: llmlingua2@0.5\n|   |   |   |--- token_count >  243.00\n|   |   |   |   |--- class: llmlingua2@0.3\n|   |   |--- cat_qa >  0.50\n|   |   |   |--- token_count <= 433.00\n|   |   |   |   |--- class: llmlingua2@0.5\n|   |   |   |--- token_count >  433.00\n|   |   |   |   |--- class: llmlingua2@0.7\n|--- cat_creative >  0.50\n|   |--- token_count <= 85.50\n|   |   |--- class: noop@1.0\n|   |--- token_count >  85.50\n|   |   |--- fragmentation_ratio <= 4.12\n|   |   |   |--- class: llmlingua2@0.7\n|   |   |--- fragmentation_ratio >  4.12\n|   |   |   |--- fragmentation_ratio <= 4.43\n|   |   |   |   |--- class: llmlingua2@0.5\n|   |   |   |--- fragmentation_ratio >  4.43\n|   |   |   |   |--- class: llmlingua2@0.7\n",
+  "trained_on": "AraPromptBench v2 dev (800 prompts)"
+}

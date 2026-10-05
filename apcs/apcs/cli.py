@@ -17,8 +17,14 @@ def main(argv: list[str] | None = None) -> int:
                     "compression method and keep-rate for an Arabic prompt.")
     ap.add_argument("prompt", nargs="?", help="prompt text (or use --file)")
     ap.add_argument("--file", type=Path, help="read the prompt from a file")
+    ap.add_argument("--selector", choices=["v1", "v2", "cost"], default="v1",
+                    help="v1 = APCS 1.0.0 token rules (default); v2 = APCS-v2 "
+                         "tree; cost = APCS-cost tree (v2/cost need --category)")
+    ap.add_argument("--category",
+                    choices=["instruction", "summarisation", "qa", "creative"],
+                    help="task category of the prompt (required for v2/cost)")
     ap.add_argument("--rules", type=Path, default=None,
-                    help="alternative calibrated rules JSON")
+                    help="alternative calibrated rules / tree JSON")
     ap.add_argument("--json", action="store_true", dest="as_json",
                     help="machine-readable output")
     args = ap.parse_args(argv)
@@ -30,7 +36,10 @@ def main(argv: list[str] | None = None) -> int:
     else:
         ap.error("provide a prompt or --file")
 
-    rec = APCSSelector(rules_path=args.rules).recommend(text)
+    if args.selector != "v1" and not args.category:
+        ap.error(f"--selector {args.selector} needs --category")
+    rec = APCSSelector(args.selector, rules_path=args.rules).recommend(
+        text, category=args.category)
     if args.as_json:
         print(json.dumps(rec.as_dict(), ensure_ascii=False, indent=2))
     else:

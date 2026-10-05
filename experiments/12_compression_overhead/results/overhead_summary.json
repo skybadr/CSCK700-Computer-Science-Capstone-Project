@@ -1,0 +1,55 @@
+{
+  "n_prompts": 100,
+  "rate": 0.5,
+  "seed": 42,
+  "mean_tokens": 210.1,
+  "hardware": {
+    "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "cpu_threads": 24,
+    "gpu": "NVIDIA GeForce RTX 5070"
+  },
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "python": "3.11.9"
+  },
+  "ms_per_prompt": {
+    "apcs_v1_recommend": {
+      "median": 0.05,
+      "p95": 0.14,
+      "mean": 0.06
+    },
+    "apcs_v2_recommend": {
+      "median": 0.05,
+      "p95": 0.14,
+      "mean": 0.06
+    },
+    "llmlingua2_gpu": {
+      "median": 29.51,
+      "p95": 31.51,
+      "mean": 29.75
+    },
+    "llmlingua2_protected_gpu": {
+      "median": 28.81,
+      "p95": 30.52,
+      "mean": 29.58
+    },
+    "llmlingua_qwen_gpu": {
+      "median": 29.01,
+      "p95": 35.27,
+      "mean": 33.54
+    },
+    "llmlingua2_cpu": {
+      "median": 401.35,
+      "p95": 408.24,
+      "mean": 401.78
+    }
+  },
+  "ms_per_1k_tokens_median": {
+    "apcs_v1_recommend": 0.28,
+    "apcs_v2_recommend": 0.29,
+    "llmlingua2_gpu": 155.33,
+    "llmlingua2_protected_gpu": 156.1,
+    "llmlingua_qwen_gpu": 157.31,
+    "llmlingua2_cpu": 2140.83
+  }
+}

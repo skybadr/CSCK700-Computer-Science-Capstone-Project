@@ -8,7 +8,7 @@ This chapter describes what was built and how the design of Chapter 3 was realis
 
 ### Environment and tooling
 
-All work was done in Python 3.11.9 on a Windows 11 workstation with an NVIDIA RTX 5070 GPU (12 GB), which ran the compressors and BERTScore locally. Only LLM calls went to the API. Table 4 lists the main libraries. Every experiment lives in its own folder containing the scripts, a README stating the question and method, a `results/` folder with raw outputs and configuration, and a FINDINGS file with results, decision and caveats. Git and a private GitHub repository recorded each milestone; with one commit per milestone (17 commits on the main branch at the time of writing). A chronological experiment log indexes all eleven experiments (Appendix E).
+All work was done in Python 3.11.9 on a Windows 11 workstation with an NVIDIA RTX 5070 GPU (12 GB), which ran the compressors and BERTScore locally. Only LLM calls went to the API. Table 4 lists the main libraries. Every experiment lives in its own folder containing the scripts, a README stating the question and method, a `results/` folder with raw outputs and configuration, and a FINDINGS file with results, decision and caveats. Git and a GitHub repository recorded each milestone, with one commit per milestone. A chronological experiment log indexes all eleven experiments and one supplementary measurement (Appendix E).
 
 | Purpose | Library (version) |
 |---|---|
@@ -140,6 +140,10 @@ compressed = APCSSelector("cost").compress(prompt, category="summarisation")
 ```
 
 **Testing.** The package has 18 unit tests. They check feature extraction (empty input rejected, Farasa's punctuation excluded from morphological density), the APCS 1.0.0 rule branches, custom rule files, serialisation, the tree selectors' category handling and their treatment of a missing optional feature. One integration test feeds all 400 exam prompts through the package's own feature extraction and confirms that the shipped APCS-v2 and APCS-cost trees choose *exactly* the strategy recorded in the pre-registered exam evaluation. The artefact a user installs is therefore the one that was evaluated.
+
+**Documentation.** The package README serves as the user manual, covering installation, the command-line and library interfaces, the three selectors and recalibration. An example notebook (`apcs/examples/apcs_example.ipynb`) walks through single and batch recommendations, applying a recommendation and custom calibration. Together they deliver the manual and example notebook promised in the proposal.
+
+**Overhead.** A supplementary measurement (Experiment 12; 100 dev prompts, rate 0.5) timed each step on the project workstation. The APCS recommendation itself takes about 0.05 ms per prompt, so the selector adds no meaningful latency. Applying a recommendation does take time: LLMLingua-2 needs about 30 ms per prompt on the consumer GPU and about 0.4 s on CPU, because it runs a 560-million-parameter encoder; the protected variant costs the same. For prompts of a few hundred tokens, this is of the same order as, or larger than, the prompt-processing time that compression removes. Compression should therefore be justified by cost or context-window limits rather than by speed. End-to-end API latency was not measured.
 
 **Reproducibility and verification.** Every result file is accompanied by its configuration (model snapshot, parameters, prices, seeds). Before writing began, an independent audit script that imports no experiment code recomputed every headline number in this dissertation from the raw data. It covered the dataset sizes and overlaps, the 13,438 and 3,828 stored responses and their costs, the RQ1–RQ3 statistics and the exam hypotheses, and all 117 checks passed (Section 5.2.10).
 

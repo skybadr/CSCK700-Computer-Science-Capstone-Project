@@ -116,38 +116,40 @@ Plain compression saved 20 input tokens but the model, no longer told to be brie
 
 ### Repository and reproduction
 
-All source code, data and results are in the project repository (GitHub: skybadr/CSCK700-Computer-Science-Capstone-Project; private, and access can be granted to examiners on request). *[Author: confirm how the code will be made available, as the module guidance requires.]* Its structure is:
+All source code, data and results are in the project repository (GitHub: skybadr/CSCK700-Computer-Science-Capstone-Project; access is provided to the examiners, as the module guidance requires). ** Its structure is:
 
 ```
+README.md, requirements.txt    start here: overview, quick start and pinned dependencies
 AraPromptBench_dataset.json     pilot set (500 prompts, dev-only)
 AraPromptBench_v2.json          final benchmark (1,000 prompts, 800 dev / 200 test)
 AraPromptBench_exam.json        fresh exam set (400 prompts)
 apcs/                           the IT artefact (Python package, tests, README)
 experiments/
-  01_scorer_selection/ ... 11_fresh_exam/   one folder per experiment:
+  01_scorer_selection/ ... 12_compression_overhead/   one folder per experiment:
       README.md (question, method), *.py (scripts),
       results/ (raw outputs, configuration, FINDINGS.md)
   EXPERIMENT_LOG.md             chronological index of all experiments
   AUDIT/                        independent verification of every reported number
 ```
 
-Reproducing the final results: install the package and requirements in a Python 3.11 virtual environment, set the OPENAI_API_KEY environment variable, then run `experiments/10_final_benchmark/run_local.py`, `run_api.py` and `run_chain.py`, followed by the Experiment 11 scripts in the order given in its README. Stored responses make every analysis re-runnable offline. `experiments/AUDIT/verify_results.py` re-checks every headline number from the raw data.
+Reproducing the final results: create a Python 3.11 virtual environment and run `pip install -r requirements.txt` (the top-level README gives step-by-step instructions), set the OPENAI_API_KEY environment variable, then run `experiments/10_final_benchmark/run_local.py`, `run_api.py` and `run_chain.py`, followed by the Experiment 11 scripts in the order given in its README. Stored responses make every analysis re-runnable offline. `experiments/AUDIT/verify_results.py` re-checks every headline number from the raw data.
 
 ### Experiment log
 
-| # | Date | Experiment | Outcome |
-|---|---|---|---|
-| 01 | 2026-07-05 | Scorer selection | AraBERT primary, mBERT sensitivity check |
-| 02 | 2026-07-05 | Compression vertical slice | GPT-2 scorer unusable on Arabic; Qwen2.5-0.5B adopted |
-| 03 | 2026-07-05 | Local benchmark | Prompt-level F1 ranks random above LLMLingua-2 |
-| 04 | 2026-07-05 | Output-level evaluation | Ranking flips at output level |
-| 05 | 2026-07-07 | Feature analysis (erratum 05e) | Length dominant in pilot; morphology weak |
-| 06 | 2026-07-07 | APCS calibration (pilot) | 41.2% in-sample; Pareto-hit degenerate |
-| 07 | 2026-07-09 | Protocol checks | Noise ceiling; 0.85 threshold retired |
-| 08 | 2026-07-11 | AraPromptBench v2 | 1,000 prompts frozen, 800/200 split |
-| 09 | 2026-09-30 | Synthetic-data sensitivity | Safe for calibration, not for fidelity measurement |
-| 10 | 2026-09-30 | Final benchmark | RQ1/RQ2 answered; cost penalty; APCS 1.0.0 31.0% on test |
-| 11 | 2026-10-05 | Fresh exam | APCS-v2 38.5%; H1–H3 supported |
+| # | Experiment | Outcome |
+|---|---|---|
+| 01 | Scorer selection | AraBERT primary, mBERT sensitivity check |
+| 02 | Compression vertical slice | GPT-2 scorer unusable on Arabic; Qwen2.5-0.5B adopted |
+| 03 | Local benchmark | Prompt-level F1 ranks random above LLMLingua-2 |
+| 04 | Output-level evaluation | Ranking flips at output level |
+| 05 | Feature analysis (erratum 05e) | Length dominant in pilot; morphology weak |
+| 06 | APCS calibration (pilot) | 41.2% in-sample; Pareto-hit degenerate |
+| 07 | Protocol checks | Noise ceiling; 0.85 threshold retired |
+| 08 | AraPromptBench v2 | 1,000 prompts frozen, 800/200 split |
+| 09 | Synthetic-data sensitivity | Safe for calibration, not for fidelity measurement |
+| 10 | Final benchmark | RQ1/RQ2 answered; cost penalty; APCS 1.0.0 31.0% on test |
+| 11 | Fresh exam | APCS-v2 38.5%; H1–H3 supported |
+| 12 | Compression overhead (supplementary) | Selector ≈0.05 ms; LLMLingua-2 ≈30 ms (GPU), ≈0.4 s (CPU) |
 
 Table: Experiment log summary
 

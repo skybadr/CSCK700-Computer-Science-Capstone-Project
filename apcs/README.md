@@ -70,6 +70,16 @@ the bill matters more than token reduction.
 
 Custom rules: `APCSSelector("v1", rules_path=...)`.
 
+## Example notebook
+
+`examples/apcs_example.ipynb` walks through single and batch recommendations,
+the three selectors, applying a recommendation and custom calibration.
+
+## Overhead
+
+Recommendation ≈0.05 ms per prompt; LLMLingua-2 compression ≈30 ms per prompt
+on a consumer GPU (RTX 5070) and ≈0.4 s on CPU (Experiment 12).
+
 ## Tests
 
 ```

@@ -60,7 +60,7 @@ Habash (2010) describes the properties of Arabic that complicate processing: roo
 
 Arabic LLM evaluation has matured rapidly. GPTAraEval evaluated ChatGPT on 44 Arabic tasks and found it clearly behind smaller fine-tuned models on many of them (Khondaker et al., 2023). ArabicMMLU measures knowledge with school-exam questions from Arabic-speaking countries (Koto et al., 2024). ORCA and Dolphin provide understanding and generation benchmarks respectively (Elmadany, Nagoudi and Abdul-Mageed, 2023; Nagoudi et al., 2023). Public instruction corpora now exist: CIDAR provides 10,000 culturally reviewed instruction–response pairs (Alyafeai et al., 2024), and the Aya dataset provides human-written instructions in many languages and dialects (Singh et al., 2024). Together with older task corpora (XL-Sum for summarisation (Hasan et al., 2021), the Essex Arabic Summaries Corpus (El-Haj, Kruschwitz and Fox, 2010), TyDi QA (Clark et al., 2020) and ARCD (Mozannar et al., 2019) for question answering), these made it possible to build AraPromptBench from credible, licensed sources rather than from invented prompts.
 
-None of these benchmarks studies efficiency. They measure whether a model *can* do a task in Arabic, not what it costs or how far a prompt can be shortened. No Arabic prompt compression benchmark existed when this project began.
+None of these benchmarks studies efficiency. They measure whether a model *can* do a task in Arabic, not what it costs or how far a prompt can be shortened. To the author's knowledge, no Arabic prompt compression benchmark existed when this project began.
 
 ### Evaluating compressed prompts
 
@@ -76,7 +76,7 @@ Two further concerns apply to evaluation data. **Contamination**: benchmark item
 
 ### The research gap
 
-The literature establishes that prompt compression can reduce token use substantially (Jiang et al., 2023; Pan et al., 2024); that adaptive per-input selection beats fixed strategies for cost-efficient LLM use (Chen, Zaharia and Zou, 2024; Šakota, Peyrard and West, 2024); and that tokenisation imposes a measurable cost penalty on Arabic (Ahia et al., 2023; Petrov et al., 2023). These findings have not been connected. Specifically:
+The literature establishes that prompt compression can reduce token use substantially (Jiang et al., 2023; Pan et al., 2024); that adaptive per-input selection beats fixed strategies for cost-efficient LLM use (Chen, Zaharia and Zou, 2024; Šakota, Peyrard and West, 2024); and that tokenisation imposes a measurable cost penalty on Arabic (Ahia et al., 2023; Petrov et al., 2023). These findings have not been connected. Specifically, to the best of the author's knowledge, based on searches of the ACL Anthology and Google Scholar (October 2026):
 
 1. no published study evaluates prompt compression methods on Arabic, so it is unknown whether English-trained compressors transfer (RQ1);
 2. no study relates prompt features such as length, task type, tokeniser fragmentation or morphological density to compression outcomes in Arabic (RQ2);

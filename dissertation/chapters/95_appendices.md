@@ -2,7 +2,7 @@
 
 ## Approved Dissertation Proposal
 
-[[INSERT_DOCX:Abouabdou_Badr_Proposal.docx]]
+[[INSERT_DOCX:BadrAbouabdou_Proposal_approved_by_DA_DL.docx]]
 
 ## Specification & Design Report
 

@@ -88,7 +88,7 @@ The rubric expects any change from the SDR to be identified and justified. Table
 
 | SDR specification | As implemented | Evidence and justification |
 |---|---|---|
-| LLM: gpt-4o-mini, max_tokens 512 | gpt-5.6-luna, temperature 0, reasoning "none", 1,024 completion tokens (pilot used gpt-4o-mini) | gpt-4o-mini was retired before the final run; 512 truncated 9.6% of pilot answers (Exp 04). Same provider and billing structure; one snapshot throughout |
+| LLM: gpt-4o-mini, max_tokens 512 | gpt-5.6-luna, temperature 0, reasoning "none", 1,024 completion tokens (pilot used gpt-4o-mini) | A newer model from the same provider gives results that are more relevant and accurate for current deployments; 512 truncated 9.6% of pilot answers (Exp 04). Same billing structure; one snapshot throughout |
 | BERTScore: mBERT primary, AraBERT check | AraBERT primary, mBERT check | Exp 01: AraBERT 50% more dynamic range; mBERT passes random 30% deletion at 0.85 in 86% of cases |
 | Fidelity threshold F1 ≥ 0.85 | τ = 0.65 from the model's repeat-call noise ceiling (0.75 for mBERT) | Exps 07 and 10: about 31% of *identical-prompt* answer pairs fall below 0.85, so it cannot separate compression damage from noise |
 | LLMLingua with its reference scorer | LLMLingua with Qwen2.5-0.5B | Exp 02: GPT-2 crashes and corrupts Arabic; BLOOM incompatible |
@@ -101,7 +101,7 @@ The rubric expects any change from the SDR to be identified and justified. Table
 
 Table: Changes from the SDR and their justification
 
-None of these changes alters the aim or the research questions. Three of them (the scorer swap, the threshold and the primary metric) were corrections of the SDR's evaluation design that the pilot showed to be necessary. The others responded to external constraints (model retirement, data availability) or to findings (the cost effect) that the original design could not have anticipated.
+None of these changes alters the aim or the research questions. Three of them (the scorer swap, the threshold and the primary metric) were corrections of the SDR's evaluation design that the pilot showed to be necessary. The others kept the study current (the newer LLM), responded to data availability, or followed findings (the cost effect) that the original design could not have anticipated.
 
 ## The IT Artefact
 

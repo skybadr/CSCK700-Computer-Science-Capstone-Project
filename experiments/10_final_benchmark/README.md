@@ -8,7 +8,7 @@ evaluation items promised in the proposal/SDR that the pilot did not cover.
 
 | Aspect | Pilot | Final | Why |
 |---|---|---|---|
-| LLM under test | gpt-4o-mini | **gpt-5.6-luna** (exact snapshot stored on every response) | 4o family retired; Luna is the newest-generation budget tier, which fits the thesis's cost-sensitive framing |
+| LLM under test | gpt-4o-mini | **gpt-5.6-luna** (exact snapshot stored on every response) | Newer model for more relevant, current results (gpt-4o-mini remained available via the API); Luna is the newest-generation budget tier, which fits the thesis's cost-sensitive framing |
 | Output cap | 512 max_tokens | 1,024 max_completion_tokens | pilot creative truncation (Exp 04) |
 | Noise ceiling | measured post hoc (Exp 07) | measured in-run: one repeat call per original prompt | τ must come from THIS model's noise floor |
 | τ | 0.70 | derived from the dev ceiling at 99.6% specificity, rounded to 0.05; separately for AraBERT and mBERT | Exp 07 Finding A2 |

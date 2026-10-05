@@ -22,16 +22,16 @@ A third lesson concerns **intuitions about Arabic**. The project's starting hypo
 |---|---|---|---|
 | Dataset construction | 18 May – 14 Jun | Pilot 5–9 Jul; v2 frozen 11 Jul | About four weeks late |
 | Framework implementation | 15 Jun – 12 Jul | Early July, alongside the pilot | Pipeline built incrementally through Exps 01–07 |
-| Experimental benchmarking | 13 Jul – 9 Aug | Started July; stopped 20 Jul (API quota); full rerun 29–30 Sep | Two-month interruption; model retired in the interval |
+| Experimental benchmarking | 13 Jul – 9 Aug | Started July; stopped 20 Jul (API quota); full rerun 29–30 Sep | Two-month interruption; rerun on a newer model |
 | APCS design and implementation | 10 Aug – 6 Sep | Pilot package 7 Jul; APCS 1.0.0 30 Sep; redesign 1–5 Oct | Compressed into one week after the rerun |
 | Artefact evaluation | 7 – 27 Sep | Test 30 Sep; fresh exam 5 Oct | Exam added beyond the plan |
 | Dissertation writing | 21 Sep – 18 Oct | From 5 Oct | Two weeks later than planned |
 
 Table: SDR project plan versus actual progress
 
-The plan's phase order held, but its timing did not. The decisive event was the July interruption. The API account ran out of credit mid-run, and during the following two months the planned model was retired. Restarting with the half-finished run would have mixed results from two model snapshots. A clean rerun on a single current model was the methodologically correct decision, even though it cost time, and the resumable, deduplicating pipeline made it fast: the entire 13,438-call benchmark ran in about an hour for US$2.49. The SDR's contingency plan ("use smaller models if cost is high") anticipated cost but not quota exhaustion or model retirement. With hindsight, the plan should have included a hard spending guard, a pre-agreed fallback model, and an earlier full-scale run to surface such risks while there was slack in the schedule.
+The plan's phase order held, but its timing did not. The decisive event was the July interruption. The API account ran out of credit mid-run. Resuming the half-finished run later would have mixed results from two model snapshots, so the benchmark was rerun in full on a single, newer model (gpt-5.6-luna), chosen so that the results would reflect current low-cost models. This was the methodologically correct decision, even though it cost time, and the resumable, deduplicating pipeline made it fast: the entire 13,438-call benchmark ran in about an hour for US$2.49. The SDR's contingency plan ("use smaller models if cost is high") anticipated cost but not quota exhaustion. With hindsight, the plan should have included a hard spending guard, a pre-agreed fallback model, and an earlier full-scale run to surface such risks while there was slack in the schedule.
 
-**Personal growth as a researcher.** *[Author to complete in the first person, for example: what changed in my understanding of experimental design (validating the instrument, pre-registration); what I learned from the cost finding, which overturned my own assumption; how I handled the two-month interruption and the decision to rerun; skills gained (Arabic NLP tooling, paired statistics, reproducible pipelines); and what I would do differently.]*
+**Personal growth as a researcher.** *[Author to write in the first person, in your own words. See the notes provided separately.]*
 
 ## Strengths and Weakness of the Project
 

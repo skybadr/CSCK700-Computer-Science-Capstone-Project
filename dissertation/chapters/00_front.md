@@ -8,7 +8,7 @@ LLMLingua-2 was the best compressor, beating random deletion by 0.04–0.05 F1 a
 
 # ACKNOWLEDGEMENTS
 
-*[Author to complete: thanks to the Dissertation Advisor, Dr Laud Charles Ochei, and the Dissertation Lead, Dr Andrea Corradini; anyone else to acknowledge.]*
+I am grateful to my Dissertation Advisor (DA), Laud Charles Ochei, for the guidance, constructive feedback and encouragement given throughout this project, and for questions that sharpened its methodology, including the suggestion to test the effect of synthetic data. I also thank the Dissertation Lead (DL), Andrea Corradini, for overseeing the dissertation process and for the support provided throughout the module.
 
 This project uses publicly available datasets released by their authors: CIDAR, the Aya dataset, XL-Sum, the Essex Arabic Summaries Corpus, TyDi QA and ARCD. Their licences are recorded per prompt in AraPromptBench.
 

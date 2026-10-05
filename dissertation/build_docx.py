@@ -33,12 +33,14 @@ from docx.shared import Cm, Pt, RGBColor
 ROOT = Path(__file__).resolve().parent
 PROJECT = ROOT.parent
 TEMPLATE = ROOT / "template" / "template.docx"
-OUT = ROOT / "build" / "Abouabdou_Badr_Dissertation.docx"
+OUT = ROOT / "build" / (sys.argv[1] if len(sys.argv) > 1 else "Abouabdou_Badr_Dissertation.docx")
 TITLE = ("DESIGN AND EVALUATION OF AN ARABIC-AWARE PROMPT COMPRESSION "
          "SELECTOR FOR LARGE LANGUAGE MODELS")
 AUTHOR, DATE = "Badr Abouabdou", "02/11/2026"
 STUDENT_INFO = {"Student name:": AUTHOR, "Student ID number:": "30026",
                 "DI name:": "Andrea Corradini", "DA name:": "Laud Charles Ochei"}
+# the template's "DI name:" field holds the Dissertation Lead (DL)
+RELABEL = {"DI name:": "DL name:"}
 NOTE_STYLES = {"StyleStyleAuthorNote9ptItalicBlueLeft", "AuthorNote",
                "StyleAuthorNote10ptItalicBlue"}
 ARABIC = re.compile(r"[؀-ۿ]")
@@ -359,7 +361,13 @@ def fill_front(doc):
         for row in tbl.rows:
             label = row.cells[0].text.strip()
             if label in STUDENT_INFO and len(row.cells) > 1:
-                set_text(row.cells[-1].paragraphs[0], STUDENT_INFO[label])                     if row.cells[-1].paragraphs[0].runs else                     row.cells[-1].paragraphs[0].add_run(STUDENT_INFO[label])
+                value = row.cells[-1].paragraphs[0]
+                if value.runs:
+                    set_text(value, STUDENT_INFO[label])
+                else:
+                    value.add_run(STUDENT_INFO[label])
+                if label in RELABEL:
+                    set_text(row.cells[0].paragraphs[0], RELABEL[label])
     # signature placeholder stays as the author's name; highlight removed above
     for r in body.iter(qn("w:highlight")):
         r.getparent().remove(r)

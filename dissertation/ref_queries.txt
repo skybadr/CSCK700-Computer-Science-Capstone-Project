@@ -1,0 +1,58 @@
+LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models
+LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression
+LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression
+Compressing Context to Enhance Inference Efficiency of Large Language Models
+Learning to Compress Prompts with Gist Tokens
+Adapting Language Models to Compress Contexts
+Prompt Compression for Large Language Models: A Survey
+Fundamental Limits of Prompt Compression: A Rate-Distortion Framework for Black-Box Language Models
+Learning to Compress Prompt in Natural Language Formats
+Do All Languages Cost the Same? Tokenization in the Era of Commercial Language Models
+Language Model Tokenizers Introduce Unfairness Between Languages
+Tokenization Impacts Multilingual Language Modeling: Assessing Vocabulary Allocation and Overlap Across Languages
+How Good is Your Tokenizer? On the Monolingual Performance of Multilingual Language Models
+Why do language models perform worse for morphologically complex languages?
+Morphology Matters: A Multilingual Language Modeling Analysis
+Farasa: A Fast and Furious Segmenter for Arabic
+AraBERT: Transformer-based Model for Arabic Language Understanding
+ArabicMMLU: Assessing Massive Multitask Language Understanding in Arabic
+AceGPT, Localizing Large Language Models in Arabic
+GPTAraEval: A Comprehensive Evaluation of ChatGPT on Arabic NLP
+ORCA: A Challenging Benchmark for Arabic Language Understanding
+Dolphin: A Challenging and Diverse Benchmark for Arabic NLG
+CIDAR: Culturally Relevant Instruction Dataset For Arabic
+XL-Sum: Large-Scale Multilingual Abstractive Summarization for 44 Languages
+TyDi QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages
+Neural Arabic Question Answering
+Using Mechanical Turk to Create a Corpus of Arabic Summaries
+Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning
+BERTScore: Evaluating Text Generation with BERT
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+Design Science in Information Systems Research
+A Design Science Research Methodology for Information Systems Research
+The Hitchhiker's Guide to Testing Statistical Significance in Natural Language Processing
+A Simple Sequentially Rejective Multiple Test Procedure
+Note on the sampling error of the difference between correlated proportions or percentages
+Individual Comparisons by Ranking Methods
+NLP Evaluation in trouble: On the Need to Measure LLM Data Contamination for each Benchmark
+The Algorithm Selection Problem
+Automated Algorithm Selection: Survey and Perspectives
+Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead
+Scikit-learn: Machine Learning in Python
+On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey
+The preregistration revolution
+An Empirical Study of the Non-determinism of ChatGPT in Code Generation
+A Long Way to Go: Investigating Length Correlations in RLHF
+Prompt-Based Length Controlled Generation with Multiple Control Types
+Efficient Large Language Models: A Survey
+Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing
+RouteLLM: Learning to Route LLMs with Preference Data
+FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance
+RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation
+Evaluating Various Tokenizers for Arabic Text Classification
+Lost in the Middle: How Language Models Use Long Contexts
+Benchmarking Large Language Models for News Summarization
+Estimating the Carbon Footprint of BLOOM
+MorphBPE: A Morpho-Aware Tokenizer Bridging Linguistic Complexity for Efficient LLM Training Across Morphologies
+Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned Open Generative Large Language Models
+Large Language Models Can Be Easily Distracted by Irrelevant Context

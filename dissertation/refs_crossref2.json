@@ -1,0 +1,983 @@
+{
+ "Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators": {
+  "title": [
+   "Effect of A.I. Evaluators on Creative Output"
+  ],
+  "author": [
+   {
+    "given": "Jason",
+    "family": "Sandvik",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "AEA Randomized Controlled Trials"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024,
+     11,
+     18
+    ]
+   ]
+  },
+  "DOI": "10.1257/rct.14860",
+  "type": "dataset",
+  "match": 0.2905982905982906
+ },
+ "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena": {
+  "title": [
+   "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena"
+  ],
+  "author": [
+   {
+    "given": "Lianmin",
+    "family": "Zheng",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Wei-Lin",
+    "family": "Chiang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ying",
+    "family": "Sheng",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Siyuan",
+    "family": "Zhuang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zhanghao",
+    "family": "Wu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yonghao",
+    "family": "Zhuang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zi",
+    "family": "Lin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zhuohan",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Dacheng",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Eric",
+    "family": "Xing",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hao",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Joseph",
+    "family": "Gonzalez",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ion",
+    "family": "Stoica",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Advances in Neural Information Processing Systems 36"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "46595-46623",
+  "DOI": "10.52202/075280-2020",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Tokenizer Choice For LLM Training: Negligible or Crucial?": {
+  "title": [
+   "Tokenizer Choice For LLM Training: Negligible or Crucial?"
+  ],
+  "author": [
+   {
+    "given": "Mehdi",
+    "family": "Ali",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael",
+    "family": "Fromm",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Klaudia",
+    "family": "Thellmann",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Richard",
+    "family": "Rutmann",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Max",
+    "family": "Lübbering",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Johannes",
+    "family": "Leveling",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Katrin",
+    "family": "Klug",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jan",
+    "family": "Ebert",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Niclas",
+    "family": "Doll",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jasper",
+    "family": "Buschhoff",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Charvi",
+    "family": "Jain",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Alexander",
+    "family": "Weber",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lena",
+    "family": "Jurkschat",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hammam",
+    "family": "Abdelwahab",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chelsea",
+    "family": "John",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Pedro",
+    "family": "Ortiz Suarez",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Malte",
+    "family": "Ostendorff",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Samuel",
+    "family": "Weinbach",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Rafet",
+    "family": "Sifa",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Stefan",
+    "family": "Kesselheim",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Nicolas",
+    "family": "Flores-Herr",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Findings of the Association for Computational Linguistics: NAACL 2024"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "3907-3924",
+  "DOI": "10.18653/v1/2024.findings-naacl.247",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Fewer is More: Boosting Math Reasoning with Reinforced Context Pruning": {
+  "title": [
+   "Fewer is More: Boosting Math Reasoning with Reinforced Context Pruning"
+  ],
+  "author": [
+   {
+    "given": "Xijie",
+    "family": "Huang",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Li Lyna",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Kwang-Ting",
+    "family": "Cheng",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Fan",
+    "family": "Yang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Mao",
+    "family": "Yang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "13674-13695",
+  "DOI": "10.18653/v1/2024.emnlp-main.758",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Time Travel in LLMs: Tracing Data Contamination in Large Language Models": {
+  "title": [
+   "“Conversing” with Qualitative Data: Enhancing Qualitative Research through Large Language Models (LLMs)"
+  ],
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0001-5481-8906",
+    "authenticated-orcid": true,
+    "given": "Adam",
+    "family": "Hayes",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     6,
+     15
+    ]
+   ]
+  },
+  "DOI": "10.31235/osf.io/yms8p",
+  "type": "posted-content",
+  "match": 0.48
+ },
+ "From Words to Watts: Benchmarking the Energy Costs of Large Language Model Inference": {
+  "title": [
+   "From Words to Watts: Benchmarking the Energy Costs of Large Language Model Inference"
+  ],
+  "author": [
+   {
+    "given": "Siddharth",
+    "family": "Samsi",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "MIT"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Dan",
+    "family": "Zhao",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "NYU"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Joseph",
+    "family": "McDonald",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "MIT"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Baolin",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "NYU"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Adam",
+    "family": "Michaleas",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "MIT"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael",
+    "family": "Jones",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "MIT"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "William",
+    "family": "Bergeron",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "MIT"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jeremy",
+    "family": "Kepner",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "MIT"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Devesh",
+    "family": "Tiwari",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "MIT"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Vijay",
+    "family": "Gadepally",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "MIT"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "2023 IEEE High Performance Extreme Computing Conference (HPEC)"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     9,
+     25
+    ]
+   ]
+  },
+  "page": "1-9",
+  "DOI": "10.1109/hpec58863.2023.10363447",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Prompt Compression with Context-Aware Sentence Encoding for Fast and Improved LLM Inference": {
+  "issue": "23",
+  "DOI": "10.1609/aaai.v39i23.34639",
+  "type": "journal-article",
+  "page": "24595-24604",
+  "title": [
+   "Prompt Compression with Context-Aware Sentence Encoding for Fast and Improved LLM Inference"
+  ],
+  "volume": "39",
+  "author": [
+   {
+    "given": "Barys",
+    "family": "Liskavets",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Maxim",
+    "family": "Ushakov",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Shuvendu",
+    "family": "Roy",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mark",
+    "family": "Klibanov",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ali",
+    "family": "Etemad",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Shane K.",
+    "family": "Luke",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the AAAI Conference on Artificial Intelligence"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     4,
+     11
+    ]
+   ]
+  },
+  "match": 1.0
+ },
+ "Discrete Prompt Compression With Reinforcement Learning": {
+  "title": [
+   "Discrete Prompt Compression With Reinforcement Learning"
+  ],
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-2643-9081",
+    "authenticated-orcid": false,
+    "given": "Hoyoun",
+    "family": "Jung",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "School of Integrated Technology, Gwangju Institute of Science and Technology, Gwangju, South Korea"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-7732-0817",
+    "authenticated-orcid": false,
+    "given": "Kyung-Joong",
+    "family": "Kim",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Integrated Technology, Gwangju Institute of Science and Technology, Gwangju, South Korea"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "IEEE Access"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "72578-72587",
+  "DOI": "10.1109/access.2024.3403426",
+  "volume": "12",
+  "type": "journal-article",
+  "match": 1.0
+ },
+ "Can Large Language Models Be an Alternative to Human Evaluations?": {
+  "title": [
+   "Can Large Language Models Be an Alternative to Human Evaluations?"
+  ],
+  "author": [
+   {
+    "given": "Cheng-Han",
+    "family": "Chiang",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hung-yi",
+    "family": "Lee",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "15607-15631",
+  "DOI": "10.18653/v1/2023.acl-long.870",
+  "type": "proceedings-article",
+  "match": 1.0
+ }
+}

@@ -1,0 +1,4761 @@
+{
+ "LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models": {
+  "title": [
+   "LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models"
+  ],
+  "author": [
+   {
+    "given": "Huiqiang",
+    "family": "Jiang",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Qianhui",
+    "family": "Wu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chin-Yew",
+    "family": "Lin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yuqing",
+    "family": "Yang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lili",
+    "family": "Qiu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "13358-13376",
+  "DOI": "10.18653/v1/2023.emnlp-main.825",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression": {
+  "title": [
+   "LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression"
+  ],
+  "author": [
+   {
+    "given": "Huiqiang",
+    "family": "Jiang",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Qianhui",
+    "family": "Wu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xufang",
+    "family": "Luo",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Dongsheng",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chin-Yew",
+    "family": "Lin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yuqing",
+    "family": "Yang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lili",
+    "family": "Qiu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "1658-1677",
+  "DOI": "10.18653/v1/2024.acl-long.91",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression": {
+  "title": [
+   "LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression"
+  ],
+  "author": [
+   {
+    "given": "Zhuoshi",
+    "family": "Pan",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Qianhui",
+    "family": "Wu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Huiqiang",
+    "family": "Jiang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Menglin",
+    "family": "Xia",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xufang",
+    "family": "Luo",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jue",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Qingwei",
+    "family": "Lin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Victor",
+    "family": "Rühle",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yuqing",
+    "family": "Yang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chin-Yew",
+    "family": "Lin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "H. Vicky",
+    "family": "Zhao",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lili",
+    "family": "Qiu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Dongmei",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Findings of the Association for Computational Linguistics ACL 2024"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "963-981",
+  "DOI": "10.18653/v1/2024.findings-acl.57",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Compressing Context to Enhance Inference Efficiency of Large Language Models": {
+  "title": [
+   "Compressing Context to Enhance Inference Efficiency of Large Language Models"
+  ],
+  "author": [
+   {
+    "given": "Yucheng",
+    "family": "Li",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Bo",
+    "family": "Dong",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Frank",
+    "family": "Guerin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chenghua",
+    "family": "Lin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "6342-6353",
+  "DOI": "10.18653/v1/2023.emnlp-main.391",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Learning to Compress Prompts with Gist Tokens": {
+  "title": [
+   "Learning to Compress Prompts with Gist Tokens"
+  ],
+  "author": [
+   {
+    "given": "Jesse",
+    "family": "Mu",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xiang",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Noah",
+    "family": "Goodman",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Advances in Neural Information Processing Systems 36"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "19327-19352",
+  "DOI": "10.52202/075280-0848",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Adapting Language Models to Compress Contexts": {
+  "title": [
+   "Adapting Language Models to Compress Contexts"
+  ],
+  "author": [
+   {
+    "given": "Alexis",
+    "family": "Chevalier",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Alexander",
+    "family": "Wettig",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Anirudh",
+    "family": "Ajith",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Danqi",
+    "family": "Chen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "3829-3846",
+  "DOI": "10.18653/v1/2023.emnlp-main.232",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Prompt Compression for Large Language Models: A Survey": {
+  "title": [
+   "Prompt Compression for Large Language Models: A Survey"
+  ],
+  "author": [
+   {
+    "given": "Zongqian",
+    "family": "Li",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yinhong",
+    "family": "Liu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yixuan",
+    "family": "Su",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Nigel",
+    "family": "Collier",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "page": "7182-7195",
+  "DOI": "10.18653/v1/2025.naacl-long.368",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Fundamental Limits of Prompt Compression: A Rate-Distortion Framework for Black-Box Language Models": {
+  "title": [
+   "Fundamental Limits of Prompt Compression: A Rate-Distortion Framework for Black-Box Language Models"
+  ],
+  "author": [
+   {
+    "given": "Alliot",
+    "family": "Nagle",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Adway",
+    "family": "Girish",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Marco",
+    "family": "Bondaschi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael",
+    "family": "Gastpar",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ashok Vardhan",
+    "family": "Makkuva",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hyeji",
+    "family": "Kim",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Advances in Neural Information Processing Systems 37"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "94934-94970",
+  "DOI": "10.52202/079017-3009",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Learning to Compress Prompt in Natural Language Formats": {
+  "title": [
+   "Learning to Compress Prompt in Natural Language Formats"
+  ],
+  "author": [
+   {
+    "given": "Yu-Neng",
+    "family": "Chuang",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Tianwei",
+    "family": "Xing",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chia-Yuan",
+    "family": "Chang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zirui",
+    "family": "Liu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xun",
+    "family": "Chen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xia",
+    "family": "Hu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "7756-7767",
+  "DOI": "10.18653/v1/2024.naacl-long.429",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Do All Languages Cost the Same? Tokenization in the Era of Commercial Language Models": {
+  "title": [
+   "Do All Languages Cost the Same? Tokenization in the Era of Commercial Language Models"
+  ],
+  "author": [
+   {
+    "given": "Orevaoghene",
+    "family": "Ahia",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sachin",
+    "family": "Kumar",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hila",
+    "family": "Gonen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jungo",
+    "family": "Kasai",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "David",
+    "family": "Mortensen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Noah",
+    "family": "Smith",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yulia",
+    "family": "Tsvetkov",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "9904-9923",
+  "DOI": "10.18653/v1/2023.emnlp-main.614",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Language Model Tokenizers Introduce Unfairness Between Languages": {
+  "title": [
+   "Language Model Tokenizers Introduce Unfairness Between Languages"
+  ],
+  "author": [
+   {
+    "given": "Aleksandar",
+    "family": "Petrov",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Emanuele La",
+    "family": "Malfa",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Philip",
+    "family": "Torr",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Adel",
+    "family": "Bibi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Advances in Neural Information Processing Systems 36"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "36963-36990",
+  "DOI": "10.52202/075280-1608",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Tokenization Impacts Multilingual Language Modeling: Assessing Vocabulary Allocation and Overlap Across Languages": {
+  "title": [
+   "Tokenization Impacts Multilingual Language Modeling: Assessing Vocabulary Allocation and Overlap Across Languages"
+  ],
+  "author": [
+   {
+    "given": "Tomasz",
+    "family": "Limisiewicz",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jiří",
+    "family": "Balhar",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "David",
+    "family": "Mareček",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Findings of the Association for Computational Linguistics: ACL 2023"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "5661-5681",
+  "DOI": "10.18653/v1/2023.findings-acl.350",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "How Good is Your Tokenizer? On the Monolingual Performance of Multilingual Language Models": {
+  "title": [
+   "How Good is Your Tokenizer? On the Monolingual Performance of Multilingual Language Models"
+  ],
+  "author": [
+   {
+    "given": "Phillip",
+    "family": "Rust",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jonas",
+    "family": "Pfeiffer",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ivan",
+    "family": "Vulić",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sebastian",
+    "family": "Ruder",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Iryna",
+    "family": "Gurevych",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "page": "3118-3135",
+  "DOI": "10.18653/v1/2021.acl-long.243",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Why do language models perform worse for morphologically complex languages?": {
+  "title": [
+   "Why do languages die?"
+  ],
+  "container-title": [
+   "Language Death"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2000,
+     6,
+     26
+    ]
+   ]
+  },
+  "page": "68-90",
+  "DOI": "10.1017/cbo9781139106856.004",
+  "type": "book-chapter",
+  "match": 0.3958333333333333
+ },
+ "Morphology Matters: A Multilingual Language Modeling Analysis": {
+  "title": [
+   "Morphology Matters: A Multilingual Language Modeling Analysis"
+  ],
+  "author": [
+   {
+    "given": "Hyunji Hayley",
+    "family": "Park",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "University of Illinois. hpark129@illinois.edu"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Katherine J.",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Carnegie Mellon University. kjzhang@cmu.edu"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Coleman",
+    "family": "Haley",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Johns Hopkins University. chaley7@jhu.edu"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Kenneth",
+    "family": "Steimel",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Indiana University. ksteimel@iu.edu"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Han",
+    "family": "Liu",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Chicago. hanliu@uchicago.edu"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Lane",
+    "family": "Schwartz",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Illinois. lanes@illinois.edu"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Transactions of the Association for Computational Linguistics"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021,
+     3,
+     17
+    ]
+   ]
+  },
+  "page": "261-276",
+  "DOI": "10.1162/tacl_a_00365",
+  "volume": "9",
+  "type": "journal-article",
+  "match": 1.0
+ },
+ "Farasa: A Fast and Furious Segmenter for Arabic": {
+  "title": [
+   "Farasa: A Fast and Furious Segmenter for Arabic"
+  ],
+  "author": [
+   {
+    "given": "Ahmed",
+    "family": "Abdelali",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kareem",
+    "family": "Darwish",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Nadir",
+    "family": "Durrani",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hamdy",
+    "family": "Mubarak",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "page": "11-16",
+  "DOI": "10.18653/v1/n16-3003",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "AraBERT: Transformer-based Model for Arabic Language Understanding": {
+  "issue": "1",
+  "DOI": "10.11591/ijai.v11.i1.pp379-387",
+  "type": "journal-article",
+  "page": "379",
+  "title": [
+   "AraBERT transformer model  for Arabic comments and reviews analysis"
+  ],
+  "volume": "11",
+  "author": [
+   {
+    "given": "Hicham",
+    "family": "EL Moubtahij",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Hajar",
+    "family": "Abdelali",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "El Bachir",
+    "family": "Tazi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "IAES International Journal of Artificial Intelligence (IJ-AI)"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     3,
+     1
+    ]
+   ]
+  },
+  "match": 0.6616541353383458
+ },
+ "ArabicMMLU: Assessing Massive Multitask Language Understanding in Arabic": {
+  "title": [
+   "ArabicMMLU: Assessing Massive Multitask Language Understanding in Arabic"
+  ],
+  "author": [
+   {
+    "given": "Fajri",
+    "family": "Koto",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Haonan",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sara",
+    "family": "Shatnawi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jad",
+    "family": "Doughman",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Abdelrahman",
+    "family": "Sadallah",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Aisha",
+    "family": "Alraeesi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Khalid",
+    "family": "Almubarak",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zaid",
+    "family": "Alyafeai",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Neha",
+    "family": "Sengupta",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Shady",
+    "family": "Shehata",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Nizar",
+    "family": "Habash",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Preslav",
+    "family": "Nakov",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Timothy",
+    "family": "Baldwin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Findings of the Association for Computational Linguistics ACL 2024"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "5622-5640",
+  "DOI": "10.18653/v1/2024.findings-acl.334",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "AceGPT, Localizing Large Language Models in Arabic": {
+  "title": [
+   "AceGPT, Localizing Large Language Models in Arabic"
+  ],
+  "author": [
+   {
+    "given": "Huang",
+    "family": "Huang",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Fei",
+    "family": "Yu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jianqing",
+    "family": "Zhu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xuening",
+    "family": "Sun",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hao",
+    "family": "Cheng",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Song",
+    "family": "Dingjie",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zhihong",
+    "family": "Chen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mosen",
+    "family": "Alharthi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Bang",
+    "family": "An",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Juncai",
+    "family": "He",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ziche",
+    "family": "Liu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Junying",
+    "family": "Chen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jianquan",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Benyou",
+    "family": "Wang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lian",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ruoyu",
+    "family": "Sun",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xiang",
+    "family": "Wan",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Haizhou",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jinchao",
+    "family": "Xu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "8139-8163",
+  "DOI": "10.18653/v1/2024.naacl-long.450",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "GPTAraEval: A Comprehensive Evaluation of ChatGPT on Arabic NLP": {
+  "title": [
+   "GPTAraEval: A Comprehensive Evaluation of ChatGPT on Arabic NLP"
+  ],
+  "author": [
+   {
+    "given": "Md Tawkat Islam",
+    "family": "Khondaker",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Abdul",
+    "family": "Waheed",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "El Moatez Billah",
+    "family": "Nagoudi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Muhammad",
+    "family": "Abdul-Mageed",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "220-247",
+  "DOI": "10.18653/v1/2023.emnlp-main.16",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "ORCA: A Challenging Benchmark for Arabic Language Understanding": {
+  "title": [
+   "ORCA: A Challenging Benchmark for Arabic Language Understanding"
+  ],
+  "author": [
+   {
+    "given": "AbdelRahim",
+    "family": "Elmadany",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "ElMoatez Billah",
+    "family": "Nagoudi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Muhammad",
+    "family": "Abdul-Mageed",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Findings of the Association for Computational Linguistics: ACL 2023"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "9559-9586",
+  "DOI": "10.18653/v1/2023.findings-acl.609",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Dolphin: A Challenging and Diverse Benchmark for Arabic NLG": {
+  "title": [
+   "Dolphin: A Challenging and Diverse Benchmark for Arabic NLG"
+  ],
+  "author": [
+   {
+    "given": "El Moatez Billah",
+    "family": "Nagoudi",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "AbdelRahim",
+    "family": "Elmadany",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Ahmed",
+    "family": "El-Shangiti",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Muhammad",
+    "family": "Abdul-Mageed",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Findings of the Association for Computational Linguistics: EMNLP 2023"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "1404-1422",
+  "DOI": "10.18653/v1/2023.findings-emnlp.98",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "CIDAR: Culturally Relevant Instruction Dataset For Arabic": {
+  "title": [
+   "CIDAR: Culturally Relevant Instruction Dataset For Arabic"
+  ],
+  "author": [
+   {
+    "given": "Zaid",
+    "family": "Alyafeai",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Khalid",
+    "family": "Almubarak",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ahmed",
+    "family": "Ashraf",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Deema",
+    "family": "Alnuhait",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Saied",
+    "family": "Alshahrani",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Gubran",
+    "family": "Abdulrahman",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Gamil",
+    "family": "Ahmed",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Qais",
+    "family": "Gawah",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zead",
+    "family": "Saleh",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mustafa",
+    "family": "Ghaleb",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yousef",
+    "family": "Ali",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Maged",
+    "family": "Al-shaibani",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Findings of the Association for Computational Linguistics ACL 2024"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "12878-12901",
+  "DOI": "10.18653/v1/2024.findings-acl.764",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "XL-Sum: Large-Scale Multilingual Abstractive Summarization for 44 Languages": {
+  "title": [
+   "XL-Sum: Large-Scale Multilingual Abstractive Summarization for 44 Languages"
+  ],
+  "author": [
+   {
+    "given": "Tahmid",
+    "family": "Hasan",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Abhik",
+    "family": "Bhattacharjee",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Md. Saiful",
+    "family": "Islam",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kazi",
+    "family": "Mubasshir",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yuan-Fang",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yong-Bin",
+    "family": "Kang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "M. Sohel",
+    "family": "Rahman",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Rifat",
+    "family": "Shahriyar",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "page": "4693-4703",
+  "DOI": "10.18653/v1/2021.findings-acl.413",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "TyDi QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages": {
+  "title": [
+   "T<scp>y</scp>D<scp>i</scp> QA: A Benchmark for Information-Seeking Question Answering in <i>Ty</i>pologically <i>Di</i>verse Languages"
+  ],
+  "author": [
+   {
+    "given": "Jonathan H.",
+    "family": "Clark",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Google Research"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Eunsol",
+    "family": "Choi",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Google Research"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael",
+    "family": "Collins",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Google Research"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Dan",
+    "family": "Garrette",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Google Research"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Tom",
+    "family": "Kwiatkowski",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Google Research"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Vitaly",
+    "family": "Nikolaev",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Google Research"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jennimaria",
+    "family": "Palomaki",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Google Research"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Transactions of the Association for Computational Linguistics"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020,
+     12
+    ]
+   ]
+  },
+  "page": "454-470",
+  "DOI": "10.1162/tacl_a_00317",
+  "volume": "8",
+  "type": "journal-article",
+  "match": 0.8448275862068966
+ },
+ "Neural Arabic Question Answering": {
+  "title": [
+   "Neural Arabic Question Answering"
+  ],
+  "author": [
+   {
+    "given": "Hussein",
+    "family": "Mozannar",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Elie",
+    "family": "Maamary",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Karl",
+    "family": "El Hajal",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hazem",
+    "family": "Hajj",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the Fourth Arabic Natural Language Processing Workshop"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "page": "108-118",
+  "DOI": "10.18653/v1/w19-4612",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Using Mechanical Turk to Create a Corpus of Arabic Summaries": {
+  "title": [
+   "Using Ideological Conflict to Create Carcinogen Risk in Arabic Scientific Discourse: A Corpus-Based Study"
+  ],
+  "author": [
+   {
+    "given": "Huda",
+    "family": "H. Khalil",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Nassier",
+    "family": "A. G. Al-Zubaidi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "DOI": "10.2139/ssrn.4431289",
+  "type": "posted-content",
+  "match": 0.49696969696969695
+ },
+ "Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning": {
+  "title": [
+   "Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning"
+  ],
+  "author": [
+   {
+    "given": "Shivalika",
+    "family": "Singh",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Freddie",
+    "family": "Vargus",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Daniel",
+    "family": "D’souza",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Börje",
+    "family": "Karlsson",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Abinaya",
+    "family": "Mahendiran",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Wei-Yin",
+    "family": "Ko",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Herumb",
+    "family": "Shandilya",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jay",
+    "family": "Patel",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Deividas",
+    "family": "Mataciunas",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Laura",
+    "family": "O’Mahony",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mike",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ramith",
+    "family": "Hettiarachchi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Joseph",
+    "family": "Wilson",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Marina",
+    "family": "Machado",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Luisa",
+    "family": "Moura",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Dominik",
+    "family": "Krzemiński",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hakimeh",
+    "family": "Fadaei",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Irem",
+    "family": "Ergun",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ifeoma",
+    "family": "Okoh",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Aisha",
+    "family": "Alaagib",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Oshan",
+    "family": "Mudannayake",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zaid",
+    "family": "Alyafeai",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Vu",
+    "family": "Chien",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sebastian",
+    "family": "Ruder",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Surya",
+    "family": "Guthikonda",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Emad",
+    "family": "Alghamdi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sebastian",
+    "family": "Gehrmann",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Niklas",
+    "family": "Muennighoff",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Max",
+    "family": "Bartolo",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Julia",
+    "family": "Kreutzer",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ahmet",
+    "family": "Üstün",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Marzieh",
+    "family": "Fadaee",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sara",
+    "family": "Hooker",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "11521-11567",
+  "DOI": "10.18653/v1/2024.acl-long.620",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "BERTScore: Evaluating Text Generation with BERT": {
+  "title": [
+   "DiscoScore: Evaluating Text Generation with BERT and Discourse Coherence"
+  ],
+  "author": [
+   {
+    "given": "Wei",
+    "family": "Zhao",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael",
+    "family": "Strube",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Steffen",
+    "family": "Eger",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "3865-3883",
+  "DOI": "10.18653/v1/2023.eacl-main.278",
+  "type": "proceedings-article",
+  "match": 0.7226890756302521
+ },
+ "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding": {
+  "title": [
+   "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+  ],
+  "author": [
+   {
+    "given": "Jacob",
+    "family": "Devlin",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ming-Wei",
+    "family": "Chang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kenton",
+    "family": "Lee",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kristina",
+    "family": "Toutanova",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "page": "4171-4186",
+  "DOI": "10.18653/v1/n19-1423",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Design Science in Information Systems Research": {
+  "title": [
+   "Design Science as Design of Social Systems – Implications for Information Systems Research"
+  ],
+  "author": [
+   {
+    "given": "Andreas",
+    "family": "Drechsler",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020,
+     10,
+     14
+    ]
+   ]
+  },
+  "DOI": "10.26686/wgtn.13088591",
+  "type": "posted-content",
+  "match": 0.6764705882352942
+ },
+ "A Design Science Research Methodology for Information Systems Research": {
+  "title": [
+   "Figure 2: Design science methodology for information systems research (Wu et al., 2014)."
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     null
+    ]
+   ]
+  },
+  "DOI": "10.7717/peerj-cs.3957/fig-2",
+  "type": "component",
+  "match": 0.759493670886076
+ },
+ "The Hitchhiker's Guide to Testing Statistical Significance in Natural Language Processing": {
+  "title": [
+   "Statistical Significance in NLP"
+  ],
+  "author": [
+   {
+    "given": "Rotem",
+    "family": "Dror",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Lotem",
+    "family": "Peled-Cohen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Segev",
+    "family": "Shlomov",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Roi",
+    "family": "Reichart",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Synthesis Lectures on Human Language Technologies",
+   "Statistical Significance Testing for Natural Language Processing"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "page": "23-33",
+  "DOI": "10.1007/978-3-031-02174-9_4",
+  "type": "book-chapter",
+  "match": 0.5166666666666667
+ },
+ "A Simple Sequentially Rejective Multiple Test Procedure": {
+  "issue": "2",
+  "DOI": "10.2307/2531823",
+  "type": "journal-article",
+  "page": "417",
+  "title": [
+   "An Improved Sequentially Rejective Bonferroni Test Procedure"
+  ],
+  "volume": "43",
+  "author": [
+   {
+    "given": "Burt S.",
+    "family": "Holland",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Margaret DiPonzio",
+    "family": "Copenhaver",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Biometrics"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1987,
+     6
+    ]
+   ]
+  },
+  "match": 0.8
+ },
+ "Note on the sampling error of the difference between correlated proportions or percentages": {
+  "issue": "2",
+  "DOI": "10.1007/bf02295996",
+  "type": "journal-article",
+  "page": "153-157",
+  "title": [
+   "Note on the Sampling Error of the Difference Between Correlated Proportions or Percentages"
+  ],
+  "volume": "12",
+  "author": [
+   {
+    "given": "Quinn",
+    "family": "McNemar",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Psychometrika"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1947,
+     6
+    ]
+   ]
+  },
+  "match": 1.0
+ },
+ "Individual Comparisons by Ranking Methods": {
+  "issue": "6",
+  "DOI": "10.2307/3001968",
+  "type": "journal-article",
+  "page": "80",
+  "title": [
+   "Individual Comparisons by Ranking Methods"
+  ],
+  "volume": "1",
+  "author": [
+   {
+    "given": "Frank",
+    "family": "Wilcoxon",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Biometrics Bulletin"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1945,
+     12
+    ]
+   ]
+  },
+  "match": 1.0
+ },
+ "NLP Evaluation in trouble: On the Need to Measure LLM Data Contamination for each Benchmark": {
+  "title": [
+   "NLP Evaluation in trouble: On the Need to Measure LLM Data Contamination for each Benchmark"
+  ],
+  "author": [
+   {
+    "given": "Oscar",
+    "family": "Sainz",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jon",
+    "family": "Campos",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Iker",
+    "family": "García-Ferrero",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Julen",
+    "family": "Etxaniz",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Oier Lopez",
+    "family": "de Lacalle",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Eneko",
+    "family": "Agirre",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Findings of the Association for Computational Linguistics: EMNLP 2023"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "10776-10787",
+  "DOI": "10.18653/v1/2023.findings-emnlp.722",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "The Algorithm Selection Problem": {
+  "title": [
+   "A selection problem"
+  ],
+  "container-title": [
+   "Pearls of Functional Algorithm Design"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2010,
+     9,
+     16
+    ]
+   ]
+  },
+  "page": "21-26",
+  "DOI": "10.1017/cbo9780511763199.005",
+  "type": "book-chapter",
+  "match": 0.76
+ },
+ "Automated Algorithm Selection: Survey and Perspectives": {
+  "issue": "1",
+  "DOI": "10.1162/evco_a_00242",
+  "type": "journal-article",
+  "page": "3-45",
+  "title": [
+   "Automated Algorithm Selection: Survey and Perspectives"
+  ],
+  "volume": "27",
+  "author": [
+   {
+    "given": "Pascal",
+    "family": "Kerschke",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Information Systems and Statistics, University of Münster, 48149 Münster, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Holger H.",
+    "family": "Hoos",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Leiden Institute of Advanced Computer Science, Leiden University, 2333 CA Leiden, The Netherlands"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Frank",
+    "family": "Neumann",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Optimisation and Logistics, The University of Adelaide, Adelaide, SA 5005, Australia"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Heike",
+    "family": "Trautmann",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Information Systems and Statistics, University of Münster, 48149 Münster, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Evolutionary Computation"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     3
+    ]
+   ]
+  },
+  "match": 1.0
+ },
+ "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead": {
+  "issue": "5",
+  "DOI": "10.1038/s42256-019-0048-x",
+  "type": "journal-article",
+  "page": "206-215",
+  "title": [
+   "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead"
+  ],
+  "volume": "1",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-4283-2780",
+    "authenticated-orcid": false,
+    "given": "Cynthia",
+    "family": "Rudin",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Nature Machine Intelligence"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     5,
+     13
+    ]
+   ]
+  },
+  "match": 1.0
+ },
+ "Scikit-learn: Machine Learning in Python": {
+  "title": [
+   "Getting Started with Scikit‐learn for Machine Learning"
+  ],
+  "container-title": [
+   "Python® Machine Learning"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     4,
+     8
+    ]
+   ]
+  },
+  "page": "93-117",
+  "DOI": "10.1002/9781119557500.ch5",
+  "type": "other",
+  "match": 0.5957446808510638
+ },
+ "On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey": {
+  "title": [
+   "On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey"
+  ],
+  "author": [
+   {
+    "given": "Lin",
+    "family": "Long",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Rui",
+    "family": "Wang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ruixuan",
+    "family": "Xiao",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Junbo",
+    "family": "Zhao",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xiao",
+    "family": "Ding",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Gang",
+    "family": "Chen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Haobo",
+    "family": "Wang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Findings of the Association for Computational Linguistics ACL 2024"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "11065-11082",
+  "DOI": "10.18653/v1/2024.findings-acl.658",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "The preregistration revolution": {
+  "title": [
+   "The Preregistration Revolution"
+  ],
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0001-6797-5476",
+    "authenticated-orcid": true,
+    "given": "Brian A.",
+    "family": "Nosek",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "id": [
+       {
+        "id": "https://ror.org/0153tk833",
+        "id-type": "ROR",
+        "asserted-by": "publisher"
+       }
+      ],
+      "name": "University of Virginia"
+     },
+     {
+      "id": [
+       {
+        "id": "https://ror.org/05d5mza29",
+        "id-type": "ROR",
+        "asserted-by": "publisher"
+       }
+      ],
+      "name": "Center For Open Science"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Charles R.",
+    "family": "Ebersole",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-2241-7259",
+    "authenticated-orcid": true,
+    "given": "Alexander Carl",
+    "family": "DeHaven",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "id": [
+       {
+        "id": "https://ror.org/05d5mza29",
+        "id-type": "ROR",
+        "asserted-by": "publisher"
+       }
+      ],
+      "name": "Center For Open Science"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-3125-5888",
+    "authenticated-orcid": true,
+    "given": "David Thomas",
+    "family": "Mellor",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "id": [
+       {
+        "id": "https://ror.org/05d5mza29",
+        "id-type": "ROR",
+        "asserted-by": "publisher"
+       }
+      ],
+      "name": "Center For Open Science"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017,
+     6,
+     16
+    ]
+   ]
+  },
+  "DOI": "10.31219/osf.io/2dxu5",
+  "type": "posted-content",
+  "match": 1.0
+ },
+ "An Empirical Study of the Non-determinism of ChatGPT in Code Generation": {
+  "issue": "2",
+  "DOI": "10.1145/3697010",
+  "type": "journal-article",
+  "page": "1-28",
+  "title": [
+   "An Empirical Study of the Non-Determinism of ChatGPT in Code Generation"
+  ],
+  "volume": "34",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0009-0007-0056-3101",
+    "authenticated-orcid": false,
+    "given": "Shuyin",
+    "family": "Ouyang",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "King’s College London, London, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-0481-7264",
+    "authenticated-orcid": false,
+    "given": "Jie M.",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "King’s College London, London, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-5864-4488",
+    "authenticated-orcid": false,
+    "given": "Mark",
+    "family": "Harman",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University College London, London, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7780-630X",
+    "authenticated-orcid": false,
+    "given": "Meng",
+    "family": "Wang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Bristol, Bristol, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "ACM Transactions on Software Engineering and Methodology"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     1,
+     22
+    ]
+   ]
+  },
+  "match": 1.0
+ },
+ "A Long Way to Go: Investigating Length Correlations in RLHF": {
+  "title": [
+   "A Long Way to Go"
+  ],
+  "container-title": [
+   "Human Rights Documents online"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     null
+    ]
+   ]
+  },
+  "DOI": "10.1163/2210-7975_hrd-9824-2014064",
+  "type": "dataset",
+  "match": 0.4266666666666667
+ },
+ "Prompt-Based Length Controlled Generation with Multiple Control Types": {
+  "title": [
+   "Prompt-Based Length Controlled Generation with Multiple Control Types"
+  ],
+  "author": [
+   {
+    "given": "Renlong",
+    "family": "Jie",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xiaojun",
+    "family": "Meng",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lifeng",
+    "family": "Shang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xin",
+    "family": "Jiang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Qun",
+    "family": "Liu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Findings of the Association for Computational Linguistics ACL 2024"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "1067-1085",
+  "DOI": "10.18653/v1/2024.findings-acl.63",
+  "type": "proceedings-article",
+  "match": 1.0
+ },
+ "Efficient Large Language Models: A Survey": {
+  "title": [
+   "Rethinking Survey Methodology With Large Language Models"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "DOI": "10.4135/9781036251284",
+  "type": "database",
+  "match": 0.5567010309278351
+ },
+ "Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing": {
+  "title": [
+   "Difficulty-Aware Hybrid Routing for Cost-Efficient Long-Context LLM Inference"
+  ],
+  "author": [
+   {
+    "given": "Zifeng",
+    "family": "Gu",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Rensselaer Polytechnic Institute",
+      "place": [
+       "Troy, USA"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zhengxi",
+    "family": "Xiao",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Southern California",
+      "place": [
+       "Los Angeles, USA"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ourong",
+    "family": "Lin",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of California, Los Angeles",
+      "place": [
+       "Los Angeles, USA"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "2026 6th International Conference on Intelligent Communications and Computing (ICICC)"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     7
+    ]
+   ]
+  },
+  "page": "1-6",
+  "DOI": "10.1109/icicc71012.2026.11637729",
+  "type": "proceedings-article",
+  "match": 0.4444444444444444
+ },
+ "RouteLLM: Learning to Route LLMs with Preference Data": {
+  "title": [
+   "Learning Preference Model for LLMs via Automatic Preference Data Generation"
+  ],
+  "author": [
+   {
+    "given": "Shijia",
+    "family": "Huang",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jianqiao",
+    "family": "Zhao",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yanyang",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Liwei",
+    "family": "Wang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "page": "9187-9199",
+  "DOI": "10.18653/v1/2023.emnlp-main.570",
+  "type": "proceedings-article",
+  "match": 0.5625
+ },
+ "FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance": {
+  "title": [
+   "How to Precisely Update Large Language Models Knowledge While Avoiding Catastrophic Forgetting"
+  ],
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0009-0000-7964-6020",
+    "authenticated-orcid": false,
+    "given": "Fei",
+    "family": "Ding",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xu",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024,
+     7,
+     16
+    ]
+   ]
+  },
+  "DOI": "10.36227/techrxiv.172114397.73411019/v1",
+  "type": "posted-content",
+  "match": 0.5573770491803278
+ },
+ "RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation": {
+  "title": [
+   "Retrieval-Augmented Generation in Large Language Models through Selective Augmentation"
+  ],
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0009-0004-6732-9211",
+    "authenticated-orcid": false,
+    "given": "Joao",
+    "family": "Quintela",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0009-0006-3561-3482",
+    "authenticated-orcid": false,
+    "given": "Marquinhos",
+    "family": "Sapateiro",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024,
+     7,
+     2
+    ]
+   ]
+  },
+  "DOI": "10.21203/rs.3.rs-4652959/v1",
+  "type": "posted-content",
+  "match": 0.5964912280701754
+ },
+ "Evaluating Various Tokenizers for Arabic Text Classification": {
+  "issue": "3",
+  "DOI": "10.1007/s11063-022-10990-8",
+  "type": "journal-article",
+  "page": "2911-2933",
+  "title": [
+   "Evaluating Various Tokenizers for Arabic Text Classification"
+  ],
+  "volume": "55",
+  "author": [
+   {
+    "given": "Zaid",
+    "family": "Alyafeai",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Maged S.",
+    "family": "Al-shaibani",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mustafa",
+    "family": "Ghaleb",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-8311-1731",
+    "authenticated-orcid": false,
+    "given": "Irfan",
+    "family": "Ahmad",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Neural Processing Letters"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     8,
+     18
+    ]
+   ]
+  },
+  "match": 1.0
+ },
+ "Lost in the Middle: How Language Models Use Long Contexts": {
+  "title": [
+   "Lost in the Middle: How Language Models Use Long Contexts"
+  ],
+  "author": [
+   {
+    "given": "Nelson F.",
+    "family": "Liu",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Stanford University, USA. nfliu@cs.stanford.edu"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kevin",
+    "family": "Lin",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of California, Berkeley, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "John",
+    "family": "Hewitt",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Stanford University, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ashwin",
+    "family": "Paranjape",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Samaya AI, UK"
+     },
+     {
+      "name": "Samaya AI, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michele",
+    "family": "Bevilacqua",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Samaya AI, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Fabio",
+    "family": "Petroni",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Samaya AI, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Percy",
+    "family": "Liang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Stanford University, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Transactions of the Association for Computational Linguistics"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "157-173",
+  "DOI": "10.1162/tacl_a_00638",
+  "volume": "12",
+  "type": "journal-article",
+  "match": 1.0
+ },
+ "Benchmarking Large Language Models for News Summarization": {
+  "title": [
+   "Benchmarking Large Language Models for News Summarization"
+  ],
+  "author": [
+   {
+    "given": "Tianyi",
+    "family": "Zhang",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Stanford University, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Faisal",
+    "family": "Ladhak",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Columbia University, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Esin",
+    "family": "Durmus",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Stanford University, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Percy",
+    "family": "Liang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Stanford University, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kathleen",
+    "family": "McKeown",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Columbia University, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Tatsunori B.",
+    "family": "Hashimoto",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Stanford University, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Transactions of the Association for Computational Linguistics"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "39-57",
+  "DOI": "10.1162/tacl_a_00632",
+  "volume": "12",
+  "type": "journal-article",
+  "match": 1.0
+ },
+ "Estimating the Carbon Footprint of BLOOM": {
+  "title": [
+   "WITHDRAWN: Estimating The Carbon Footprint Of Dairy Cattle In Karapınar District"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     12,
+     4
+    ]
+   ]
+  },
+  "DOI": "10.21203/rs.3.rs-3511302/v2",
+  "type": "posted-content",
+  "match": 0.6
+ },
+ "MorphBPE: A Morpho-Aware Tokenizer Bridging Linguistic Complexity for Efficient LLM Training Across Morphologies": {
+  "title": [
+   "MorphBPE: Morphology-Aware Tokenization for Efficient LLM Training"
+  ],
+  "author": [
+   {
+    "given": "Ehsaneddin",
+    "family": "Asgari",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yassine",
+    "family": "El Kheir",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "MohammadAli",
+    "family": "SadraeiJavaheri",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ali",
+    "family": "Nazari",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Findings of the Association for Computational Linguistics: ACL 2026"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "page": "41610-41621",
+  "DOI": "10.18653/v1/2026.findings-acl.2068",
+  "type": "proceedings-article",
+  "match": 0.6741573033707865
+ },
+ "Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned Open Generative Large Language Models": {
+  "title": [
+   "Instruction-tuned large language models for zero-shot task-oriented dialogue systems"
+  ],
+  "author": [
+   {
+    "given": "Willy Hoo Choun",
+    "family": "Chung",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     null
+    ]
+   ]
+  },
+  "DOI": "10.14711/thesis-991013223046403412",
+  "type": "dissertation",
+  "match": 0.4126984126984127
+ },
+ "Large Language Models Can Be Easily Distracted by Irrelevant Context": {
+  "title": [
+   "Losing Visual Needles in Image Haystacks: Vision Language Models are Easily Distracted in Short and Long Contexts"
+  ],
+  "author": [
+   {
+    "given": "Aditya",
+    "family": "Sharma",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael",
+    "family": "Saxon",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "William Yang",
+    "family": "Wang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Findings of the Association for Computational Linguistics: EMNLP 2024"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "5429-5451",
+  "DOI": "10.18653/v1/2024.findings-emnlp.312",
+  "type": "proceedings-article",
+  "match": 0.5966850828729282
+ }
+}

@@ -15,7 +15,7 @@ Compression Selector for Large Language Models*.
 | `experiments/` | One folder per experiment (01–12): `README.md` (question, method), scripts, `results/` (raw outputs, configuration, `FINDINGS.md`) |
 | `experiments/EXPERIMENT_LOG.md` | Index of all experiments and their outcomes |
 | `experiments/AUDIT/` | Independent script that recomputes every reported number from the raw data |
-| `dissertation/` | Dissertation sources (Markdown), figures and build scripts |
+| `dissertation/` | The final dissertation (Word and PDF) |
 
 ## Quick start
 

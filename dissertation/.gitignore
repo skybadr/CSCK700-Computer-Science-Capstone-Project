@@ -1,2 +1,7 @@
-build/pages/
-build/*_p[0-9][0-9].png
+# Only the final dissertation is kept in the repository; drafting sources,
+# figures copies, template and build tools stay local.
+*
+!.gitignore
+!README.md
+!Abouabdou_Badr_Dissertation.docx
+!Abouabdou_Badr_Dissertation.pdf

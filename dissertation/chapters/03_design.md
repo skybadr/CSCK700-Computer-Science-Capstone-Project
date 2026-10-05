@@ -64,6 +64,8 @@ The 150 creative prompts are synthetic because public Arabic creative-writing pr
 
 The **exam set** (400 prompts: 140 instruction, 100 summarisation, 100 QA, 60 creative) was built with the same sources, templates and band mix, but a different seed (4242). Its 60 creative briefs were newly generated with Claude Opus 5.5 (Anthropic) in the same format, with the same 120-word cap. Every v2 record, every v2 QA passage and any text sharing a 12-word span with a pilot, v2 or probe prompt was excluded. Shared instruction templates were exempted because they are identical by design. An independent audit (Section 5.2.10) confirmed zero overlap.
 
+**Synthetic data provenance.** Synthetic prompts were generated with the most capable model available to the author at the time of each generation step: the 500-prompt pilot set with gpt-5.4-mini (OpenAI); the 150 v2 creative prompts and the 456-prompt Experiment 09 probe pool with Claude Fable 5 (Anthropic); and the 60 exam creative briefs with Claude Opus 5.5 (Anthropic). All synthetic prompts that contribute to held-out results were therefore produced by a different provider from the LLM under test, which avoids generator–evaluator circularity. The pilot set, whose generator came from the same provider as the pilot's LLM, was used only for development and informs no held-out result.
+
 ### Compression candidates
 
 Three compressors and a no-compression option were selected from the alternatives in Table 1:

@@ -26,7 +26,7 @@ Two platform problems had to be solved. First, the GPU's Blackwell architecture 
 
 ### Pilot phase and the design changes it triggered
 
-Seven pilot experiments on the 500-prompt pilot set tested each design assumption before money was spent on the final benchmark. The pilot set consists of 500 Modern Standard Arabic prompts, 125 per category, generated with an AI model. Because it was used only for development, its synthetic origin does not affect any held-out result. Table 5 summarises what each found and what it changed.
+Seven pilot experiments on the 500-prompt pilot set tested each design assumption before money was spent on the final benchmark. The pilot set consists of 500 Modern Standard Arabic prompts, 125 per category, generated with gpt-5.4-mini (OpenAI). Because it was used only for development, its synthetic origin does not affect any held-out result. Table 5 summarises what each found and what it changed.
 
 | Exp. | Question | Finding | Design consequence |
 |---|---|---|---|

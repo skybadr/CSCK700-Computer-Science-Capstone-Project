@@ -30,7 +30,8 @@ def main(argv: list[str] | None = None) -> int:
     args = ap.parse_args(argv)
 
     if args.file:
-        text = args.file.read_text(encoding="utf-8")
+        # undecodable bytes become U+FFFD, which triggers the no-compression fallback
+        text = args.file.read_bytes().decode("utf-8", errors="replace")
     elif args.prompt:
         text = args.prompt
     else:

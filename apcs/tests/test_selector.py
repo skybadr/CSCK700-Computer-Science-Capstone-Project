@@ -53,3 +53,18 @@ def test_recommendation_serialisable(sel):
     d = sel.recommend(MID).as_dict()
     assert json.dumps(d, ensure_ascii=False)
     assert d["features"]["token_count"] > 0
+
+
+def test_fallback_non_arabic_text(sel):
+    rec = sel.recommend("Please summarise the following report in three sentences " * 20)
+    assert rec.method == "none" and rec.rule.startswith("fallback: Arabic letter share")
+
+
+def test_fallback_encoding_damage(sel):
+    rec = sel.recommend(" ".join(["يتناول هذا المقال تطور الاقتصاد الرقمي"] * 40) + " �")
+    assert rec.method == "none" and "encoding damage" in rec.rule
+
+
+def test_empty_prompt_raises(sel):
+    with pytest.raises(ValueError):
+        sel.recommend("   ")

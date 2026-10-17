@@ -70,6 +70,14 @@ the bill matters more than token reduction.
 
 Custom rules: `APCSSelector("v1", rules_path=...)`.
 
+## Fail-safe input handling
+
+A non-string or empty prompt raises `ValueError`. Text with encoding damage
+(U+FFFD) or with fewer than half of its letters in Arabic script is outside the
+calibration domain, so every selector returns `none` and says why in `rule`.
+The CLI decodes files as UTF-8 with replacement, so undecodable bytes trigger
+the same fallback.
+
 ## Example notebook
 
 `examples/apcs_example.ipynb` walks through single and batch recommendations,

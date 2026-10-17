@@ -1,0 +1,349 @@
+{
+ "A_clitic_examples": [
+  {
+   "arabic": "وبالكتاب",
+   "gloss": "wa+bi+al+kitab (and with the book)",
+   "cl100k_tokens": 6,
+   "pieces": [
+    "و",
+    "ب",
+    "ال",
+    "ك",
+    "ت",
+    "اب"
+   ],
+   "english": "and with the book",
+   "english_tokens": 4,
+   "english_words": 4
+  },
+  {
+   "arabic": "فسيكتبونها",
+   "gloss": "fa+sa+yaktubuna+ha (so they will write it)",
+   "cl100k_tokens": 10,
+   "pieces": [
+    "ف",
+    "س",
+    "ي",
+    "ك",
+    "ت",
+    "ب",
+    "و",
+    "ن",
+    "ه",
+    "ا"
+   ],
+   "english": "so they will write it",
+   "english_tokens": 5,
+   "english_words": 5
+  },
+  {
+   "arabic": "والمعلمون",
+   "gloss": "wa+al+muallimun (and the teachers)",
+   "cl100k_tokens": 8,
+   "pieces": [
+    "و",
+    "ال",
+    "م",
+    "ع",
+    "ل",
+    "م",
+    "و",
+    "ن"
+   ],
+   "english": "and the teachers",
+   "english_tokens": 3,
+   "english_words": 3
+  },
+  {
+   "arabic": "بالمدرسة",
+   "gloss": "bi+al+madrasa (at the school)",
+   "cl100k_tokens": 7,
+   "pieces": [
+    "ب",
+    "ال",
+    "م",
+    "د",
+    "ر",
+    "س",
+    "ة"
+   ],
+   "english": "at the school",
+   "english_tokens": 3,
+   "english_words": 3
+  }
+ ],
+ "B_tokens_per_word": {
+  "cl100k_base (LLM under test, reference)": 4.13,
+  "openai-community/gpt2": 5.86,
+  "NousResearch/Llama-2-7b-hf": 5.32,
+  "Qwen/Qwen2.5-0.5B": 2.27,
+  "Qwen/Qwen3-0.6B": 2.27,
+  "NousResearch/Meta-Llama-3.1-8B": 2.28,
+  "aubmindlab/aragpt2-base": 1.56,
+  "inceptionai/jais-family-590m": 1.46,
+  "FacebookAI/xlm-roberta-large": 1.81,
+  "google-bert/bert-base-multilingual-cased": 2.26
+ },
+ "C_ceiling_by_category": {
+  "creative": {
+   "n": 120,
+   "identical_pct": 1.7,
+   "median_f1": 0.743,
+   "pct_below_0.85": 95.8,
+   "q0.004": 0.636
+  },
+  "instruction": {
+   "n": 280,
+   "identical_pct": 22.1,
+   "median_f1": 0.881,
+   "pct_below_0.85": 39.3,
+   "q0.004": 0.613
+  },
+  "qa": {
+   "n": 200,
+   "identical_pct": 66.5,
+   "median_f1": 1.0,
+   "pct_below_0.85": 5.0,
+   "q0.004": 0.768
+  },
+  "summarisation": {
+   "n": 200,
+   "identical_pct": 20.0,
+   "median_f1": 0.947,
+   "pct_below_0.85": 9.5,
+   "q0.004": 0.713
+  }
+ },
+ "C_tau": {
+  "q0.004_all_dev": 0.6396,
+  "n_dev": 800
+ },
+ "D_qa_gold_retention": {
+  "llmlingua2@0.3": {
+   "gold_kept_pct": 23.0,
+   "correct_if_kept": 78.3,
+   "correct_if_lost": 18.2,
+   "correct_all": 32.0
+  },
+  "llmlingua2@0.5": {
+   "gold_kept_pct": 35.0,
+   "correct_if_kept": 85.7,
+   "correct_if_lost": 15.4,
+   "correct_all": 40.0
+  },
+  "llmlingua2@0.7": {
+   "gold_kept_pct": 55.0,
+   "correct_if_kept": 72.7,
+   "correct_if_lost": 13.3,
+   "correct_all": 46.0
+  },
+  "llmlingua2_protected@0.3": {
+   "gold_kept_pct": 25.0,
+   "correct_if_kept": 72.0,
+   "correct_if_lost": 17.3,
+   "correct_all": 31.0
+  },
+  "llmlingua2_protected@0.5": {
+   "gold_kept_pct": 36.0,
+   "correct_if_kept": 80.6,
+   "correct_if_lost": 18.8,
+   "correct_all": 41.0
+  },
+  "llmlingua2_protected@0.7": {
+   "gold_kept_pct": 59.0,
+   "correct_if_kept": 69.5,
+   "correct_if_lost": 14.6,
+   "correct_all": 47.0
+  },
+  "llmlingua_qwen@0.3": {
+   "gold_kept_pct": 60.0,
+   "correct_if_kept": 63.3,
+   "correct_if_lost": 20.0,
+   "correct_all": 46.0
+  },
+  "llmlingua_qwen@0.5": {
+   "gold_kept_pct": 64.0,
+   "correct_if_kept": 65.6,
+   "correct_if_lost": 25.0,
+   "correct_all": 51.0
+  },
+  "llmlingua_qwen@0.7": {
+   "gold_kept_pct": 66.0,
+   "correct_if_kept": 68.2,
+   "correct_if_lost": 23.5,
+   "correct_all": 53.0
+  },
+  "noop@1.0": {
+   "gold_kept_pct": 95.0,
+   "correct_if_kept": 58.9,
+   "correct_if_lost": 20.0,
+   "correct_all": 57.0
+  },
+  "random_deletion@0.3": {
+   "gold_kept_pct": 10.0,
+   "correct_if_kept": 100.0,
+   "correct_if_lost": 12.2,
+   "correct_all": 21.0
+  },
+  "random_deletion@0.5": {
+   "gold_kept_pct": 16.0,
+   "correct_if_kept": 87.5,
+   "correct_if_lost": 15.5,
+   "correct_all": 27.0
+  },
+  "random_deletion@0.7": {
+   "gold_kept_pct": 31.0,
+   "correct_if_kept": 58.1,
+   "correct_if_lost": 18.8,
+   "correct_all": 31.0
+  }
+ },
+ "D_overall": {
+  "correct_if_kept": 71.5,
+  "correct_if_lost": 17.1,
+  "n_variants": 1200
+ },
+ "E_morphology": {
+  "mean": 1.687,
+  "sd": 0.177,
+  "cv_pct": 10.5,
+  "p5_p95": [
+   1.41,
+   2.0
+  ],
+  "spearman_with_fragmentation": 0.591,
+  "spearman_with_log_tokens": 0.254
+ },
+ "E_vif": {
+  "log_len": 1.43,
+  "frag": 1.45,
+  "struct": 1.35,
+  "morph": 1.54
+ },
+ "F_cost_breakeven": {
+  "mean_input_tokens_uncompressed": 109.0,
+  "mean_output_tokens_uncompressed": 127.0,
+  "input_output_ratio": 0.858,
+  "policies": {
+   "llmlingua2@0.7": {
+    "input_saving_pct": 29.7,
+    "breakeven_output_growth_pct": 4.3,
+    "observed_output_growth_pct": 9.5
+   },
+   "llmlingua2@0.5": {
+    "input_saving_pct": 49.1,
+    "breakeven_output_growth_pct": 7.0,
+    "observed_output_growth_pct": 19.5
+   },
+   "llmlingua2@0.3": {
+    "input_saving_pct": 67.7,
+    "breakeven_output_growth_pct": 9.7,
+    "observed_output_growth_pct": 37.4
+   }
+  }
+ },
+ "G_qa_leaves": {
+  "token_count <= 104.5 & fragmentation_ratio <= 4.8496 & structural_complexity <= 6.5": {
+   "n": 9,
+   "pred": "llmlingua2@0.5",
+   "v2_correct_pct": 44.4,
+   "fixed05_correct_pct": 44.4,
+   "label_mix": {
+    "llmlingua2@0.5": 4,
+    "llmlingua2@0.3": 4,
+    "noop@1.0": 1
+   }
+  },
+  "token_count <= 104.5 & fragmentation_ratio <= 4.8496 & structural_complexity > 6.5": {
+   "n": 14,
+   "pred": "llmlingua2@0.7",
+   "v2_correct_pct": 21.4,
+   "fixed05_correct_pct": 35.7,
+   "label_mix": {
+    "llmlingua2@0.3": 5,
+    "llmlingua2@0.5": 5,
+    "llmlingua2@0.7": 3,
+    "noop@1.0": 1
+   }
+  },
+  "token_count > 104.5 & cat_qa > 0.5 & token_count <= 433": {
+   "n": 61,
+   "pred": "llmlingua2@0.5",
+   "v2_correct_pct": 39.3,
+   "fixed05_correct_pct": 39.3,
+   "label_mix": {
+    "llmlingua2@0.5": 24,
+    "llmlingua2@0.3": 18,
+    "llmlingua2@0.7": 16,
+    "noop@1.0": 3
+   }
+  },
+  "token_count > 104.5 & cat_qa > 0.5 & token_count > 433": {
+   "n": 16,
+   "pred": "llmlingua2@0.7",
+   "v2_correct_pct": 6.2,
+   "fixed05_correct_pct": 43.8,
+   "label_mix": {
+    "llmlingua2@0.5": 7,
+    "llmlingua2@0.3": 7,
+    "noop@1.0": 1,
+    "llmlingua2@0.7": 1
+   }
+  }
+ },
+ "H_length_sensitivity": {
+  "spearman_abs_log_length_ratio_vs_f1": -0.468,
+  "p": 8.409412111952626e-45,
+  "mean_f1_answer_grew_over_50pct": 0.634,
+  "mean_f1_other": 0.712,
+  "share_grew_over_50pct": 36.4
+ },
+ "I_power": {
+  "test_n200": {
+   "accuracy_ci_halfwidth_pts": 6.4,
+   "discordant_share": 0.315,
+   "mde_80pct_power_pts": 11.1
+  },
+  "exam_n400": {
+   "accuracy_ci_halfwidth_pts": 4.7,
+   "discordant_share": 0.253,
+   "mde_80pct_power_pts": 7.0
+  }
+ },
+ "K_regex": {
+  "pattern": "بإيجاز|موجز|جملتين|ثلاث جمل|جملة واحدة|فقرة واحدة|لا يتجاوز|كلمة",
+  "matches_per_marker": {
+   "بإيجاز": 128,
+   "موجز": 68,
+   "جملتين": 79,
+   "ثلاث جمل": 80,
+   "جملة واحدة": 7,
+   "فقرة واحدة": 63,
+   "لا يتجاوز": 114,
+   "كلمة": 269
+  },
+  "prompts_matched": 625,
+  "n_prompts": 1400,
+  "unmatched_variants_present": {
+   "في حدود": 10,
+   "لا تتجاوز": 1,
+   "باختصار": 0,
+   "بشكل مختصر": 0
+  }
+ },
+ "A_gpt2_example": {
+  "arabic": "وبالكتاب",
+  "gpt2_tokens": 8,
+  "pieces": [
+   "و",
+   "ب",
+   "ال",
+   "<d9>",
+   "<83>",
+   "ت",
+   "<d8 a7 d8>",
+   "<a8>"
+  ],
+  "utf8_bytes": 16
+ }
+}

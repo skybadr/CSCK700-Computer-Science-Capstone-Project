@@ -46,6 +46,16 @@ class PromptFeatures:
         return asdict(self)
 
 
+_ARABIC = re.compile(r"[؀-ۿݐ-ݿ]")
+_LETTER = re.compile(r"[^\W\d_]")
+
+
+def arabic_letter_share(text: str) -> float:
+    """Share of letters that are Arabic (1.0 for an all-Arabic prompt)."""
+    letters = _LETTER.findall(text)
+    return len(_ARABIC.findall(text)) / len(letters) if letters else 0.0
+
+
 def has_length_instruction(text: str) -> bool:
     return bool(LENGTH_MARKERS.search(text))
 

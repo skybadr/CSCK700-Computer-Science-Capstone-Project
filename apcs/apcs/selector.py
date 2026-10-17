@@ -23,7 +23,7 @@ from dataclasses import dataclass
 from importlib import resources
 from pathlib import Path
 
-from .features import PromptFeatures, extract_features
+from .features import PromptFeatures, arabic_letter_share, extract_features
 
 CATEGORIES = ("instruction", "summarisation", "qa", "creative")
 _TREE_FILES = {"v2": "apcs_v2.json", "cost": "apcs_cost.json"}
@@ -111,7 +111,19 @@ class APCSSelector:
             self.tree = cfg["tree"]
 
     def recommend(self, prompt: str, category: str | None = None) -> Recommendation:
+        """Fail-safe behaviour: a non-string or empty prompt raises ValueError
+        (there is nothing to compress). Text with encoding damage (U+FFFD
+        replacement characters) or with fewer than half of its letters in
+        Arabic script lies outside the calibration domain, so the selector
+        falls back to no compression instead of guessing."""
         f = extract_features(prompt)
+        if "�" in prompt:
+            return Recommendation("none", 1.0, "fallback: encoding damage (U+FFFD) "
+                                  "-> no compression", f, self.version)
+        share = arabic_letter_share(prompt)
+        if share < 0.5:
+            return Recommendation("none", 1.0, f"fallback: Arabic letter share "
+                                  f"{share:.2f} < 0.5 -> no compression", f, self.version)
         if self.selector == "v1":
             method, rate, rule = self._rules_v1(f)
         else:

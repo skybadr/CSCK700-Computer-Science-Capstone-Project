@@ -12,7 +12,7 @@ Compression Selector for Large Language Models*.
 | `AraPromptBench_v2.json` | Final benchmark: 1,000 Arabic prompts (850 from six public corpora, 150 synthetic), 800 dev / 200 test |
 | `AraPromptBench_exam.json` | Fresh 400-prompt exam set used for the pre-registered evaluation |
 | `AraPromptBench_dataset.json` | 500-prompt pilot set (development only) |
-| `experiments/` | One folder per experiment (01–12): `README.md` (question, method), scripts, `results/` (raw outputs, configuration, `FINDINGS.md`) |
+| `experiments/` | One folder per experiment (01–13): `README.md` (question, method), scripts, `results/` (raw outputs, configuration, `FINDINGS.md`) |
 | `experiments/EXPERIMENT_LOG.md` | Index of all experiments and their outcomes |
 | `experiments/AUDIT/` | Independent script that recomputes every reported number from the raw data |
 | `dissertation/` | The final dissertation (Word and PDF) |
@@ -23,7 +23,7 @@ Compression Selector for Large Language Models*.
 python -m venv .venv
 .venv\Scripts\activate            # Windows  (source .venv/bin/activate on Linux/macOS)
 pip install -r requirements.txt
-cd apcs && python -m pytest -q    # 18 tests
+cd apcs && python -m pytest -q    # 21 tests
 apcs "اشرح مفهوم الذكاء الاصطناعي بأسلوب مبسط."
 apcs --selector v2 --category summarisation --file prompt.txt
 ```

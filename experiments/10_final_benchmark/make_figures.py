@@ -251,20 +251,20 @@ def fig_cost(ca, outdir):
             for r in [0.7, 0.5, 0.3]]
     keys = [k for k in keys if k in ca["per_policy"]]
     inp = [ca["per_policy"][k]["input_saving_pct"] for k in keys]
-    tot = [-ca["per_policy"][k]["total_cost_change_pct"] for k in keys]
+    tot = [ca["per_policy"][k]["total_cost_change_pct"] for k in keys]
     y = np.arange(len(keys))[::-1]
     fig, ax = plt.subplots(figsize=(6.8, 4.0))
     ax.set_axisbelow(True)
     h = 0.36
     ax.barh(y + h / 2, inp, height=h, color=SERIES["llmlingua2"],
-            label="input tokens saved")
+            label="input tokens saved (cl100k)")
     ax.barh(y - h / 2, tot, height=h, color=SERIES["random_deletion"],
-            label="total API bill saved (negative = costs more)")
+            label="total API cost change (+ = costs more)")
     for yy, a, b in zip(y, inp, tot):
         ax.annotate(f"{a:.0f}%", (a, yy + h / 2), xytext=(4, 0),
                     textcoords="offset points", va="center", fontsize=8.5,
                     color=INK)
-        ax.annotate(f"{b:+.0f}%", (b, yy - h / 2),
+        ax.annotate(f"{b:+.0f}%" if round(b) else "0%", (b, yy - h / 2),
                     xytext=(4 if b >= 0 else -4, 0), textcoords="offset points",
                     va="center", ha="left" if b >= 0 else "right", fontsize=8.5,
                     color=INK)
@@ -273,7 +273,7 @@ def fig_cost(ca, outdir):
                       .replace("random_deletion", "Random deletion")
                       .replace("@", " @ ") for k in keys])
     ax.set_xlabel("% relative to sending the uncompressed prompt")
-    ax.set_xlim(min(tot) - 15, max(inp) + 12)
+    ax.set_xlim(min(tot) - 15, max(inp + tot) + 12)
     ax.grid(axis="y", visible=False)
     ax.legend(loc="lower center", bbox_to_anchor=(0.5, 1.0), ncol=2,
               fontsize=8)

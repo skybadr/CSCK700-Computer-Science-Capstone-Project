@@ -23,6 +23,12 @@ dev split (800 prompts) and frozen as data files:
 | `v2` APCS-v2 | `selectors/apcs_v2.json` | prompt + task category | best balance | **38.5% exam** (beats best fixed strategy, Holm p = 0.028) |
 | `cost` APCS-cost | `selectors/apcs_cost.json` | prompt + task category | cheapest call with output F1 ≥ τ | −1.0% bill, 9.2% below τ (exam) |
 
+Deployment notes: the trees were trained for τ = 0.65 and the 6:1 output/input
+price ratio of the evaluated model, so recalibrate when either changes. For
+factual QA pipelines, prefer no compression: APCS-cost compresses most long QA
+prompts, and on the exam QA correctness fell from 57% (uncompressed) to 42%.
+The `v1` default raised the exam bill by 19.7%; use `cost` when the bill matters.
+
 CLI:
 ```
 apcs "اشرح مفهوم الذكاء الاصطناعي بأسلوب مبسط."

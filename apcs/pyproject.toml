@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "apcs"
-version = "1.1.0"
+version = "1.1.1"
 description = "Arabic-Aware Prompt Compression Selector: recommends a prompt-compression method and rate for Arabic prompts"
 readme = "README.md"
 requires-python = ">=3.10"

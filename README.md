@@ -23,7 +23,7 @@ Compression Selector for Large Language Models*.
 python -m venv .venv
 .venv\Scripts\activate            # Windows  (source .venv/bin/activate on Linux/macOS)
 pip install -r requirements.txt
-cd apcs && python -m pytest -q    # 21 tests
+cd apcs && python -m pytest -q    # 24 tests
 apcs "اشرح مفهوم الذكاء الاصطناعي بأسلوب مبسط."
 apcs --selector v2 --category summarisation --file prompt.txt
 ```
@@ -34,7 +34,7 @@ All API responses are stored in the `results/` folders, so every analysis can
 be re-run offline:
 
 ```
-python experiments/AUDIT/verify_results.py     # 117 checks against the raw data
+python experiments/AUDIT/verify_results.py     # 119 checks against the raw data
 ```
 
 To regenerate from scratch (requires an OpenAI API key in `OPENAI_API_KEY`;

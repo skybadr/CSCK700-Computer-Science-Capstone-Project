@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import json
 from dataclasses import dataclass
+from functools import lru_cache
 from importlib import resources
 from pathlib import Path
 
@@ -67,6 +68,13 @@ def tree_inputs(f: PromptFeatures, category: str) -> dict:
          "has_length_instruction": int(f.has_length_instruction)}
     x.update({f"cat_{c}": int(c == category) for c in CATEGORIES})
     return x
+
+
+@lru_cache(maxsize=2)
+def _compressor(model_name: str, llmlingua2: bool):
+    """Load each compression model once per process, not once per call."""
+    from llmlingua import PromptCompressor  # lazy heavy import
+    return PromptCompressor(model_name=model_name, use_llmlingua2=llmlingua2)
 
 
 def walk_tree(node: dict, x: dict) -> tuple[str, list[str]]:
@@ -150,13 +158,10 @@ class APCSSelector:
         rec = self.recommend(prompt, category)
         if rec.method == "none":
             return prompt
-        from llmlingua import PromptCompressor  # lazy heavy import
         if rec.method == "llmlingua":
-            pc = PromptCompressor(model_name="Qwen/Qwen2.5-0.5B")
+            pc = _compressor("Qwen/Qwen2.5-0.5B", False)
             return pc.compress_prompt(prompt, rate=rec.rate)["compressed_prompt"]
-        pc = PromptCompressor(
-            model_name="microsoft/llmlingua-2-xlm-roberta-large-meetingbank",
-            use_llmlingua2=True)
+        pc = _compressor("microsoft/llmlingua-2-xlm-roberta-large-meetingbank", True)
         if rec.method == "llmlingua2_protected":
             from .protect import compress_protected
             return compress_protected(pc, prompt, rec.rate)

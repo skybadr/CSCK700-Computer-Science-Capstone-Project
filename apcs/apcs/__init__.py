@@ -12,4 +12,4 @@ from .selector import APCSSelector, Recommendation
 
 __all__ = ["APCSSelector", "Recommendation", "PromptFeatures",
            "extract_features"]
-__version__ = "1.1.0"
+__version__ = "1.1.1"

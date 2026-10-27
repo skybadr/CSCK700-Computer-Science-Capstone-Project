@@ -9,6 +9,7 @@ Compression Selector for Large Language Models*.
 | Path | Content |
 |---|---|
 | `apcs/` | **The IT artefact**: installable Python package (CLI + library), tests, user manual (`apcs/README.md`) and example notebook (`apcs/examples/apcs_example.ipynb`) |
+| `demo/` | Streamlit demo interface over the package (`streamlit run demo/app.py`); replays stored exam results, no API key needed |
 | `AraPromptBench_v2.json` | Final benchmark: 1,000 Arabic prompts (850 from six public corpora, 150 synthetic), 800 dev / 200 test |
 | `AraPromptBench_exam.json` | Fresh 400-prompt exam set used for the pre-registered evaluation |
 | `AraPromptBench_dataset.json` | 500-prompt pilot set (development only) |

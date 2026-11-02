@@ -1,0 +1,124 @@
+== A. Datasets
+[PASS] pilot has 500 prompts — 500
+[PASS] v2 has 1,000 prompts — 1000
+[PASS] exam has 400 prompts — 400
+[PASS] probe pool has 456 prompts — 456
+[PASS] pilot: unique ids
+[PASS] pilot: no empty prompts
+[PASS] pilot: no duplicate prompt texts — 0 duplicates
+[PASS] v2: unique ids
+[PASS] v2: no empty prompts
+[PASS] v2: no duplicate prompt texts — 0 duplicates
+[PASS] exam: unique ids
+[PASS] exam: no empty prompts
+[PASS] exam: no duplicate prompt texts — 0 duplicates
+[PASS] probe: unique ids
+[PASS] probe: no empty prompts
+[PASS] probe: no duplicate prompt texts — 0 duplicates
+[PASS] v2 categories 350/250/250/150 — {'instruction': 350, 'summarisation': 250, 'qa': 250, 'creative': 150}
+[PASS] v2 split 800 dev / 200 test — {'test': 200, 'dev': 800}
+[PASS] v2 test split stratified 20% per category — {'instruction': 70, 'summarisation': 50, 'qa': 50, 'creative': 30}
+[PASS] v2 has 150 synthetic / 850 sourced — 150 synthetic
+[PASS] exam categories 140/100/100/60 — {'instruction': 140, 'summarisation': 100, 'qa': 100, 'creative': 60}
+[PASS] exam vs pilot: zero exact overlap — 0
+[PASS] exam vs pilot: zero 12-word passage overlap (templates excluded) — 0
+[PASS] exam vs v2: zero exact overlap — 0
+[PASS] exam vs v2: zero 12-word passage overlap (templates excluded) — 0
+[PASS] exam vs probe: zero exact overlap — 0
+[PASS] exam vs probe: zero 12-word passage overlap (templates excluded) — 0
+[PASS] v2 vs pilot: zero exact overlap — 0
+[PASS] v2 TEST vs pilot: zero 12-word overlap — 0 pilot prompts share a 12-word span with a test prompt
+[PASS] v2 TEST vs probe: zero 12-word overlap — 0 probe prompts share a 12-word span with a test prompt
+== B. Exp 10 raw data integrity
+[PASS] 13,438 API responses — 13438
+[PASS] response keys unique
+[PASS] single model snapshot (gpt-5.6-luna) — {'gpt-5.6-luna': 13438}
+[PASS] 79 truncated answers — {'stop': 13359, 'length': 79}
+[PASS] exactly 1 empty answer — 1
+[PASS] total cost $2.49 — $2.4879 (1,067,004 in / 1,895,415 out)
+[PASS] final_results: one row per prompt × candidate — 0 duplicates
+[PASS] final_results covers all 1,000 v2 prompts — 1000
+[PASS] split column matches frozen dataset — 0 mismatches
+[PASS] category column matches frozen dataset — 0 mismatches
+[PASS] every call_key resolves to a stored response — 0 missing
+[PASS] stored response text matches results table — 0 mismatches
+[PASS] completion-token counts match results table — 0 mismatches
+[PASS] all output F1 in [0, 1]
+[PASS] every answered row is scored — 0 unscored
+[PASS] compressed token counts reproduce with cl100k (sample 400) — 400/400
+[PASS] TCR = 1 − comp/orig
+== C. Exp 10 headline numbers (recomputed)
+[PASS] ceiling: identical repeats 29.6% — 0.2963
+[PASS] ceiling: median repeat F1 0.930 — 0.9303
+[PASS] ceiling: 31.8% of identical pairs < 0.85 — 0.3175
+[PASS] τ: 0.4th percentile of dev ceiling ≈ 0.64 → 0.65 — 0.6396
+[PASS] RQ1 out-F1 LL2−random @0.3 = +0.040 — +0.0396, p=6.0e-25
+[PASS] ranking flip: prompt-level LL2−random @0.3 ≈ -0.014 — -0.0143, p=6.6e-15
+[PASS] RQ1 out-F1 LL2−random @0.5 = +0.038 — +0.0376, p=6.3e-20
+[PASS] ranking flip: prompt-level LL2−random @0.5 ≈ -0.026 — -0.0261, p=2.4e-44
+[PASS] RQ1 out-F1 LL2−random @0.7 = +0.050 — +0.0501, p=1.6e-29
+[PASS] ranking flip: prompt-level LL2−random @0.7 ≈ -0.028 — -0.0279, p=1.9e-53
+[PASS] ceiling-normalised creative 83.7% — 83.7%
+[PASS] ceiling-normalised summarisation 76.7% — 76.7%
+[PASS] ceiling-normalised instruction 75.4% — 75.4%
+[PASS] ceiling-normalised qa 70.6% — 70.6%
+[PASS] cost llmlingua2@0.7: input −29.7% / total +4.6% — input −29.7%, total +4.6%
+[PASS] cost llmlingua2@0.5: input −49.1% / total +10.9% — input −49.1%, total +10.9%
+[PASS] cost llmlingua2@0.3: input −67.7% / total +24.3% — input −67.7%, total +24.3%
+[PASS] cost random_deletion@0.3: input −66.1% / total -27.0% — input −66.1%, total -27.0%
+[PASS] cost llmlingua_qwen@0.3: input −23.9% / total -3.0% — input −23.9%, total -3.0%
+[PASS] test label mix 29/28.5/22/20.5% — {'llmlingua2@0.3': 0.29, 'llmlingua2@0.5': 0.285, 'noop@1.0': 0.22, 'llmlingua2@0.7': 0.205}
+[PASS] APCS 1.0.0 test accuracy 31.0% — 0.310
+[PASS] always llmlingua2@0.5 test accuracy 28.5% — 0.285
+[PASS] always llmlingua2@0.3 test accuracy 29.0% — 0.290
+[PASS] always noop@1.0 test accuracy 22.0% — 0.220
+[PASS] always llmlingua2@0.7 test accuracy 20.5% — 0.205
+[PASS] APCS vs never compress McNemar p = 0.038 — p=0.038
+[PASS] RQ2 OLS R² 0.148 — 0.148
+[PASS] RQ2 unique R²: category 6.5%, length 3.4% — category 0.065, length 0.034
+[PASS] RQ2 morphology n.s. (p ≈ 0.65) — β=+0.0021, p=0.65
+== D. Exp 11 fresh exam (recomputed)
+[PASS] 3,828 exam API responses — 3828
+[PASS] single model snapshot
+[PASS] exam cost $0.61 — $0.6051
+[PASS] exam_results: 400 × 13 rows, no duplicates
+[PASS] cost_usd = in×0.20 + out×1.20 per M
+[PASS] every exam row scored
+[PASS] exam APCS-v2: acc 38.5%, cost +15.9%, below τ 34.2% — acc 0.3850, cost +15.89%, viol 0.3425
+[PASS] exam APCS-1.0.0: acc 31.2%, cost +19.7%, below τ 34.5% — acc 0.3125, cost +19.68%, viol 0.3450
+[PASS] exam APCS-cost: acc 19.5%, cost -1.0%, below τ 9.2% — acc 0.1950, cost -0.97%, viol 0.0925
+[PASS] exam always LL2@0.5: acc 32.8%, cost +12.1%, below τ 39.8% — acc 0.3275, cost +12.10%, viol 0.3975
+[PASS] H1 discordant 62/39, Holm p 0.028 — (62, 39), p_holm=0.0281
+[PASS] H2 discordant 62/33, Holm p 0.008 — (62, 33), p_holm=0.0077
+[PASS] H3 Holm p 0.001 — p_holm=0.0014
+[PASS] QA correctness uncompressed 57% — 0.570
+[PASS] 180 exam prompts carry a length instruction — 180
+[PASS] protected @0.7: cost +7.2% → +0.8% — +7.2% → +0.8%
+[PASS] protected @0.5: cost +17.6% → -5.3% — +17.6% → -5.3%
+[PASS] protected @0.3: cost +47.6% → -7.9% — +47.6% → -7.9%
+== E. Exp 09 and pilot experiments (stored outputs vs findings)
+[PASS] 09a: 200 repeats per share — {0.15: 200, 0.3: 200, 0.5: 200}
+[PASS] 09a: rates never change (0.5 / 0.3)
+[PASS] 09a: accuracy 0.380 / 0.377 / 0.374
+[PASS] 09b: 8 of 9 intervals exclude zero — 8/9
+[PASS] Exp 04: 4,173 calls, $0.656
+[PASS] Exp 07: 13% identical, 31% below 0.85 — 0.130, 0.312
+[PASS] Exp 06: pilot APCS 41.2%
+[PASS] Exp 01: AraBERT and mBERT both scored on 500 prompts
+== F. Documentation and artefact
+[PASS] shipped rules = documented APCS 1.0.0 (80 / 250, 0.5 / 0.3, τ 0.65)
+[PASS] exam APCS 1.0.0 selector identical to shipped rules
+[PASS] apcs unit tests pass — 11 passed in 0.11s
+[PASS] EXPERIMENT_LOG table rows well-formed — malformed: []
+[PASS] 01_scorer_selection: README + FINDINGS present
+[PASS] 02_compression_vertical_slice: README + FINDINGS present
+[PASS] 03_compression_benchmark: README + FINDINGS present
+[PASS] 04_output_eval: README + FINDINGS present
+[PASS] 05_feature_analysis: README + FINDINGS present
+[PASS] 06_apcs_calibration: README + FINDINGS present
+[PASS] 07_protocol_checks: README + FINDINGS present
+[PASS] 08_dataset_construction: README + FINDINGS present — 08 records QC in results/qc_report.json + inspection_sample.md
+[PASS] 09_synthetic_sensitivity: README + FINDINGS present
+[PASS] 10_final_benchmark: README + FINDINGS present
+[PASS] 11_fresh_exam: README + FINDINGS present
+SUMMARY: 117 pass, 0 warn, 0 fail

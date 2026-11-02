@@ -1,0 +1,24 @@
+{
+  "experiment": "10_final_benchmark_local",
+  "seed": 42,
+  "rates": [
+    0.7,
+    0.5,
+    0.3
+  ],
+  "timestamp_utc": "2026-07-20T00:49:41.518779+00:00",
+  "n_prompts": 1456,
+  "dataset_md5": {
+    "v2": "f3184c698c6ff8c67658197d614e8240",
+    "probe": "5e83e5bec05ca3423c5cf0f64061e867"
+  },
+  "versions": {
+    "python": "3.11.9",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.13.0",
+    "llmlingua": "0.2.2",
+    "bert_score": "0.3.12"
+  },
+  "device": "cuda (NVIDIA GeForce RTX 5070)",
+  "runtime_s": 341.8
+}

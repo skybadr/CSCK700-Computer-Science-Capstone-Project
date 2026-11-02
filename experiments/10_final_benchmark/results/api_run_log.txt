@@ -1,0 +1,17 @@
+﻿model gpt-5.6-luna -> snapshot gpt-5.6-luna | params {'reasoning_effort': 'none', 'temperature': 0.0, 'max_completion_tokens': 1024} | $0.2/1.2 per M
+unique calls 13438 | done 0 | todo 13438
+EARLY CHECK: $0.096 for 500 calls -> projected $2.57 for this run
+  1000/13438 (3.1/s, $0.20)
+  2000/13438 (3.2/s, $0.39)
+  3000/13438 (3.2/s, $0.57)
+  4000/13438 (3.3/s, $0.75)
+  5000/13438 (3.3/s, $0.95)
+  6000/13438 (3.4/s, $1.13)
+  7000/13438 (3.4/s, $1.30)
+  8000/13438 (3.4/s, $1.49)
+  9000/13438 (3.5/s, $1.67)
+  10000/13438 (3.5/s, $1.85)
+  11000/13438 (3.5/s, $2.04)
+  12000/13438 (3.5/s, $2.23)
+  13000/13438 (3.5/s, $2.40)
+done: 13438 new responses, 0 failed, session cost $2.49

@@ -1,0 +1,37 @@
+{
+  "experiment": "03_compression_benchmark",
+  "timestamp_utc": "2026-07-05T16:20:56.078387+00:00",
+  "seed": 42,
+  "rates": [
+    0.7,
+    0.5,
+    0.3
+  ],
+  "n_prompts": 500,
+  "dataset": {
+    "file": "AraPromptBench_dataset.json",
+    "version": "1.1.0",
+    "md5": "14fe22ef8251e153410bd8a14e05680a"
+  },
+  "methods": {
+    "noop": "passthrough",
+    "random_deletion": "per-prompt seed f'42-<id>-<rate>'",
+    "llmlingua_qwen": "llmlingua PromptCompressor, Qwen/Qwen2.5-0.5B",
+    "llmlingua2": "microsoft/llmlingua-2-xlm-roberta-large-meetingbank"
+  },
+  "fidelity_scorers": {
+    "primary": "aubmindlab/bert-base-arabertv02 (layer 9, raw F1)",
+    "sensitivity": "bert-base-multilingual-cased (layer 9, raw F1)"
+  },
+  "token_counting": "tiktoken cl100k_base",
+  "versions": {
+    "python": "3.11.9",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.13.0",
+    "llmlingua": "0.2.2",
+    "bert_score": "0.3.12",
+    "tiktoken": "0.13.0"
+  },
+  "device": "cuda (NVIDIA GeForce RTX 5070)",
+  "runtime_s": 127.4
+}

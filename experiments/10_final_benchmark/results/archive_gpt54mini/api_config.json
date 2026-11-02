@@ -1,0 +1,7 @@
+{
+  "model": "gpt-5.4-mini",
+  "params": {
+    "max_completion_tokens": 1024
+  },
+  "resolved_utc": "2026-07-20T00:50:28.704941+00:00"
+}

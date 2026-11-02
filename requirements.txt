@@ -1,0 +1,27 @@
+# Python 3.11. Versions used for all reported experiments.
+# GPU (CUDA 12.8) build of torch:
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0
+transformers==5.13.0
+llmlingua==0.2.2
+bert-score==0.3.13
+tiktoken==0.13.0
+farasapy==0.1.1        # needs a Java runtime (OpenJDK 21 used)
+openai==2.44.0
+datasets==5.0.0
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.17.1
+statsmodels==0.15.0
+scikit-learn==1.9.1
+matplotlib==3.11.0
+pytest==9.1.1
+# example notebook
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0
+# dissertation build (optional)
+python-docx==1.2.0
+pymupdf==1.28.2
+# the IT artefact itself
+-e ./apcs

@@ -1,0 +1,31 @@
+{
+  "review_date": "2026-11-01",
+  "datasets": {
+    "AraPromptBench_v2.json": {
+      "changed_prompt_licence_rows": {
+        "CIDAR": 250,
+        "EASC": 100,
+        "ARCD": 91
+      },
+      "all_other_prompt_fields_identical": true,
+      "prompt_payload_sha256_excluding_licence": "08082771b7d06ae2c6c69f3f854a28089cf8beb529632ee9807d2882f65b63ea",
+      "before_sha256_git_HEAD_LF": "21f1395966e1f12adfeb85f50fa288e776da6b313f57b819a28b704eed944812",
+      "after_sha256_file_bytes": "36a5fc41b7c5b6ce2aa5563e614d7caf2734e31f3a1e5529fc7c7273ed224a79",
+      "before_reference": "Git HEAD content with Git normalised line endings",
+      "after_reference": "Working-tree file bytes including native line endings"
+    },
+    "AraPromptBench_exam.json": {
+      "changed_prompt_licence_rows": {
+        "CIDAR": 84,
+        "EASC": 40,
+        "ARCD": 36
+      },
+      "all_other_prompt_fields_identical": true,
+      "prompt_payload_sha256_excluding_licence": "ad145dca86cb8fa4887f9751153bdbd818043eaf97c50442ceeab1cbcff5d706",
+      "before_sha256_git_HEAD_LF": "7cb66be8daf6a51857c453cd71671278ffbf4de8164e6a029537bb036a19de9e",
+      "after_sha256_file_bytes": "239d2042d7668c307f85256fe3480be01cb707e57f7578501b6cd81d22c980c0",
+      "before_reference": "Git HEAD content with Git normalised line endings",
+      "after_reference": "Working-tree file bytes including native line endings"
+    }
+  }
+}

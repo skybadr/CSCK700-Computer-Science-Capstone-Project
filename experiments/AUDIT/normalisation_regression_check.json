@@ -1,0 +1,15 @@
+{
+  "AraPromptBench_v2.json": {
+    "rows": 1000,
+    "changed_outputs_using_standin_compressor": []
+  },
+  "AraPromptBench_exam.json": {
+    "rows": 400,
+    "changed_outputs_using_standin_compressor": []
+  },
+  "regression": {
+    "baseline_fails_for_NFD": true,
+    "fixed_preserves_original_NFD_instruction": true,
+    "method": "Executed old/new pure protection functions with a replacing stand-in compressor; no model or API calls."
+  }
+}

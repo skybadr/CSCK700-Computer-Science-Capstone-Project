@@ -1,0 +1,47 @@
+{
+  "total": 400,
+  "by_category": {
+    "instruction": 140,
+    "summarisation": 100,
+    "qa": 100,
+    "creative": 60
+  },
+  "by_source": {
+    "CIDAR": 84,
+    "Aya": 56,
+    "XL-Sum": 60,
+    "EASC": 40,
+    "ARCD": 36,
+    "TyDi-QA": 64,
+    "synthetic-claude": 60
+  },
+  "by_variety": {
+    "MSA": 392,
+    "dialect-ars": 1,
+    "dialect-ary": 7
+  },
+  "band_by_category": {
+    "instruction": {
+      "short": 69,
+      "long": 21,
+      "medium": 50
+    },
+    "summarisation": {
+      "short": 23,
+      "long": 36,
+      "medium": 41
+    },
+    "qa": {
+      "long": 40,
+      "short": 22,
+      "medium": 38
+    },
+    "creative": {
+      "medium": 29,
+      "long": 14,
+      "short": 17
+    }
+  },
+  "qa_with_gold": 100,
+  "qa_passages_distinct": 100
+}

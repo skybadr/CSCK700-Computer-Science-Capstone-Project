@@ -1,0 +1,112 @@
+{
+  "n_prompts": 200,
+  "gold_found": 250,
+  "baseline_contains": 0.485,
+  "baseline_recall": 0.7523,
+  "per_policy": {
+    "llmlingua2@0.3": {
+      "contains": 0.325,
+      "ci95": [
+        0.26,
+        0.39
+      ],
+      "recall": 0.6076,
+      "kept_correct_pct": 59.8
+    },
+    "llmlingua2@0.5": {
+      "contains": 0.33,
+      "ci95": [
+        0.265,
+        0.395
+      ],
+      "recall": 0.6187,
+      "kept_correct_pct": 68.0
+    },
+    "llmlingua2@0.7": {
+      "contains": 0.39,
+      "ci95": [
+        0.325,
+        0.4551
+      ],
+      "recall": 0.6652,
+      "kept_correct_pct": 77.3
+    },
+    "llmlingua_qwen@0.3": {
+      "contains": 0.42,
+      "ci95": [
+        0.355,
+        0.49
+      ],
+      "recall": 0.6756,
+      "kept_correct_pct": 85.6
+    },
+    "llmlingua_qwen@0.5": {
+      "contains": 0.425,
+      "ci95": [
+        0.36,
+        0.495
+      ],
+      "recall": 0.6716,
+      "kept_correct_pct": 86.6
+    },
+    "llmlingua_qwen@0.7": {
+      "contains": 0.455,
+      "ci95": [
+        0.385,
+        0.52
+      ],
+      "recall": 0.7106,
+      "kept_correct_pct": 93.8
+    },
+    "random_deletion@0.3": {
+      "contains": 0.185,
+      "ci95": [
+        0.135,
+        0.24
+      ],
+      "recall": 0.3888,
+      "kept_correct_pct": 34.0
+    },
+    "random_deletion@0.5": {
+      "contains": 0.265,
+      "ci95": [
+        0.205,
+        0.325
+      ],
+      "recall": 0.4966,
+      "kept_correct_pct": 50.5
+    },
+    "random_deletion@0.7": {
+      "contains": 0.255,
+      "ci95": [
+        0.195,
+        0.315
+      ],
+      "recall": 0.517,
+      "kept_correct_pct": 51.5
+    }
+  },
+  "llmlingua2_vs_random": {
+    "@0.3": {
+      "llmlingua2": 0.325,
+      "random": 0.185,
+      "llmlingua2_only_correct": 35,
+      "random_only_correct": 7,
+      "mcnemar_p": 1.5097200957825409e-05
+    },
+    "@0.5": {
+      "llmlingua2": 0.33,
+      "random": 0.265,
+      "llmlingua2_only_correct": 23,
+      "random_only_correct": 10,
+      "mcnemar_p": 0.03508203336969018
+    },
+    "@0.7": {
+      "llmlingua2": 0.39,
+      "random": 0.255,
+      "llmlingua2_only_correct": 31,
+      "random_only_correct": 4,
+      "mcnemar_p": 3.4654513001441956e-06
+    }
+  }
+}

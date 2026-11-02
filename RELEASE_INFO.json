@@ -1,0 +1,37 @@
+{
+  "project": "Arabic-Aware Prompt Compression Selector (APCS) and AraPromptBench",
+  "package_version": "1.1.2",
+  "release_kind": "Final submission snapshot of the locally retained project",
+  "prepared_date": "2026-11-02",
+  "execution": "Local data preparation, compression, scoring, selector training and analysis; hosted LLM API answer generation.",
+  "evaluation_protocol": "The original internally pre-specified protocol is reproduced in experiments/11_fresh_exam/PREREGISTRATION.md. This later release does not independently establish the original timing.",
+  "history": "No development Git history is included. The uploader creates the initial publication commit.",
+  "assessment_documents": "Dissertation, poster, proposal and specification/design report are submitted separately.",
+  "code_licence": "APCS code: MIT; see apcs/LICENSE.",
+  "data_terms": "Source data retain their own terms and provenance. See DATA_PROVENANCE.md and per-record source metadata.",
+  "integrity_manifest": "MANIFEST.sha256 lists SHA-256 hashes of release files; it excludes itself.",
+  "dataset_release": {
+    "name": "AraPromptBench",
+    "version": "3.0.0",
+    "file": "AraPromptBench_v3.json",
+    "total_prompts": 1400,
+    "split_counts": {
+      "dev": 800,
+      "test": 200,
+      "exam": 400
+    },
+    "components": [
+      "AraPromptBench_v2.json",
+      "AraPromptBench_exam.json"
+    ],
+    "original_components_retained": true,
+    "other_sets": {
+      "AraPromptBench_dataset.json": 500,
+      "experiments/09_synthetic_sensitivity/probe_pool.json": 456
+    },
+    "evaluation_context": "Later combined distribution; original records, partitions and experimental results are unchanged.",
+    "licensing": "Per-record source terms, inherited unchanged; no blanket dataset licence. See DATA_PROVENANCE.md.",
+    "rebuild": "python experiments/08_dataset_construction/assemble_v3.py",
+    "verify": "python experiments/08_dataset_construction/assemble_v3.py --check"
+  }
+}

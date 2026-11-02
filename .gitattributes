@@ -1,0 +1,5 @@
+# Check every text file out with LF line endings on every platform. The
+# results tables store prompts and answers with line breaks inside CSV
+# fields; a CRLF checkout (Git's default on Windows) would alter that text
+# and break the audit's comparisons with the stored API responses.
+* text=auto eol=lf

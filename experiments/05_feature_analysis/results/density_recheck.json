@@ -1,0 +1,54 @@
+{
+  "mean_old": 1.8549,
+  "mean_fixed": 1.6989,
+  "rho_old_vs_fixed": 0.935,
+  "rho_old_vs_structure": 0.338,
+  "rho_fixed_vs_structure": 0.302,
+  "rq2_out_f1": {
+    "llmlingua2@0.3": {
+      "rho_old": 0.032,
+      "rho_fixed": 0.099,
+      "p_fixed": 0.02707423678440133
+    },
+    "llmlingua2@0.5": {
+      "rho_old": 0.103,
+      "rho_fixed": 0.15,
+      "p_fixed": 0.0007656286242286683
+    },
+    "llmlingua2@0.7": {
+      "rho_old": 0.158,
+      "rho_fixed": 0.193,
+      "p_fixed": 1.38541800017465e-05
+    },
+    "llmlingua_qwen@0.3": {
+      "rho_old": -0.071,
+      "rho_fixed": -0.123,
+      "p_fixed": 0.006004500151768568
+    },
+    "llmlingua_qwen@0.5": {
+      "rho_old": -0.084,
+      "rho_fixed": -0.133,
+      "p_fixed": 0.0027988291051158783
+    },
+    "llmlingua_qwen@0.7": {
+      "rho_old": -0.083,
+      "rho_fixed": -0.123,
+      "p_fixed": 0.005769371953642262
+    },
+    "random_deletion@0.3": {
+      "rho_old": 0.135,
+      "rho_fixed": 0.175,
+      "p_fixed": 8.282231034027521e-05
+    },
+    "random_deletion@0.5": {
+      "rho_old": 0.12,
+      "rho_fixed": 0.17,
+      "p_fixed": 0.00012852738370340306
+    },
+    "random_deletion@0.7": {
+      "rho_old": 0.101,
+      "rho_fixed": 0.147,
+      "p_fixed": 0.0010049618658395727
+    }
+  }
+}

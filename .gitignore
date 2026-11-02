@@ -1,0 +1,30 @@
+# Local environments and generated Python files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# Local credentials and service settings
+.env
+.env.*
+!.env.example
+*.key
+.streamlit/secrets.toml
+
+# Local tool, editor and operating-system settings
+.claude/
+.codex/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# Assessment documents are submitted separately
+/dissertation/
+/poster/
+/*.docx

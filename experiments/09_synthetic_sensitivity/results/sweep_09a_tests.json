@@ -1,0 +1,18 @@
+{
+  "tau": 0.65,
+  "reps_per_share": 200,
+  "tests_across_shares": {
+    "T1": {
+      "kruskal_H": 9.829,
+      "p": 0.007339344696346126
+    },
+    "accuracy": {
+      "kruskal_H": 39.789,
+      "p": 2.2899706212371532e-09
+    },
+    "label_noop_share": {
+      "kruskal_H": 35.4,
+      "p": 2.0558047799394047e-08
+    }
+  }
+}
